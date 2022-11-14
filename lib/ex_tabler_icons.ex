@@ -1,18 +1,5 @@
 defmodule ExTablerIcons do
   @moduledoc """
-  Documentation for `ExTablerIcons`.
+  [Tabler Icons](https://tabler-icons.io/) as Phoenix.Component. Strongly inspired by the [Heroicons Elixir Package](https://github.com/mveytsman/heroicons_elixir).
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> ExTablerIcons.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end
