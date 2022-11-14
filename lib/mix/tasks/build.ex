@@ -9,11 +9,12 @@ defmodule Mix.Tasks.Build do
     icons = Path.wildcard(Path.join(svg_path, "*.svg"))
 
     icons =
-      Enum.group_by(icons, &function_name(&1), fn file ->
-        for path <- file |> File.read!() |> String.split("\n"),
-            path = String.trim(path),
-            String.starts_with?(path, "<path"),
-            do: path
+      Enum.map(icons, fn icon ->
+        {function_name(icon),
+         File.read!(icon)
+         |> String.split("\n")
+         |> Enum.map(&String.trim/1)
+         |> Enum.filter(fn line -> String.starts_with?(line, "<path") end)}
       end)
 
     Mix.Generator.copy_template(
