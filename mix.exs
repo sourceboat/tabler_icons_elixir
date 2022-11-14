@@ -12,7 +12,6 @@ defmodule TablerIcons.MixProject do
   defp package do
     [
       files: ["lib", "mix.exs", "README*", "LICENSE*"],
-      organization: "sourceboat",
       maintainers: ["Florian Arens", "Lennart Büttner"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/sourceboat/ex_tabler_icons"}
