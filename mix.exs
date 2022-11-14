@@ -28,6 +28,8 @@ defmodule ExTablerIcons.MixProject do
       description: description(),
       package: package(),
       xref: [exclude: [:httpc, :public_key]],
+      name: "Tabler Icons",
+      source_url: @source_url,
       docs: docs()
     ]
   end
