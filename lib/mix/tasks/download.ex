@@ -14,7 +14,7 @@ defmodule Mix.Tasks.Download do
   def svg_path, do: Path.join("assets", "icons")
 
   defp url(version \\ @version) do
-    "https://github.com/tabler/tabler-icons/releases/download/v1.111.0/tabler-icons-#{version}.zip"
+    "https://github.com/tabler/tabler-icons/releases/download/v#{version}/tabler-icons-#{version}.zip"
   end
 
   def run(_) do
