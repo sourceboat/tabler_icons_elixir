@@ -13,8 +13,8 @@ defmodule Mix.Tasks.Build do
         {function_name(icon),
          File.read!(icon)
          |> String.split("\n")
-         |> Enum.map(&String.trim/1)
-         |> Enum.filter(fn line -> String.starts_with?(line, "<path") end)}
+         |> Enum.reject(&String.contains?(&1, "svg"))
+         |> Enum.map(&String.trim/1)}
       end)
 
     Mix.Generator.copy_template(

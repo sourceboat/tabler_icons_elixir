@@ -13,7 +13,7 @@ defmodule TablerIcons do
   <TablerIcons.user />
   ```
 
-  You may pass arbitrary HTML attributes to the components:
+  You may pass classes to be applied to the svg tag.
 
   ```heex
   <TablerIcons.user class="w-2 h-2" />
@@ -26,7 +26,7 @@ defmodule TablerIcons do
   @doc """
   Renders the `<%= func %>` icon.
 
-  You may pass arbitrary HTML attributes to be applied to the svg tag.
+  You may pass classes to be applied to the svg tag.
 
   ## Examples
   ```heex
@@ -34,11 +34,22 @@ defmodule TablerIcons do
   <TablerIcons.<%= func %> class="w-4 h-4" />
   ```
   """
-  attr :rest, :global, doc: "the arbitrary HTML attributes for the svg container", include: ~w(stroke)
+  attr :class, :string, doc: "classes to be added to the svg tag", default: ""
 
   def <%= func %>(assigns) do
     ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      stroke-width="2"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class={@class}
+    >
       <%= for path <- paths, do: path <> "\n" %>
     </svg>
     """
