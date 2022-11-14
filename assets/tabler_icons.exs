@@ -21,18 +21,8 @@ defmodule TablerIcons do
   """
   use Phoenix.Component
 
-  attr :rest, :global, default: %{"aria-hidden": "true", viewBox: "0 0 24 24", stroke: "currentColor"}
-  attr :path, :string, required: true
 
-  defp svg(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <%%= {:safe, @path} %>
-    </svg>
-    """
-  end
-
-  <%= for icon <- @icons, {func, path} = icon do %>
+  <%= for {func, paths} <- @icons do %>
   @doc """
   Renders the `<%= func %>` icon.
 
@@ -47,7 +37,11 @@ defmodule TablerIcons do
   attr :rest, :global, doc: "the arbitrary HTML attributes for the svg container", include: ~w(stroke)
 
   def <%= func %>(assigns) do
-    svg(assign(assigns, path: path))
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <%= for path <- paths, do: path <> "\n" %>
+    </svg>
+    """
   end
   <% end %>
 end
