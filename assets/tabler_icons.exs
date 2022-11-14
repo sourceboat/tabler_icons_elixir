@@ -40,8 +40,8 @@ defmodule TablerIcons do
 
   ## Examples
   ```heex
-  <Heroicons.<%= func %> />
-  <Heroicons.<%= func %> class="w-4 h-4" />
+  <TablerIcons.<%= func %> />
+  <TablerIcons.<%= func %> class="w-4 h-4" />
   ```
   """
   attr :rest, :global, doc: "the arbitrary HTML attributes for the svg container", include: ~w(stroke)
