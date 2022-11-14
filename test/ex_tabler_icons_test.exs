@@ -1,8 +1,8 @@
-defmodule ExTablerIconsTest do
+defmodule TablerIconsTest do
   use ExUnit.Case
-  doctest ExTablerIcons
+  doctest TablerIcons
 
   test "greets the world" do
-    assert ExTablerIcons.hello() == :world
+    assert TablerIcons.hello() == :world
   end
 end

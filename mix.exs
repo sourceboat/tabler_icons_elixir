@@ -1,4 +1,4 @@
-defmodule ExTablerIcons.MixProject do
+defmodule TablerIcons.MixProject do
   use Mix.Project
 
   @source_url "https://github.com/sourceboat/ex_tabler_icons"
@@ -21,7 +21,7 @@ defmodule ExTablerIcons.MixProject do
 
   def project do
     [
-      app: :ex_tabler_icons,
+      app: :tabler_icons,
       version: "0.1.0",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,

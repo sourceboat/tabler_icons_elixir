@@ -20,7 +20,7 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-ex_tabler_icons-*.tar
+tabler_icons-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/

@@ -1,4 +1,4 @@
-# ExTablerIcons
+# TablerIcons
 
 [Tabler Icons](tabler-icons.io) are free and open source icons. This package provides Elixir functions in order to use [Tabler Icons](tabler-icons.io) in your HTML, styled with arbitrary classes.
 
@@ -6,12 +6,12 @@ This package is strongly inspired by [herocicons_elixir](https://github.com/mvey
 
 ## Installation
 
-The package can be installed by adding `ex_tabler_icons` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `tabler_icons` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:ex_tabler_icons, "~> 0.1.0"}
+    {:tabler_icons, "~> 0.1.0"}
   ]
 end
 ```
