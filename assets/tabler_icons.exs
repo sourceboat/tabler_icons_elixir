@@ -13,7 +13,7 @@ defmodule TablerIcons do
   <TablerIcons.user />
   ```
 
-  You may pass classes to be applied to the svg tag.
+  You may pass arbitrary HTML attributes to the component.
 
   ```heex
   <TablerIcons.user class="w-2 h-2" />
@@ -26,7 +26,7 @@ defmodule TablerIcons do
   @doc """
   Renders the `<%= func %>` icon.
 
-  You may pass classes to be applied to the svg tag.
+  You may pass arbitrary HTML attributes to the component.
 
   ## Examples
   ```heex
