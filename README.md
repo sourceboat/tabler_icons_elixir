@@ -18,12 +18,12 @@ end
 
 ## Usage
 
-```
+```eex
 <TablerIcons.user />
 ```
 
 You may pass arbitrary HTML attributes to the components:
 
-```
+```eex
 <TablerIcons.user class="w-2 h-2" />
 ```
