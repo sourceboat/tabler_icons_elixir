@@ -5,7 +5,7 @@ defmodule TablerIcons.MixProject do
 
   defp description do
     """
-    [Tabler Icons](https://tabler-icons.io/) as Phoenix.Component. Strongly inspired by the [Heroicons Elixir Package](https://github.com/mveytsman/heroicons_elixir).
+    Tabler Icons as Phoenix.Component. Strongly inspired by heroicons elixir package.
     """
   end
 
