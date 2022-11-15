@@ -1,4 +1,4 @@
-# TablerIcons
+# Tabler Icons
 
 [Tabler Icons](https://tabler-icons.io/) are free and open source icons. This package provides Elixir functions in order to use [Tabler Icons](https://tabler-icons.io/) in your HTML, styled with arbitrary classes.
 
