@@ -1,4 +1,7 @@
 defmodule Mix.Tasks.Build do
+  # Builds a new lib/tabler_icons.ex based on the icons.
+  @moduledoc false
+  @shortdoc false
   use Mix.Task
 
   @target_file "lib/tabler_icons.ex"
