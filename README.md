@@ -27,3 +27,15 @@ You may pass arbitrary HTML attributes to the components:
 ```eex
 <TablerIcons.user class="w-2 h-2" />
 ```
+
+## Update TablerIcons version
+
+Updating the TablerIcons version is usually done by the maintainers of this package so you may ignore this.
+
+You can find the current TablerIcons version in `lib/tabler_icons.ex`.
+
+1. Update TablerIcons version in `lib/mix/tasks/download.ex`.
+2. Run `mix download` in order to download newest icons into `/assets`.
+3. Run `mix build` in order to build new `lib/tabler_icons.ex` file based on the icons.
+4. Update repository with the corresponding changes.
+5. Release new version of the package.
