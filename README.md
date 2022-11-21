@@ -28,6 +28,8 @@ You may pass arbitrary HTML attributes to the components:
 <TablerIcons.user class="w-2 h-2" />
 ```
 
+For additional information and list of all icons see [the docs](https://hexdocs.pm/tabler_icons/api-reference.html).
+
 ## Naming
 
 We are interested in keeping the same icon names for our functions TablerIcons provides to us. Nevertheless, Elixir do not allow function names to begin with a number. Therefore we had to add some exceptions:
