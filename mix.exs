@@ -52,6 +52,7 @@ defmodule TablerIcons.MixProject do
 
   defp docs do
     [
+      main: "TablerIcons",
       source_ref: "main",
       source_url_pattern: "#{@source_url}/blob/main/%{path}#L%{line}"
     ]
