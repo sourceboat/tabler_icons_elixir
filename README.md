@@ -55,5 +55,6 @@ Updating the TablerIcons version is usually done by the maintainers of this pack
 2. Update TablerIcons version in `lib/mix/tasks/download.ex`.
 3. Run `mix download` in order to download newest icons into `/assets`.
 4. Run `mix build` in order to build new `lib/tabler_icons.ex` file based on the icons.
-5. Update repository with the corresponding changes.
-6. Release new version of the package.
+5. Update version in `mix.exs`.
+6. Update repository with the corresponding changes.
+7. Release new version of the package.
