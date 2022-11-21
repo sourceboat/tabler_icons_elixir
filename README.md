@@ -28,14 +28,28 @@ You may pass arbitrary HTML attributes to the components:
 <TablerIcons.user class="w-2 h-2" />
 ```
 
+## Naming
+
+We are interested in keeping the same icon names for our functions TablerIcons provides to us. Nevertheless, Elixir do not allow function names to begin with a number. Therefore we had to add some exceptions:
+
+`2fa` -> `two_fa`
+`3d-cube-sphere-off` -> `three_d_cube_sphere_off`
+`3d-cube-sphere` -> `three_d_cube_sphere`
+`3d-rotate` -> `three_d_rotate`
+`123` -> `one_two_three`
+`360-view` -> `three_sixty_view`
+
+A hyphen is replaced by an underscore automatically.
+
 ## Update TablerIcons version
 
 Updating the TablerIcons version is usually done by the maintainers of this package so you may ignore this.
 
 You can find the current TablerIcons version in `lib/tabler_icons.ex`.
 
-1. Update TablerIcons version in `lib/mix/tasks/download.ex`.
-2. Run `mix download` in order to download newest icons into `/assets`.
-3. Run `mix build` in order to build new `lib/tabler_icons.ex` file based on the icons.
-4. Update repository with the corresponding changes.
-5. Release new version of the package.
+1. Check whether there are icon names that begin with a number and add exception to `lib/mix/tasks/build.ex` (add icon name to readme).
+2. Update TablerIcons version in `lib/mix/tasks/download.ex`.
+3. Run `mix download` in order to download newest icons into `/assets`.
+4. Run `mix build` in order to build new `lib/tabler_icons.ex` file based on the icons.
+5. Update repository with the corresponding changes.
+6. Release new version of the package.
