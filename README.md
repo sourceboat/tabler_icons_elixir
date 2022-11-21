@@ -32,12 +32,12 @@ You may pass arbitrary HTML attributes to the components:
 
 We are interested in keeping the same icon names for our functions TablerIcons provides to us. Nevertheless, Elixir do not allow function names to begin with a number. Therefore we had to add some exceptions:
 
-`2fa` -> `two_fa`
-`3d-cube-sphere-off` -> `three_d_cube_sphere_off`
-`3d-cube-sphere` -> `three_d_cube_sphere`
-`3d-rotate` -> `three_d_rotate`
-`123` -> `one_two_three`
-`360-view` -> `three_sixty_view`
+- `2fa` -> `two_fa`
+- `3d-cube-sphere-off` -> `three_d_cube_sphere_off`
+- `3d-cube-sphere` -> `three_d_cube_sphere`
+- `3d-rotate` -> `three_d_rotate`
+- `123` -> `one_two_three`
+- `360-view` -> `three_sixty_view`
 
 A hyphen is replaced by an underscore automatically.
 
