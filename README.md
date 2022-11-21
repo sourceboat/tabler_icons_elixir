@@ -1,5 +1,7 @@
 # Tabler Icons
 
+[![CI](https://github.com/sourceboat/ex_tabler_icons/actions/workflows/ci.yml/badge.svg)](https://github.com/sourceboat/ex_tabler_icons/actions/workflows/ci.yml)
+
 [Tabler Icons](https://tabler-icons.io/) are free and open source icons. This package provides Elixir functions in order to use [Tabler Icons](https://tabler-icons.io/) in your HTML, styled with arbitrary classes.
 
 This package is strongly inspired by [herocicons_elixir](https://github.com/mveytsman/heroicons_elixir).
