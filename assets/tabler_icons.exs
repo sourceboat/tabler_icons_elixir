@@ -34,7 +34,7 @@ defmodule TablerIcons do
   <TablerIcons.<%= func %> class="w-4 h-4" />
   ```
   """
-  attr :rest, :global, doc: "classes to be added to the svg tag", default: %{
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: %{
     "width": "24",
     "height": "24",
     "viewBox": "0 0 24 24",

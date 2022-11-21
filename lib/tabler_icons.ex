@@ -33,7 +33,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68,7 +68,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105,7 +105,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -141,7 +141,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -185,7 +185,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -229,7 +229,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -266,7 +266,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -303,7 +303,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -340,7 +340,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -375,7 +375,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -419,7 +419,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -462,7 +462,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -498,7 +498,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -535,7 +535,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -572,7 +572,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -608,7 +608,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -643,7 +643,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -676,7 +676,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -709,7 +709,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -747,7 +747,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -785,7 +785,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -821,7 +821,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -860,7 +860,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -898,7 +898,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -939,7 +939,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -980,7 +980,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1024,7 +1024,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1065,7 +1065,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1098,7 +1098,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1136,7 +1136,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1171,7 +1171,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1205,7 +1205,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1242,7 +1242,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1279,7 +1279,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1315,7 +1315,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1350,7 +1350,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1384,7 +1384,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1419,7 +1419,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1454,7 +1454,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1488,7 +1488,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1524,7 +1524,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1560,7 +1560,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1596,7 +1596,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1632,7 +1632,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1668,7 +1668,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1704,7 +1704,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1740,7 +1740,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1776,7 +1776,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1812,7 +1812,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1848,7 +1848,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1884,7 +1884,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1920,7 +1920,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1956,7 +1956,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -1991,7 +1991,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2026,7 +2026,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2061,7 +2061,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2096,7 +2096,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2129,7 +2129,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2163,7 +2163,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2198,7 +2198,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2233,7 +2233,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2269,7 +2269,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2302,7 +2302,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2340,7 +2340,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2377,7 +2377,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2415,7 +2415,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2449,7 +2449,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2486,7 +2486,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2520,7 +2520,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2556,7 +2556,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2592,7 +2592,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2628,7 +2628,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2664,7 +2664,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2700,7 +2700,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2738,7 +2738,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2777,7 +2777,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2815,7 +2815,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2854,7 +2854,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2892,7 +2892,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2929,7 +2929,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -2965,7 +2965,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3002,7 +3002,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3038,7 +3038,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3073,7 +3073,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3108,7 +3108,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3146,7 +3146,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3183,7 +3183,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3219,7 +3219,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3254,7 +3254,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3292,7 +3292,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3329,7 +3329,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3366,7 +3366,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3402,7 +3402,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3439,7 +3439,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3474,7 +3474,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3511,7 +3511,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3546,7 +3546,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3581,7 +3581,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3616,7 +3616,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3653,7 +3653,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3686,7 +3686,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3719,7 +3719,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3755,7 +3755,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3791,7 +3791,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3827,7 +3827,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3863,7 +3863,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3899,7 +3899,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3935,7 +3935,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -3971,7 +3971,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4007,7 +4007,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4042,7 +4042,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4076,7 +4076,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4111,7 +4111,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4145,7 +4145,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4179,7 +4179,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4214,7 +4214,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4247,7 +4247,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4281,7 +4281,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4316,7 +4316,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4349,7 +4349,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4383,7 +4383,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4418,7 +4418,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4451,7 +4451,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4484,7 +4484,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4518,7 +4518,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4553,7 +4553,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4588,7 +4588,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4622,7 +4622,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4656,7 +4656,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4691,7 +4691,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4727,7 +4727,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4762,7 +4762,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4796,7 +4796,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4831,7 +4831,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4865,7 +4865,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4900,7 +4900,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4935,7 +4935,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -4970,7 +4970,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5006,7 +5006,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5039,7 +5039,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5072,7 +5072,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5107,7 +5107,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5142,7 +5142,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5177,7 +5177,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5212,7 +5212,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5248,7 +5248,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5283,7 +5283,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5318,7 +5318,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5353,7 +5353,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5387,7 +5387,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5421,7 +5421,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5455,7 +5455,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5489,7 +5489,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5525,7 +5525,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5560,7 +5560,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5595,7 +5595,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5630,7 +5630,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5665,7 +5665,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5700,7 +5700,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5735,7 +5735,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5770,7 +5770,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5805,7 +5805,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5840,7 +5840,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5875,7 +5875,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5910,7 +5910,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5945,7 +5945,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -5980,7 +5980,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6016,7 +6016,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6051,7 +6051,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6086,7 +6086,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6122,7 +6122,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6157,7 +6157,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6192,7 +6192,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6227,7 +6227,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6262,7 +6262,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6297,7 +6297,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6333,7 +6333,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6369,7 +6369,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6405,7 +6405,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6441,7 +6441,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6477,7 +6477,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6513,7 +6513,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6549,7 +6549,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6583,7 +6583,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6617,7 +6617,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6651,7 +6651,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6685,7 +6685,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6720,7 +6720,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6756,7 +6756,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6791,7 +6791,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6825,7 +6825,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6860,7 +6860,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6894,7 +6894,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6929,7 +6929,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6964,7 +6964,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -6999,7 +6999,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7033,7 +7033,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7067,7 +7067,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7101,7 +7101,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7135,7 +7135,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7169,7 +7169,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7206,7 +7206,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7242,7 +7242,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7278,7 +7278,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7314,7 +7314,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7350,7 +7350,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7388,7 +7388,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7424,7 +7424,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7460,7 +7460,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7496,7 +7496,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7532,7 +7532,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7568,7 +7568,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7604,7 +7604,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7638,7 +7638,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7672,7 +7672,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7707,7 +7707,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7742,7 +7742,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7777,7 +7777,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7812,7 +7812,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7848,7 +7848,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7884,7 +7884,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7924,7 +7924,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -7964,7 +7964,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8000,7 +8000,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8036,7 +8036,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8076,7 +8076,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8116,7 +8116,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8151,7 +8151,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8187,7 +8187,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8223,7 +8223,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8259,7 +8259,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8295,7 +8295,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8329,7 +8329,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8365,7 +8365,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8401,7 +8401,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8439,7 +8439,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8477,7 +8477,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8513,7 +8513,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8548,7 +8548,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8583,7 +8583,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8619,7 +8619,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8654,7 +8654,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8697,7 +8697,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8738,7 +8738,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8775,7 +8775,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8811,7 +8811,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8847,7 +8847,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8882,7 +8882,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8917,7 +8917,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8951,7 +8951,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -8989,7 +8989,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9026,7 +9026,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9064,7 +9064,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9099,7 +9099,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9133,7 +9133,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9172,7 +9172,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9208,7 +9208,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9243,7 +9243,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9280,7 +9280,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9320,7 +9320,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9359,7 +9359,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9395,7 +9395,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9430,7 +9430,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9464,7 +9464,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9501,7 +9501,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9538,7 +9538,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9576,7 +9576,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9616,7 +9616,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9652,7 +9652,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9688,7 +9688,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9722,7 +9722,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9757,7 +9757,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9795,7 +9795,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9832,7 +9832,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9868,7 +9868,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9904,7 +9904,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9939,7 +9939,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -9976,7 +9976,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10010,7 +10010,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10045,7 +10045,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10081,7 +10081,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10116,7 +10116,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10151,7 +10151,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10186,7 +10186,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10219,7 +10219,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10254,7 +10254,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10288,7 +10288,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10324,7 +10324,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10362,7 +10362,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10400,7 +10400,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10441,7 +10441,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10478,7 +10478,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10514,7 +10514,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10554,7 +10554,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10589,7 +10589,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10624,7 +10624,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10663,7 +10663,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10699,7 +10699,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10734,7 +10734,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10771,7 +10771,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10806,7 +10806,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10840,7 +10840,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10876,7 +10876,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10913,7 +10913,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10953,7 +10953,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -10992,7 +10992,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11033,7 +11033,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11073,7 +11073,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11111,7 +11111,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11148,7 +11148,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11193,7 +11193,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11235,7 +11235,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11270,7 +11270,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11308,7 +11308,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11343,7 +11343,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11377,7 +11377,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11414,7 +11414,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11450,7 +11450,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11484,7 +11484,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11519,7 +11519,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11555,7 +11555,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11592,7 +11592,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11630,7 +11630,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11667,7 +11667,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11702,7 +11702,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11737,7 +11737,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11771,7 +11771,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11804,7 +11804,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11843,7 +11843,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11880,7 +11880,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11919,7 +11919,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11953,7 +11953,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -11988,7 +11988,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12022,7 +12022,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12057,7 +12057,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12092,7 +12092,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12128,7 +12128,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12162,7 +12162,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12198,7 +12198,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12235,7 +12235,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12270,7 +12270,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12305,7 +12305,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12339,7 +12339,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12372,7 +12372,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12408,7 +12408,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12445,7 +12445,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12481,7 +12481,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12520,7 +12520,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12556,7 +12556,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12596,7 +12596,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12630,7 +12630,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12668,7 +12668,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12703,7 +12703,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12738,7 +12738,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12772,7 +12772,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12805,7 +12805,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12843,7 +12843,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12878,7 +12878,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12912,7 +12912,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12947,7 +12947,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -12980,7 +12980,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13020,7 +13020,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13059,7 +13059,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13094,7 +13094,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13129,7 +13129,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13163,7 +13163,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13197,7 +13197,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13230,7 +13230,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13265,7 +13265,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13299,7 +13299,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13332,7 +13332,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13368,7 +13368,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13403,7 +13403,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13438,7 +13438,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13474,7 +13474,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13512,7 +13512,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13548,7 +13548,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13585,7 +13585,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13619,7 +13619,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13652,7 +13652,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13687,7 +13687,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13721,7 +13721,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13764,7 +13764,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13803,7 +13803,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13838,7 +13838,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13887,7 +13887,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13936,7 +13936,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -13982,7 +13982,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14031,7 +14031,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14084,7 +14084,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14122,7 +14122,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14166,7 +14166,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14215,7 +14215,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14256,7 +14256,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14296,7 +14296,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14345,7 +14345,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14394,7 +14394,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14430,7 +14430,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14465,7 +14465,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14499,7 +14499,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14533,7 +14533,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14569,7 +14569,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14602,7 +14602,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14644,7 +14644,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14686,7 +14686,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14725,7 +14725,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14764,7 +14764,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14803,7 +14803,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14845,7 +14845,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14887,7 +14887,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14926,7 +14926,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -14975,7 +14975,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15010,7 +15010,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15044,7 +15044,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15083,7 +15083,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15121,7 +15121,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15156,7 +15156,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15191,7 +15191,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15226,7 +15226,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15262,7 +15262,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15297,7 +15297,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15332,7 +15332,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15368,7 +15368,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15403,7 +15403,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15439,7 +15439,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15475,7 +15475,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15509,7 +15509,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15546,7 +15546,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15587,7 +15587,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15624,7 +15624,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15660,7 +15660,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15695,7 +15695,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15729,7 +15729,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15765,7 +15765,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15801,7 +15801,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15838,7 +15838,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15873,7 +15873,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15907,7 +15907,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15945,7 +15945,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -15983,7 +15983,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16020,7 +16020,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16055,7 +16055,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16088,7 +16088,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16122,7 +16122,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16155,7 +16155,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16190,7 +16190,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16227,7 +16227,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16261,7 +16261,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16295,7 +16295,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16330,7 +16330,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16369,7 +16369,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16404,7 +16404,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16438,7 +16438,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16474,7 +16474,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16509,7 +16509,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16543,7 +16543,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16579,7 +16579,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16614,7 +16614,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16648,7 +16648,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16682,7 +16682,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16715,7 +16715,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16750,7 +16750,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16786,7 +16786,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16823,7 +16823,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16856,7 +16856,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16890,7 +16890,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16929,7 +16929,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -16966,7 +16966,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17001,7 +17001,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17036,7 +17036,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17071,7 +17071,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17104,7 +17104,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17137,7 +17137,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17170,7 +17170,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17204,7 +17204,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17237,7 +17237,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17274,7 +17274,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17307,7 +17307,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17345,7 +17345,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17384,7 +17384,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17417,7 +17417,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17451,7 +17451,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17485,7 +17485,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17519,7 +17519,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17555,7 +17555,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17595,7 +17595,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17629,7 +17629,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17664,7 +17664,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17701,7 +17701,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17736,7 +17736,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17769,7 +17769,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17803,7 +17803,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17838,7 +17838,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17873,7 +17873,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17906,7 +17906,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17944,7 +17944,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -17978,7 +17978,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18012,7 +18012,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18048,7 +18048,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18089,7 +18089,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18125,7 +18125,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18159,7 +18159,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18195,7 +18195,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18229,7 +18229,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18263,7 +18263,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18299,7 +18299,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18332,7 +18332,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18366,7 +18366,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18399,7 +18399,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18434,7 +18434,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18471,7 +18471,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18506,7 +18506,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18540,7 +18540,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18574,7 +18574,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18610,7 +18610,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18643,7 +18643,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18677,7 +18677,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18710,7 +18710,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18744,7 +18744,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18777,7 +18777,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18811,7 +18811,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18850,7 +18850,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18889,7 +18889,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18922,7 +18922,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18955,7 +18955,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -18991,7 +18991,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19026,7 +19026,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19061,7 +19061,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19094,7 +19094,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19128,7 +19128,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19164,7 +19164,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19199,7 +19199,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19232,7 +19232,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19267,7 +19267,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19314,7 +19314,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19347,7 +19347,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19382,7 +19382,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19420,7 +19420,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19454,7 +19454,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19488,7 +19488,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19522,7 +19522,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19556,7 +19556,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19591,7 +19591,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19629,7 +19629,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19664,7 +19664,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19697,7 +19697,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19733,7 +19733,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19773,7 +19773,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19806,7 +19806,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19843,7 +19843,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19877,7 +19877,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19910,7 +19910,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19946,7 +19946,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -19982,7 +19982,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20019,7 +20019,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20054,7 +20054,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20088,7 +20088,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20121,7 +20121,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20159,7 +20159,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20195,7 +20195,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20229,7 +20229,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20263,7 +20263,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20298,7 +20298,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20333,7 +20333,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20367,7 +20367,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20402,7 +20402,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20441,7 +20441,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20476,7 +20476,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20510,7 +20510,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20545,7 +20545,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20579,7 +20579,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20613,7 +20613,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20651,7 +20651,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20690,7 +20690,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20724,7 +20724,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20761,7 +20761,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20794,7 +20794,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20831,7 +20831,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20864,7 +20864,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20898,7 +20898,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20932,7 +20932,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20965,7 +20965,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -20999,7 +20999,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21032,7 +21032,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21065,7 +21065,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21100,7 +21100,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21137,7 +21137,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21172,7 +21172,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21207,7 +21207,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21241,7 +21241,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21274,7 +21274,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21308,7 +21308,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21342,7 +21342,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21377,7 +21377,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21411,7 +21411,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21448,7 +21448,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21487,7 +21487,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21526,7 +21526,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21563,7 +21563,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21601,7 +21601,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21635,7 +21635,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21673,7 +21673,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21707,7 +21707,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21741,7 +21741,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21776,7 +21776,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21810,7 +21810,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21843,7 +21843,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21876,7 +21876,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21911,7 +21911,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21946,7 +21946,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -21979,7 +21979,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22013,7 +22013,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22049,7 +22049,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22082,7 +22082,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22116,7 +22116,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22151,7 +22151,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22187,7 +22187,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22222,7 +22222,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22258,7 +22258,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22295,7 +22295,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22329,7 +22329,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22364,7 +22364,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22397,7 +22397,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22430,7 +22430,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22466,7 +22466,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22501,7 +22501,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22538,7 +22538,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22572,7 +22572,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22606,7 +22606,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22641,7 +22641,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22674,7 +22674,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22707,7 +22707,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22742,7 +22742,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22775,7 +22775,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22808,7 +22808,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22841,7 +22841,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22874,7 +22874,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22908,7 +22908,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22943,7 +22943,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -22978,7 +22978,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23016,7 +23016,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23049,7 +23049,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23084,7 +23084,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23117,7 +23117,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23152,7 +23152,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23188,7 +23188,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23225,7 +23225,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23258,7 +23258,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23291,7 +23291,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23325,7 +23325,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23358,7 +23358,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23391,7 +23391,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23424,7 +23424,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23461,7 +23461,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23494,7 +23494,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23527,7 +23527,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23560,7 +23560,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23595,7 +23595,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23637,7 +23637,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23672,7 +23672,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23706,7 +23706,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23744,7 +23744,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23777,7 +23777,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23811,7 +23811,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23846,7 +23846,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23880,7 +23880,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23914,7 +23914,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23951,7 +23951,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -23989,7 +23989,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24024,7 +24024,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24058,7 +24058,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24097,7 +24097,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24130,7 +24130,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24165,7 +24165,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24199,7 +24199,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24233,7 +24233,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24266,7 +24266,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24306,7 +24306,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24339,7 +24339,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24373,7 +24373,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24407,7 +24407,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24440,7 +24440,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24474,7 +24474,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24507,7 +24507,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24544,7 +24544,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24580,7 +24580,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24614,7 +24614,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24655,7 +24655,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24689,7 +24689,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24727,7 +24727,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24768,7 +24768,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24805,7 +24805,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24841,7 +24841,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24876,7 +24876,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24912,7 +24912,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24947,7 +24947,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -24984,7 +24984,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25021,7 +25021,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25056,7 +25056,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25092,7 +25092,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25128,7 +25128,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25163,7 +25163,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25198,7 +25198,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25232,7 +25232,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25273,7 +25273,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25314,7 +25314,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25349,7 +25349,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25389,7 +25389,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25422,7 +25422,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25459,7 +25459,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25496,7 +25496,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25535,7 +25535,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25569,7 +25569,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25606,7 +25606,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25644,7 +25644,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25681,7 +25681,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25717,7 +25717,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25756,7 +25756,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25793,7 +25793,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25829,7 +25829,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25868,7 +25868,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25905,7 +25905,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25941,7 +25941,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -25976,7 +25976,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26012,7 +26012,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26051,7 +26051,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26088,7 +26088,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26129,7 +26129,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26164,7 +26164,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26203,7 +26203,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26243,7 +26243,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26279,7 +26279,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26314,7 +26314,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26354,7 +26354,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26394,7 +26394,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26434,7 +26434,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26473,7 +26473,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26511,7 +26511,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26546,7 +26546,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26583,7 +26583,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26620,7 +26620,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26656,7 +26656,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26692,7 +26692,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26727,7 +26727,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26767,7 +26767,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26807,7 +26807,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26844,7 +26844,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26881,7 +26881,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26920,7 +26920,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26958,7 +26958,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -26996,7 +26996,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27034,7 +27034,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27072,7 +27072,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27107,7 +27107,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27142,7 +27142,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27178,7 +27178,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27214,7 +27214,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27250,7 +27250,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27284,7 +27284,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27319,7 +27319,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27353,7 +27353,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27389,7 +27389,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27424,7 +27424,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27457,7 +27457,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27491,7 +27491,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27529,7 +27529,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27566,7 +27566,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27605,7 +27605,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27643,7 +27643,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27679,7 +27679,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27720,7 +27720,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27755,7 +27755,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27791,7 +27791,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27827,7 +27827,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27862,7 +27862,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27897,7 +27897,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27930,7 +27930,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27963,7 +27963,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -27996,7 +27996,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28029,7 +28029,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28066,7 +28066,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28103,7 +28103,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28140,7 +28140,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28176,7 +28176,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28212,7 +28212,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28247,7 +28247,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28284,7 +28284,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28320,7 +28320,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28356,7 +28356,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28392,7 +28392,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28430,7 +28430,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28465,7 +28465,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28498,7 +28498,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28532,7 +28532,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28566,7 +28566,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28600,7 +28600,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28636,7 +28636,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28670,7 +28670,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28705,7 +28705,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28742,7 +28742,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28778,7 +28778,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28817,7 +28817,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28855,7 +28855,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28894,7 +28894,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28929,7 +28929,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -28963,7 +28963,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29001,7 +29001,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29036,7 +29036,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29071,7 +29071,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29105,7 +29105,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29139,7 +29139,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29178,7 +29178,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29217,7 +29217,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29254,7 +29254,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29290,7 +29290,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29325,7 +29325,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29366,7 +29366,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29400,7 +29400,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29435,7 +29435,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29471,7 +29471,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29508,7 +29508,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29542,7 +29542,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29581,7 +29581,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29620,7 +29620,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29658,7 +29658,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29708,7 +29708,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29746,7 +29746,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29780,7 +29780,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29814,7 +29814,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29849,7 +29849,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29885,7 +29885,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29920,7 +29920,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29954,7 +29954,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -29991,7 +29991,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30029,7 +30029,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30062,7 +30062,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30096,7 +30096,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30132,7 +30132,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30166,7 +30166,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30203,7 +30203,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30240,7 +30240,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30275,7 +30275,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30309,7 +30309,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30346,7 +30346,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30383,7 +30383,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30419,7 +30419,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30453,7 +30453,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30490,7 +30490,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30527,7 +30527,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30562,7 +30562,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30595,7 +30595,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30628,7 +30628,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30661,7 +30661,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30694,7 +30694,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30727,7 +30727,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30760,7 +30760,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30793,7 +30793,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30826,7 +30826,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30860,7 +30860,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30894,7 +30894,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30928,7 +30928,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30962,7 +30962,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -30996,7 +30996,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31030,7 +31030,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31064,7 +31064,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31098,7 +31098,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31133,7 +31133,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31168,7 +31168,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31202,7 +31202,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31236,7 +31236,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31270,7 +31270,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31304,7 +31304,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31338,7 +31338,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31372,7 +31372,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31412,7 +31412,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31446,7 +31446,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31490,7 +31490,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31527,7 +31527,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31561,7 +31561,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31595,7 +31595,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31630,7 +31630,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31664,7 +31664,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31698,7 +31698,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31732,7 +31732,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31767,7 +31767,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31802,7 +31802,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31836,7 +31836,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31871,7 +31871,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31905,7 +31905,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31939,7 +31939,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -31975,7 +31975,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32009,7 +32009,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32043,7 +32043,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32077,7 +32077,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32111,7 +32111,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32145,7 +32145,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32180,7 +32180,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32214,7 +32214,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32248,7 +32248,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32283,7 +32283,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32317,7 +32317,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32351,7 +32351,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32385,7 +32385,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32420,7 +32420,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32455,7 +32455,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32489,7 +32489,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32523,7 +32523,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32557,7 +32557,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32591,7 +32591,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32625,7 +32625,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32659,7 +32659,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32694,7 +32694,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32728,7 +32728,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32762,7 +32762,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32796,7 +32796,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32830,7 +32830,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32864,7 +32864,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32898,7 +32898,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32933,7 +32933,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -32968,7 +32968,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33002,7 +33002,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33036,7 +33036,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33070,7 +33070,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33104,7 +33104,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33137,7 +33137,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33171,7 +33171,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33206,7 +33206,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33243,7 +33243,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33281,7 +33281,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33318,7 +33318,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33356,7 +33356,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33392,7 +33392,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33430,7 +33430,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33466,7 +33466,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33505,7 +33505,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33541,7 +33541,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33577,7 +33577,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33611,7 +33611,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33647,7 +33647,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33680,7 +33680,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33716,7 +33716,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33754,7 +33754,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33787,7 +33787,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33824,7 +33824,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33861,7 +33861,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33897,7 +33897,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33932,7 +33932,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -33968,7 +33968,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34006,7 +34006,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34041,7 +34041,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34076,7 +34076,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34114,7 +34114,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34149,7 +34149,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34187,7 +34187,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34222,7 +34222,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34258,7 +34258,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34294,7 +34294,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34331,7 +34331,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34366,7 +34366,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34400,7 +34400,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34437,7 +34437,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34473,7 +34473,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34508,7 +34508,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34543,7 +34543,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34578,7 +34578,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34613,7 +34613,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34647,7 +34647,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34682,7 +34682,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34717,7 +34717,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34752,7 +34752,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34787,7 +34787,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34822,7 +34822,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34857,7 +34857,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34892,7 +34892,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34927,7 +34927,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34962,7 +34962,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -34998,7 +34998,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35033,7 +35033,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35068,7 +35068,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35103,7 +35103,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35137,7 +35137,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35174,7 +35174,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35210,7 +35210,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35246,7 +35246,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35283,7 +35283,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35318,7 +35318,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35352,7 +35352,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35387,7 +35387,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35422,7 +35422,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35456,7 +35456,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35490,7 +35490,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35524,7 +35524,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35558,7 +35558,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35593,7 +35593,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35626,7 +35626,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35663,7 +35663,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35699,7 +35699,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35732,7 +35732,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35772,7 +35772,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35808,7 +35808,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35843,7 +35843,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35878,7 +35878,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35914,7 +35914,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35950,7 +35950,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -35985,7 +35985,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36023,7 +36023,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36060,7 +36060,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36096,7 +36096,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36134,7 +36134,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36170,7 +36170,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36204,7 +36204,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36240,7 +36240,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36275,7 +36275,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36310,7 +36310,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36347,7 +36347,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36383,7 +36383,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36418,7 +36418,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36453,7 +36453,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36488,7 +36488,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36522,7 +36522,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36559,7 +36559,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36595,7 +36595,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36630,7 +36630,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36665,7 +36665,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36706,7 +36706,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36746,7 +36746,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36782,7 +36782,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36816,7 +36816,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36849,7 +36849,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36888,7 +36888,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36926,7 +36926,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36963,7 +36963,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -36999,7 +36999,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37033,7 +37033,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37068,7 +37068,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37102,7 +37102,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37145,7 +37145,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37187,7 +37187,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37223,7 +37223,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37267,7 +37267,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37310,7 +37310,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37345,7 +37345,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37379,7 +37379,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37414,7 +37414,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37448,7 +37448,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37486,7 +37486,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37524,7 +37524,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37561,7 +37561,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37599,7 +37599,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37634,7 +37634,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37668,7 +37668,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37703,7 +37703,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37737,7 +37737,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37772,7 +37772,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37806,7 +37806,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37840,7 +37840,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37873,7 +37873,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37907,7 +37907,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37940,7 +37940,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -37974,7 +37974,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38007,7 +38007,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38041,7 +38041,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38074,7 +38074,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38108,7 +38108,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38141,7 +38141,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38175,7 +38175,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38208,7 +38208,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38242,7 +38242,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38275,7 +38275,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38309,7 +38309,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38342,7 +38342,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38384,7 +38384,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38427,7 +38427,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38469,7 +38469,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38509,7 +38509,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38545,7 +38545,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38580,7 +38580,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38618,7 +38618,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38653,7 +38653,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38689,7 +38689,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38724,7 +38724,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38759,7 +38759,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38794,7 +38794,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38833,7 +38833,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38869,7 +38869,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38904,7 +38904,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38938,7 +38938,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -38972,7 +38972,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39005,7 +39005,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39043,7 +39043,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39077,7 +39077,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39110,7 +39110,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39148,7 +39148,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39185,7 +39185,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39220,7 +39220,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39257,7 +39257,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39293,7 +39293,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39328,7 +39328,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39361,7 +39361,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39397,7 +39397,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39434,7 +39434,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39473,7 +39473,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39508,7 +39508,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39544,7 +39544,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39581,7 +39581,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39616,7 +39616,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39653,7 +39653,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39689,7 +39689,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39725,7 +39725,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39761,7 +39761,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39796,7 +39796,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39832,7 +39832,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39868,7 +39868,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39902,7 +39902,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39938,7 +39938,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -39973,7 +39973,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40007,7 +40007,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40042,7 +40042,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40076,7 +40076,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40112,7 +40112,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40147,7 +40147,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40181,7 +40181,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40216,7 +40216,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40251,7 +40251,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40288,7 +40288,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40326,7 +40326,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40363,7 +40363,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40399,7 +40399,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40432,7 +40432,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40467,7 +40467,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40501,7 +40501,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40536,7 +40536,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40570,7 +40570,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40603,7 +40603,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40638,7 +40638,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40676,7 +40676,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40713,7 +40713,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40747,7 +40747,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40780,7 +40780,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40814,7 +40814,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40850,7 +40850,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40886,7 +40886,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40923,7 +40923,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40958,7 +40958,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -40992,7 +40992,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41027,7 +41027,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41061,7 +41061,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41095,7 +41095,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41129,7 +41129,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41164,7 +41164,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41198,7 +41198,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41233,7 +41233,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41268,7 +41268,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41304,7 +41304,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41339,7 +41339,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41375,7 +41375,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41410,7 +41410,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41445,7 +41445,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41480,7 +41480,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41517,7 +41517,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41556,7 +41556,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41594,7 +41594,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41629,7 +41629,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41664,7 +41664,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41700,7 +41700,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41734,7 +41734,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41770,7 +41770,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41805,7 +41805,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41840,7 +41840,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41875,7 +41875,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41911,7 +41911,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41946,7 +41946,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -41989,7 +41989,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42022,7 +42022,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42056,7 +42056,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42091,7 +42091,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42125,7 +42125,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42161,7 +42161,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42195,7 +42195,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42229,7 +42229,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42266,7 +42266,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42302,7 +42302,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42337,7 +42337,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42374,7 +42374,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42410,7 +42410,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42446,7 +42446,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42481,7 +42481,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42521,7 +42521,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42558,7 +42558,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42594,7 +42594,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42629,7 +42629,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42666,7 +42666,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42702,7 +42702,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42739,7 +42739,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42774,7 +42774,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42808,7 +42808,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42843,7 +42843,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42878,7 +42878,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42914,7 +42914,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42949,7 +42949,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -42985,7 +42985,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43020,7 +43020,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43056,7 +43056,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43092,7 +43092,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43128,7 +43128,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43162,7 +43162,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43196,7 +43196,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43230,7 +43230,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43269,7 +43269,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43305,7 +43305,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43340,7 +43340,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43375,7 +43375,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43409,7 +43409,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43444,7 +43444,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43481,7 +43481,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43515,7 +43515,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43551,7 +43551,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43587,7 +43587,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43625,7 +43625,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43660,7 +43660,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43698,7 +43698,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43734,7 +43734,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43773,7 +43773,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43811,7 +43811,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43846,7 +43846,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43886,7 +43886,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43925,7 +43925,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43960,7 +43960,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -43994,7 +43994,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44027,7 +44027,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44061,7 +44061,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44096,7 +44096,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44132,7 +44132,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44169,7 +44169,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44207,7 +44207,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44246,7 +44246,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44283,7 +44283,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44322,7 +44322,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44356,7 +44356,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44392,7 +44392,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44427,7 +44427,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44461,7 +44461,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44500,7 +44500,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44538,7 +44538,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44573,7 +44573,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44610,7 +44610,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44646,7 +44646,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44687,7 +44687,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44724,7 +44724,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44760,7 +44760,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44797,7 +44797,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44833,7 +44833,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44867,7 +44867,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44904,7 +44904,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44940,7 +44940,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -44975,7 +44975,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45014,7 +45014,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45052,7 +45052,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45088,7 +45088,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45123,7 +45123,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45158,7 +45158,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45194,7 +45194,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45230,7 +45230,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45267,7 +45267,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45302,7 +45302,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45338,7 +45338,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45373,7 +45373,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45408,7 +45408,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45443,7 +45443,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45478,7 +45478,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45514,7 +45514,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45549,7 +45549,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45589,7 +45589,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45630,7 +45630,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45672,7 +45672,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45713,7 +45713,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45747,7 +45747,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45783,7 +45783,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45819,7 +45819,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45853,7 +45853,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45887,7 +45887,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45922,7 +45922,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45955,7 +45955,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -45991,7 +45991,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46026,7 +46026,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46060,7 +46060,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46096,7 +46096,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46135,7 +46135,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46168,7 +46168,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46201,7 +46201,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46237,7 +46237,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46270,7 +46270,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46306,7 +46306,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46341,7 +46341,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46377,7 +46377,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46412,7 +46412,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46446,7 +46446,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46480,7 +46480,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46515,7 +46515,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46548,7 +46548,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46582,7 +46582,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46618,7 +46618,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46653,7 +46653,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46692,7 +46692,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46727,7 +46727,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46761,7 +46761,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46798,7 +46798,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46836,7 +46836,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46873,7 +46873,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46909,7 +46909,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46944,7 +46944,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -46978,7 +46978,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47013,7 +47013,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47047,7 +47047,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47085,7 +47085,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47122,7 +47122,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47161,7 +47161,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47197,7 +47197,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47232,7 +47232,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47266,7 +47266,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47302,7 +47302,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47337,7 +47337,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47370,7 +47370,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47404,7 +47404,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47438,7 +47438,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47475,7 +47475,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47510,7 +47510,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47545,7 +47545,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47581,7 +47581,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47617,7 +47617,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47652,7 +47652,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47687,7 +47687,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47722,7 +47722,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47763,7 +47763,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47797,7 +47797,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47834,7 +47834,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47872,7 +47872,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47909,7 +47909,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47948,7 +47948,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -47987,7 +47987,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48025,7 +48025,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48062,7 +48062,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48098,7 +48098,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48138,7 +48138,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48172,7 +48172,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48210,7 +48210,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48245,7 +48245,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48281,7 +48281,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48318,7 +48318,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48354,7 +48354,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48391,7 +48391,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48427,7 +48427,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48463,7 +48463,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48500,7 +48500,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48540,7 +48540,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48576,7 +48576,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48612,7 +48612,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48647,7 +48647,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48683,7 +48683,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48719,7 +48719,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48755,7 +48755,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48790,7 +48790,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48826,7 +48826,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48863,7 +48863,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48899,7 +48899,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48935,7 +48935,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -48971,7 +48971,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49008,7 +49008,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49044,7 +49044,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49080,7 +49080,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49114,7 +49114,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49150,7 +49150,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49184,7 +49184,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49218,7 +49218,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49254,7 +49254,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49290,7 +49290,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49327,7 +49327,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49363,7 +49363,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49399,7 +49399,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49434,7 +49434,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49470,7 +49470,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49504,7 +49504,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49541,7 +49541,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49576,7 +49576,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49613,7 +49613,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49648,7 +49648,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49684,7 +49684,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49719,7 +49719,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49755,7 +49755,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49792,7 +49792,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49830,7 +49830,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49866,7 +49866,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49907,7 +49907,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49946,7 +49946,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -49982,7 +49982,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50019,7 +50019,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50056,7 +50056,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50091,7 +50091,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50127,7 +50127,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50164,7 +50164,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50200,7 +50200,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50237,7 +50237,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50273,7 +50273,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50309,7 +50309,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50346,7 +50346,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50381,7 +50381,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50421,7 +50421,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50455,7 +50455,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50491,7 +50491,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50526,7 +50526,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50560,7 +50560,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50593,7 +50593,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50631,7 +50631,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50668,7 +50668,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50705,7 +50705,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50741,7 +50741,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50780,7 +50780,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50817,7 +50817,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50853,7 +50853,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50891,7 +50891,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50924,7 +50924,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50960,7 +50960,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -50995,7 +50995,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51032,7 +51032,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51068,7 +51068,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51102,7 +51102,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51135,7 +51135,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51168,7 +51168,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51205,7 +51205,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51241,7 +51241,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51275,7 +51275,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51308,7 +51308,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51341,7 +51341,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51377,7 +51377,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51412,7 +51412,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51448,7 +51448,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51483,7 +51483,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51521,7 +51521,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51556,7 +51556,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51591,7 +51591,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51630,7 +51630,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51667,7 +51667,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51702,7 +51702,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51739,7 +51739,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51774,7 +51774,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51808,7 +51808,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51846,7 +51846,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51883,7 +51883,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51917,7 +51917,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51954,7 +51954,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -51991,7 +51991,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52029,7 +52029,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52063,7 +52063,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52097,7 +52097,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52132,7 +52132,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52166,7 +52166,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52199,7 +52199,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52234,7 +52234,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52268,7 +52268,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52302,7 +52302,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52336,7 +52336,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52376,7 +52376,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52414,7 +52414,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52452,7 +52452,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52489,7 +52489,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52526,7 +52526,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52562,7 +52562,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52600,7 +52600,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52636,7 +52636,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52672,7 +52672,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52709,7 +52709,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52745,7 +52745,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52781,7 +52781,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52816,7 +52816,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52852,7 +52852,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52887,7 +52887,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52925,7 +52925,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52962,7 +52962,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -52999,7 +52999,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53035,7 +53035,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53072,7 +53072,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53106,7 +53106,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53142,7 +53142,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53179,7 +53179,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53214,7 +53214,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53249,7 +53249,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53285,7 +53285,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53320,7 +53320,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53355,7 +53355,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53396,7 +53396,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53431,7 +53431,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53467,7 +53467,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53503,7 +53503,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53539,7 +53539,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53575,7 +53575,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53609,7 +53609,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53644,7 +53644,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53684,7 +53684,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53719,7 +53719,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53755,7 +53755,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53791,7 +53791,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53827,7 +53827,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53863,7 +53863,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53899,7 +53899,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53934,7 +53934,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -53971,7 +53971,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54007,7 +54007,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54046,7 +54046,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54084,7 +54084,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54121,7 +54121,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54156,7 +54156,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54194,7 +54194,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54231,7 +54231,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54268,7 +54268,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54306,7 +54306,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54344,7 +54344,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54382,7 +54382,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54419,7 +54419,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54455,7 +54455,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54491,7 +54491,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54526,7 +54526,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54563,7 +54563,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54599,7 +54599,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54641,7 +54641,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54676,7 +54676,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54710,7 +54710,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54744,7 +54744,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54779,7 +54779,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54819,7 +54819,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54854,7 +54854,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54888,7 +54888,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54924,7 +54924,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54958,7 +54958,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -54999,7 +54999,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55036,7 +55036,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55071,7 +55071,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55111,7 +55111,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55146,7 +55146,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55186,7 +55186,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55224,7 +55224,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55262,7 +55262,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55295,7 +55295,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55328,7 +55328,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55368,7 +55368,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55408,7 +55408,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55449,7 +55449,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55489,7 +55489,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55529,7 +55529,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55570,7 +55570,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55605,7 +55605,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55639,7 +55639,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55679,7 +55679,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55717,7 +55717,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55753,7 +55753,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55789,7 +55789,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55825,7 +55825,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55861,7 +55861,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55899,7 +55899,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55933,7 +55933,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -55969,7 +55969,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56005,7 +56005,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56041,7 +56041,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56077,7 +56077,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56113,7 +56113,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56148,7 +56148,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56182,7 +56182,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56215,7 +56215,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56251,7 +56251,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56291,7 +56291,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56330,7 +56330,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56369,7 +56369,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56405,7 +56405,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56440,7 +56440,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56477,7 +56477,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56513,7 +56513,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56550,7 +56550,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56584,7 +56584,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56620,7 +56620,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56654,7 +56654,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56688,7 +56688,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56723,7 +56723,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56760,7 +56760,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56793,7 +56793,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56827,7 +56827,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56862,7 +56862,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56896,7 +56896,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56932,7 +56932,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -56971,7 +56971,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57006,7 +57006,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57040,7 +57040,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57076,7 +57076,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57111,7 +57111,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57150,7 +57150,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57185,7 +57185,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57219,7 +57219,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57253,7 +57253,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57287,7 +57287,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57322,7 +57322,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57357,7 +57357,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57391,7 +57391,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57426,7 +57426,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57460,7 +57460,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57494,7 +57494,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57530,7 +57530,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57564,7 +57564,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57598,7 +57598,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57632,7 +57632,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57666,7 +57666,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57700,7 +57700,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57735,7 +57735,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57769,7 +57769,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57803,7 +57803,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57838,7 +57838,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57872,7 +57872,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57906,7 +57906,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57940,7 +57940,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -57975,7 +57975,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58010,7 +58010,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58044,7 +58044,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58078,7 +58078,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58112,7 +58112,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58146,7 +58146,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58180,7 +58180,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58215,7 +58215,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58249,7 +58249,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58283,7 +58283,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58317,7 +58317,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58351,7 +58351,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58385,7 +58385,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58419,7 +58419,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58452,7 +58452,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58489,7 +58489,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58524,7 +58524,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58561,7 +58561,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58605,7 +58605,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58643,7 +58643,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58680,7 +58680,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58717,7 +58717,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58753,7 +58753,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58787,7 +58787,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58828,7 +58828,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58862,7 +58862,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58897,7 +58897,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58932,7 +58932,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -58968,7 +58968,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59003,7 +59003,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59044,7 +59044,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59080,7 +59080,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59115,7 +59115,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59151,7 +59151,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59187,7 +59187,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59222,7 +59222,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59258,7 +59258,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59293,7 +59293,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59328,7 +59328,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59364,7 +59364,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59402,7 +59402,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59437,7 +59437,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59473,7 +59473,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59509,7 +59509,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59545,7 +59545,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59581,7 +59581,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59616,7 +59616,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59652,7 +59652,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59688,7 +59688,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59723,7 +59723,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59760,7 +59760,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59795,7 +59795,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59831,7 +59831,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59867,7 +59867,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59903,7 +59903,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59938,7 +59938,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -59974,7 +59974,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60007,7 +60007,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60041,7 +60041,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60076,7 +60076,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60111,7 +60111,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60146,7 +60146,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60182,7 +60182,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60216,7 +60216,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60253,7 +60253,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60289,7 +60289,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60325,7 +60325,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60363,7 +60363,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60400,7 +60400,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60437,7 +60437,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60474,7 +60474,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60510,7 +60510,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60548,7 +60548,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60585,7 +60585,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60620,7 +60620,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60654,7 +60654,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60690,7 +60690,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60726,7 +60726,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60760,7 +60760,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60793,7 +60793,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60828,7 +60828,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60863,7 +60863,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60897,7 +60897,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60931,7 +60931,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60965,7 +60965,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -60999,7 +60999,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61033,7 +61033,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61067,7 +61067,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61101,7 +61101,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61135,7 +61135,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61170,7 +61170,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61204,7 +61204,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61239,7 +61239,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61275,7 +61275,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61309,7 +61309,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61348,7 +61348,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61384,7 +61384,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61419,7 +61419,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61457,7 +61457,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61490,7 +61490,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61525,7 +61525,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61560,7 +61560,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61596,7 +61596,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61634,7 +61634,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61669,7 +61669,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61705,7 +61705,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61739,7 +61739,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61780,7 +61780,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61821,7 +61821,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61862,7 +61862,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61902,7 +61902,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61939,7 +61939,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -61974,7 +61974,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62009,7 +62009,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62042,7 +62042,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62077,7 +62077,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62116,7 +62116,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62154,7 +62154,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62188,7 +62188,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62225,7 +62225,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62261,7 +62261,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62296,7 +62296,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62333,7 +62333,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62369,7 +62369,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62407,7 +62407,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62444,7 +62444,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62480,7 +62480,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62515,7 +62515,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62550,7 +62550,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62587,7 +62587,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62622,7 +62622,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62656,7 +62656,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62690,7 +62690,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62725,7 +62725,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62759,7 +62759,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62792,7 +62792,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62828,7 +62828,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62862,7 +62862,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62897,7 +62897,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62931,7 +62931,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -62966,7 +62966,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63000,7 +63000,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63034,7 +63034,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63071,7 +63071,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63107,7 +63107,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63142,7 +63142,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63177,7 +63177,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63211,7 +63211,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63245,7 +63245,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63280,7 +63280,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63314,7 +63314,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63350,7 +63350,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63385,7 +63385,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63420,7 +63420,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63456,7 +63456,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63492,7 +63492,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63528,7 +63528,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63562,7 +63562,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63597,7 +63597,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63632,7 +63632,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63666,7 +63666,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63702,7 +63702,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63736,7 +63736,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63771,7 +63771,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63806,7 +63806,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63841,7 +63841,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63876,7 +63876,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63910,7 +63910,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63944,7 +63944,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -63979,7 +63979,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64014,7 +64014,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64048,7 +64048,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64084,7 +64084,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64120,7 +64120,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64153,7 +64153,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64190,7 +64190,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64224,7 +64224,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64258,7 +64258,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64291,7 +64291,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64327,7 +64327,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64363,7 +64363,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64399,7 +64399,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64435,7 +64435,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64468,7 +64468,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64502,7 +64502,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64536,7 +64536,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64569,7 +64569,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64604,7 +64604,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64637,7 +64637,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64670,7 +64670,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64705,7 +64705,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64738,7 +64738,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64771,7 +64771,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64804,7 +64804,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64837,7 +64837,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64870,7 +64870,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64904,7 +64904,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64938,7 +64938,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -64971,7 +64971,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65008,7 +65008,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65042,7 +65042,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65075,7 +65075,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65108,7 +65108,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65141,7 +65141,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65175,7 +65175,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65209,7 +65209,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65242,7 +65242,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65278,7 +65278,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65313,7 +65313,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65352,7 +65352,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65390,7 +65390,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65425,7 +65425,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65462,7 +65462,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65500,7 +65500,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65535,7 +65535,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65571,7 +65571,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65605,7 +65605,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65643,7 +65643,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65681,7 +65681,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65718,7 +65718,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65755,7 +65755,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65793,7 +65793,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65842,7 +65842,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65890,7 +65890,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65928,7 +65928,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65961,7 +65961,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -65995,7 +65995,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66030,7 +66030,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66070,7 +66070,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66104,7 +66104,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66138,7 +66138,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66171,7 +66171,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66210,7 +66210,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66248,7 +66248,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66284,7 +66284,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66320,7 +66320,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66355,7 +66355,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66390,7 +66390,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66425,7 +66425,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66461,7 +66461,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66497,7 +66497,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66534,7 +66534,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66571,7 +66571,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66608,7 +66608,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66644,7 +66644,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66682,7 +66682,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66719,7 +66719,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66753,7 +66753,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66787,7 +66787,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66826,7 +66826,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66864,7 +66864,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66903,7 +66903,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66941,7 +66941,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -66978,7 +66978,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67014,7 +67014,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67052,7 +67052,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67089,7 +67089,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67125,7 +67125,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67160,7 +67160,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67196,7 +67196,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67232,7 +67232,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67267,7 +67267,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67303,7 +67303,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67337,7 +67337,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67373,7 +67373,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67408,7 +67408,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67442,7 +67442,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67482,7 +67482,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67519,7 +67519,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67555,7 +67555,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67590,7 +67590,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67624,7 +67624,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67660,7 +67660,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67697,7 +67697,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67732,7 +67732,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67769,7 +67769,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67804,7 +67804,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67837,7 +67837,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67882,7 +67882,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67915,7 +67915,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67951,7 +67951,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -67986,7 +67986,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68020,7 +68020,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68059,7 +68059,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68099,7 +68099,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68136,7 +68136,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68171,7 +68171,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68206,7 +68206,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68241,7 +68241,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68275,7 +68275,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68309,7 +68309,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68343,7 +68343,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68380,7 +68380,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68416,7 +68416,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68452,7 +68452,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68485,7 +68485,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68520,7 +68520,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68553,7 +68553,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68587,7 +68587,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68620,7 +68620,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68654,7 +68654,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68689,7 +68689,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68722,7 +68722,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68759,7 +68759,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68796,7 +68796,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68831,7 +68831,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68872,7 +68872,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68908,7 +68908,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68945,7 +68945,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -68982,7 +68982,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69019,7 +69019,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69056,7 +69056,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69094,7 +69094,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69132,7 +69132,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69168,7 +69168,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69205,7 +69205,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69243,7 +69243,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69278,7 +69278,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69315,7 +69315,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69351,7 +69351,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69390,7 +69390,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69426,7 +69426,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69462,7 +69462,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69496,7 +69496,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69530,7 +69530,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69563,7 +69563,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69599,7 +69599,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69632,7 +69632,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69668,7 +69668,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69703,7 +69703,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69737,7 +69737,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69772,7 +69772,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69808,7 +69808,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69843,7 +69843,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69878,7 +69878,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69914,7 +69914,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69947,7 +69947,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -69981,7 +69981,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70017,7 +70017,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70052,7 +70052,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70088,7 +70088,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70123,7 +70123,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70158,7 +70158,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70192,7 +70192,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70227,7 +70227,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70262,7 +70262,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70297,7 +70297,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70332,7 +70332,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70367,7 +70367,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70401,7 +70401,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70436,7 +70436,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70470,7 +70470,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70505,7 +70505,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70540,7 +70540,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70574,7 +70574,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70611,7 +70611,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70647,7 +70647,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70687,7 +70687,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70726,7 +70726,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70765,7 +70765,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70804,7 +70804,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70839,7 +70839,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70875,7 +70875,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70911,7 +70911,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70947,7 +70947,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -70983,7 +70983,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71019,7 +71019,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71052,7 +71052,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71085,7 +71085,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71124,7 +71124,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71160,7 +71160,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71194,7 +71194,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71230,7 +71230,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71266,7 +71266,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71302,7 +71302,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71340,7 +71340,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71376,7 +71376,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71414,7 +71414,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71451,7 +71451,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71487,7 +71487,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71523,7 +71523,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71560,7 +71560,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71595,7 +71595,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71630,7 +71630,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71669,7 +71669,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71705,7 +71705,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71740,7 +71740,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71777,7 +71777,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71813,7 +71813,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71851,7 +71851,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71887,7 +71887,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71923,7 +71923,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71959,7 +71959,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -71998,7 +71998,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72034,7 +72034,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72070,7 +72070,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72108,7 +72108,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72144,7 +72144,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72180,7 +72180,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72217,7 +72217,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72255,7 +72255,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72291,7 +72291,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72327,7 +72327,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72363,7 +72363,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72399,7 +72399,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72435,7 +72435,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72472,7 +72472,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72506,7 +72506,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72540,7 +72540,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72575,7 +72575,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72608,7 +72608,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72643,7 +72643,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72679,7 +72679,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72714,7 +72714,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72748,7 +72748,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72783,7 +72783,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72818,7 +72818,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72852,7 +72852,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72886,7 +72886,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72926,7 +72926,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -72966,7 +72966,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73001,7 +73001,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73035,7 +73035,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73071,7 +73071,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73108,7 +73108,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73143,7 +73143,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73178,7 +73178,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73213,7 +73213,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73247,7 +73247,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73284,7 +73284,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73320,7 +73320,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73354,7 +73354,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73387,7 +73387,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73424,7 +73424,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73458,7 +73458,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73499,7 +73499,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73539,7 +73539,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73574,7 +73574,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73610,7 +73610,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73646,7 +73646,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73682,7 +73682,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73717,7 +73717,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73753,7 +73753,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73790,7 +73790,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73825,7 +73825,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73861,7 +73861,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73896,7 +73896,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73930,7 +73930,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -73965,7 +73965,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74000,7 +74000,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74037,7 +74037,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74073,7 +74073,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74108,7 +74108,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74142,7 +74142,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74176,7 +74176,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74209,7 +74209,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74242,7 +74242,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74276,7 +74276,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74309,7 +74309,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74342,7 +74342,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74376,7 +74376,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74409,7 +74409,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74443,7 +74443,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74477,7 +74477,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74512,7 +74512,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74548,7 +74548,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74583,7 +74583,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74617,7 +74617,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74650,7 +74650,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74687,7 +74687,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74725,7 +74725,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74762,7 +74762,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74799,7 +74799,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74832,7 +74832,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74867,7 +74867,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74902,7 +74902,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74935,7 +74935,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -74968,7 +74968,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75002,7 +75002,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75040,7 +75040,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75077,7 +75077,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75118,7 +75118,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75156,7 +75156,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75194,7 +75194,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75228,7 +75228,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75264,7 +75264,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75300,7 +75300,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75335,7 +75335,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75373,7 +75373,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75409,7 +75409,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75443,7 +75443,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75476,7 +75476,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75510,7 +75510,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75543,7 +75543,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75580,7 +75580,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75616,7 +75616,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75649,7 +75649,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75686,7 +75686,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75722,7 +75722,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75757,7 +75757,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75791,7 +75791,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75826,7 +75826,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75860,7 +75860,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75901,7 +75901,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75939,7 +75939,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -75976,7 +75976,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76012,7 +76012,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76047,7 +76047,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76082,7 +76082,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76117,7 +76117,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76151,7 +76151,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76186,7 +76186,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76222,7 +76222,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76257,7 +76257,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76291,7 +76291,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76324,7 +76324,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76358,7 +76358,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76393,7 +76393,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76427,7 +76427,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76462,7 +76462,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76499,7 +76499,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76533,7 +76533,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76566,7 +76566,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76601,7 +76601,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76637,7 +76637,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76671,7 +76671,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76706,7 +76706,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76740,7 +76740,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76775,7 +76775,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76810,7 +76810,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76844,7 +76844,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76878,7 +76878,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76911,7 +76911,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76949,7 +76949,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -76986,7 +76986,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77024,7 +77024,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77061,7 +77061,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77097,7 +77097,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77134,7 +77134,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77171,7 +77171,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77209,7 +77209,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77246,7 +77246,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77282,7 +77282,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77318,7 +77318,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77356,7 +77356,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77393,7 +77393,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77429,7 +77429,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77467,7 +77467,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77503,7 +77503,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77539,7 +77539,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77573,7 +77573,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77607,7 +77607,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77642,7 +77642,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77677,7 +77677,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77711,7 +77711,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77746,7 +77746,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77780,7 +77780,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77816,7 +77816,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77851,7 +77851,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77886,7 +77886,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77922,7 +77922,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77957,7 +77957,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -77993,7 +77993,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78029,7 +78029,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78063,7 +78063,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78097,7 +78097,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78131,7 +78131,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78165,7 +78165,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78198,7 +78198,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78231,7 +78231,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78266,7 +78266,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78300,7 +78300,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78338,7 +78338,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78375,7 +78375,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78412,7 +78412,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78448,7 +78448,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78484,7 +78484,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78520,7 +78520,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78554,7 +78554,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78588,7 +78588,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78621,7 +78621,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78654,7 +78654,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78688,7 +78688,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78722,7 +78722,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78755,7 +78755,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78789,7 +78789,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78823,7 +78823,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78860,7 +78860,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78898,7 +78898,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78935,7 +78935,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -78972,7 +78972,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79006,7 +79006,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79040,7 +79040,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79074,7 +79074,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79109,7 +79109,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79149,7 +79149,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79187,7 +79187,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79224,7 +79224,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79262,7 +79262,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79298,7 +79298,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79332,7 +79332,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79367,7 +79367,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79405,7 +79405,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79442,7 +79442,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79476,7 +79476,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79509,7 +79509,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79542,7 +79542,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79578,7 +79578,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79614,7 +79614,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79656,7 +79656,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79693,7 +79693,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79734,7 +79734,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79774,7 +79774,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79810,7 +79810,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79849,7 +79849,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79887,7 +79887,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79921,7 +79921,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79955,7 +79955,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -79991,7 +79991,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80026,7 +80026,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80065,7 +80065,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80103,7 +80103,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80140,7 +80140,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80176,7 +80176,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80211,7 +80211,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80251,7 +80251,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80285,7 +80285,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80322,7 +80322,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80358,7 +80358,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80395,7 +80395,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80432,7 +80432,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80466,7 +80466,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80499,7 +80499,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80534,7 +80534,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80568,7 +80568,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80610,7 +80610,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80654,7 +80654,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80688,7 +80688,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80723,7 +80723,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80757,7 +80757,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80793,7 +80793,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80829,7 +80829,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80864,7 +80864,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80901,7 +80901,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80938,7 +80938,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -80974,7 +80974,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81009,7 +81009,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81042,7 +81042,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81075,7 +81075,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81108,7 +81108,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81141,7 +81141,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81177,7 +81177,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81212,7 +81212,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81249,7 +81249,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81286,7 +81286,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81324,7 +81324,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81362,7 +81362,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81399,7 +81399,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81437,7 +81437,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81472,7 +81472,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81506,7 +81506,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81544,7 +81544,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81578,7 +81578,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81614,7 +81614,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81647,7 +81647,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81689,7 +81689,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81725,7 +81725,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81760,7 +81760,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81793,7 +81793,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81826,7 +81826,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81862,7 +81862,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81900,7 +81900,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81936,7 +81936,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -81971,7 +81971,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82006,7 +82006,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82040,7 +82040,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82080,7 +82080,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82119,7 +82119,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82154,7 +82154,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82191,7 +82191,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82228,7 +82228,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82265,7 +82265,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82299,7 +82299,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82334,7 +82334,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82369,7 +82369,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82403,7 +82403,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82440,7 +82440,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82476,7 +82476,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82513,7 +82513,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82549,7 +82549,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82585,7 +82585,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82620,7 +82620,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82659,7 +82659,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82698,7 +82698,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82732,7 +82732,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82765,7 +82765,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82801,7 +82801,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82836,7 +82836,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82874,7 +82874,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82909,7 +82909,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82946,7 +82946,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -82985,7 +82985,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83023,7 +83023,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83059,7 +83059,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83094,7 +83094,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83129,7 +83129,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83169,7 +83169,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83208,7 +83208,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83242,7 +83242,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83276,7 +83276,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83310,7 +83310,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83344,7 +83344,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83379,7 +83379,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83413,7 +83413,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83447,7 +83447,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83481,7 +83481,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83515,7 +83515,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83549,7 +83549,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83582,7 +83582,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83620,7 +83620,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83654,7 +83654,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83692,7 +83692,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83725,7 +83725,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83759,7 +83759,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83793,7 +83793,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83826,7 +83826,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83863,7 +83863,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83899,7 +83899,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83934,7 +83934,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -83972,7 +83972,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84010,7 +84010,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84045,7 +84045,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84080,7 +84080,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84115,7 +84115,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84151,7 +84151,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84185,7 +84185,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84222,7 +84222,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84259,7 +84259,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84297,7 +84297,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84338,7 +84338,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84377,7 +84377,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84416,7 +84416,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84452,7 +84452,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84487,7 +84487,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84522,7 +84522,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84557,7 +84557,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84592,7 +84592,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84629,7 +84629,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84665,7 +84665,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84702,7 +84702,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84739,7 +84739,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84778,7 +84778,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84816,7 +84816,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84851,7 +84851,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84889,7 +84889,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84924,7 +84924,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84958,7 +84958,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -84995,7 +84995,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85034,7 +85034,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85071,7 +85071,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85111,7 +85111,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85150,7 +85150,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85185,7 +85185,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85219,7 +85219,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85255,7 +85255,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85291,7 +85291,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85327,7 +85327,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85362,7 +85362,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85399,7 +85399,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85437,7 +85437,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85478,7 +85478,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85512,7 +85512,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85545,7 +85545,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85579,7 +85579,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85614,7 +85614,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85648,7 +85648,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85681,7 +85681,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85716,7 +85716,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85750,7 +85750,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85787,7 +85787,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85821,7 +85821,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85855,7 +85855,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85890,7 +85890,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85933,7 +85933,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -85969,7 +85969,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86004,7 +86004,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86038,7 +86038,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86072,7 +86072,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86107,7 +86107,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86141,7 +86141,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86177,7 +86177,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86212,7 +86212,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86247,7 +86247,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86282,7 +86282,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86320,7 +86320,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86357,7 +86357,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86400,7 +86400,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86437,7 +86437,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86473,7 +86473,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86507,7 +86507,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86541,7 +86541,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86575,7 +86575,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86610,7 +86610,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86644,7 +86644,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86683,7 +86683,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86721,7 +86721,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86758,7 +86758,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86795,7 +86795,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86836,7 +86836,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86876,7 +86876,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86914,7 +86914,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86951,7 +86951,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -86985,7 +86985,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87020,7 +87020,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87054,7 +87054,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87093,7 +87093,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87127,7 +87127,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87162,7 +87162,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87196,7 +87196,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87230,7 +87230,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87263,7 +87263,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87299,7 +87299,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87335,7 +87335,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87369,7 +87369,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87403,7 +87403,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87436,7 +87436,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87472,7 +87472,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87508,7 +87508,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87547,7 +87547,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87584,7 +87584,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87621,7 +87621,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87659,7 +87659,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87695,7 +87695,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87730,7 +87730,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87764,7 +87764,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87800,7 +87800,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87836,7 +87836,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87871,7 +87871,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87908,7 +87908,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87943,7 +87943,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -87977,7 +87977,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88011,7 +88011,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88044,7 +88044,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88081,7 +88081,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88118,7 +88118,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88154,7 +88154,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88189,7 +88189,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88226,7 +88226,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88259,7 +88259,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88293,7 +88293,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88329,7 +88329,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88362,7 +88362,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88401,7 +88401,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88436,7 +88436,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88470,7 +88470,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88506,7 +88506,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88541,7 +88541,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88586,7 +88586,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88630,7 +88630,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88667,7 +88667,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88704,7 +88704,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88744,7 +88744,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88783,7 +88783,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88817,7 +88817,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88853,7 +88853,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88888,7 +88888,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88923,7 +88923,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88958,7 +88958,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -88994,7 +88994,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89030,7 +89030,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89066,7 +89066,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89103,7 +89103,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89140,7 +89140,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89176,7 +89176,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89212,7 +89212,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89249,7 +89249,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89286,7 +89286,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89322,7 +89322,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89357,7 +89357,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89394,7 +89394,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89430,7 +89430,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89465,7 +89465,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89499,7 +89499,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89532,7 +89532,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89567,7 +89567,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89602,7 +89602,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89635,7 +89635,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89670,7 +89670,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89705,7 +89705,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89745,7 +89745,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89779,7 +89779,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89812,7 +89812,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89847,7 +89847,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89888,7 +89888,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89926,7 +89926,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89963,7 +89963,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -89998,7 +89998,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90033,7 +90033,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90068,7 +90068,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90103,7 +90103,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90139,7 +90139,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90173,7 +90173,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90207,7 +90207,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90243,7 +90243,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90279,7 +90279,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90315,7 +90315,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90351,7 +90351,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90388,7 +90388,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90424,7 +90424,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90460,7 +90460,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90496,7 +90496,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90532,7 +90532,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90568,7 +90568,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90602,7 +90602,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90636,7 +90636,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90674,7 +90674,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90709,7 +90709,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90743,7 +90743,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90777,7 +90777,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90811,7 +90811,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90846,7 +90846,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90881,7 +90881,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90915,7 +90915,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90950,7 +90950,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -90984,7 +90984,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91018,7 +91018,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91054,7 +91054,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91088,7 +91088,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91122,7 +91122,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91156,7 +91156,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91190,7 +91190,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91224,7 +91224,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91259,7 +91259,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91293,7 +91293,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91327,7 +91327,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91362,7 +91362,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91396,7 +91396,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91430,7 +91430,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91464,7 +91464,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91499,7 +91499,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91534,7 +91534,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91568,7 +91568,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91602,7 +91602,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91636,7 +91636,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91670,7 +91670,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91704,7 +91704,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91738,7 +91738,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91773,7 +91773,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91807,7 +91807,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91841,7 +91841,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91875,7 +91875,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91909,7 +91909,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91943,7 +91943,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -91977,7 +91977,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92012,7 +92012,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92047,7 +92047,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92080,7 +92080,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92114,7 +92114,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92148,7 +92148,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92182,7 +92182,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92215,7 +92215,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92250,7 +92250,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92284,7 +92284,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92318,7 +92318,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92352,7 +92352,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92387,7 +92387,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92422,7 +92422,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92456,7 +92456,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92491,7 +92491,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92525,7 +92525,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92559,7 +92559,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92595,7 +92595,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92629,7 +92629,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92663,7 +92663,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92697,7 +92697,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92731,7 +92731,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92765,7 +92765,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92800,7 +92800,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92834,7 +92834,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92868,7 +92868,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92903,7 +92903,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92937,7 +92937,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -92971,7 +92971,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93005,7 +93005,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93040,7 +93040,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93075,7 +93075,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93109,7 +93109,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93143,7 +93143,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93177,7 +93177,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93211,7 +93211,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93245,7 +93245,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93280,7 +93280,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93314,7 +93314,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93348,7 +93348,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93382,7 +93382,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93416,7 +93416,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93450,7 +93450,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93483,7 +93483,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93520,7 +93520,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93557,7 +93557,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93591,7 +93591,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93624,7 +93624,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93659,7 +93659,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93696,7 +93696,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93731,7 +93731,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93767,7 +93767,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93803,7 +93803,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93839,7 +93839,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93873,7 +93873,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93907,7 +93907,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93941,7 +93941,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -93974,7 +93974,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94007,7 +94007,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94041,7 +94041,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94074,7 +94074,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94110,7 +94110,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94145,7 +94145,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94181,7 +94181,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94221,7 +94221,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94259,7 +94259,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94296,7 +94296,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94332,7 +94332,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94368,7 +94368,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94405,7 +94405,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94442,7 +94442,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94479,7 +94479,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94513,7 +94513,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94550,7 +94550,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94586,7 +94586,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94621,7 +94621,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94655,7 +94655,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94690,7 +94690,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94724,7 +94724,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94761,7 +94761,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94795,7 +94795,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94828,7 +94828,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94869,7 +94869,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94910,7 +94910,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94948,7 +94948,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -94983,7 +94983,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95024,7 +95024,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95058,7 +95058,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95097,7 +95097,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95132,7 +95132,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95173,7 +95173,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95208,7 +95208,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95242,7 +95242,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95277,7 +95277,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95312,7 +95312,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95346,7 +95346,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95382,7 +95382,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95418,7 +95418,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95454,7 +95454,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95490,7 +95490,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95527,7 +95527,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95562,7 +95562,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95596,7 +95596,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95632,7 +95632,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95668,7 +95668,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95701,7 +95701,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95734,7 +95734,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95770,7 +95770,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95812,7 +95812,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95849,7 +95849,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95884,7 +95884,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95919,7 +95919,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95953,7 +95953,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -95989,7 +95989,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96024,7 +96024,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96057,7 +96057,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96091,7 +96091,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96126,7 +96126,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96162,7 +96162,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96199,7 +96199,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96234,7 +96234,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96271,7 +96271,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96307,7 +96307,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96342,7 +96342,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96377,7 +96377,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96414,7 +96414,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96450,7 +96450,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96484,7 +96484,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96519,7 +96519,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96554,7 +96554,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96589,7 +96589,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96625,7 +96625,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96659,7 +96659,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96697,7 +96697,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96734,7 +96734,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96768,7 +96768,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96801,7 +96801,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96836,7 +96836,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96870,7 +96870,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96905,7 +96905,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96942,7 +96942,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -96978,7 +96978,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97016,7 +97016,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97051,7 +97051,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97086,7 +97086,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97121,7 +97121,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97158,7 +97158,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97195,7 +97195,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97231,7 +97231,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97268,7 +97268,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97306,7 +97306,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97344,7 +97344,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97386,7 +97386,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97424,7 +97424,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97459,7 +97459,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97494,7 +97494,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97529,7 +97529,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97568,7 +97568,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97605,7 +97605,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97639,7 +97639,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97672,7 +97672,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97706,7 +97706,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97739,7 +97739,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97779,7 +97779,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97815,7 +97815,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97851,7 +97851,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97885,7 +97885,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97918,7 +97918,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -97960,7 +97960,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98001,7 +98001,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98037,7 +98037,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98074,7 +98074,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98111,7 +98111,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98145,7 +98145,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98179,7 +98179,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98217,7 +98217,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98254,7 +98254,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98287,7 +98287,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98324,7 +98324,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98357,7 +98357,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98395,7 +98395,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98432,7 +98432,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98471,7 +98471,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98509,7 +98509,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98543,7 +98543,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98580,7 +98580,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98617,7 +98617,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98656,7 +98656,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98691,7 +98691,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98725,7 +98725,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98758,7 +98758,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98796,7 +98796,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98830,7 +98830,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98868,7 +98868,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98904,7 +98904,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98941,7 +98941,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -98977,7 +98977,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99016,7 +99016,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99051,7 +99051,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99086,7 +99086,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99124,7 +99124,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99160,7 +99160,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99196,7 +99196,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99232,7 +99232,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99268,7 +99268,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99307,7 +99307,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99343,7 +99343,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99380,7 +99380,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99416,7 +99416,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99454,7 +99454,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99492,7 +99492,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99526,7 +99526,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99560,7 +99560,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99594,7 +99594,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99628,7 +99628,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99662,7 +99662,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99696,7 +99696,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99729,7 +99729,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99763,7 +99763,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99798,7 +99798,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99831,7 +99831,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99865,7 +99865,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99899,7 +99899,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99936,7 +99936,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -99975,7 +99975,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100013,7 +100013,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100048,7 +100048,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100084,7 +100084,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100120,7 +100120,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100156,7 +100156,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100193,7 +100193,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100228,7 +100228,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100266,7 +100266,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100305,7 +100305,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100342,7 +100342,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100382,7 +100382,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100421,7 +100421,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100456,7 +100456,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100490,7 +100490,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100524,7 +100524,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100562,7 +100562,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100597,7 +100597,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100632,7 +100632,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100671,7 +100671,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100706,7 +100706,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100741,7 +100741,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100777,7 +100777,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100812,7 +100812,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100847,7 +100847,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100882,7 +100882,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100918,7 +100918,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100953,7 +100953,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -100987,7 +100987,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101023,7 +101023,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101059,7 +101059,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101095,7 +101095,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101133,7 +101133,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101170,7 +101170,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101209,7 +101209,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101248,7 +101248,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101284,7 +101284,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101321,7 +101321,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101357,7 +101357,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101391,7 +101391,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101430,7 +101430,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101469,7 +101469,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101509,7 +101509,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101550,7 +101550,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101591,7 +101591,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101626,7 +101626,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101665,7 +101665,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101703,7 +101703,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101743,7 +101743,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101778,7 +101778,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101814,7 +101814,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101849,7 +101849,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101884,7 +101884,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101919,7 +101919,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101955,7 +101955,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -101989,7 +101989,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102025,7 +102025,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102060,7 +102060,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102099,7 +102099,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102137,7 +102137,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102173,7 +102173,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102209,7 +102209,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102245,7 +102245,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102283,7 +102283,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102320,7 +102320,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102369,7 +102369,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102418,7 +102418,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102467,7 +102467,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102505,7 +102505,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102544,7 +102544,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102578,7 +102578,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102612,7 +102612,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102648,7 +102648,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102683,7 +102683,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102719,7 +102719,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102760,7 +102760,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102801,7 +102801,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102837,7 +102837,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102871,7 +102871,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102907,7 +102907,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102942,7 +102942,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -102979,7 +102979,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103015,7 +103015,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103050,7 +103050,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103086,7 +103086,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103123,7 +103123,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103158,7 +103158,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103194,7 +103194,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103229,7 +103229,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103263,7 +103263,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103297,7 +103297,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103331,7 +103331,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103366,7 +103366,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103400,7 +103400,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103433,7 +103433,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103467,7 +103467,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103500,7 +103500,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103536,7 +103536,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103574,7 +103574,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103609,7 +103609,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103644,7 +103644,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103679,7 +103679,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103715,7 +103715,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103752,7 +103752,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103790,7 +103790,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103829,7 +103829,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103869,7 +103869,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103903,7 +103903,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103938,7 +103938,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -103972,7 +103972,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104005,7 +104005,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104038,7 +104038,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104071,7 +104071,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104107,7 +104107,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104142,7 +104142,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104176,7 +104176,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104215,7 +104215,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104253,7 +104253,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104290,7 +104290,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104323,7 +104323,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104357,7 +104357,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104392,7 +104392,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104429,7 +104429,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104465,7 +104465,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104502,7 +104502,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104537,7 +104537,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104574,7 +104574,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104610,7 +104610,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104646,7 +104646,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104682,7 +104682,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104718,7 +104718,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104753,7 +104753,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104790,7 +104790,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104831,7 +104831,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104866,7 +104866,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104900,7 +104900,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104936,7 +104936,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -104974,7 +104974,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105010,7 +105010,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105046,7 +105046,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105083,7 +105083,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105121,7 +105121,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105162,7 +105162,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105199,7 +105199,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105239,7 +105239,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105275,7 +105275,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105311,7 +105311,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105346,7 +105346,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105381,7 +105381,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105415,7 +105415,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105450,7 +105450,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105486,7 +105486,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105521,7 +105521,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105556,7 +105556,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105592,7 +105592,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105628,7 +105628,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105663,7 +105663,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105697,7 +105697,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105732,7 +105732,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105766,7 +105766,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105801,7 +105801,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105837,7 +105837,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105872,7 +105872,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105908,7 +105908,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105945,7 +105945,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -105979,7 +105979,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106014,7 +106014,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106049,7 +106049,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106084,7 +106084,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106118,7 +106118,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106154,7 +106154,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106190,7 +106190,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106225,7 +106225,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106261,7 +106261,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106297,7 +106297,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106338,7 +106338,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106374,7 +106374,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106410,7 +106410,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106450,7 +106450,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106485,7 +106485,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106523,7 +106523,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106559,7 +106559,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106596,7 +106596,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106631,7 +106631,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
@@ -106666,7 +106666,7 @@ defmodule TablerIcons do
   ```
   """
   attr :rest, :global,
-    doc: "classes to be added to the svg tag",
+    doc: "arbitrary HTML attributes for the svg container",
     default: %{
       width: "24",
       height: "24",
