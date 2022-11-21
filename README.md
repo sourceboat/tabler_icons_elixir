@@ -47,9 +47,9 @@ A hyphen is replaced by an underscore automatically.
 
 ## Update TablerIcons version
 
-Updating the TablerIcons version is usually done by the maintainers of this package so you may ignore this.
-
 You can find the current TablerIcons version in `lib/tabler_icons.ex`.
+
+Updating the TablerIcons version is usually done by the maintainers of this package so you may ignore this.
 
 1. Check whether there are icon names that begin with a number and add exception to `lib/mix/tasks/build.ex` (add icon name to readme).
 2. Update TablerIcons version in `lib/mix/tasks/download.ex`.
