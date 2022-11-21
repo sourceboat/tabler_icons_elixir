@@ -34,21 +34,22 @@ defmodule TablerIcons do
   <TablerIcons.<%= func %> class="w-4 h-4" />
   ```
   """
-  attr :class, :string, doc: "classes to be added to the svg tag", default: ""
+  attr :rest, :global, doc: "classes to be added to the svg tag", default: %{
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 24 24",
+    "stroke-width": "2",
+    "stroke": "currentColor",
+    "fill": "none",
+    "stroke-linecap": "round",
+    "stroke-linejoin": "round"
+  }
 
   def <%= func %>(assigns) do
     ~H"""
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      stroke-width="2"
-      stroke="currentColor"
-      fill="none"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      class={@class}
+      {@rest}
     >
       <%= for path <- paths, do: path <> "\n" %>
     </svg>
