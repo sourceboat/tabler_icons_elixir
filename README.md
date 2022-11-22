@@ -7,6 +7,8 @@
 
 This package is strongly inspired by [heroicons_elixir](https://github.com/mveytsman/heroicons_elixir).
 
+> Note: As we are dealing with over 3.000 icons and an output file with more than 100.000 lines of code, the compile time may be longer than usual.
+
 ## Installation
 
 The package can be installed by adding `tabler_icons` to your list of dependencies in `mix.exs`:
