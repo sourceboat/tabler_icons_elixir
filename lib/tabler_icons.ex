@@ -1,6 +1,6 @@
 defmodule TablerIcons do
   @moduledoc """
-  Provides precompiled icon compiles from [tabler-icons.io v1.111.0](tabler-icons.io).
+  Provides precompiled icon compiles from [tabler-icons.io v1.112.0](tabler-icons.io).
 
   Tabler icons are maintained by [Paweł Kuna](https://twitter.com/codecalm).
   For all contributors see https://github.com/tabler/tabler-icons/graphs/contributors.
@@ -9527,6 +9527,41 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `baby_bottle` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.baby_bottle />
+  <TablerIcons.baby_bottle class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def baby_bottle(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M5 10h14" />
+      <path d="M12 2v2" />
+      <path d="M12 4a5 5 0 0 1 5 5v11a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-11a5 5 0 0 1 5 -5z" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `baby_carriage` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -12504,6 +12539,86 @@ defmodule TablerIcons do
       <path d="M6 10v.01" />
       <path d="M6 19v.01" />
       <path d="M3 3l18 18" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `binary_tree_2` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.binary_tree_2 />
+  <TablerIcons.binary_tree_2 class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def binary_tree_2(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M14 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M7 14a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M21 14a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M14 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M12 8v8" />
+      <path d="M6.316 12.496l4.368 -4.992" />
+      <path d="M17.684 12.496l-4.366 -4.99" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `binary_tree` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.binary_tree />
+  <TablerIcons.binary_tree class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def binary_tree(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M6 20a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M16 4a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M16 20a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M11 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M21 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M5.058 18.306l2.88 -4.606" />
+      <path d="M10.061 10.303l2.877 -4.604" />
+      <path d="M10.065 13.705l2.876 4.6" />
+      <path d="M15.063 5.7l2.881 4.61" />
     </svg>
     """
   end
@@ -17373,6 +17488,41 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `brand_cohost` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.brand_cohost />
+  <TablerIcons.brand_cohost class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def brand_cohost(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <ellipse cx="17" cy="14" rx="3" ry="2" />
+      <path d="M4.526 17.666c-1.133 -.772 -1.897 -1.924 -2.291 -3.456c-.398 -1.54 -.29 -2.937 .32 -4.19c.61 -1.255 1.59 -2.34 2.938 -3.254c1.348 -.914 2.93 -1.625 4.749 -2.132c1.81 -.504 3.516 -.708 5.12 -.61c1.608 .1 2.979 .537 4.112 1.31s1.897 1.924 2.291 3.456c.398 1.541 .29 2.938 -.32 4.192c-.61 1.253 -1.59 2.337 -2.938 3.252c-1.348 .915 -2.93 1.626 -4.749 2.133c-1.81 .503 -3.516 .707 -5.12 .61c-1.608 -.102 -2.979 -.538 -4.112 -1.31z" />
+      <path d="M10.998 12.508c-.53 -.316 -1.23 -.508 -1.998 -.508c-1.657 0 -3 .895 -3 2s1.343 2 3 2c.767 0 1.467 -.192 1.998 -.508" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `brand_coinbase` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -19409,6 +19559,41 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `brand_gumroad` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.brand_gumroad />
+  <TablerIcons.brand_gumroad class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def brand_gumroad(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z" />
+      <path d="M13.5 13h2.5v3" />
+      <path d="M15.024 9.382a4 4 0 1 0 -3.024 6.618c1.862 0 2.554 -1.278 3 -3" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `brand_headlessui` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -20815,6 +21000,39 @@ defmodule TablerIcons do
       <path d="M9.5 13c1.333 .667 3.667 .667 5 0" />
       <path d="M9.5 17l2.5 -3l2.5 3" />
       <path d="M12 13.5v.5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `brand_onedrive` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.brand_onedrive />
+  <TablerIcons.brand_onedrive class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def brand_onedrive(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M18.456 10.45a6.45 6.45 0 0 0 -11.999 -2.151a4.857 4.857 0 0 0 -4.44 5.241a4.856 4.856 0 0 0 5.236 4.444h10.751a3.771 3.771 0 0 0 3.99 -3.54a3.772 3.772 0 0 0 -3.538 -3.992z" />
     </svg>
     """
   end
@@ -23728,6 +23946,44 @@ defmodule TablerIcons do
       <path d="M12 15.96v5.04" />
       <path d="M8.5 14l-4.5 2.5" />
       <path d="M8.5 10l-4.5 -2.505" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `brand_waze` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.brand_waze />
+  <TablerIcons.brand_waze class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def brand_waze(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M6.66 17.52a7 7 0 0 1 -3.66 -4.52c2 0 3 -1 3 -2.51c0 -3.92 2.25 -7.49 7.38 -7.49c4.62 0 7.62 3.51 7.62 8a8.08 8.08 0 0 1 -3.39 6.62" />
+      <path d="M10 18.69a17.29 17.29 0 0 0 3.33 .3h.54" />
+      <circle cx="16" cy="19" r="2" />
+      <circle cx="8" cy="19" r="2" />
+      <path d="M16 9h.01" />
+      <path d="M11 9h.01" />
     </svg>
     """
   end
@@ -98532,6 +98788,560 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `topology_bus` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.topology_bus />
+  <TablerIcons.topology_bus class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def topology_bus(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M14 10a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 10a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M22 10a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M2 16h20" />
+      <path d="M4 12v4" />
+      <path d="M12 12v4" />
+      <path d="M20 12v4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `topology_complex` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.topology_complex />
+  <TablerIcons.topology_complex class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def topology_complex(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M20 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M8 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M8 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M20 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M7.5 7.5l3 3" />
+      <path d="M6 8v8" />
+      <path d="M18 16v-8" />
+      <path d="M8 6h8" />
+      <path d="M16 18h-8" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `topology_full_hierarchy` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.topology_full_hierarchy />
+  <TablerIcons.topology_full_hierarchy class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def topology_full_hierarchy(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M20 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M8 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M8 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M20 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 8v8" />
+      <path d="M18 16v-8" />
+      <path d="M8 6h8" />
+      <path d="M16 18h-8" />
+      <path d="M7.5 7.5l3 3" />
+      <path d="M13.5 13.5l3 3" />
+      <path d="M16.5 7.5l-3 3" />
+      <path d="M10.5 13.5l-3 3" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `topology_full` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.topology_full />
+  <TablerIcons.topology_full class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def topology_full(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M20 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M8 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M8 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M20 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 8v8" />
+      <path d="M18 16v-8" />
+      <path d="M8 6h8" />
+      <path d="M16 18h-8" />
+      <path d="M7.5 7.5l9 9" />
+      <path d="M7.5 16.5l9 -9" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `topology_ring_2` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.topology_ring_2 />
+  <TablerIcons.topology_ring_2 class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def topology_ring_2(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M14 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M7 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M21 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M7 18h10" />
+      <path d="M18 16l-5 -8" />
+      <path d="M11 8l-5 8" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `topology_ring_3` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.topology_ring_3 />
+  <TablerIcons.topology_ring_3 class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def topology_ring_3(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M8 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M20 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M20 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M8 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 8v8" />
+      <path d="M18 16v-8" />
+      <path d="M8 6h8" />
+      <path d="M16 18h-8" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `topology_ring` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.topology_ring />
+  <TablerIcons.topology_ring class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def topology_ring(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M14 20a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M14 4a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M22 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M13.5 5.5l5 5" />
+      <path d="M5.5 13.5l5 5" />
+      <path d="M13.5 18.5l5 -5" />
+      <path d="M10.5 5.5l-5 5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `topology_star_2` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.topology_star_2 />
+  <TablerIcons.topology_star_2 class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def topology_star_2(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M14 20a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M14 4a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M22 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 12h4" />
+      <path d="M14 12h4" />
+      <path d="M12 6v4" />
+      <path d="M12 14v4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `topology_star_3` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.topology_star_3 />
+  <TablerIcons.topology_star_3 class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def topology_star_3(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 19a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M18 5a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M10 5a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M18 19a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M22 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 12h4" />
+      <path d="M14 12h4" />
+      <path d="M15 7l-2 3" />
+      <path d="M9 7l2 3" />
+      <path d="M11 14l-2 3" />
+      <path d="M13 14l2 3" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `topology_star_ring_2` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.topology_star_ring_2 />
+  <TablerIcons.topology_star_ring_2 class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def topology_star_ring_2(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M14 20a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M14 4a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M22 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 12h4" />
+      <path d="M14 12h4" />
+      <path d="M12 6v4" />
+      <path d="M12 14v4" />
+      <path d="M5.5 10.5l5 -5" />
+      <path d="M13.5 5.5l5 5" />
+      <path d="M18.5 13.5l-5 5" />
+      <path d="M10.5 18.5l-5 -5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `topology_star_ring_3` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.topology_star_ring_3 />
+  <TablerIcons.topology_star_ring_3 class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def topology_star_ring_3(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 19a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M18 5a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M10 5a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M18 19a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M22 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 12h4" />
+      <path d="M14 12h4" />
+      <path d="M15 7l-2 3" />
+      <path d="M9 7l2 3" />
+      <path d="M11 14l-2 3" />
+      <path d="M13 14l2 3" />
+      <path d="M10 5h4" />
+      <path d="M10 19h4" />
+      <path d="M17 17l2 -3" />
+      <path d="M19 10l-2 -3" />
+      <path d="M7 7l-2 3" />
+      <path d="M5 14l2 3" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `topology_star_ring` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.topology_star_ring />
+  <TablerIcons.topology_star_ring class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def topology_star_ring(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M14 20a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M14 4a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M22 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M6 12h4" />
+      <path d="M14 12h4" />
+      <path d="M13.5 5.5l5 5" />
+      <path d="M5.5 13.5l5 5" />
+      <path d="M13.5 18.5l5 -5" />
+      <path d="M10.5 5.5l-5 5" />
+      <path d="M12 6v4" />
+      <path d="M12 14v4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `topology_star` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.topology_star />
+  <TablerIcons.topology_star class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def topology_star(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M8 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M20 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M8 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M20 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0z" />
+      <path d="M7.5 7.5l3 3" />
+      <path d="M7.5 16.5l3 -3" />
+      <path d="M13.5 13.5l3 3" />
+      <path d="M16.5 7.5l-3 3" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `torii` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -101232,6 +102042,41 @@ defmodule TablerIcons do
       <path d="M7.5 12.5l1.5 1.5" />
       <path d="M10.5 9.5l1.5 1.5" />
       <path d="M3 21l3 -3" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `vacuum_cleaner` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+  ```heex
+  <TablerIcons.vacuum_cleaner />
+  <TablerIcons.vacuum_cleaner class="w-4 h-4" />
+  ```
+  """
+  attr :rest, :global,
+    doc: "arbitrary HTML attributes for the svg container",
+    default: %{
+      width: "24",
+      height: "24",
+      viewBox: "0 0 24 24",
+      "stroke-width": "2",
+      stroke: "currentColor",
+      fill: "none",
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round"
+    }
+
+  def vacuum_cleaner(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z" />
+      <path d="M14 9a2 2 0 1 1 -4 0a2 2 0 0 1 4 0z" />
+      <path d="M12 16h.01" />
     </svg>
     """
   end
