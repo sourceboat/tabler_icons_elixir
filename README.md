@@ -1,6 +1,7 @@
 # Tabler Icons
 
 [![CI](https://github.com/sourceboat/ex_tabler_icons/actions/workflows/ci.yml/badge.svg)](https://github.com/sourceboat/ex_tabler_icons/actions/workflows/ci.yml)
+[![Hex.pm](https://img.shields.io/hexpm/v/tabler_icons.svg)](https://hex.pm/packages/tabler_icons)
 
 [Tabler Icons](https://tabler-icons.io/) are free and open source icons. This package provides Elixir functions in order to use [Tabler Icons](https://tabler-icons.io/) in your HTML, styled with arbitrary classes.
 
