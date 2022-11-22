@@ -35,10 +35,9 @@ defmodule TablerIconsTest do
              You may pass arbitrary HTML attributes to the component.
 
              ## Examples
-             ```heex
-             <TablerIcons.user />
-             <TablerIcons.user class="w-4 h-4" />
-             ```
+
+                 <TablerIcons.user />
+                 <TablerIcons.user class="w-4 h-4" />
 
              ## Attributes
 

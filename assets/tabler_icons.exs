@@ -25,10 +25,9 @@ defmodule TablerIcons do
   You may pass arbitrary HTML attributes to the component.
 
   ## Examples
-  ```heex
-  <TablerIcons.<%= func %> />
-  <TablerIcons.<%= func %> class="w-4 h-4" />
-  ```
+
+      <TablerIcons.<%= func %> />
+      <TablerIcons.<%= func %> class="w-4 h-4" />
   """
   attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: %{
     "width": "24",
