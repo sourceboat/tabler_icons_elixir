@@ -27,12 +27,12 @@ defmodule TablerIcons do
   """
 
   attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: %{
-    "width": "24",
-    "height": "24",
-    "viewBox": "0 0 24 24",
+    width: "24",
+    height: "24",
+    viewBox: "0 0 24 24",
     "stroke-width": "2",
-    "stroke": "currentColor",
-    "fill": "none",
+    stroke: "currentColor",
+    fill: "none",
     "stroke-linecap": "round",
     "stroke-linejoin": "round"
   }
@@ -54,12 +54,12 @@ defmodule TablerIcons do
       <TablerIcons.<%= func %> class="w-4 h-4" />
   """
   attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: %{
-    "width": "24",
-    "height": "24",
-    "viewBox": "0 0 24 24",
+    width: "24",
+    height: "24",
+    viewBox: "0 0 24 24",
     "stroke-width": "2",
-    "stroke": "currentColor",
-    "fill": "none",
+    stroke: "currentColor",
+    fill: "none",
     "stroke-linecap": "round",
     "stroke-linejoin": "round"
   }
