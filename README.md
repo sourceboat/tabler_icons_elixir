@@ -1,13 +1,14 @@
 # Tabler Icons
 
 [![CI](https://github.com/sourceboat/ex_tabler_icons/actions/workflows/ci.yml/badge.svg)](https://github.com/sourceboat/ex_tabler_icons/actions/workflows/ci.yml)
-[![Hex.pm](https://img.shields.io/hexpm/v/tabler_icons.svg)](https://hex.pm/packages/tabler_icons)
+[![Hex](https://img.shields.io/hexpm/v/tabler_icons.svg)](https://hex.pm/packages/tabler_icons)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-green)](https://hexdocs.pm/tabler_icons/TablerIcons.html)
 
 [Tabler Icons](https://tabler-icons.io/) are free and open source icons. This package provides Elixir functions in order to use [Tabler Icons](https://tabler-icons.io/) in your HTML, styled with arbitrary classes.
 
 This package is strongly inspired by [heroicons_elixir](https://github.com/mveytsman/heroicons_elixir).
 
-> Note: As we are dealing with over 3.000 icons and an output file with more than 100.000 lines of code, the compile time may be longer than usual.
+> Note: As we are dealing with over 3.000 icons and an output file with more than 70.000 lines of code, the compile time may be longer than usual.
 
 ## Installation
 
@@ -25,12 +26,14 @@ end
 
 ```eex
 <TablerIcons.user />
+<TablerIcons.icon name={:user} />
 ```
 
 You may pass arbitrary HTML attributes to the components:
 
 ```eex
 <TablerIcons.user class="w-2 h-2" />
+<TablerIcons.icon name={:user} class="w-2 h-2" />
 ```
 
 For additional information and list of all icons see [the docs](https://hexdocs.pm/tabler_icons/TablerIcons.html).
