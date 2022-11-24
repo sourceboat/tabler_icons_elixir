@@ -17,16 +17,7 @@ defmodule TablerIcons do
   """
   use Phoenix.Component
 
-  @doc """
-  Renders an icon dynamically.
-
-  ## Examples
-
-      <TablerIcons.icon name={:user} />
-      <TablerIcons.icon name={:user} class="w-4 h-4" />
-  """
-
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: %{
+  @default_html_attrs %{
     width: "24",
     height: "24",
     viewBox: "0 0 24 24",
@@ -36,6 +27,17 @@ defmodule TablerIcons do
     "stroke-linecap": "round",
     "stroke-linejoin": "round"
   }
+
+  @doc """
+  Renders an icon dynamically.
+
+  ## Examples
+
+      <TablerIcons.icon name={:user} />
+      <TablerIcons.icon name={:user} class="w-4 h-4" />
+  """
+
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
   attr :name, :atom, required: true, doc: "the name of the icon to be rendered"
 
   def icon(assigns) do
@@ -53,16 +55,7 @@ defmodule TablerIcons do
       <TablerIcons.<%= func %> />
       <TablerIcons.<%= func %> class="w-4 h-4" />
   """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: %{
-    width: "24",
-    height: "24",
-    viewBox: "0 0 24 24",
-    "stroke-width": "2",
-    stroke: "currentColor",
-    fill: "none",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round"
-  }
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
 
   def <%= func %>(assigns) do
     ~H"""
