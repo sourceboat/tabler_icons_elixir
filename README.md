@@ -26,12 +26,14 @@ end
 
 ```eex
 <TablerIcons.user />
+<TablerIcons.icon name={:user} />
 ```
 
 You may pass arbitrary HTML attributes to the components:
 
 ```eex
 <TablerIcons.user class="w-2 h-2" />
+<TablerIcons.icon name={:user} class="w-2 h-2" />
 ```
 
 For additional information and list of all icons see [the docs](https://hexdocs.pm/tabler_icons/TablerIcons.html).
