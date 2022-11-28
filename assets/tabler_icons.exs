@@ -10,10 +10,12 @@ defmodule TablerIcons do
   ## Usage
 
       <TablerIcons.user />
+      <TablerIcons.icon name={:user} />
 
   You may pass arbitrary HTML attributes to the component.
 
       <TablerIcons.user class="w-2 h-2" />
+      <TablerIcons.icon name={:user} class="w-2 h-2" />
   """
   use Phoenix.Component
 
