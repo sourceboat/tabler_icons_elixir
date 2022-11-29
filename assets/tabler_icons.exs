@@ -1,6 +1,6 @@
 defmodule TablerIcons do
   @moduledoc """
-  Provides precompiled icon compiles from [tabler-icons.io v<%= @version %>](tabler-icons.io).
+  Provides precompiled icon compiles from [tabler-icons.io v<%= @version %>](https://tabler-icons.io).
 
   Tabler icons are maintained by [Paweł Kuna](https://twitter.com/codecalm).
   For all contributors see https://github.com/tabler/tabler-icons/graphs/contributors.
