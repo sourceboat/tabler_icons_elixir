@@ -1,7 +1,7 @@
 defmodule TablerIcons.MixProject do
   use Mix.Project
 
-  @source_url "https://github.com/sourceboat/ex_tabler_icons"
+  @source_url "https://github.com/sourceboat/tabler_icons_elixir"
 
   defp description do
     """
@@ -14,14 +14,14 @@ defmodule TablerIcons.MixProject do
       files: ["lib", "mix.exs", "README*", "LICENSE*"],
       maintainers: ["Florian Arens", "Lennart Büttner"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/sourceboat/ex_tabler_icons"}
+      links: %{"GitHub" => @source_url}
     ]
   end
 
   def project do
     [
       app: :tabler_icons,
-      version: "0.2.2",
+      version: "0.2.3",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
