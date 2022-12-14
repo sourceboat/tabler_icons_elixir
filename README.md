@@ -49,6 +49,7 @@ We are interested in keeping the same icon names for our functions TablerIcons p
 - `24-hours` -> `twenty_four_hours`
 - `123` -> `one_two_three`
 - `360-view` -> `three_sixty_view`
+- `360` -> `three_sixty`
 
 A hyphen is replaced by an underscore automatically.
 
