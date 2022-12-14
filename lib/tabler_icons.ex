@@ -1,6 +1,6 @@
 defmodule TablerIcons do
   @moduledoc """
-  Provides precompiled icon compiles from [tabler-icons.io v1.116.0](https://tabler-icons.io).
+  Provides precompiled icon compiles from [tabler-icons.io v1.117.0](https://tabler-icons.io).
 
   Tabler icons are maintained by [Paweł Kuna](https://twitter.com/codecalm).
   For all contributors see https://github.com/tabler/tabler-icons/graphs/contributors.
@@ -139,6 +139,28 @@ defmodule TablerIcons do
       <path d="M3 5h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5" />
       <path d="M17 7v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0z" />
       <path d="M3 16c0 1.657 4.03 3 9 3s9 -1.343 9 -3" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `three_sixty` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.three_sixty />
+      <TablerIcons.three_sixty class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def three_sixty(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M16.996 15.328c2.414 -.718 4.004 -1.94 4.004 -3.328c0 -2.21 -4.03 -4 -9 -4s-9 1.79 -9 4s4.03 4 9 4" />
+      <path d="M9 13l3 3l-3 3" />
     </svg>
     """
   end
@@ -897,6 +919,30 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `alarm_minus` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.alarm_minus />
+      <TablerIcons.alarm_minus class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def alarm_minus(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <circle cx="12" cy="13" r="7" />
+      <path d="M7 4l-2.75 2" />
+      <path d="M17 4l2.75 2" />
+      <path d="M10 13h4" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `alarm_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -917,6 +963,55 @@ defmodule TablerIcons do
       <path d="M5.261 5.265l-1.011 .735" />
       <path d="M17 4l2.75 2" />
       <path d="M3 3l18 18" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `alarm_plus` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.alarm_plus />
+      <TablerIcons.alarm_plus class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def alarm_plus(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <circle cx="12" cy="13" r="7" />
+      <path d="M7 4l-2.75 2" />
+      <path d="M17 4l2.75 2" />
+      <path d="M10 13h4" />
+      <path d="M12 11v4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `alarm_snooze` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.alarm_snooze />
+      <TablerIcons.alarm_snooze class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def alarm_snooze(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <circle cx="12" cy="13" r="7" />
+      <path d="M10 11h4l-4 4h4" />
+      <path d="M7 4l-2.75 2" />
+      <path d="M17 4l2.75 2" />
     </svg>
     """
   end
@@ -22526,6 +22621,30 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `circle_key` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.circle_key />
+      <TablerIcons.circle_key class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def circle_key(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <circle cx="14" cy="10" r="2" />
+      <path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z" />
+      <path d="M12.5 11.5l-4 4l1.5 1.5" />
+      <path d="M12 15l-1.5 -1.5" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `circle_letter_a` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -32945,6 +33064,29 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `exclamation_circle` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.exclamation_circle />
+      <TablerIcons.exclamation_circle class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def exclamation_circle(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 9v4" />
+      <path d="M12 16v.01" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `exclamation_mark_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -42053,6 +42195,29 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `info_square_rounded` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.info_square_rounded />
+      <TablerIcons.info_square_rounded class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def info_square_rounded(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 8h.01" />
+      <path d="M11 12h1v4h1" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `info_square` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -45703,6 +45868,29 @@ defmodule TablerIcons do
       <rect x="5" y="11" width="14" height="10" rx="2" />
       <circle cx="12" cy="16" r="1" />
       <path d="M8 11v-5a4 4 0 0 1 8 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `lock_square_rounded` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.lock_square_rounded />
+      <TablerIcons.lock_square_rounded class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def lock_square_rounded(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+      <rect x="8" y="11" width="8" height="5" rx="1" />
+      <path d="M10 11v-2a2 2 0 1 1 4 0v2" />
     </svg>
     """
   end
@@ -55277,6 +55465,29 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `question_circle` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.question_circle />
+      <TablerIcons.question_circle class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def question_circle(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 16v.01" />
+      <path d="M12 13a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
+      <circle cx="12" cy="12" r="9" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `question_mark` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -62084,6 +62295,30 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `square_key` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_key />
+      <TablerIcons.square_key class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_key(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <circle cx="14" cy="10" r="2" />
+      <path d="M12.5 11.5l-4 4l1.5 1.5" />
+      <path d="M12 15l-1.5 -1.5" />
+      <path d="M20 6.667v10.666a2.667 2.667 0 0 1 -2.667 2.667h-10.666a2.667 2.667 0 0 1 -2.667 -2.667v-10.666a2.667 2.667 0 0 1 2.667 -2.667h10.666a2.667 2.667 0 0 1 2.667 2.667z" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `square_letter_a` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -63085,6 +63320,120 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `square_rounded_arrow_down` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rounded_arrow_down />
+      <TablerIcons.square_rounded_arrow_down class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rounded_arrow_down(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M8 12l4 4l4 -4" />
+      <path d="M12 8v8" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_rounded_arrow_left` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rounded_arrow_left />
+      <TablerIcons.square_rounded_arrow_left class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rounded_arrow_left(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 8l-4 4l4 4" />
+      <path d="M16 12h-8" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_rounded_arrow_right` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rounded_arrow_right />
+      <TablerIcons.square_rounded_arrow_right class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rounded_arrow_right(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 16l4 -4l-4 -4" />
+      <path d="M8 12h8" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_rounded_arrow_up` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rounded_arrow_up />
+      <TablerIcons.square_rounded_arrow_up class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rounded_arrow_up(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M16 12l-4 -4l-4 4" />
+      <path d="M12 16v-8" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_rounded_check` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rounded_check />
+      <TablerIcons.square_rounded_check class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rounded_check(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M9 12l2 2l4 -4" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `square_rounded_chevron_down` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -63755,6 +64104,28 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `square_rounded_minus` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rounded_minus />
+      <TablerIcons.square_rounded_minus class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rounded_minus(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M9 12h6" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `square_rounded_number_0` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -63970,6 +64341,51 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_rounded_plus` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rounded_plus />
+      <TablerIcons.square_rounded_plus class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rounded_plus(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M9 12h6" />
+      <path d="M12 9v6" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_rounded_x` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rounded_x />
+      <TablerIcons.square_rounded_x class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rounded_x(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 10l4 4m0 -4l-4 4" />
       <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
     </svg>
     """
