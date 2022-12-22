@@ -1,6 +1,6 @@
 defmodule TablerIcons do
   @moduledoc """
-  Provides precompiled icon compiles from [tabler-icons.io v1.117.0](https://tabler-icons.io).
+  Provides precompiled icon compiles from [tabler-icons.io v1.118.0](https://tabler-icons.io).
 
   Tabler icons are maintained by [Paweł Kuna](https://twitter.com/codecalm).
   For all contributors see https://github.com/tabler/tabler-icons/graphs/contributors.
@@ -18767,6 +18767,30 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `building_stadium` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.building_stadium />
+      <TablerIcons.building_stadium class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def building_stadium(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <ellipse cx="12" cy="12" rx="8" ry="2" />
+      <path d="M4 12v7c0 .94 2.51 1.785 6 2v-3h4v3c3.435 -.225 6 -1.07 6 -2v-7" />
+      <path d="M15 6h4v-3h-4v7" />
+      <path d="M7 6h4v-3h-4v7" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `building_store` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -22465,6 +22489,98 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 13l3 -3l3 3" />
       <circle cx="12" cy="12" r="9" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `circle_chevrons_down` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.circle_chevrons_down />
+      <TablerIcons.circle_chevrons_down class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def circle_chevrons_down(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M15 9l-3 3l-3 -3" />
+      <path d="M15 13l-3 3l-3 -3" />
+      <path d="M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0 -18z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `circle_chevrons_left` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.circle_chevrons_left />
+      <TablerIcons.circle_chevrons_left class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def circle_chevrons_left(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M15 15l-3 -3l3 -3" />
+      <path d="M11 15l-3 -3l3 -3" />
+      <path d="M21 12a9 9 0 1 0 -.004 .265l.004 -.265z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `circle_chevrons_right` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.circle_chevrons_right />
+      <TablerIcons.circle_chevrons_right class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def circle_chevrons_right(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M9 9l3 3l-3 3" />
+      <path d="M13 9l3 3l-3 3" />
+      <path d="M3 12a9 9 0 1 0 .004 -.265l-.004 .265z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `circle_chevrons_up` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.circle_chevrons_up />
+      <TablerIcons.circle_chevrons_up class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def circle_chevrons_up(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M9 15l3 -3l3 3" />
+      <path d="M9 11l3 -3l3 3" />
+      <path d="M12 21a9 9 0 1 0 -.265 -.004l.265 .004z" />
     </svg>
     """
   end
@@ -29730,6 +29846,29 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `device_airpods_case` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.device_airpods_case />
+      <TablerIcons.device_airpods_case class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def device_airpods_case(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M21 10h-18" />
+      <rect x="3" y="4" width="18" height="16" rx="4" />
+      <path d="M7 10v1.5a1.5 1.5 0 0 0 1.5 1.5h7a1.5 1.5 0 0 0 1.5 -1.5v-1.5" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `device_airpods` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -30089,6 +30228,79 @@ defmodule TablerIcons do
       <path d="M4 14h16" />
       <path d="M14 17v.01" />
       <path d="M17 17v.01" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `device_ipad_horizontal` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.device_ipad_horizontal />
+      <TablerIcons.device_ipad_horizontal class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def device_ipad_horizontal(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <rect x="2" y="4" width="20" height="16" rx="2" />
+      <path d="M9 17h6" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `device_ipad` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.device_ipad />
+      <TablerIcons.device_ipad class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def device_ipad(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M20 4v16a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-16a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2z" />
+      <path d="M9 19h6" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `device_landline_phone` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.device_landline_phone />
+      <TablerIcons.device_landline_phone class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def device_landline_phone(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M20 3h-2a2 2 0 0 0 -2 2v14a2 2 0 0 0 2 2h2a2 2 0 0 0 2 -2v-14a2 2 0 0 0 -2 -2z" />
+      <path d="M16 4h-11a3 3 0 0 0 -3 3v10a3 3 0 0 0 3 3h11" />
+      <path d="M12 8h-6v3h6z" />
+      <path d="M12 14v.01" />
+      <path d="M9 14v.01" />
+      <path d="M6 14v.01" />
+      <path d="M12 17v.01" />
+      <path d="M9 17v.01" />
+      <path d="M6 17v.01" />
     </svg>
     """
   end
@@ -58509,6 +58721,29 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `school_bell` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.school_bell />
+      <TablerIcons.school_bell class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def school_bell(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 17a3 3 0 0 0 3 3" />
+      <path d="M14.805 6.37l2.783 -2.784a2 2 0 1 1 2.829 2.828l-2.784 2.786" />
+      <path d="M16.505 7.495a5.105 5.105 0 0 1 .176 7.035l-.176 .184l-1.867 1.867a3.48 3.48 0 0 0 -1.013 2.234l-.008 .23v.934c0 .327 -.13 .64 -.36 .871a0.51 .51 0 0 1 -.652 .06l-.07 -.06l-9.385 -9.384a0.51 .51 0 0 1 0 -.722c.198 -.198 .456 -.322 .732 -.353l.139 -.008h.933c.848 0 1.663 -.309 2.297 -.864l.168 -.157l1.867 -1.867l.16 -.153a5.105 5.105 0 0 1 7.059 .153z" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `school_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -61962,6 +62197,98 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `square_chevrons_down` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_chevrons_down />
+      <TablerIcons.square_chevrons_down class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_chevrons_down(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M15 9l-3 3l-3 -3" />
+      <path d="M15 13l-3 3l-3 -3" />
+      <path d="M20 6.667v10.666a2.667 2.667 0 0 1 -2.667 2.667h-10.666a2.667 2.667 0 0 1 -2.667 -2.667v-10.666a2.667 2.667 0 0 1 2.667 -2.667h10.666a2.667 2.667 0 0 1 2.667 2.667z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_chevrons_left` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_chevrons_left />
+      <TablerIcons.square_chevrons_left class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_chevrons_left(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M15 15l-3 -3l3 -3" />
+      <path d="M11 15l-3 -3l3 -3" />
+      <path d="M20 6.667v10.666a2.667 2.667 0 0 1 -2.667 2.667h-10.666a2.667 2.667 0 0 1 -2.667 -2.667v-10.666a2.667 2.667 0 0 1 2.667 -2.667h10.666a2.667 2.667 0 0 1 2.667 2.667z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_chevrons_right` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_chevrons_right />
+      <TablerIcons.square_chevrons_right class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_chevrons_right(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M9 9l3 3l-3 3" />
+      <path d="M13 9l3 3l-3 3" />
+      <path d="M20 6.667v10.666a2.667 2.667 0 0 1 -2.667 2.667h-10.666a2.667 2.667 0 0 1 -2.667 -2.667v-10.666a2.667 2.667 0 0 1 2.667 -2.667h10.666a2.667 2.667 0 0 1 2.667 2.667z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_chevrons_up` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_chevrons_up />
+      <TablerIcons.square_chevrons_up class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_chevrons_up(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M9 15l3 -3l3 3" />
+      <path d="M9 11l3 -3l3 3" />
+      <path d="M20 6.667v10.666a2.667 2.667 0 0 1 -2.667 2.667h-10.666a2.667 2.667 0 0 1 -2.667 -2.667v-10.666a2.667 2.667 0 0 1 2.667 -2.667h10.666a2.667 2.667 0 0 1 2.667 2.667z" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `square_dot` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -63516,6 +63843,98 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 13l3 -3l3 3" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_rounded_chevrons_down` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rounded_chevrons_down />
+      <TablerIcons.square_rounded_chevrons_down class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rounded_chevrons_down(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M15 9l-3 3l-3 -3" />
+      <path d="M15 13l-3 3l-3 -3" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_rounded_chevrons_left` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rounded_chevrons_left />
+      <TablerIcons.square_rounded_chevrons_left class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rounded_chevrons_left(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M15 15l-3 -3l3 -3" />
+      <path d="M11 15l-3 -3l3 -3" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_rounded_chevrons_right` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rounded_chevrons_right />
+      <TablerIcons.square_rounded_chevrons_right class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rounded_chevrons_right(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M9 9l3 3l-3 3" />
+      <path d="M13 9l3 3l-3 3" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_rounded_chevrons_up` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rounded_chevrons_up />
+      <TablerIcons.square_rounded_chevrons_up class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rounded_chevrons_up(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M9 15l3 -3l3 3" />
+      <path d="M9 11l3 -3l3 3" />
       <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
     </svg>
     """
