@@ -10,24 +10,24 @@ defmodule TablerIconsTest do
 
   test "icon" do
     assert render_component(&TablerIcons.user/1, %{}) ==
-             ~s|<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" width=\"24\">\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n  <circle cx=\"12\" cy=\"7\" r=\"4\"></circle>\n  <path d=\"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2\"></path>\n</svg>|
+             ~s|<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" width=\"24\">\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n  <path d=\"M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0\"></path>\n  <path d=\"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2\"></path>\n</svg>|
 
     assert render_component(&TablerIcons.user/1, %{class: "w-2 h-2"}) ==
-             ~s|<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-2 h-2\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" width=\"24\">\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n  <circle cx=\"12\" cy=\"7\" r=\"4\"></circle>\n  <path d=\"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2\"></path>\n</svg>|
+             ~s|<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-2 h-2\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" width=\"24\">\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n  <path d=\"M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0\"></path>\n  <path d=\"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2\"></path>\n</svg>|
 
     assert render_component(&TablerIcons.user/1, %{"stroke-width": "1"}) ==
-             ~s|<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\" viewBox=\"0 0 24 24\" width=\"24\">\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n  <circle cx=\"12\" cy=\"7\" r=\"4\"></circle>\n  <path d=\"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2\"></path>\n</svg>|
+             ~s|<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\" viewBox=\"0 0 24 24\" width=\"24\">\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n  <path d=\"M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0\"></path>\n  <path d=\"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2\"></path>\n</svg>|
   end
 
   test "dynamic icon" do
     assert render_component(&TablerIcons.icon/1, %{name: :user}) ==
-             ~s|<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" width=\"24\">\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n  <circle cx=\"12\" cy=\"7\" r=\"4\"></circle>\n  <path d=\"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2\"></path>\n</svg>|
+             ~s|<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" width=\"24\">\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n  <path d=\"M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0\"></path>\n  <path d=\"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2\"></path>\n</svg>|
 
     assert render_component(&TablerIcons.icon/1, %{name: :user, class: "w-2 h-2"}) ==
-             ~s|<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-2 h-2\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" width=\"24\">\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n  <circle cx=\"12\" cy=\"7\" r=\"4\"></circle>\n  <path d=\"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2\"></path>\n</svg>|
+             ~s|<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"w-2 h-2\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\" width=\"24\">\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n  <path d=\"M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0\"></path>\n  <path d=\"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2\"></path>\n</svg>|
 
     assert render_component(&TablerIcons.icon/1, %{name: :user, "stroke-width": "1"}) ==
-             ~s|<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\" viewBox=\"0 0 24 24\" width=\"24\">\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n  <circle cx=\"12\" cy=\"7\" r=\"4\"></circle>\n  <path d=\"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2\"></path>\n</svg>|
+             ~s|<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1\" viewBox=\"0 0 24 24\" width=\"24\">\n  <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n  <path d=\"M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0\"></path>\n  <path d=\"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2\"></path>\n</svg>|
   end
 
   test "generated docs" do
