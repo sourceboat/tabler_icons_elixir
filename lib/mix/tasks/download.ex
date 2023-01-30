@@ -5,7 +5,7 @@ defmodule Mix.Tasks.Download do
   use Mix.Task
   require Logger
 
-  @version "1.119.0"
+  @version "2.1.2"
 
   @tmp_dir_name "ex-tabler-icons"
 
@@ -19,7 +19,7 @@ defmodule Mix.Tasks.Download do
 
   def run(_) do
     tmp_dir = Path.join(System.tmp_dir!(), @tmp_dir_name)
-    svg_dir = Path.join([tmp_dir, "icons"])
+    svg_dir = Path.join([tmp_dir, "svg"])
 
     File.rm_rf!(tmp_dir)
     File.mkdir_p!(tmp_dir)

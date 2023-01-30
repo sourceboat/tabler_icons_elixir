@@ -1,6 +1,6 @@
 defmodule TablerIcons do
   @moduledoc """
-  Provides precompiled icon compiles from [tabler-icons.io v1.119.0](https://tabler-icons.io).
+  Provides precompiled icon compiles from [tabler-icons.io v2.1.2](https://tabler-icons.io).
 
   Tabler icons are maintained by [Paweł Kuna](https://twitter.com/codecalm).
   For all contributors see https://github.com/tabler/tabler-icons/graphs/contributors.
@@ -112,9 +112,9 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 16h-4l3.47 -4.66a2 2 0 1 0 -3.47 -1.54" />
       <path d="M10 16v-8h4" />
-      <line x1="10" y1="12" x2="13" y2="12" />
+      <path d="M10 12l3 0" />
       <path d="M17 16v-6a2 2 0 0 1 4 0v6" />
-      <line x1="17" y1="13" x2="21" y2="13" />
+      <path d="M17 13l4 0" />
     </svg>
     """
   end
@@ -159,7 +159,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M16.996 15.328c2.414 -.718 4.004 -1.94 4.004 -3.328c0 -2.21 -4.03 -4 -9 -4s-9 1.79 -9 4s4.03 4 9 4" />
+      <path d="M17 15.328c2.414 -.718 4 -1.94 4 -3.328c0 -2.21 -4.03 -4 -9 -4s-9 1.79 -9 4s4.03 4 9 4" />
       <path d="M9 13l3 3l-3 3" />
     </svg>
     """
@@ -219,12 +219,12 @@ defmodule TablerIcons do
       <path d="M18 6.4l2 1.1v2.5" />
       <path d="M20 14v2.5l-2 1.12" />
       <path d="M14 19.9l-2 1.1l-2 -1.1" />
-      <line x1="12" y1="12" x2="14" y2="10.9" />
-      <line x1="18" y1="8.6" x2="20" y2="7.5" />
-      <line x1="12" y1="12" x2="12" y2="14.5" />
-      <line x1="12" y1="18.5" x2="12" y2="21" />
+      <path d="M12 12l2 -1.1" />
+      <path d="M18 8.6l2 -1.1" />
+      <path d="M12 12l0 2.5" />
+      <path d="M12 18.5l0 2.5" />
       <path d="M12 12l-2 -1.12" />
-      <line x1="6" y1="8.6" x2="4" y2="7.5" />
+      <path d="M6 8.6l-2 -1.1" />
     </svg>
     """
   end
@@ -321,7 +321,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 16v-5.5a2.5 2.5 0 0 1 5 0v5.5m0 -4h-5" />
-      <line x1="12" y1="6" x2="12" y2="18" />
+      <path d="M12 6l0 12" />
       <path d="M16 16v-8h3a2 2 0 0 1 0 4h-3m3 0a2 2 0 0 1 0 4h-3" />
     </svg>
     """
@@ -430,7 +430,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M14.828 9.172a4 4 0 0 1 1.172 2.828" />
       <path d="M17.657 6.343a8 8 0 0 1 1.635 8.952" />
       <path d="M9.168 14.828a4 4 0 0 1 0 -5.656" />
@@ -455,7 +455,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="12" x2="12" y2="12.01" />
+      <path d="M12 12l0 .01" />
       <path d="M14.828 9.172a4 4 0 0 1 0 5.656" />
       <path d="M17.657 6.343a8 8 0 0 1 0 11.314" />
       <path d="M9.168 14.828a4 4 0 0 1 0 -5.656" />
@@ -504,7 +504,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 16.5l2 -3l2 3m-2 -3v-2l3 -1m-6 0l3 1" />
       <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
     </svg>
@@ -621,9 +621,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M7 15v-4a2 2 0 0 1 4 0v4" />
-      <line x1="7" y1="13" x2="11" y2="13" />
+      <path d="M7 13l4 0" />
       <path d="M17 9v6h-1.5a1.5 1.5 0 1 1 1.5 -1.5" />
     </svg>
     """
@@ -674,7 +674,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z" />
       <path d="M10 16h6" />
-      <circle cx="13" cy="11" r="2" />
+      <path d="M13 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M4 8h3" />
       <path d="M4 12h3" />
       <path d="M4 16h3" />
@@ -698,15 +698,15 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="8" width="4" height="4" />
-      <line x1="6" y1="4" x2="6" y2="8" />
-      <line x1="6" y1="12" x2="6" y2="20" />
-      <rect x="10" y="14" width="4" height="4" />
-      <line x1="12" y1="4" x2="12" y2="14" />
-      <line x1="12" y1="18" x2="12" y2="20" />
-      <rect x="16" y="5" width="4" height="4" />
-      <line x1="18" y1="4" x2="18" y2="5" />
-      <line x1="18" y1="9" x2="18" y2="20" />
+      <path d="M4 8h4v4h-4z" />
+      <path d="M6 4l0 4" />
+      <path d="M6 12l0 8" />
+      <path d="M10 14h4v4h-4z" />
+      <path d="M12 4l0 10" />
+      <path d="M12 18l0 2" />
+      <path d="M16 5h4v4h-4z" />
+      <path d="M18 4l0 1" />
+      <path d="M18 9l0 11" />
     </svg>
     """
   end
@@ -727,15 +727,15 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="14" cy="6" r="2" />
-      <line x1="4" y1="6" x2="12" y2="6" />
-      <line x1="16" y1="6" x2="20" y2="6" />
-      <circle cx="8" cy="12" r="2" />
-      <line x1="4" y1="12" x2="6" y2="12" />
-      <line x1="10" y1="12" x2="20" y2="12" />
-      <circle cx="17" cy="18" r="2" />
-      <line x1="4" y1="18" x2="15" y2="18" />
-      <line x1="19" y1="18" x2="20" y2="18" />
+      <path d="M14 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M4 6l8 0" />
+      <path d="M16 6l4 0" />
+      <path d="M8 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M4 12l2 0" />
+      <path d="M10 12l10 0" />
+      <path d="M17 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M4 18l11 0" />
+      <path d="M19 18l1 0" />
     </svg>
     """
   end
@@ -756,14 +756,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="10" r="2" />
+      <path d="M6 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M6 6v2" />
       <path d="M6 12v8" />
-      <circle cx="12" cy="16" r="2" />
+      <path d="M12 16m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M12 4v4" />
       <path d="M12 12v2" />
       <path d="M12 18v2" />
-      <circle cx="18" cy="7" r="2" />
+      <path d="M18 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M18 4v1" />
       <path d="M18 9v5" />
       <path d="M18 18v2" />
@@ -788,15 +788,15 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="10" r="2" />
-      <line x1="6" y1="4" x2="6" y2="8" />
-      <line x1="6" y1="12" x2="6" y2="20" />
-      <circle cx="12" cy="16" r="2" />
-      <line x1="12" y1="4" x2="12" y2="14" />
-      <line x1="12" y1="18" x2="12" y2="20" />
-      <circle cx="18" cy="7" r="2" />
-      <line x1="18" y1="4" x2="18" y2="5" />
-      <line x1="18" y1="9" x2="18" y2="20" />
+      <path d="M6 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M6 4l0 4" />
+      <path d="M6 12l0 8" />
+      <path d="M12 16m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M12 4l0 10" />
+      <path d="M12 18l0 2" />
+      <path d="M18 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 4l0 1" />
+      <path d="M18 9l0 11" />
     </svg>
     """
   end
@@ -840,10 +840,10 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" />
       <path d="M11.683 12.317l5.759 -5.759" />
-      <circle cx="5.5" cy="5.5" r="1.5" />
-      <circle cx="18.5" cy="5.5" r="1.5" />
-      <circle cx="18.5" cy="18.5" r="1.5" />
-      <circle cx="8.5" cy="15.5" r="4.5" />
+      <path d="M5.5 5.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+      <path d="M18.5 5.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+      <path d="M18.5 18.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+      <path d="M8.5 15.5m-4.5 0a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0" />
     </svg>
     """
   end
@@ -864,9 +864,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="10" y="19" width="4" height="3" rx="1" />
+      <path d="M10 19m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
       <path d="M12 16c3.314 0 6 -4.686 6 -8a6 6 0 1 0 -12 0c0 3.314 2.686 8 6 8z" />
-      <ellipse cx="12" cy="9" rx="2" ry="7" />
+      <path d="M12 9m-2 0a2 7 0 1 0 4 0a2 7 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -887,7 +887,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="8" width="18" height="8" rx="2" />
+      <path d="M3 8m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M7 16v-3a1 1 0 0 1 1 -1h8a1 1 0 0 1 1 1v3" />
     </svg>
     """
@@ -912,7 +912,7 @@ defmodule TablerIcons do
       <path d="M8 16a3 3 0 0 1 -3 3" />
       <path d="M16 16a3 3 0 0 0 3 3" />
       <path d="M12 16v4" />
-      <rect x="3" y="5" width="18" height="8" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M7 13v-3a1 1 0 0 1 1 -1h8a1 1 0 0 1 1 1v3" />
     </svg>
     """
@@ -934,7 +934,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="13" r="7" />
+      <path d="M12 13m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M7 4l-2.75 2" />
       <path d="M17 4l2.75 2" />
       <path d="M10 13h4" />
@@ -983,7 +983,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="13" r="7" />
+      <path d="M12 13m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M7 4l-2.75 2" />
       <path d="M17 4l2.75 2" />
       <path d="M10 13h4" />
@@ -1008,7 +1008,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="13" r="7" />
+      <path d="M12 13m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M10 11h4l-4 4h4" />
       <path d="M7 4l-2.75 2" />
       <path d="M17 4l2.75 2" />
@@ -1032,10 +1032,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="13" r="7" />
-      <polyline points="12 10 12 13 14 13" />
-      <line x1="7" y1="4" x2="4.25" y2="6" />
-      <line x1="17" y1="4" x2="19.75" y2="6" />
+      <path d="M12 13m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+      <path d="M12 10l0 3l2 0" />
+      <path d="M7 4l-2.75 2" />
+      <path d="M17 4l2.75 2" />
     </svg>
     """
   end
@@ -1079,7 +1079,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M12 4v7l2 -2l2 2v-7" />
     </svg>
     """
@@ -1101,9 +1101,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="12" y1="8" x2="12" y2="12" />
-      <line x1="12" y1="16" x2="12.01" y2="16" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 8l0 4" />
+      <path d="M12 16l.01 0" />
     </svg>
     """
   end
@@ -1125,8 +1125,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8.7 3h6.6c.3 0 .5 .1 .7 .3l4.7 4.7c.2 .2 .3 .4 .3 .7v6.6c0 .3 -.1 .5 -.3 .7l-4.7 4.7c-.2 .2 -.4 .3 -.7 .3h-6.6c-.3 0 -.5 -.1 -.7 -.3l-4.7 -4.7c-.2 -.2 -.3 -.4 -.3 -.7v-6.6c0 -.3 .1 -.5 .3 -.7l4.7 -4.7c.2 -.2 .4 -.3 .7 -.3z" />
-      <line x1="12" y1="8" x2="12" y2="12" />
-      <line x1="12" y1="16" x2="12.01" y2="16" />
+      <path d="M12 8l0 4" />
+      <path d="M12 16l.01 0" />
     </svg>
     """
   end
@@ -1171,8 +1171,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11 17a2.5 2.5 0 0 0 2 0" />
       <path d="M12 3c-4.664 0 -7.396 2.331 -7.862 5.595a11.816 11.816 0 0 0 2 8.592a10.777 10.777 0 0 0 3.199 3.064c1.666 1 3.664 1 5.33 0a10.777 10.777 0 0 0 3.199 -3.064a11.89 11.89 0 0 0 2 -8.592c-.466 -3.265 -3.198 -5.595 -7.862 -5.595z" />
-      <line x1="8" y1="11" x2="10" y2="13" />
-      <line x1="16" y1="11" x2="14" y2="13" />
+      <path d="M8 11l2 2" />
+      <path d="M16 11l-2 2" />
     </svg>
     """
   end
@@ -1193,7 +1193,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M9 15v2" />
       <path d="M12 11v6" />
       <path d="M15 13v4" />
@@ -1217,7 +1217,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M7 15v2" />
       <path d="M10 11v6" />
       <path d="M13 13v4" />
@@ -1241,7 +1241,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M11 15v2" />
       <path d="M14 11v6" />
       <path d="M17 13v4" />
@@ -1481,9 +1481,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="6" x2="20" y2="6" />
-      <line x1="8" y1="12" x2="16" y2="12" />
-      <line x1="6" y1="18" x2="18" y2="18" />
+      <path d="M4 6l16 0" />
+      <path d="M8 12l8 0" />
+      <path d="M6 18l12 0" />
     </svg>
     """
   end
@@ -1504,9 +1504,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="6" x2="20" y2="6" />
-      <line x1="4" y1="12" x2="20" y2="12" />
-      <line x1="4" y1="18" x2="16" y2="18" />
+      <path d="M4 6l16 0" />
+      <path d="M4 12l16 0" />
+      <path d="M4 18l12 0" />
     </svg>
     """
   end
@@ -1527,9 +1527,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="6" x2="20" y2="6" />
-      <line x1="4" y1="12" x2="14" y2="12" />
-      <line x1="4" y1="18" x2="18" y2="18" />
+      <path d="M4 6l16 0" />
+      <path d="M4 12l10 0" />
+      <path d="M4 18l14 0" />
     </svg>
     """
   end
@@ -1550,9 +1550,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="6" x2="20" y2="6" />
-      <line x1="10" y1="12" x2="20" y2="12" />
-      <line x1="6" y1="18" x2="20" y2="18" />
+      <path d="M4 6l16 0" />
+      <path d="M10 12l10 0" />
+      <path d="M6 18l14 0" />
     </svg>
     """
   end
@@ -1617,7 +1617,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 10v7" />
-      <rect x="5" y="10" width="5" height="7" rx="2" />
+      <path d="M5 10m0 2a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2z" />
       <path d="M14 20v-11a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2" />
     </svg>
     """
@@ -1641,7 +1641,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 10h2a2 2 0 0 1 2 2v5h-3a2 2 0 1 1 0 -4h3" />
       <path d="M14 7v10" />
-      <rect x="14" y="10" width="5" height="7" rx="2" />
+      <path d="M14 10m0 2a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -1662,8 +1662,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="17" r="2" />
-      <circle cx="17" cy="17" r="2" />
+      <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
       <path d="M6 10h4m-2 -2v4" />
     </svg>
@@ -1710,7 +1710,7 @@ defmodule TablerIcons do
       <path d="M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.086 8.086 0 0 0 -4.31 .62m-2.383 1.608a8.089 8.089 0 0 0 -1.326 1.69" />
       <path d="M4 13a8.1 8.1 0 0 0 13.687 4.676" />
       <path d="M20 16a1 1 0 0 0 -1 -1" />
-      <circle cx="5" cy="8" r="1" />
+      <path d="M5 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M9.888 9.87a3 3 0 1 0 4.233 4.252m.595 -3.397a3.012 3.012 0 0 0 -1.426 -1.435" />
       <path d="M3 3l18 18" />
     </svg>
@@ -1734,10 +1734,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M20 11a8.1 8.1 0 0 0 -6.986 -6.918a8.095 8.095 0 0 0 -8.019 3.918" />
-      <path d="M4 13a8.1 8.1 0 0 0 15.001 2.998" />
-      <circle cx="19" cy="16" r="1" />
-      <circle cx="5" cy="8" r="1" />
-      <circle cx="12" cy="12" r="3" />
+      <path d="M4 13a8.1 8.1 0 0 0 15 3" />
+      <path d="M19 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M5 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -1762,7 +1762,7 @@ defmodule TablerIcons do
       <path d="M4 13a8 8 0 0 0 14.138 5.13m1.44 -2.56a7.99 7.99 0 0 0 .422 -2.57" />
       <path d="M21 13h-2" />
       <path d="M5 13h-2" />
-      <path d="M12.866 8.873a3.001 3.001 0 1 0 -3.737 -3.747" />
+      <path d="M12.866 8.873a3 3 0 1 0 -3.737 -3.747" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -1785,7 +1785,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 9v12m-8 -8a8 8 0 0 0 16 0m1 0h-2m-14 0h-2" />
-      <circle cx="12" cy="6" r="3" />
+      <path d="M12 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -1853,10 +1853,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="6" y1="18" x2="6" y2="18.01" />
-      <line x1="10" y1="18" x2="10" y2="18.01" />
-      <line x1="14" y1="18" x2="14" y2="18.01" />
-      <line x1="18" y1="18" x2="18" y2="18.01" />
+      <path d="M6 18l0 .01" />
+      <path d="M10 18l0 .01" />
+      <path d="M14 18l0 .01" />
+      <path d="M18 18l0 .01" />
     </svg>
     """
   end
@@ -1877,10 +1877,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="6" y1="18" x2="6" y2="15" />
-      <line x1="10" y1="18" x2="10" y2="18.01" />
-      <line x1="14" y1="18" x2="14" y2="18.01" />
-      <line x1="18" y1="18" x2="18" y2="18.01" />
+      <path d="M6 18l0 -3" />
+      <path d="M10 18l0 .01" />
+      <path d="M14 18l0 .01" />
+      <path d="M18 18l0 .01" />
     </svg>
     """
   end
@@ -1901,10 +1901,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="6" y1="18" x2="6" y2="15" />
-      <line x1="10" y1="18" x2="10" y2="12" />
-      <line x1="14" y1="18" x2="14" y2="18.01" />
-      <line x1="18" y1="18" x2="18" y2="18.01" />
+      <path d="M6 18l0 -3" />
+      <path d="M10 18l0 -6" />
+      <path d="M14 18l0 .01" />
+      <path d="M18 18l0 .01" />
     </svg>
     """
   end
@@ -1925,10 +1925,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="6" y1="18" x2="6" y2="15" />
-      <line x1="10" y1="18" x2="10" y2="12" />
-      <line x1="14" y1="18" x2="14" y2="9" />
-      <line x1="18" y1="18" x2="18" y2="18.01" />
+      <path d="M6 18l0 -3" />
+      <path d="M10 18l0 -6" />
+      <path d="M14 18l0 -9" />
+      <path d="M18 18l0 .01" />
     </svg>
     """
   end
@@ -1949,10 +1949,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="6" y1="18" x2="6" y2="15" />
-      <line x1="10" y1="18" x2="10" y2="12" />
-      <line x1="14" y1="18" x2="14" y2="9" />
-      <line x1="18" y1="18" x2="18" y2="6" />
+      <path d="M6 18l0 -3" />
+      <path d="M10 18l0 -6" />
+      <path d="M14 18l0 -9" />
+      <path d="M18 18l0 -12" />
     </svg>
     """
   end
@@ -2079,7 +2079,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M3.6 15h10.55" />
       <path d="M6.551 4.938l3.26 10.034" />
       <path d="M17.032 4.636l-8.535 6.201" />
@@ -2203,7 +2203,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M6 8h.01" />
       <path d="M9 8h.01" />
     </svg>
@@ -2226,7 +2226,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="14" r="7" />
+      <path d="M12 14m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M12 11v-6a2 2 0 0 1 2 -2h2v1a2 2 0 0 1 -2 2h-2" />
       <path d="M10 10.5c1.333 .667 2.667 .667 4 0" />
     </svg>
@@ -2249,9 +2249,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8 4h1a1 1 0 0 1 1 1v1m-.29 3.704a0.997 .997 0 0 1 -.71 .296h-4a1 1 0 0 1 -1 -1v-4c0 -.276 .111 -.525 .292 -.706" />
-      <path d="M18 14h1a1 1 0 0 1 1 1v1m-.29 3.704a0.997 .997 0 0 1 -.71 .296h-4a1 1 0 0 1 -1 -1v-4c0 -.276 .111 -.525 .292 -.706" />
-      <rect x="4" y="14" width="6" height="6" rx="1" />
+      <path d="M8 4h1a1 1 0 0 1 1 1v1m-.29 3.704a1 1 0 0 1 -.71 .296h-4a1 1 0 0 1 -1 -1v-4c0 -.276 .111 -.525 .292 -.706" />
+      <path d="M18 14h1a1 1 0 0 1 1 1v1m-.29 3.704a1 1 0 0 1 -.71 .296h-4a1 1 0 0 1 -1 -1v-4c0 -.276 .111 -.525 .292 -.706" />
+      <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
       <path d="M14 7h6" />
       <path d="M17 4v6" />
       <path d="M3 3l18 18" />
@@ -2275,11 +2275,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="6" height="6" rx="1" />
-      <rect x="4" y="14" width="6" height="6" rx="1" />
-      <rect x="14" y="14" width="6" height="6" rx="1" />
-      <line x1="14" y1="7" x2="20" y2="7" />
-      <line x1="17" y1="4" x2="17" y2="10" />
+      <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M14 7l6 0" />
+      <path d="M17 4l0 6" />
     </svg>
     """
   end
@@ -2324,9 +2324,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="4" width="18" height="4" rx="2" />
+      <path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-      <line x1="10" y1="12" x2="14" y2="12" />
+      <path d="M10 12l4 0" />
     </svg>
     """
   end
@@ -2348,7 +2348,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 10v-4a3 3 0 0 1 .128 -.869m2.038 -2.013c.264 -.078 .544 -.118 .834 -.118h8a3 3 0 0 1 3 3v4" />
-      <path d="M16.124 12.145a3.001 3.001 0 1 1 3.756 3.724m-.88 3.131h-14v-3a3 3 0 1 1 3 -3v2" />
+      <path d="M16.124 12.145a3 3 0 1 1 3.756 3.724m-.88 3.131h-14v-3a3 3 0 1 1 3 -3v2" />
       <path d="M8 12h4" />
       <path d="M7 19v2" />
       <path d="M17 19v2" />
@@ -2449,7 +2449,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 4l-3 3l3 3" />
       <path d="M18 4l3 3l-3 3" />
-      <rect x="4" y="14" width="16" height="6" rx="2" />
+      <path d="M4 14m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 7h-7" />
       <path d="M21 7h-7" />
     </svg>
@@ -2740,10 +2740,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="20" x2="12" y2="10" />
-      <line x1="12" y1="20" x2="16" y2="16" />
-      <line x1="12" y1="20" x2="8" y2="16" />
-      <line x1="4" y1="4" x2="20" y2="4" />
+      <path d="M12 20l0 -10" />
+      <path d="M12 20l4 -4" />
+      <path d="M12 20l-4 -4" />
+      <path d="M4 4l16 0" />
     </svg>
     """
   end
@@ -2764,10 +2764,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="12" x2="14" y2="12" />
-      <line x1="4" y1="12" x2="8" y2="16" />
-      <line x1="4" y1="12" x2="8" y2="8" />
-      <line x1="20" y1="4" x2="20" y2="20" />
+      <path d="M4 12l10 0" />
+      <path d="M4 12l4 4" />
+      <path d="M4 12l4 -4" />
+      <path d="M20 4l0 16" />
     </svg>
     """
   end
@@ -2788,10 +2788,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="20" y1="12" x2="10" y2="12" />
-      <line x1="20" y1="12" x2="16" y2="16" />
-      <line x1="20" y1="12" x2="16" y2="8" />
-      <line x1="4" y1="4" x2="4" y2="20" />
+      <path d="M20 12l-10 0" />
+      <path d="M20 12l-4 4" />
+      <path d="M20 12l-4 -4" />
+      <path d="M4 4l0 16" />
     </svg>
     """
   end
@@ -2812,10 +2812,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="20" x2="20" y2="20" />
-      <line x1="12" y1="14" x2="12" y2="4" />
-      <line x1="12" y1="14" x2="16" y2="10" />
-      <line x1="12" y1="14" x2="8" y2="10" />
+      <path d="M4 20l16 0" />
+      <path d="M12 14l0 -10" />
+      <path d="M12 14l4 -4" />
+      <path d="M12 14l-4 -4" />
     </svg>
     """
   end
@@ -2836,10 +2836,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="10" y1="12" x2="20" y2="12" />
-      <line x1="10" y1="12" x2="14" y2="16" />
-      <line x1="10" y1="12" x2="14" y2="8" />
-      <line x1="4" y1="4" x2="4" y2="20" />
+      <path d="M10 12l10 0" />
+      <path d="M10 12l4 4" />
+      <path d="M10 12l4 -4" />
+      <path d="M4 4l0 16" />
     </svg>
     """
   end
@@ -2860,10 +2860,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="14" y1="12" x2="4" y2="12" />
-      <line x1="14" y1="12" x2="10" y2="16" />
-      <line x1="14" y1="12" x2="10" y2="8" />
-      <line x1="20" y1="4" x2="20" y2="20" />
+      <path d="M14 12l-10 0" />
+      <path d="M14 12l-4 4" />
+      <path d="M14 12l-4 -4" />
+      <path d="M20 4l0 16" />
     </svg>
     """
   end
@@ -2884,10 +2884,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="10" x2="12" y2="20" />
-      <line x1="12" y1="10" x2="16" y2="14" />
-      <line x1="12" y1="10" x2="8" y2="14" />
-      <line x1="4" y1="4" x2="20" y2="4" />
+      <path d="M12 10l0 10" />
+      <path d="M12 10l4 4" />
+      <path d="M12 10l-4 4" />
+      <path d="M4 4l16 0" />
     </svg>
     """
   end
@@ -2908,10 +2908,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="4" x2="12" y2="14" />
-      <line x1="12" y1="4" x2="16" y2="8" />
-      <line x1="12" y1="4" x2="8" y2="8" />
-      <line x1="4" y1="20" x2="20" y2="20" />
+      <path d="M12 4l0 10" />
+      <path d="M12 4l4 4" />
+      <path d="M12 4l-4 4" />
+      <path d="M4 20l16 0" />
     </svg>
     """
   end
@@ -3007,6 +3007,55 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `arrow_big_down_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.arrow_big_down_filled />
+      <TablerIcons.arrow_big_down_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def arrow_big_down_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M15 4v8h3.586a1 1 0 0 1 .707 1.707l-6.586 6.586a1 1 0 0 1 -1.414 0l-6.586 -6.586a1 1 0 0 1 .707 -1.707h3.586v-8a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1z"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `arrow_big_down_line_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.arrow_big_down_line_filled />
+      <TablerIcons.arrow_big_down_line_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def arrow_big_down_line_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M15 12h3.586a1 1 0 0 1 .707 1.707l-6.586 6.586a1 1 0 0 1 -1.414 0l-6.586 -6.586a1 1 0 0 1 .707 -1.707h3.586v-6h6v6z"
+        fill="currentColor"
+      />
+      <path d="M15 3h-6" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `arrow_big_down_line` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -3024,6 +3073,32 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 12h3.586a1 1 0 0 1 .707 1.707l-6.586 6.586a1 1 0 0 1 -1.414 0l-6.586 -6.586a1 1 0 0 1 .707 -1.707h3.586v-6h6v6z" />
       <path d="M15 3h-6" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `arrow_big_down_lines_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.arrow_big_down_lines_filled />
+      <TablerIcons.arrow_big_down_lines_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def arrow_big_down_lines_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M15 12h3.586a1 1 0 0 1 .707 1.707l-6.586 6.586a1 1 0 0 1 -1.414 0l-6.586 -6.586a1 1 0 0 1 .707 -1.707h3.586v-3h6v3z"
+        fill="currentColor"
+      />
+      <path d="M15 3h-6" />
+      <path d="M15 6h-6" />
     </svg>
     """
   end
@@ -3073,6 +3148,55 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `arrow_big_left_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.arrow_big_left_filled />
+      <TablerIcons.arrow_big_left_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def arrow_big_left_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M20 15h-8v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h8a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1z"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `arrow_big_left_line_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.arrow_big_left_line_filled />
+      <TablerIcons.arrow_big_left_line_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def arrow_big_left_line_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 15v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h6v6h-6z"
+        fill="currentColor"
+      />
+      <path d="M21 15v-6" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `arrow_big_left_line` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -3090,6 +3214,32 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 15v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h6v6h-6z" />
       <path d="M21 15v-6" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `arrow_big_left_lines_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.arrow_big_left_lines_filled />
+      <TablerIcons.arrow_big_left_lines_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def arrow_big_left_lines_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 15v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h3v6h-3z"
+        fill="currentColor"
+      />
+      <path d="M21 15v-6" />
+      <path d="M18 15v-6" />
     </svg>
     """
   end
@@ -3139,6 +3289,55 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `arrow_big_right_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.arrow_big_right_filled />
+      <TablerIcons.arrow_big_right_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def arrow_big_right_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M4 9h8v-3.586a1 1 0 0 1 1.707 -.707l6.586 6.586a1 1 0 0 1 0 1.414l-6.586 6.586a1 1 0 0 1 -1.707 -.707v-3.586h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1z"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `arrow_big_right_line_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.arrow_big_right_line_filled />
+      <TablerIcons.arrow_big_right_line_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def arrow_big_right_line_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 9v-3.586a1 1 0 0 1 1.707 -.707l6.586 6.586a1 1 0 0 1 0 1.414l-6.586 6.586a1 1 0 0 1 -1.707 -.707v-3.586h-6v-6h6z"
+        fill="currentColor"
+      />
+      <path d="M3 15v-6" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `arrow_big_right_line` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -3156,6 +3355,32 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 9v-3.586a1 1 0 0 1 1.707 -.707l6.586 6.586a1 1 0 0 1 0 1.414l-6.586 6.586a1 1 0 0 1 -1.707 -.707v-3.586h-6v-6h6z" />
       <path d="M3 9v6" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `arrow_big_right_lines_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.arrow_big_right_lines_filled />
+      <TablerIcons.arrow_big_right_lines_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def arrow_big_right_lines_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 9v-3.586a1 1 0 0 1 1.707 -.707l6.586 6.586a1 1 0 0 1 0 1.414l-6.586 6.586a1 1 0 0 1 -1.707 -.707v-3.586h-3v-6h3z"
+        fill="currentColor"
+      />
+      <path d="M3 9v6" />
+      <path d="M6 9v6" />
     </svg>
     """
   end
@@ -3205,22 +3430,50 @@ defmodule TablerIcons do
   end
 
   @doc """
-  Renders the `arrow_big_top` icon.
+  Renders the `arrow_big_up_filled` icon.
 
   You may pass arbitrary HTML attributes to the component.
 
   ## Examples
 
-      <TablerIcons.arrow_big_top />
-      <TablerIcons.arrow_big_top class="w-4 h-4" />
+      <TablerIcons.arrow_big_up_filled />
+      <TablerIcons.arrow_big_up_filled class="w-4 h-4" />
   """
   attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
 
-  def arrow_big_top(assigns) do
+  def arrow_big_up_filled(assigns) do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M9 20v-8h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v8a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path
+        d="M9 20v-8h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v8a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `arrow_big_up_line_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.arrow_big_up_line_filled />
+      <TablerIcons.arrow_big_up_line_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def arrow_big_up_line_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"
+        fill="currentColor"
+      />
+      <path d="M9 21h6" />
     </svg>
     """
   end
@@ -3248,6 +3501,32 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `arrow_big_up_lines_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.arrow_big_up_lines_filled />
+      <TablerIcons.arrow_big_up_lines_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def arrow_big_up_lines_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v3h-6v-3z"
+        fill="currentColor"
+      />
+      <path d="M9 21h6" />
+      <path d="M9 18h6" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `arrow_big_up_lines` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -3266,6 +3545,27 @@ defmodule TablerIcons do
       <path d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v3h-6v-3z" />
       <path d="M9 21h6" />
       <path d="M9 18h6" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `arrow_big_up` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.arrow_big_up />
+      <TablerIcons.arrow_big_up class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def arrow_big_up(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M9 20v-8h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v8a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -3376,10 +3676,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="8" y1="12" x2="12" y2="16" />
-      <line x1="12" y1="8" x2="12" y2="16" />
-      <line x1="16" y1="12" x2="12" y2="16" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M8 12l4 4" />
+      <path d="M12 8l0 8" />
+      <path d="M16 12l-4 4" />
     </svg>
     """
   end
@@ -3400,9 +3700,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="15" y1="9" x2="9" y2="15" />
-      <polyline points="15 15 9 15 9 9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M15 9l-6 6" />
+      <path d="M15 15l-6 0l0 -6" />
     </svg>
     """
   end
@@ -3423,8 +3723,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="17" y1="7" x2="7" y2="17" />
-      <polyline points="16 17 7 17 7 8" />
+      <path d="M17 7l-10 10" />
+      <path d="M16 17l-9 0l0 -9" />
     </svg>
     """
   end
@@ -3468,9 +3768,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="15" y1="15" x2="9" y2="15" />
-      <polyline points="15 9 15 15 9 9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M15 15l-6 0" />
+      <path d="M15 9l0 6l-6 -6" />
     </svg>
     """
   end
@@ -3491,8 +3791,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="7" y1="7" x2="17" y2="17" />
-      <polyline points="17 8 17 17 8 17" />
+      <path d="M7 7l10 10" />
+      <path d="M17 8l0 9l-9 0" />
     </svg>
     """
   end
@@ -3559,9 +3859,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="5" x2="12" y2="19" />
-      <line x1="18" y1="13" x2="12" y2="19" />
-      <line x1="6" y1="13" x2="12" y2="19" />
+      <path d="M12 5l0 14" />
+      <path d="M18 13l-6 6" />
+      <path d="M6 13l6 6" />
     </svg>
     """
   end
@@ -3648,7 +3948,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="19" r="2" />
+      <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M7 19h3a2 2 0 0 0 2 -2v-8a2 2 0 0 1 2 -2h7" />
       <path d="M18 4l3 3l-3 3" />
     </svg>
@@ -3719,7 +4019,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M17 12h-14" />
       <path d="M6 9l-3 3l3 3" />
-      <circle cx="19" cy="12" r="2" />
+      <path d="M19 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -3833,9 +4133,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="5" y1="12" x2="19" y2="12" />
-      <line x1="5" y1="12" x2="11" y2="18" />
-      <line x1="5" y1="12" x2="11" y2="6" />
+      <path d="M5 12l14 0" />
+      <path d="M5 12l6 6" />
+      <path d="M5 12l6 -6" />
     </svg>
     """
   end
@@ -4039,7 +4339,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 11v10" />
       <path d="M9 18l3 3l3 -3" />
-      <circle cx="12" cy="5" r="2" />
+      <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -4129,9 +4429,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="5" x2="12" y2="19" />
-      <line x1="16" y1="15" x2="12" y2="19" />
-      <line x1="8" y1="15" x2="12" y2="19" />
+      <path d="M12 5l0 14" />
+      <path d="M16 15l-4 4" />
+      <path d="M8 15l4 4" />
     </svg>
     """
   end
@@ -4152,9 +4452,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="5" y1="12" x2="19" y2="12" />
-      <line x1="5" y1="12" x2="9" y2="16" />
-      <line x1="5" y1="12" x2="9" y2="8" />
+      <path d="M5 12l14 0" />
+      <path d="M5 12l4 4" />
+      <path d="M5 12l4 -4" />
     </svg>
     """
   end
@@ -4175,9 +4475,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="5" y1="12" x2="19" y2="12" />
-      <line x1="15" y1="16" x2="19" y2="12" />
-      <line x1="15" y1="8" x2="19" y2="12" />
+      <path d="M5 12l14 0" />
+      <path d="M15 16l4 -4" />
+      <path d="M15 8l4 4" />
     </svg>
     """
   end
@@ -4198,9 +4498,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="5" x2="12" y2="19" />
-      <line x1="16" y1="9" x2="12" y2="5" />
-      <line x1="8" y1="9" x2="12" y2="5" />
+      <path d="M12 5l0 14" />
+      <path d="M16 9l-4 -4" />
+      <path d="M8 9l4 -4" />
     </svg>
     """
   end
@@ -4267,7 +4567,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="17" y1="3" x2="17" y2="11.707" />
+      <path d="M17 3l0 8.707" />
       <path d="M13 7l4 -4l4 4" />
       <path d="M7 14l-4 -4l4 -4" />
       <path d="M17 21a11 11 0 0 0 -11 -11h-3" />
@@ -4337,7 +4637,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="7" y1="3" x2="7" y2="11.707" />
+      <path d="M7 3l0 8.707" />
       <path d="M11 7l-4 -4l-4 4" />
       <path d="M17 14l4 -4l-4 -4" />
       <path d="M7 21a11 11 0 0 1 11 -11h3" />
@@ -4385,7 +4685,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M18 15l3 -3l-3 -3" />
-      <circle cx="5" cy="12" r="2" />
+      <path d="M5 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M7 12h14" />
     </svg>
     """
@@ -4430,7 +4730,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="7" y1="12" x2="21" y2="12" />
+      <path d="M7 12l14 0" />
       <path d="M18 15l3 -3l-3 -3" />
       <path d="M3 10h4v4h-4z" />
     </svg>
@@ -4455,7 +4755,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M18 15l3 -3l-3 -3" />
       <path d="M3 15l3 -3l-3 -3" />
-      <line x1="6" y1="12" x2="21" y2="12" />
+      <path d="M6 12l15 0" />
     </svg>
     """
   end
@@ -4476,9 +4776,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="5" y1="12" x2="19" y2="12" />
-      <line x1="13" y1="18" x2="19" y2="12" />
-      <line x1="13" y1="6" x2="19" y2="12" />
+      <path d="M5 12l14 0" />
+      <path d="M13 18l6 -6" />
+      <path d="M13 6l6 6" />
     </svg>
     """
   end
@@ -4523,7 +4823,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="8" cy="7" r="3" />
+      <path d="M8 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M8 10v10" />
       <path d="M10.5 9.5l8.5 8.5" />
       <path d="M14 18h5v-5" />
@@ -4571,7 +4871,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="9" cy="12" r="3" />
+      <path d="M9 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M9 15v6" />
       <path d="M11.5 9.5l6.5 -6.5" />
       <path d="M13 3h5v5" />
@@ -4619,7 +4919,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="8" cy="7" r="3" />
+      <path d="M8 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M8 10v10" />
       <path d="M17 11l4 -4l-4 -4" />
       <path d="M11 7h10" />
@@ -4643,7 +4943,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="13" cy="13" r="3" />
+      <path d="M13 13m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M13 16v5" />
       <path d="M13 3v7" />
       <path d="M9 7l4 -4l4 4" />
@@ -4755,9 +5055,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="21" x2="12" y2="3" />
+      <path d="M12 21l0 -18" />
       <path d="M15 6l-3 -3l-3 3" />
-      <line x1="9" y1="21" x2="15" y2="21" />
+      <path d="M9 21l6 0" />
     </svg>
     """
   end
@@ -4778,10 +5078,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="12" y1="8" x2="8" y2="12" />
-      <line x1="12" y1="8" x2="12" y2="16" />
-      <line x1="16" y1="12" x2="12" y2="8" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 8l-4 4" />
+      <path d="M12 8l0 8" />
+      <path d="M16 12l-4 -4" />
     </svg>
     """
   end
@@ -4802,9 +5102,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="9" x2="15" y2="15" />
-      <polyline points="15 9 9 9 9 15" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 9l6 6" />
+      <path d="M15 9l-6 0l0 6" />
     </svg>
     """
   end
@@ -4825,8 +5125,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="7" y1="7" x2="17" y2="17" />
-      <polyline points="16 7 7 7 7 16" />
+      <path d="M7 7l10 10" />
+      <path d="M16 7l-9 0l0 9" />
     </svg>
     """
   end
@@ -4870,9 +5170,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="15" y1="9" x2="9" y2="15" />
-      <polyline points="15 15 15 9 9 9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M15 9l-6 6" />
+      <path d="M15 15l0 -6l-6 0" />
     </svg>
     """
   end
@@ -4893,8 +5193,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="17" y1="7" x2="7" y2="17" />
-      <polyline points="8 7 17 7 17 16" />
+      <path d="M17 7l-10 10" />
+      <path d="M8 7l9 0l0 9" />
     </svg>
     """
   end
@@ -4915,7 +5215,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="17" x2="12" y2="3" />
+      <path d="M12 17l0 -14" />
       <path d="M15 6l-3 -3l-3 3" />
       <path d="M10 21v-4h4v4z" />
     </svg>
@@ -4938,7 +5238,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="18" x2="12" y2="3" />
+      <path d="M12 18l0 -15" />
       <path d="M15 6l-3 -3l-3 3" />
       <path d="M15 21l-3 -3l-3 3" />
     </svg>
@@ -4961,9 +5261,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="5" x2="12" y2="19" />
-      <line x1="18" y1="11" x2="12" y2="5" />
-      <line x1="6" y1="11" x2="12" y2="5" />
+      <path d="M12 5l0 14" />
+      <path d="M18 11l-6 -6" />
+      <path d="M6 11l6 -6" />
     </svg>
     """
   end
@@ -4984,8 +5284,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 13.998h-4v-4" />
-      <path d="M21 11.998c-.887 1.284 -2.48 2.033 -4 2c-1.52 .033 -3.113 -.716 -4 -2s-2.48 -2.033 -4 -2c-1.52 -.033 -3 1 -4 2l-2 2" />
+      <path d="M7 14h-4v-4" />
+      <path d="M21 12c-.887 1.284 -2.48 2.033 -4 2c-1.52 .033 -3.113 -.716 -4 -2s-2.48 -2.033 -4 -2c-1.52 -.033 -3 1 -4 2l-2 2" />
     </svg>
     """
   end
@@ -5006,8 +5306,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 9.996h-4v4" />
-      <path d="M21 11.996c-.887 -1.285 -2.48 -2.033 -4 -2c-1.52 -.033 -3.113 .715 -4 2c-.887 1.284 -2.48 2.033 -4 2c-1.52 .033 -3 -1 -4 -2l-2 -2" />
+      <path d="M7 10h-4v4" />
+      <path d="M21 12c-.887 -1.285 -2.48 -2.033 -4 -2c-1.52 -.033 -3.113 .715 -4 2c-.887 1.284 -2.48 2.033 -4 2c-1.52 .033 -3 -1 -4 -2l-2 -2" />
     </svg>
     """
   end
@@ -5028,8 +5328,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M17 13.998h4v-4" />
-      <path d="M3 11.998c.887 1.284 2.48 2.033 4 2c1.52 .033 3.113 -.716 4 -2s2.48 -2.033 4 -2c1.52 -.033 3 1 4 2l2 2" />
+      <path d="M17 14h4v-4" />
+      <path d="M3 12c.887 1.284 2.48 2.033 4 2c1.52 .033 3.113 -.716 4 -2s2.48 -2.033 4 -2c1.52 -.033 3 1 4 2l2 2" />
     </svg>
     """
   end
@@ -5119,10 +5419,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="16 20 20 20 20 16" />
-      <line x1="14" y1="14" x2="20" y2="20" />
-      <polyline points="8 4 4 4 4 8" />
-      <line x1="4" y1="4" x2="10" y2="10" />
+      <path d="M16 20l4 0l0 -4" />
+      <path d="M14 14l6 6" />
+      <path d="M8 4l-4 0l0 4" />
+      <path d="M4 4l6 6" />
     </svg>
     """
   end
@@ -5191,10 +5491,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="16 4 20 4 20 8" />
-      <line x1="14" y1="10" x2="20" y2="4" />
-      <polyline points="8 20 4 20 4 16" />
-      <line x1="4" y1="20" x2="10" y2="14" />
+      <path d="M16 4l4 0l0 4" />
+      <path d="M14 10l6 -6" />
+      <path d="M8 20l-4 0l0 -4" />
+      <path d="M4 20l6 -6" />
     </svg>
     """
   end
@@ -5268,7 +5568,7 @@ defmodule TablerIcons do
       <path d="M14 21l-11 -11" />
       <path d="M3 14v-4h4" />
       <path d="M17 14h4v-4" />
-      <line x1="10" y1="3" x2="21" y2="14" />
+      <path d="M10 3l11 11" />
     </svg>
     """
   end
@@ -5289,7 +5589,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="10" x2="14" y2="21" />
+      <path d="M3 10l11 11" />
       <path d="M14 17v4h-4" />
       <path d="M14 3h-4v4" />
       <path d="M21 14l-11 -11" />
@@ -5337,9 +5637,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="17" y1="3" x2="17" y2="21" />
+      <path d="M17 3l0 18" />
       <path d="M10 18l-3 3l-3 -3" />
-      <line x1="7" y1="21" x2="7" y2="3" />
+      <path d="M7 21l0 -18" />
       <path d="M20 6l-3 -3l-3 3" />
     </svg>
     """
@@ -5361,10 +5661,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="7" y1="21" x2="7" y2="3" />
+      <path d="M7 21l0 -18" />
       <path d="M20 18l-3 3l-3 -3" />
       <path d="M4 18l3 3l3 -3" />
-      <line x1="17" y1="21" x2="17" y2="3" />
+      <path d="M17 21l0 -18" />
     </svg>
     """
   end
@@ -5429,9 +5729,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="7 8 3 12 7 16" />
-      <polyline points="17 8 21 12 17 16" />
-      <line x1="3" y1="12" x2="21" y2="12" />
+      <path d="M7 8l-4 4l4 4" />
+      <path d="M17 8l4 4l-4 4" />
+      <path d="M3 12l18 0" />
     </svg>
     """
   end
@@ -5521,9 +5821,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="21" y1="17" x2="3" y2="17" />
+      <path d="M21 17l-18 0" />
       <path d="M6 10l-3 -3l3 -3" />
-      <line x1="3" y1="7" x2="21" y2="7" />
+      <path d="M3 7l18 0" />
       <path d="M18 20l3 -3l-3 -3" />
     </svg>
     """
@@ -5545,10 +5845,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="7" x2="21" y2="7" />
+      <path d="M3 7l18 0" />
       <path d="M6 20l-3 -3l3 -3" />
       <path d="M6 4l-3 3l3 3" />
-      <line x1="3" y1="17" x2="21" y2="17" />
+      <path d="M3 17l18 0" />
     </svg>
     """
   end
@@ -5569,14 +5869,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="16 4 20 4 20 8" />
-      <line x1="14" y1="10" x2="20" y2="4" />
-      <polyline points="8 20 4 20 4 16" />
-      <line x1="4" y1="20" x2="10" y2="14" />
-      <polyline points="16 20 20 20 20 16" />
-      <line x1="14" y1="14" x2="20" y2="20" />
-      <polyline points="8 4 4 4 4 8" />
-      <line x1="4" y1="4" x2="10" y2="10" />
+      <path d="M16 4l4 0l0 4" />
+      <path d="M14 10l6 -6" />
+      <path d="M8 20l-4 0l0 -4" />
+      <path d="M4 20l6 -6" />
+      <path d="M16 20l4 0l0 -4" />
+      <path d="M14 14l6 6" />
+      <path d="M8 4l-4 0l0 4" />
+      <path d="M4 4l6 6" />
     </svg>
     """
   end
@@ -5597,14 +5897,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="5 9 9 9 9 5" />
-      <line x1="3" y1="3" x2="9" y2="9" />
-      <polyline points="5 15 9 15 9 19" />
-      <line x1="3" y1="21" x2="9" y2="15" />
-      <polyline points="19 9 15 9 15 5" />
-      <line x1="15" y1="9" x2="21" y2="3" />
-      <polyline points="19 15 15 15 15 19" />
-      <line x1="15" y1="15" x2="21" y2="21" />
+      <path d="M5 9l4 0l0 -4" />
+      <path d="M3 3l6 6" />
+      <path d="M5 15l4 0l0 4" />
+      <path d="M3 21l6 -6" />
+      <path d="M19 9l-4 0l0 -4" />
+      <path d="M15 9l6 -6" />
+      <path d="M19 15l-4 0l0 4" />
+      <path d="M15 15l6 6" />
     </svg>
     """
   end
@@ -5701,14 +6001,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M20 21.004h-4v-4" />
-      <path d="M16 21.004l5 -5" />
+      <path d="M20 21h-4v-4" />
+      <path d="M16 21l5 -5" />
       <path d="M6.5 9.504l-3.5 -2l2 -3.504" />
       <path d="M3 7.504l6.83 -1.87" />
-      <path d="M4 16.004l4 -1l1 4" />
-      <path d="M8 15.004l-3.5 6" />
-      <path d="M21 5.004l-.5 4l-4 -.5" />
-      <path d="M20.5 9.004l-4.5 -5.5" />
+      <path d="M4 16l4 -1l1 4" />
+      <path d="M8 15l-3.5 6" />
+      <path d="M21 5l-.5 4l-4 -.5" />
+      <path d="M20.5 9l-4.5 -5.5" />
     </svg>
     """
   end
@@ -5752,10 +6052,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="21" y1="7" x2="3" y2="7" />
+      <path d="M21 7l-18 0" />
       <path d="M18 10l3 -3l-3 -3" />
       <path d="M6 20l-3 -3l3 -3" />
-      <line x1="3" y1="17" x2="21" y2="17" />
+      <path d="M3 17l18 0" />
     </svg>
     """
   end
@@ -5776,10 +6076,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="21" y1="17" x2="3" y2="17" />
+      <path d="M21 17l-18 0" />
       <path d="M18 4l3 3l-3 3" />
       <path d="M18 20l3 -3l-3 -3" />
-      <line x1="21" y1="7" x2="3" y2="7" />
+      <path d="M21 7l-18 0" />
     </svg>
     """
   end
@@ -5827,7 +6127,7 @@ defmodule TablerIcons do
       <path d="M18 4l3 3l-3 3" />
       <path d="M18 20l3 -3l-3 -3" />
       <path d="M3 7h3a5 5 0 0 1 5 5a5 5 0 0 0 5 5h5" />
-      <path d="M21 7h-5a4.978 4.978 0 0 0 -2.998 .998m-4.002 8.003a4.984 4.984 0 0 1 -3 .999h-3" />
+      <path d="M21 7h-5a4.978 4.978 0 0 0 -3 1m-4 8a4.984 4.984 0 0 1 -3 1h-3" />
     </svg>
     """
   end
@@ -5970,10 +6270,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="7" y1="3" x2="7" y2="21" />
+      <path d="M7 3l0 18" />
       <path d="M10 6l-3 -3l-3 3" />
       <path d="M20 18l-3 3l-3 -3" />
-      <line x1="17" y1="21" x2="17" y2="3" />
+      <path d="M17 21l0 -18" />
     </svg>
     """
   end
@@ -6040,10 +6340,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="17" y1="3" x2="17" y2="21" />
+      <path d="M17 3l0 18" />
       <path d="M4 6l3 -3l3 3" />
       <path d="M20 6l-3 -3l-3 3" />
-      <line x1="7" y1="3" x2="7" y2="21" />
+      <path d="M7 3l0 18" />
     </svg>
     """
   end
@@ -6064,9 +6364,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="8 7 12 3 16 7" />
-      <polyline points="8 17 12 21 16 17" />
-      <line x1="12" y1="3" x2="12" y2="21" />
+      <path d="M8 7l4 -4l4 4" />
+      <path d="M8 17l4 4l4 -4" />
+      <path d="M12 3l0 18" />
     </svg>
     """
   end
@@ -6088,7 +6388,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 8h3a1 1 0 0 1 1 1v3" />
-      <path d="M15.716 15.698a0.997 .997 0 0 1 -.716 .302h-6a1 1 0 0 1 -1 -1v-6c0 -.273 .11 -.52 .287 -.7" />
+      <path d="M15.716 15.698a1 1 0 0 1 -.716 .302h-6a1 1 0 0 1 -1 -1v-6c0 -.273 .11 -.52 .287 -.7" />
       <path d="M3 8h1" />
       <path d="M3 16h1" />
       <path d="M8 3v1" />
@@ -6118,15 +6418,15 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="8" y="8" width="8" height="8" rx="1" />
-      <line x1="3" y1="8" x2="4" y2="8" />
-      <line x1="3" y1="16" x2="4" y2="16" />
-      <line x1="8" y1="3" x2="8" y2="4" />
-      <line x1="16" y1="3" x2="16" y2="4" />
-      <line x1="20" y1="8" x2="21" y2="8" />
-      <line x1="20" y1="16" x2="21" y2="16" />
-      <line x1="8" y1="20" x2="8" y2="21" />
-      <line x1="16" y1="20" x2="16" y2="21" />
+      <path d="M8 8m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
+      <path d="M3 8l1 0" />
+      <path d="M3 16l1 0" />
+      <path d="M8 3l0 1" />
+      <path d="M16 3l0 1" />
+      <path d="M20 8l1 0" />
+      <path d="M20 16l1 0" />
+      <path d="M8 20l0 1" />
+      <path d="M16 20l0 1" />
     </svg>
     """
   end
@@ -6172,7 +6472,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="4" width="18" height="16" rx="2" />
+      <path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M7 8h10" />
       <path d="M7 12h10" />
       <path d="M7 16h10" />
@@ -6220,7 +6520,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M7 12v-3h3" />
       <path d="M17 12v3h-3" />
     </svg>
@@ -6244,7 +6544,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8.703 4.685l2.326 -1.385a2.056 2.056 0 0 1 2 0l6 3.573h-.029a2 2 0 0 1 1 1.747v6.536c0 .248 -.046 .49 -.132 .715m-2.156 1.837l-4.741 3.029a2 2 0 0 1 -1.942 0l-6 -3.833a2 2 0 0 1 -1.029 -1.747v-6.537a2 2 0 0 1 1.029 -1.748l1.157 -.689" />
-      <path d="M11.593 7.591c.295 -.133 .637 -.12 .921 .04l3 1.79h-.014c.312 .181 .503 .516 .5 .877v1.702m-1.152 2.86l-2.363 1.514a0.997 .997 0 0 1 -.97 0l-3 -1.922a1.003 1.003 0 0 1 -.515 -.876v-3.278c0 -.364 .197 -.7 .514 -.877l.568 -.339" />
+      <path d="M11.593 7.591c.295 -.133 .637 -.12 .921 .04l3 1.79h-.014c.312 .181 .503 .516 .5 .877v1.702m-1.152 2.86l-2.363 1.514a1 1 0 0 1 -.97 0l-3 -1.922a1 1 0 0 1 -.515 -.876v-3.278c0 -.364 .197 -.7 .514 -.877l.568 -.339" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -6267,7 +6567,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19 6.873a2 2 0 0 1 1 1.747v6.536a2 2 0 0 1 -1.029 1.748l-6 3.833a2 2 0 0 1 -1.942 0l-6 -3.833a2 2 0 0 1 -1.029 -1.747v-6.537a2 2 0 0 1 1.029 -1.748l6 -3.572a2.056 2.056 0 0 1 2 0l6 3.573h-.029z" />
-      <path d="M15.5 9.422c.312 .18 .503 .515 .5 .876v3.277c0 .364 -.197 .7 -.515 .877l-3 1.922a0.997 .997 0 0 1 -.97 0l-3 -1.922a1.003 1.003 0 0 1 -.515 -.876v-3.278c0 -.364 .197 -.7 .514 -.877l3 -1.79c.311 -.174 .69 -.174 1 0l3 1.79h-.014z" />
+      <path d="M15.5 9.422c.312 .18 .503 .515 .5 .876v3.277c0 .364 -.197 .7 -.515 .877l-3 1.922a1 1 0 0 1 -.97 0l-3 -1.922a1 1 0 0 1 -.515 -.876v-3.278c0 -.364 .197 -.7 .514 -.877l3 -1.79c.311 -.174 .69 -.174 1 0l3 1.79h-.014z" />
     </svg>
     """
   end
@@ -6288,12 +6588,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="9" cy="15" r="6" />
-      <circle cx="9" cy="15" r="2" />
-      <circle cx="19" cy="5" r="2" />
+      <path d="M9 15m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
+      <path d="M9 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M14.218 17.975l6.619 -12.174" />
       <path d="M6.079 9.756l12.217 -6.631" />
-      <circle cx="9" cy="15" r="2" />
+      <path d="M9 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -6388,7 +6688,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="4" />
+      <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28" />
     </svg>
     """
@@ -6410,10 +6710,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="3" />
-      <line x1="12" y1="21" x2="12" y2="21.01" />
-      <line x1="3" y1="9" x2="3" y2="9.01" />
-      <line x1="21" y1="9" x2="21" y2="9.01" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M12 21l0 .01" />
+      <path d="M3 9l0 .01" />
+      <path d="M21 9l0 .01" />
       <path d="M8 20.1a9 9 0 0 1 -5 -7.1" />
       <path d="M16 20.1a9 9 0 0 0 5 -7.1" />
       <path d="M6.2 5a9 9 0 0 1 11.4 0" />
@@ -6438,8 +6738,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 12v.01" />
-      <path d="M9.172 9.172c-3.906 3.905 -5.805 8.337 -4.243 9.9c1.562 1.561 5.994 -.338 9.9 -4.244m1.884 -2.113c2.587 -3.277 3.642 -6.502 2.358 -7.786c-1.284 -1.284 -4.508 -.23 -7.784 2.357" />
-      <path d="M4.929 4.929c-1.562 1.562 .337 5.994 4.243 9.9c3.905 3.905 8.337 5.804 9.9 4.242m-.072 -4.071c-.767 -1.794 -2.215 -3.872 -4.172 -5.828c-1.944 -1.945 -4.041 -3.402 -5.828 -4.172" />
+      <path d="M9.172 9.172c-3.906 3.905 -5.805 8.337 -4.243 9.9c1.562 1.561 6 -.338 9.9 -4.244m1.884 -2.113c2.587 -3.277 3.642 -6.502 2.358 -7.786c-1.284 -1.284 -4.508 -.23 -7.784 2.357" />
+      <path d="M4.929 4.929c-1.562 1.562 .337 6 4.243 9.9c3.905 3.905 8.337 5.804 9.9 4.242m-.072 -4.071c-.767 -1.794 -2.215 -3.872 -4.172 -5.828c-1.944 -1.945 -4.041 -3.402 -5.828 -4.172" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -6462,8 +6762,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 12v.01" />
-      <path d="M19.071 4.929c-1.562 -1.562 -5.994 .337 -9.9 4.243c-3.905 3.905 -5.804 8.337 -4.242 9.9c1.562 1.561 5.994 -.338 9.9 -4.244c3.905 -3.905 5.804 -8.337 4.242 -9.9" />
-      <path d="M4.929 4.929c-1.562 1.562 .337 5.994 4.243 9.9c3.905 3.905 8.337 5.804 9.9 4.242c1.561 -1.562 -.338 -5.994 -4.244 -9.9c-3.905 -3.905 -8.337 -5.804 -9.9 -4.242" />
+      <path d="M19.071 4.929c-1.562 -1.562 -6 .337 -9.9 4.243c-3.905 3.905 -5.804 8.337 -4.242 9.9c1.562 1.561 6 -.338 9.9 -4.244c3.905 -3.905 5.804 -8.337 4.242 -9.9" />
+      <path d="M4.929 4.929c-1.562 1.562 .337 6 4.243 9.9c3.905 3.905 8.337 5.804 9.9 4.242c1.561 -1.562 -.338 -6 -4.244 -9.9c-3.905 -3.905 -8.337 -5.804 -9.9 -4.242" />
     </svg>
     """
   end
@@ -6565,8 +6865,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M16.72 12.704a6 6 0 0 0 -8.433 -8.418m-1.755 2.24a6 6 0 0 0 7.936 7.944" />
-      <path d="M12.002 15.003l3.4 5.89l1.598 -3.233l.707 .046m1.108 -2.902l-1.617 -2.8" />
-      <path d="M6.802 12.003l-3.4 5.89l3.598 -.233l1.598 3.232l3.4 -5.889" />
+      <path d="M12 15l3.4 5.89l1.598 -3.233l.707 .046m1.108 -2.902l-1.617 -2.8" />
+      <path d="M6.802 12l-3.4 5.89l3.598 -.233l1.598 3.232l3.4 -5.889" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -6588,9 +6888,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="9" r="6" />
-      <path d="M12.002 15.003l3.4 5.89l1.598 -3.233l3.598 .232l-3.4 -5.889" />
-      <path d="M6.802 12.003l-3.4 5.89l3.598 -.233l1.598 3.232l3.4 -5.889" />
+      <path d="M12 9m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
+      <path d="M12 15l3.4 5.89l1.598 -3.233l3.598 .232l-3.4 -5.889" />
+      <path d="M6.802 12l-3.4 5.89l3.598 -.233l1.598 3.232l3.4 -5.889" />
     </svg>
     """
   end
@@ -6706,8 +7006,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="8" cy="19" r="2" />
-      <circle cx="18" cy="19" r="2" />
+      <path d="M8 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M2 5h2.5l1.632 4.897a6 6 0 0 0 5.693 4.103h2.675a5.5 5.5 0 0 0 0 -11h-.5v6" />
       <path d="M6 9h14" />
       <path d="M9 17l1 -3" />
@@ -6732,10 +7032,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="4" cy="17" r="2" />
-      <circle cx="13" cy="17" r="2" />
-      <line x1="13" y1="19" x2="4" y2="19" />
-      <line x1="4" y1="15" x2="13" y2="15" />
+      <path d="M4 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M13 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M13 19l-9 0" />
+      <path d="M4 15l9 0" />
       <path d="M8 12v-5h2a3 3 0 0 1 3 3v5" />
       <path d="M5 15v-2a1 1 0 0 1 1 -1h7" />
       <path d="M21.12 9.88l-3.12 -4.88l-5 5" />
@@ -6760,7 +7060,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M10 6h3a6 6 0 0 1 6 6v3m-.129 3.872a3.001 3.001 0 0 1 -2.871 2.128h-8a3 3 0 0 1 -3 -3v-6a5.99 5.99 0 0 1 2.285 -4.712" />
+      <path d="M10 6h3a6 6 0 0 1 6 6v3m-.129 3.872a3 3 0 0 1 -2.871 2.128h-8a3 3 0 0 1 -3 -3v-6a5.99 5.99 0 0 1 2.285 -4.712" />
       <path d="M10 6v-1a2 2 0 1 1 4 0v1" />
       <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" />
       <path d="M3 3l18 18" />
@@ -6830,7 +7130,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M7 9.5a0.5 .5 0 0 1 .5 -.5h1a1.5 1.5 0 0 1 0 3h-.5h.5a1.5 1.5 0 0 1 0 3h-1a0.5 .5 0 0 1 -.5 -.5" />
       <path d="M14 9v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z" />
     </svg>
@@ -6853,7 +7153,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M7 9v2a1 1 0 0 0 1 1h1" />
       <path d="M10 9v6" />
       <path d="M14 9v6" />
@@ -6879,7 +7179,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M14 9v6" />
       <path d="M17 9l-2 3l2 3" />
       <path d="M15 12h-1" />
@@ -6904,7 +7204,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M14 9v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z" />
       <path d="M7 15v-4.5a1.5 1.5 0 0 1 3 0v4.5" />
       <path d="M7 13h3" />
@@ -6928,7 +7228,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M7 15v-4.5a1.5 1.5 0 0 1 3 0v4.5" />
       <path d="M7 13h3" />
       <path d="M14 12h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6m3 0l-2 -3" />
@@ -6952,9 +7252,30 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M10 10.5a1.5 1.5 0 0 0 -3 0v3a1.5 1.5 0 0 0 3 0" />
       <path d="M17 10.5a1.5 1.5 0 0 0 -3 0v3a1.5 1.5 0 0 0 3 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `badge_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.badge_filled />
+      <TablerIcons.badge_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def badge_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M17 17v-13l-5 3l-5 -3v13l5 3z" fill="currentColor" />
     </svg>
     """
   end
@@ -6975,7 +7296,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M14 9v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z" />
       <path d="M7 15v-6" />
       <path d="M10 15v-6" />
@@ -7022,7 +7343,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M14 9v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z" />
       <path d="M7 14.25c0 .414 .336 .75 .75 .75h1.25a1 1 0 0 0 1 -1v-1a1 1 0 0 0 -1 -1h-1a1 1 0 0 1 -1 -1v-1a1 1 0 0 1 1 -1h1.25a0.75 .75 0 0 1 .75 .75" />
     </svg>
@@ -7045,7 +7366,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M6 9h4" />
       <path d="M8 9v6" />
       <path d="M13 15v-6l2 3l2 -3v6" />
@@ -7069,7 +7390,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M7 9l2 6l2 -6" />
       <path d="M15.5 9a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1 -3 0v-3a1.5 1.5 0 0 1 1.5 -1.5z" />
     </svg>
@@ -7092,7 +7413,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M14 12h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6m3 0l-2 -3" />
       <path d="M7 9l2 6l2 -6" />
     </svg>
@@ -7115,7 +7436,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M6.5 9l.5 6l2 -4l2 4l.5 -6" />
       <path d="M17 10.5a1.5 1.5 0 0 0 -3 0v3a1.5 1.5 0 0 0 3 0" />
     </svg>
@@ -7204,7 +7525,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M5.628 11.283l5.644 -5.637c2.665 -2.663 5.924 -3.747 8.663 -1.205l.188 .181a2.987 2.987 0 0 1 0 4.228l-11.287 11.274a2.996 2.996 0 0 1 -4.089 .135l-.143 -.135c-2.728 -2.724 -1.704 -6.117 1.024 -8.841z" />
+      <path d="M5.628 11.283l5.644 -5.637c2.665 -2.663 5.924 -3.747 8.663 -1.205l.188 .181a2.987 2.987 0 0 1 0 4.228l-11.287 11.274a3 3 0 0 1 -4.089 .135l-.143 -.135c-2.728 -2.724 -1.704 -6.117 1.024 -8.841z" />
       <path d="M9.5 7.5l1.5 3.5" />
       <path d="M6.5 10.5l1.5 3.5" />
       <path d="M12.5 4.5l1.5 3.5" />
@@ -7228,7 +7549,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M15 9l-1 1m-2.003 2.003l-2.997 2.997" />
+      <path d="M15 9l-1 1m-2 2l-3 3" />
       <path d="M10 12l2 2" />
       <path d="M8 21a5 5 0 0 0 -5 -5" />
       <path d="M6.813 6.802a12.96 12.96 0 0 0 -3.813 9.198a5 5 0 0 0 5 5a12.96 12.96 0 0 0 9.186 -3.801m1.789 -2.227a12.94 12.94 0 0 0 2.025 -6.972a5 5 0 0 0 -5 -5a12.94 12.94 0 0 0 -6.967 2.022" />
@@ -7254,9 +7575,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="15" y1="9" x2="9" y2="15" />
-      <line x1="10" y1="12" x2="12" y2="14" />
-      <line x1="12" y1="10" x2="14" y2="12" />
+      <path d="M15 9l-6 6" />
+      <path d="M10 12l2 2" />
+      <path d="M12 10l2 2" />
       <path d="M8 21a5 5 0 0 0 -5 -5" />
       <path d="M16 3c-7.18 0 -13 5.82 -13 13a5 5 0 0 0 5 5c7.18 0 13 -5.82 13 -13a5 5 0 0 0 -5 -5" />
       <path d="M16 3a5 5 0 0 0 5 5" />
@@ -7309,9 +7630,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="5.65" y1="5.65" x2="18.35" y2="18.35" />
-      <line x1="5.65" y1="18.35" x2="18.35" y2="5.65" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M5.65 5.65l12.7 12.7" />
+      <path d="M5.65 18.35l12.7 -12.7" />
       <path d="M12 3a9 9 0 0 0 9 9" />
       <path d="M3 12a9 9 0 0 1 9 9" />
     </svg>
@@ -7334,10 +7655,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="11" y1="9" x2="11" y2="9.01" />
-      <line x1="15" y1="8" x2="15" y2="8.01" />
-      <line x1="14" y1="12" x2="14" y2="12.01" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M11 9l0 .01" />
+      <path d="M15 8l0 .01" />
+      <path d="M14 12l0 .01" />
     </svg>
     """
   end
@@ -7361,11 +7682,11 @@ defmodule TablerIcons do
       <path d="M20.041 16.046a9 9 0 0 0 -12.084 -12.09m-2.323 1.683a9 9 0 0 0 12.726 12.73" />
       <path d="M12 7l4.755 3.455l-.566 1.743l-.98 3.014l-.209 .788h-6l-1.755 -5.545l1.86 -1.351l2.313 -1.681z" />
       <path d="M12 7v-4" />
-      <line x1="15" y1="16" x2="17.5" y2="19" />
+      <path d="M15 16l2.5 3" />
       <path d="M16.755 10.455l3.745 -1.455" />
       <path d="M9.061 16.045l-2.561 2.955" />
       <path d="M7.245 10.455l-3.745 -1.455" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -7386,7 +7707,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 7l4.76 3.45l-1.76 5.55h-6l-1.76 -5.55z" />
       <path d="M12 7v-4m3 13l2.5 3m-.74 -8.55l3.74 -1.45m-11.44 7.05l-2.56 2.95m.74 -8.55l-3.74 -1.45" />
     </svg>
@@ -7409,7 +7730,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M6 5.3a9 9 0 0 1 0 13.4" />
       <path d="M18 5.3a9 9 0 0 0 0 13.4" />
     </svg>
@@ -7432,7 +7753,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12a8 8 0 0 0 8 4" />
       <path d="M7.5 13.5a12 12 0 0 0 8.5 6.5" />
       <path d="M12 12a8 8 0 0 0 -7.464 4.928" />
@@ -7460,7 +7781,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 8a2 2 0 0 0 -2 -2" />
-      <path d="M7.762 3.753a6 6 0 0 1 10.238 4.247c0 1.847 -.37 3.564 -1.007 4.993m-1.59 2.42c-.967 1.001 -2.14 1.587 -3.403 1.587c-3.314 0 -6 -4.03 -6 -9c0 -.593 .086 -1.166 .246 -1.707" />
+      <path d="M7.762 3.753a6 6 0 0 1 10.238 4.247c0 1.847 -.37 3.564 -1.007 4.993m-1.59 2.42c-.967 1 -2.14 1.587 -3.403 1.587c-3.314 0 -6 -4.03 -6 -9c0 -.593 .086 -1.166 .246 -1.707" />
       <path d="M12 17v1a2 2 0 0 1 -2 2h-3a2 2 0 0 0 -2 2" />
       <path d="M3 3l18 18" />
     </svg>
@@ -7554,8 +7875,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="5.7" y1="5.7" x2="18.3" y2="18.3" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M5.7 5.7l12.6 12.6" />
     </svg>
     """
   end
@@ -7600,10 +7921,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="14" y1="12" x2="14" y2="12.01" />
-      <line x1="10" y1="12" x2="10" y2="12.01" />
-      <line x1="12" y1="10" x2="12" y2="10.01" />
-      <line x1="12" y1="14" x2="12" y2="14.01" />
+      <path d="M14 12l0 .01" />
+      <path d="M10 12l0 .01" />
+      <path d="M12 10l0 .01" />
+      <path d="M12 14l0 .01" />
       <path d="M4.5 12.5l8 -8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1 -7 -7" />
     </svg>
     """
@@ -7627,7 +7948,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M2 12h1" />
       <path d="M6 8h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2" />
-      <path d="M6.298 6.288a0.997 .997 0 0 0 -.298 .712v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1 -1v-8" />
+      <path d="M6.298 6.288a1 1 0 0 0 -.298 .712v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1 -1v-8" />
       <path d="M9 12h3" />
       <path d="M15 15v2a1 1 0 0 0 1 1h1c.275 0 .523 -.11 .704 -.29m.296 -3.71v-7a1 1 0 0 0 -1 -1h-1a1 1 0 0 0 -1 1v4" />
       <path d="M18 8h2a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1" />
@@ -7713,10 +8034,10 @@ defmodule TablerIcons do
       <path d="M4 17v1a2 2 0 0 0 2 2h2" />
       <path d="M16 4h2a2 2 0 0 1 2 2v1" />
       <path d="M16 20h2a2 2 0 0 0 2 -2v-1" />
-      <rect x="5" y="11" width="1" height="2" />
-      <line x1="10" y1="11" x2="10" y2="13" />
-      <rect x="14" y="11" width="1" height="2" />
-      <line x1="19" y1="11" x2="19" y2="13" />
+      <path d="M5 11h1v2h-1z" />
+      <path d="M10 11l0 2" />
+      <path d="M14 11h1v2h-1z" />
+      <path d="M19 11l0 2" />
     </svg>
     """
   end
@@ -7821,7 +8142,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="7" width="16" height="9" rx="1" />
+      <path d="M4 7m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v7a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
       <path d="M7 16v4" />
       <path d="M7.5 16l9 -9" />
       <path d="M13.5 16l6.5 -6.5" />
@@ -7878,7 +8199,7 @@ defmodule TablerIcons do
       <path d="M10.176 6.188l1.824 -2.188l5 6" />
       <path d="M18.77 18.757c-.358 .768 -1.027 1.262 -1.77 1.243h-10c-.966 .024 -1.807 -.817 -2 -2l-2 -8h7" />
       <path d="M14 10h7l-1.397 5.587" />
-      <circle cx="12" cy="15" r="2" />
+      <path d="M12 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -7900,9 +8221,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="7 10 12 4 17 10" />
+      <path d="M7 10l5 -6l5 6" />
       <path d="M21 10l-2 8a2 2.5 0 0 1 -2 2h-10a2 2.5 0 0 1 -2 -2l-2 -8z" />
-      <circle cx="12" cy="15" r="2" />
+      <path d="M12 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -7995,7 +8316,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 7h11a2 2 0 0 1 2 2v.5a0.5 .5 0 0 0 .5 .5a0.5 .5 0 0 1 .5 .5v3a0.5 .5 0 0 1 -.5 .5a0.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-11a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2" />
-      <line x1="7" y1="10" x2="7" y2="14" />
+      <path d="M7 10l0 4" />
     </svg>
     """
   end
@@ -8017,8 +8338,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 7h11a2 2 0 0 1 2 2v.5a0.5 .5 0 0 0 .5 .5a0.5 .5 0 0 1 .5 .5v3a0.5 .5 0 0 1 -.5 .5a0.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-11a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2" />
-      <line x1="7" y1="10" x2="7" y2="14" />
-      <line x1="10" y1="10" x2="10" y2="14" />
+      <path d="M7 10l0 4" />
+      <path d="M10 10l0 4" />
     </svg>
     """
   end
@@ -8040,9 +8361,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 7h11a2 2 0 0 1 2 2v.5a0.5 .5 0 0 0 .5 .5a0.5 .5 0 0 1 .5 .5v3a0.5 .5 0 0 1 -.5 .5a0.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-11a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2" />
-      <line x1="7" y1="10" x2="7" y2="14" />
-      <line x1="10" y1="10" x2="10" y2="14" />
-      <line x1="13" y1="10" x2="13" y2="14" />
+      <path d="M7 10l0 4" />
+      <path d="M10 10l0 4" />
+      <path d="M13 10l0 4" />
     </svg>
     """
   end
@@ -8064,10 +8385,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 7h11a2 2 0 0 1 2 2v.5a0.5 .5 0 0 0 .5 .5a0.5 .5 0 0 1 .5 .5v3a0.5 .5 0 0 1 -.5 .5a0.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-11a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2" />
-      <line x1="7" y1="10" x2="7" y2="14" />
-      <line x1="10" y1="10" x2="10" y2="14" />
-      <line x1="13" y1="10" x2="13" y2="14" />
-      <line x1="16" y1="10" x2="16" y2="14" />
+      <path d="M7 10l0 4" />
+      <path d="M10 10l0 4" />
+      <path d="M13 10l0 4" />
+      <path d="M16 10l0 4" />
     </svg>
     """
   end
@@ -8088,12 +8409,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="6" width="18" height="14" rx="2" />
+      <path d="M3 6m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M6 6v-2" />
-      <line x1="19" y1="4" x2="19" y2="6" />
-      <line x1="6.5" y1="13" x2="9.5" y2="13" />
-      <line x1="14.5" y1="13" x2="17.5" y2="13" />
-      <line x1="16" y1="11.5" x2="16" y2="14.5" />
+      <path d="M19 4l0 2" />
+      <path d="M6.5 13l3 0" />
+      <path d="M14.5 13l3 0" />
+      <path d="M16 11.5l0 3" />
     </svg>
     """
   end
@@ -8170,6 +8491,30 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `battery_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.battery_filled />
+      <TablerIcons.battery_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def battery_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M6 7h11a2 2 0 0 1 2 2v.5a0.5 .5 0 0 0 .5 .5a0.5 .5 0 0 1 .5 .5v3a0.5 .5 0 0 1 -.5 .5a0.5 .5 0 0 0 -.5 .5v.5a2 2 0 0 1 -2 2h-11a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `battery_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -8185,7 +8530,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M11 7h6a2 2 0 0 1 2 2v.5a0.5 .5 0 0 0 .5 .5a0.5 .5 0 0 1 .5 .5v3a0.5 .5 0 0 1 -.5 .5a0.5 .5 0 0 0 -.5 .5v.5m-2 2h-11a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2h1" />
     </svg>
     """
@@ -8285,7 +8630,7 @@ defmodule TablerIcons do
       <path d="M18 14h3" />
       <path d="M21 18v-8a2 2 0 0 0 -2 -2h-7" />
       <path d="M11 11v3" />
-      <circle cx="7" cy="10" r="1" />
+      <path d="M7 10m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -8308,7 +8653,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 7v11m0 -4h18m0 4v-8a2 2 0 0 0 -2 -2h-8v6" />
-      <circle cx="7" cy="10" r="1" />
+      <path d="M7 10m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -8329,7 +8674,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 7v1.111c0 1.242 .29 2.467 .845 3.578l.31 .622a8 8 0 0 1 .845 3.578v4.111h6v-4.111a8 8 0 0 1 .045 -.85m.953 -3.035l.157 -.315a7.999 7.999 0 0 0 .845 -3.578v-4.111h-9" />
+      <path d="M7 7v1.111c0 1.242 .29 2.467 .845 3.578l.31 .622a8 8 0 0 1 .845 3.578v4.111h6v-4.111a8 8 0 0 1 .045 -.85m.953 -3.035l.157 -.315a8 8 0 0 0 .845 -3.578v-4.111h-9" />
       <path d="M7 8h1m4 0h5" />
       <path d="M3 3l18 18" />
     </svg>
@@ -8359,6 +8704,28 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `bell_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.bell_filled />
+      <TablerIcons.bell_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def bell_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" fill="currentColor" />
+      <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `bell_minus` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -8376,7 +8743,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
       <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
-      <line x1="10" y1="11" x2="14" y2="11" />
+      <path d="M10 11l4 0" />
     </svg>
     """
   end
@@ -8397,7 +8764,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M17 17h-13a4 4 0 0 0 2 -3v-3a7 7 0 0 1 1.279 -3.716m2.072 -1.934c.209 -.127 .425 -.244 .649 -.35a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3" />
       <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
     </svg>
@@ -8422,8 +8789,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
       <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
-      <line x1="10" y1="11" x2="14" y2="11" />
-      <line x1="12" y1="9" x2="12" y2="13" />
+      <path d="M10 11l4 0" />
+      <path d="M12 9l0 4" />
     </svg>
     """
   end
@@ -8490,11 +8857,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="10" r="6" />
+      <path d="M10 10m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
       <path d="M13.5 15h.5a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-1a2 2 0 0 1 2 -2h.5" />
       <path d="M16 17a5.698 5.698 0 0 0 4.467 -7.932l-.467 -1.068" />
       <path d="M10 10v.01" />
-      <circle cx="20" cy="8" r="1" />
+      <path d="M20 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -8628,10 +8995,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="18" r="3" />
+      <path d="M5 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M16.437 16.44a3 3 0 0 0 4.123 4.123m1.44 -2.563a3 3 0 0 0 -3 -3" />
       <path d="M12 19v-4l-3 -3l1.665 -1.332m2.215 -1.772l1.12 -.896l2 3h3" />
-      <circle cx="17" cy="5" r="1" />
+      <path d="M17 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -8653,10 +9020,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="18" r="3" />
-      <circle cx="19" cy="18" r="3" />
-      <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />
-      <circle cx="17" cy="5" r="1" />
+      <path d="M5 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M19 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M12 19l0 -4l-3 -3l5 -4l2 3l3 0" />
+      <path d="M17 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -8761,8 +9128,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11 10v-5h-1m8 14v-5h-1" />
-      <rect x="15" y="5" width="3" height="5" rx=".5" />
-      <rect x="10" y="14" width="3" height="5" rx=".5" />
+      <path d="M15 5m0 .5a0.5 .5 0 0 1 .5 -.5h2a0.5 .5 0 0 1 .5 .5v4a0.5 .5 0 0 1 -.5 .5h-2a0.5 .5 0 0 1 -.5 -.5z" />
+      <path d="M10 14m0 .5a0.5 .5 0 0 1 .5 -.5h2a0.5 .5 0 0 1 .5 .5v4a0.5 .5 0 0 1 -.5 .5h-2a0.5 .5 0 0 1 -.5 -.5z" />
       <path d="M6 10h.01m-.01 9h.01" />
     </svg>
     """
@@ -8812,7 +9179,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="2" />
+      <path d="M12 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M11.939 14c0 .173 .048 .351 .056 .533l0 .217a4.75 4.75 0 0 1 -4.533 4.745l-.217 0m-4.75 -4.75a4.75 4.75 0 0 1 7.737 -3.693m6.513 8.443a4.75 4.75 0 0 1 -4.69 -5.503l-.06 0m1.764 -2.944a4.75 4.75 0 0 1 7.731 3.477l0 .217m-11.195 -3.813a4.75 4.75 0 0 1 -1.828 -7.624l.164 -.172m6.718 0a4.75 4.75 0 0 1 -1.665 7.798" />
     </svg>
     """
@@ -8839,7 +9206,7 @@ defmodule TablerIcons do
       <path d="M12.8 11.2l3.2 -3.2" />
       <path d="M14 8l2 2" />
       <path d="M8 14l2 2" />
-      <circle cx="12" cy="12" r="1" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -8884,7 +9251,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75" />
-      <path d="M6.576 18.999l7.907 -13.733" />
+      <path d="M6.576 19l7.907 -13.733" />
       <path d="M11.719 19.014l5.346 -9.284" />
     </svg>
     """
@@ -8906,7 +9273,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M5 19h14m1.986 -1.977a2.001 2.001 0 0 0 -.146 -.773l-7.1 -12.25a2 2 0 0 0 -3.5 0l-.815 1.405m-1.488 2.568l-4.797 8.277a2 2 0 0 0 1.75 2.75" />
+      <path d="M5 19h14m1.986 -1.977a2 2 0 0 0 -.146 -.773l-7.1 -12.25a2 2 0 0 0 -3.5 0l-.815 1.405m-1.488 2.568l-4.797 8.277a2 2 0 0 0 1.75 2.75" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -8975,9 +9342,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="7 8 17 16 12 20 12 4 17 8 7 16" />
-      <line x1="4" y1="12" x2="5" y2="12" />
-      <line x1="18" y1="12" x2="19" y2="12" />
+      <path d="M7 8l10 8l-5 4l0 -16l5 4l-10 8" />
+      <path d="M4 12l1 0" />
+      <path d="M18 12l1 0" />
     </svg>
     """
   end
@@ -8998,7 +9365,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M16.438 16.45l-4.438 3.55v-8m0 -4v-4l5 4l-2.776 2.22m-2.222 1.779l-5 4" />
     </svg>
     """
@@ -9020,7 +9387,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 8l10 8l-5 4v-16l1.003 .802m0 6.396l-6.003 4.802" />
+      <path d="M7 8l10 8l-5 4v-16l1 .802m0 6.396l-6 4.802" />
       <path d="M16 6l4 4" />
       <path d="M20 6l-4 4" />
     </svg>
@@ -9043,7 +9410,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="7 8 17 16 12 20 12 4 17 8 7 16" />
+      <path d="M7 8l10 8l-5 4l0 -16l5 4l-10 8" />
     </svg>
     """
   end
@@ -9092,7 +9459,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 21a9.01 9.01 0 0 0 2.32 -.302a9.004 9.004 0 0 0 1.74 -16.733a9 9 0 1 0 -4.06 17.035z" />
+      <path d="M12 21a9.01 9.01 0 0 0 2.32 -.302a9 9 0 0 0 1.74 -16.733a9 9 0 1 0 -4.06 17.035z" />
       <path d="M12 3v17" />
       <path d="M12 12h9" />
       <path d="M12 9h8" />
@@ -9187,7 +9554,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M15.212 15.21l-4.212 5.79v-7h-6l3.79 -5.21m1.685 -2.32l2.525 -3.47v6m1 1h5l-2.104 2.893" />
     </svg>
     """
@@ -9209,7 +9576,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="13 3 13 10 19 10 11 21 11 14 5 14 13 3" />
+      <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
     </svg>
     """
   end
@@ -9253,7 +9620,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12.5 8.502l.38 -.38a3 3 0 1 1 5.12 -2.122a3 3 0 1 1 -2.12 5.122l-.372 .372m-2.008 2.008l-2.378 2.378a3 3 0 1 1 -5.117 2.297l-.005 -.177l-.176 -.005a3 3 0 1 1 2.298 -5.115l2.378 -2.378" />
+      <path d="M12.5 8.502l.38 -.38a3 3 0 1 1 5.12 -2.122a3 3 0 1 1 -2.12 5.122l-.372 .372m-2.008 2.008l-2.378 2.378a3 3 0 1 1 -5.117 2.297l0 -.177l-.176 0a3 3 0 1 1 2.298 -5.115l2.378 -2.378" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -9275,7 +9642,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M15 3a3 3 0 0 1 3 3a3 3 0 1 1 -2.12 5.122l-4.758 4.758a3 3 0 1 1 -5.117 2.297l-.005 -.177l-.176 -.005a3 3 0 1 1 2.298 -5.115l4.758 -4.758a3 3 0 0 1 2.12 -5.122z" />
+      <path d="M15 3a3 3 0 0 1 3 3a3 3 0 1 1 -2.12 5.122l-4.758 4.758a3 3 0 1 1 -5.117 2.297l0 -.177l-.176 0a3 3 0 1 1 2.298 -5.115l4.758 -4.758a3 3 0 0 1 2.12 -5.122z" />
     </svg>
     """
   end
@@ -9296,7 +9663,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M9 4.999v-1.999h4v6m1.5 1.5l2.5 -2.5l2 2l-2.5 2.5m-.5 3.505a5 5 0 1 1 -7 -4.589v-2.416" />
+      <path d="M9 5v-2h4v6m1.5 1.5l2.5 -2.5l2 2l-2.5 2.5m-.5 3.505a5 5 0 1 1 -7 -4.589v-2.416" />
       <path d="M8 3h6" />
       <path d="M6.1 17h9.8" />
       <path d="M3 3l18 18" />
@@ -9390,8 +9757,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3 19a9 9 0 0 1 9 0a8.999 8.999 0 0 1 5.899 -1.096" />
-      <path d="M3 6a8.995 8.995 0 0 1 2.114 -.884m3.8 -.21c1.07 .17 2.116 .534 3.086 1.094a9 9 0 0 1 9 0" />
+      <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 5.899 -1.096" />
+      <path d="M3 6a9 9 0 0 1 2.114 -.884m3.8 -.21c1.07 .17 2.116 .534 3.086 1.094a9 9 0 0 1 9 0" />
       <path d="M3 6v13" />
       <path d="M12 6v2m0 4v7" />
       <path d="M21 6v11" />
@@ -9442,9 +9809,9 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
       <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-      <line x1="3" y1="6" x2="3" y2="19" />
-      <line x1="12" y1="6" x2="12" y2="19" />
-      <line x1="21" y1="6" x2="21" y2="19" />
+      <path d="M3 6l0 13" />
+      <path d="M12 6l0 13" />
+      <path d="M21 6l0 13" />
     </svg>
     """
   end
@@ -9465,7 +9832,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M17 17v3l-5 -3l-5 3v-13m1.178 -2.818c.252 -.113 .53 -.176 .822 -.176h6a2 2 0 0 1 2 2v7" />
     </svg>
     """
@@ -9584,8 +9951,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="4" width="4" height="16" rx="1" />
-      <rect x="9" y="4" width="4" height="16" rx="1" />
+      <path d="M5 4m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M9 4m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
       <path d="M5 8h4" />
       <path d="M9 16h4" />
       <path d="M13.803 4.56l2.184 -.53c.562 -.135 1.133 .19 1.282 .732l3.695 13.418a1.02 1.02 0 0 1 -.634 1.219l-.133 .041l-2.184 .53c-.562 .135 -1.133 -.19 -1.282 -.732l-3.695 -13.418a1.02 1.02 0 0 1 .634 -1.219l.133 -.041z" />
@@ -9611,9 +9978,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="4" y1="12" x2="20" y2="12" />
-      <line x1="12" y1="4" x2="12" y2="20" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M4 12l16 0" />
+      <path d="M12 4l0 16" />
     </svg>
     """
   end
@@ -9634,23 +10001,23 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="20" y1="20" x2="4" y2="20" />
-      <line x1="4" y1="4" x2="4" y2="4.01" />
-      <line x1="8" y1="4" x2="8" y2="4.01" />
-      <line x1="12" y1="4" x2="12" y2="4.01" />
-      <line x1="16" y1="4" x2="16" y2="4.01" />
-      <line x1="20" y1="4" x2="20" y2="4.01" />
-      <line x1="4" y1="8" x2="4" y2="8.01" />
-      <line x1="12" y1="8" x2="12" y2="8.01" />
-      <line x1="20" y1="8" x2="20" y2="8.01" />
-      <line x1="4" y1="12" x2="4" y2="12.01" />
-      <line x1="8" y1="12" x2="8" y2="12.01" />
-      <line x1="12" y1="12" x2="12" y2="12.01" />
-      <line x1="16" y1="12" x2="16" y2="12.01" />
-      <line x1="20" y1="12" x2="20" y2="12.01" />
-      <line x1="4" y1="16" x2="4" y2="16.01" />
-      <line x1="12" y1="16" x2="12" y2="16.01" />
-      <line x1="20" y1="16" x2="20" y2="16.01" />
+      <path d="M20 20l-16 0" />
+      <path d="M4 4l0 .01" />
+      <path d="M8 4l0 .01" />
+      <path d="M12 4l0 .01" />
+      <path d="M16 4l0 .01" />
+      <path d="M20 4l0 .01" />
+      <path d="M4 8l0 .01" />
+      <path d="M12 8l0 .01" />
+      <path d="M20 8l0 .01" />
+      <path d="M4 12l0 .01" />
+      <path d="M8 12l0 .01" />
+      <path d="M12 12l0 .01" />
+      <path d="M16 12l0 .01" />
+      <path d="M20 12l0 .01" />
+      <path d="M4 16l0 .01" />
+      <path d="M12 16l0 .01" />
+      <path d="M20 16l0 .01" />
     </svg>
     """
   end
@@ -9671,23 +10038,23 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="12" x2="20" y2="12" />
-      <line x1="4" y1="4" x2="4" y2="4.01" />
-      <line x1="8" y1="4" x2="8" y2="4.01" />
-      <line x1="12" y1="4" x2="12" y2="4.01" />
-      <line x1="16" y1="4" x2="16" y2="4.01" />
-      <line x1="20" y1="4" x2="20" y2="4.01" />
-      <line x1="4" y1="8" x2="4" y2="8.01" />
-      <line x1="12" y1="8" x2="12" y2="8.01" />
-      <line x1="20" y1="8" x2="20" y2="8.01" />
-      <line x1="4" y1="16" x2="4" y2="16.01" />
-      <line x1="12" y1="16" x2="12" y2="16.01" />
-      <line x1="20" y1="16" x2="20" y2="16.01" />
-      <line x1="4" y1="20" x2="4" y2="20.01" />
-      <line x1="8" y1="20" x2="8" y2="20.01" />
-      <line x1="12" y1="20" x2="12" y2="20.01" />
-      <line x1="16" y1="20" x2="16" y2="20.01" />
-      <line x1="20" y1="20" x2="20" y2="20.01" />
+      <path d="M4 12l16 0" />
+      <path d="M4 4l0 .01" />
+      <path d="M8 4l0 .01" />
+      <path d="M12 4l0 .01" />
+      <path d="M16 4l0 .01" />
+      <path d="M20 4l0 .01" />
+      <path d="M4 8l0 .01" />
+      <path d="M12 8l0 .01" />
+      <path d="M20 8l0 .01" />
+      <path d="M4 16l0 .01" />
+      <path d="M12 16l0 .01" />
+      <path d="M20 16l0 .01" />
+      <path d="M4 20l0 .01" />
+      <path d="M8 20l0 .01" />
+      <path d="M12 20l0 .01" />
+      <path d="M16 20l0 .01" />
+      <path d="M20 20l0 .01" />
     </svg>
     """
   end
@@ -9708,20 +10075,20 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="12" x2="20" y2="12" />
-      <line x1="12" y1="4" x2="12" y2="20" />
-      <line x1="4" y1="4" x2="4" y2="4.01" />
-      <line x1="8" y1="4" x2="8" y2="4.01" />
-      <line x1="16" y1="4" x2="16" y2="4.01" />
-      <line x1="20" y1="4" x2="20" y2="4.01" />
-      <line x1="4" y1="8" x2="4" y2="8.01" />
-      <line x1="20" y1="8" x2="20" y2="8.01" />
-      <line x1="4" y1="16" x2="4" y2="16.01" />
-      <line x1="20" y1="16" x2="20" y2="16.01" />
-      <line x1="4" y1="20" x2="4" y2="20.01" />
-      <line x1="8" y1="20" x2="8" y2="20.01" />
-      <line x1="16" y1="20" x2="16" y2="20.01" />
-      <line x1="20" y1="20" x2="20" y2="20.01" />
+      <path d="M4 12l16 0" />
+      <path d="M12 4l0 16" />
+      <path d="M4 4l0 .01" />
+      <path d="M8 4l0 .01" />
+      <path d="M16 4l0 .01" />
+      <path d="M20 4l0 .01" />
+      <path d="M4 8l0 .01" />
+      <path d="M20 8l0 .01" />
+      <path d="M4 16l0 .01" />
+      <path d="M20 16l0 .01" />
+      <path d="M4 20l0 .01" />
+      <path d="M8 20l0 .01" />
+      <path d="M16 20l0 .01" />
+      <path d="M20 20l0 .01" />
     </svg>
     """
   end
@@ -9742,23 +10109,23 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="20" x2="4" y2="4" />
-      <line x1="8" y1="4" x2="8" y2="4.01" />
-      <line x1="12" y1="4" x2="12" y2="4.01" />
-      <line x1="16" y1="4" x2="16" y2="4.01" />
-      <line x1="20" y1="4" x2="20" y2="4.01" />
-      <line x1="12" y1="8" x2="12" y2="8.01" />
-      <line x1="20" y1="8" x2="20" y2="8.01" />
-      <line x1="8" y1="12" x2="8" y2="12.01" />
-      <line x1="12" y1="12" x2="12" y2="12.01" />
-      <line x1="16" y1="12" x2="16" y2="12.01" />
-      <line x1="20" y1="12" x2="20" y2="12.01" />
-      <line x1="12" y1="16" x2="12" y2="16.01" />
-      <line x1="20" y1="16" x2="20" y2="16.01" />
-      <line x1="8" y1="20" x2="8" y2="20.01" />
-      <line x1="12" y1="20" x2="12" y2="20.01" />
-      <line x1="16" y1="20" x2="16" y2="20.01" />
-      <line x1="20" y1="20" x2="20" y2="20.01" />
+      <path d="M4 20l0 -16" />
+      <path d="M8 4l0 .01" />
+      <path d="M12 4l0 .01" />
+      <path d="M16 4l0 .01" />
+      <path d="M20 4l0 .01" />
+      <path d="M12 8l0 .01" />
+      <path d="M20 8l0 .01" />
+      <path d="M8 12l0 .01" />
+      <path d="M12 12l0 .01" />
+      <path d="M16 12l0 .01" />
+      <path d="M20 12l0 .01" />
+      <path d="M12 16l0 .01" />
+      <path d="M20 16l0 .01" />
+      <path d="M8 20l0 .01" />
+      <path d="M12 20l0 .01" />
+      <path d="M16 20l0 .01" />
+      <path d="M20 20l0 .01" />
     </svg>
     """
   end
@@ -9779,27 +10146,27 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="4" x2="4" y2="4.01" />
-      <line x1="8" y1="4" x2="8" y2="4.01" />
-      <line x1="12" y1="4" x2="12" y2="4.01" />
-      <line x1="16" y1="4" x2="16" y2="4.01" />
-      <line x1="20" y1="4" x2="20" y2="4.01" />
-      <line x1="4" y1="8" x2="4" y2="8.01" />
-      <line x1="12" y1="8" x2="12" y2="8.01" />
-      <line x1="20" y1="8" x2="20" y2="8.01" />
-      <line x1="4" y1="12" x2="4" y2="12.01" />
-      <line x1="8" y1="12" x2="8" y2="12.01" />
-      <line x1="12" y1="12" x2="12" y2="12.01" />
-      <line x1="16" y1="12" x2="16" y2="12.01" />
-      <line x1="20" y1="12" x2="20" y2="12.01" />
-      <line x1="4" y1="16" x2="4" y2="16.01" />
-      <line x1="12" y1="16" x2="12" y2="16.01" />
-      <line x1="20" y1="16" x2="20" y2="16.01" />
-      <line x1="4" y1="20" x2="4" y2="20.01" />
-      <line x1="8" y1="20" x2="8" y2="20.01" />
-      <line x1="12" y1="20" x2="12" y2="20.01" />
-      <line x1="16" y1="20" x2="16" y2="20.01" />
-      <line x1="20" y1="20" x2="20" y2="20.01" />
+      <path d="M4 4l0 .01" />
+      <path d="M8 4l0 .01" />
+      <path d="M12 4l0 .01" />
+      <path d="M16 4l0 .01" />
+      <path d="M20 4l0 .01" />
+      <path d="M4 8l0 .01" />
+      <path d="M12 8l0 .01" />
+      <path d="M20 8l0 .01" />
+      <path d="M4 12l0 .01" />
+      <path d="M8 12l0 .01" />
+      <path d="M12 12l0 .01" />
+      <path d="M16 12l0 .01" />
+      <path d="M20 12l0 .01" />
+      <path d="M4 16l0 .01" />
+      <path d="M12 16l0 .01" />
+      <path d="M20 16l0 .01" />
+      <path d="M4 20l0 .01" />
+      <path d="M8 20l0 .01" />
+      <path d="M12 20l0 .01" />
+      <path d="M16 20l0 .01" />
+      <path d="M20 20l0 .01" />
     </svg>
     """
   end
@@ -9820,12 +10187,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="12" y1="8" x2="12" y2="8.01" />
-      <line x1="8" y1="12" x2="8" y2="12.01" />
-      <line x1="12" y1="12" x2="12" y2="12.01" />
-      <line x1="16" y1="12" x2="16" y2="12.01" />
-      <line x1="12" y1="16" x2="12" y2="16.01" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M12 8l0 .01" />
+      <path d="M8 12l0 .01" />
+      <path d="M12 12l0 .01" />
+      <path d="M16 12l0 .01" />
+      <path d="M12 16l0 .01" />
     </svg>
     """
   end
@@ -9847,17 +10214,17 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 12v-4a4 4 0 0 1 4 -4h4" />
-      <line x1="16" y1="4" x2="16" y2="4.01" />
-      <line x1="20" y1="4" x2="20" y2="4.01" />
-      <line x1="20" y1="8" x2="20" y2="8.01" />
-      <line x1="20" y1="12" x2="20" y2="12.01" />
-      <line x1="4" y1="16" x2="4" y2="16.01" />
-      <line x1="20" y1="16" x2="20" y2="16.01" />
-      <line x1="4" y1="20" x2="4" y2="20.01" />
-      <line x1="8" y1="20" x2="8" y2="20.01" />
-      <line x1="12" y1="20" x2="12" y2="20.01" />
-      <line x1="16" y1="20" x2="16" y2="20.01" />
-      <line x1="20" y1="20" x2="20" y2="20.01" />
+      <path d="M16 4l0 .01" />
+      <path d="M20 4l0 .01" />
+      <path d="M20 8l0 .01" />
+      <path d="M20 12l0 .01" />
+      <path d="M4 16l0 .01" />
+      <path d="M20 16l0 .01" />
+      <path d="M4 20l0 .01" />
+      <path d="M8 20l0 .01" />
+      <path d="M12 20l0 .01" />
+      <path d="M16 20l0 .01" />
+      <path d="M20 20l0 .01" />
     </svg>
     """
   end
@@ -9878,23 +10245,23 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="20" y1="4" x2="20" y2="20" />
-      <line x1="4" y1="4" x2="4" y2="4.01" />
-      <line x1="8" y1="4" x2="8" y2="4.01" />
-      <line x1="12" y1="4" x2="12" y2="4.01" />
-      <line x1="16" y1="4" x2="16" y2="4.01" />
-      <line x1="4" y1="8" x2="4" y2="8.01" />
-      <line x1="12" y1="8" x2="12" y2="8.01" />
-      <line x1="4" y1="12" x2="4" y2="12.01" />
-      <line x1="8" y1="12" x2="8" y2="12.01" />
-      <line x1="12" y1="12" x2="12" y2="12.01" />
-      <line x1="16" y1="12" x2="16" y2="12.01" />
-      <line x1="4" y1="16" x2="4" y2="16.01" />
-      <line x1="12" y1="16" x2="12" y2="16.01" />
-      <line x1="4" y1="20" x2="4" y2="20.01" />
-      <line x1="8" y1="20" x2="8" y2="20.01" />
-      <line x1="12" y1="20" x2="12" y2="20.01" />
-      <line x1="16" y1="20" x2="16" y2="20.01" />
+      <path d="M20 4l0 16" />
+      <path d="M4 4l0 .01" />
+      <path d="M8 4l0 .01" />
+      <path d="M12 4l0 .01" />
+      <path d="M16 4l0 .01" />
+      <path d="M4 8l0 .01" />
+      <path d="M12 8l0 .01" />
+      <path d="M4 12l0 .01" />
+      <path d="M8 12l0 .01" />
+      <path d="M12 12l0 .01" />
+      <path d="M16 12l0 .01" />
+      <path d="M4 16l0 .01" />
+      <path d="M12 16l0 .01" />
+      <path d="M4 20l0 .01" />
+      <path d="M8 20l0 .01" />
+      <path d="M12 20l0 .01" />
+      <path d="M16 20l0 .01" />
     </svg>
     """
   end
@@ -9972,23 +10339,23 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="4" x2="20" y2="4" />
-      <line x1="4" y1="8" x2="4" y2="8.01" />
-      <line x1="12" y1="8" x2="12" y2="8.01" />
-      <line x1="20" y1="8" x2="20" y2="8.01" />
-      <line x1="4" y1="12" x2="4" y2="12.01" />
-      <line x1="8" y1="12" x2="8" y2="12.01" />
-      <line x1="12" y1="12" x2="12" y2="12.01" />
-      <line x1="16" y1="12" x2="16" y2="12.01" />
-      <line x1="20" y1="12" x2="20" y2="12.01" />
-      <line x1="4" y1="16" x2="4" y2="16.01" />
-      <line x1="12" y1="16" x2="12" y2="16.01" />
-      <line x1="20" y1="16" x2="20" y2="16.01" />
-      <line x1="4" y1="20" x2="4" y2="20.01" />
-      <line x1="8" y1="20" x2="8" y2="20.01" />
-      <line x1="12" y1="20" x2="12" y2="20.01" />
-      <line x1="16" y1="20" x2="16" y2="20.01" />
-      <line x1="20" y1="20" x2="20" y2="20.01" />
+      <path d="M4 4l16 0" />
+      <path d="M4 8l0 .01" />
+      <path d="M12 8l0 .01" />
+      <path d="M20 8l0 .01" />
+      <path d="M4 12l0 .01" />
+      <path d="M8 12l0 .01" />
+      <path d="M12 12l0 .01" />
+      <path d="M16 12l0 .01" />
+      <path d="M20 12l0 .01" />
+      <path d="M4 16l0 .01" />
+      <path d="M12 16l0 .01" />
+      <path d="M20 16l0 .01" />
+      <path d="M4 20l0 .01" />
+      <path d="M8 20l0 .01" />
+      <path d="M12 20l0 .01" />
+      <path d="M16 20l0 .01" />
+      <path d="M20 20l0 .01" />
     </svg>
     """
   end
@@ -10009,23 +10376,23 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="4" x2="12" y2="20" />
-      <line x1="4" y1="4" x2="4" y2="4.01" />
-      <line x1="8" y1="4" x2="8" y2="4.01" />
-      <line x1="16" y1="4" x2="16" y2="4.01" />
-      <line x1="20" y1="4" x2="20" y2="4.01" />
-      <line x1="4" y1="8" x2="4" y2="8.01" />
-      <line x1="20" y1="8" x2="20" y2="8.01" />
-      <line x1="4" y1="12" x2="4" y2="12.01" />
-      <line x1="8" y1="12" x2="8" y2="12.01" />
-      <line x1="16" y1="12" x2="16" y2="12.01" />
-      <line x1="20" y1="12" x2="20" y2="12.01" />
-      <line x1="4" y1="16" x2="4" y2="16.01" />
-      <line x1="20" y1="16" x2="20" y2="16.01" />
-      <line x1="4" y1="20" x2="4" y2="20.01" />
-      <line x1="8" y1="20" x2="8" y2="20.01" />
-      <line x1="16" y1="20" x2="16" y2="20.01" />
-      <line x1="20" y1="20" x2="20" y2="20.01" />
+      <path d="M12 4l0 16" />
+      <path d="M4 4l0 .01" />
+      <path d="M8 4l0 .01" />
+      <path d="M16 4l0 .01" />
+      <path d="M20 4l0 .01" />
+      <path d="M4 8l0 .01" />
+      <path d="M20 8l0 .01" />
+      <path d="M4 12l0 .01" />
+      <path d="M8 12l0 .01" />
+      <path d="M16 12l0 .01" />
+      <path d="M20 12l0 .01" />
+      <path d="M4 16l0 .01" />
+      <path d="M20 16l0 .01" />
+      <path d="M4 20l0 .01" />
+      <path d="M8 20l0 .01" />
+      <path d="M16 20l0 .01" />
+      <path d="M20 20l0 .01" />
     </svg>
     """
   end
@@ -10048,7 +10415,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 5h4v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2z" />
       <path d="M14 3.5c0 1.626 .507 3.212 1.45 4.537l.05 .07a8.093 8.093 0 0 1 1.5 4.694v.199m0 4v2a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-6.2a8.09 8.09 0 0 1 1.35 -4.474m1.336 -2.63a7.822 7.822 0 0 0 .314 -2.196" />
-      <path d="M7.003 14.803a2.4 2.4 0 0 0 .997 -.803a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 .866 -.142" />
+      <path d="M7 14.803a2.4 2.4 0 0 0 1 -.803a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 .866 -.142" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -10072,7 +10439,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 5h4v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2z" />
       <path d="M14 3.5c0 1.626 .507 3.212 1.45 4.537l.05 .07a8.093 8.093 0 0 1 1.5 4.694v6.199a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-6.2c0 -1.682 .524 -3.322 1.5 -4.693l.05 -.07a7.823 7.823 0 0 0 1.45 -4.537" />
-      <path d="M7.003 14.803a2.4 2.4 0 0 0 .997 -.803a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 1 -.805" />
+      <path d="M7 14.803a2.4 2.4 0 0 0 1 -.803a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 1 -.805" />
     </svg>
     """
   end
@@ -10323,16 +10690,16 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M11.005 5.005v5a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-5a1 1 0 0 1 1 -1h5a1 1 0 0 1 1 1z" />
-      <path d="M15.005 4.005h-.01" />
-      <path d="M20.005 4.005h-.01" />
-      <path d="M20.005 9.005h-.01" />
-      <path d="M20.005 15.005h-.01" />
-      <path d="M4.005 15.005h-.01" />
-      <path d="M20.005 20.005h-.01" />
-      <path d="M15.005 20.005h-.01" />
-      <path d="M9.005 20.005h-.01" />
-      <path d="M4.005 20.005h-.01" />
+      <path d="M11 5v5a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-5a1 1 0 0 1 1 -1h5a1 1 0 0 1 1 1z" />
+      <path d="M15 4h-.01" />
+      <path d="M20 4h-.01" />
+      <path d="M20 9h-.01" />
+      <path d="M20 15h-.01" />
+      <path d="M4 15h-.01" />
+      <path d="M20 20h-.01" />
+      <path d="M15 20h-.01" />
+      <path d="M9 20h-.01" />
+      <path d="M4 20h-.01" />
     </svg>
     """
   end
@@ -10447,7 +10814,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a1.994 1.994 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
+      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a2 2 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
       <path d="M12 8h4v4m0 4h-8v-8" />
       <path d="M3 3l18 18" />
     </svg>
@@ -10471,7 +10838,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 8h8v8h-8z" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -10493,7 +10860,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 8h4v4m0 4h-8v-8" />
-      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a1.994 1.994 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
+      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a2 2 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
       <path d="M16 16l3.3 3.3" />
       <path d="M16 8l3.3 -3.3" />
       <path d="M8 8l-3.3 -3.3" />
@@ -10520,7 +10887,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 8h8v8h-8z" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M16 16l3.3 3.3" />
       <path d="M16 8l3.3 -3.3" />
       <path d="M8 8l-3.3 -3.3" />
@@ -10546,7 +10913,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 6a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2z" />
-      <rect x="7" y="3" width="14" height="14" rx="2" />
+      <path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
       <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
     </svg>
     """
@@ -10568,7 +10935,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="7" y="3" width="14" height="14" rx="2" />
+      <path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
       <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
       <path d="M14 14v-8l-2 2" />
     </svg>
@@ -10591,7 +10958,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="7" y="3" width="14" height="14" rx="2" />
+      <path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
       <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
       <path d="M12 8a2 2 0 1 1 4 0c0 .591 -.417 1.318 -.816 1.858l-3.184 4.143l4 0" />
     </svg>
@@ -10614,7 +10981,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="7" y="3" width="14" height="14" rx="2" />
+      <path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
       <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
       <path d="M14 10a2 2 0 1 0 -2 -2" />
       <path d="M12 12a2 2 0 1 0 2 -2" />
@@ -10638,7 +11005,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="7" y="3" width="14" height="14" rx="2" />
+      <path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
       <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
       <path d="M15 14v-8l-4 6h5" />
     </svg>
@@ -10661,7 +11028,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="7" y="3" width="14" height="14" rx="2" />
+      <path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
       <path d="M12 14h2a2 2 0 1 0 0 -4h-2v-4h4" />
       <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
     </svg>
@@ -10684,8 +11051,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="7" y="3" width="14" height="14" rx="2" />
-      <circle cx="14" cy="12" r="2" />
+      <path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+      <path d="M14 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M16 8a2 2 0 1 0 -4 0v4" />
       <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
     </svg>
@@ -10708,7 +11075,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="7" y="3" width="14" height="14" rx="2" />
+      <path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
       <path d="M12 6h4l-2 8" />
       <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
     </svg>
@@ -10731,9 +11098,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="7" y="3" width="14" height="14" rx="2" />
-      <circle cx="14" cy="8" r="2" />
-      <circle cx="14" cy="12" r="2" />
+      <path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+      <path d="M14 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M14 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
     </svg>
     """
@@ -10755,8 +11122,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="7" y="3" width="14" height="14" rx="2" />
-      <circle cx="14" cy="8" r="2" />
+      <path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+      <path d="M14 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M12 12a2 2 0 1 0 4 0v-4" />
       <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
     </svg>
@@ -10779,7 +11146,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="7" y="3" width="14" height="14" rx="2" />
+      <path d="M7 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
       <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h2" />
     </svg>
     """
@@ -10826,7 +11193,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M8 16v.01" />
       <path d="M8 12v.01" />
       <path d="M8 8v.01" />
@@ -10880,10 +11247,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" />
-      <line x1="12" y1="12" x2="20" y2="7.5" />
-      <line x1="12" y1="12" x2="12" y2="21" />
-      <line x1="12" y1="12" x2="4" y2="7.5" />
+      <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5" />
+      <path d="M12 12l8 -4.5" />
+      <path d="M12 12l0 9" />
+      <path d="M12 12l-8 -4.5" />
     </svg>
     """
   end
@@ -11120,10 +11487,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 11s6.054 -1.05 6 -4.5c-.038 -2.324 -2.485 -3.19 -3.016 -1.5c0 0 -.502 -2 -2.01 -2c-1.508 0 -2.984 3 -.974 8z" />
-      <path d="M13.98 11s6.075 -1.05 6.02 -4.5c-.038 -2.324 -2.493 -3.19 -3.025 -1.5c0 0 -.505 -2 -2.017 -2c-1.513 0 -2.994 3 -.977 8z" />
-      <path d="M13 13.98l.062 .309l.081 .35l.075 .29l.092 .328l.11 .358l.061 .188l.139 .392c.64 1.73 1.841 3.837 3.88 3.805c2.324 -.038 3.19 -2.493 1.5 -3.025l.148 -.045l.165 -.058a4.13 4.13 0 0 0 .098 -.039l.222 -.098c.586 -.28 1.367 -.832 1.367 -1.777c0 -1.513 -3 -2.994 -8 -.977z" />
-      <path d="M10.02 13l-.309 .062l-.35 .081l-.29 .075l-.328 .092l-.358 .11l-.188 .061l-.392 .139c-1.73 .64 -3.837 1.84 -3.805 3.88c.038 2.324 2.493 3.19 3.025 1.5l.045 .148l.058 .165l.039 .098l.098 .222c.28 .586 .832 1.367 1.777 1.367c1.513 0 2.994 -3 .977 -8z" />
-      <path d="M11 10.02l-.062 -.309l-.081 -.35l-.075 -.29l-.092 -.328l-.11 -.358l-.128 -.382l-.148 -.399c-.658 -1.687 -1.844 -3.634 -3.804 -3.604c-2.324 .038 -3.19 2.493 -1.5 3.025l-.148 .045l-.164 .058a4.13 4.13 0 0 0 -.1 .039l-.22 .098c-.588 .28 -1.368 .832 -1.368 1.777c0 1.513 3 2.994 8 .977z" />
+      <path d="M13.98 11s6.075 -1.05 6.02 -4.5c-.038 -2.324 -2.493 -3.19 -3.025 -1.5c0 0 -.505 -2 -2.017 -2c-1.513 0 -3 3 -.977 8z" />
+      <path d="M13 13.98l.062 .309l.081 .35l.075 .29l.092 .328l.11 .358l.061 .188l.139 .392c.64 1.73 1.841 3.837 3.88 3.805c2.324 -.038 3.19 -2.493 1.5 -3.025l.148 -.045l.165 -.058a4.13 4.13 0 0 0 .098 -.039l.222 -.098c.586 -.28 1.367 -.832 1.367 -1.777c0 -1.513 -3 -3 -8 -.977z" />
+      <path d="M10.02 13l-.309 .062l-.35 .081l-.29 .075l-.328 .092l-.358 .11l-.188 .061l-.392 .139c-1.73 .64 -3.837 1.84 -3.805 3.88c.038 2.324 2.493 3.19 3.025 1.5l.045 .148l.058 .165l.039 .098l.098 .222c.28 .586 .832 1.367 1.777 1.367c1.513 0 3 -3 .977 -8z" />
+      <path d="M11 10.02l-.062 -.309l-.081 -.35l-.075 -.29l-.092 -.328l-.11 -.358l-.128 -.382l-.148 -.399c-.658 -1.687 -1.844 -3.634 -3.804 -3.604c-2.324 .038 -3.19 2.493 -1.5 3.025l-.148 .045l-.164 .058a4.13 4.13 0 0 0 -.1 .039l-.22 .098c-.588 .28 -1.368 .832 -1.368 1.777c0 1.513 3 3 8 .977z" />
     </svg>
     """
   end
@@ -11145,7 +11512,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
-      <circle cx="10.5" cy="13.5" r="2.5" />
+      <path d="M10.5 13.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
       <path d="M8 8h8v8" />
     </svg>
     """
@@ -11167,7 +11534,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12.893 4.514l7.977 13.994a0.993 .993 0 0 1 -.394 1.365a1.04 1.04 0 0 1 -.5 .127h-3.476l-4.5 -8l-2.5 4h1.5l2 4h-8.977c-.565 0 -1.023 -.45 -1.023 -1.003c0 -.171 .045 -.34 .13 -.49l7.977 -13.993a1.034 1.034 0 0 1 1.786 0z" />
+      <path d="M12.893 4.514l7.977 14a0.993 .993 0 0 1 -.394 1.365a1.04 1.04 0 0 1 -.5 .127h-3.476l-4.5 -8l-2.5 4h1.5l2 4h-8.977c-.565 0 -1.023 -.45 -1.023 -1c0 -.171 .045 -.34 .13 -.49l7.977 -13.993a1.034 1.034 0 0 1 1.786 0z" />
     </svg>
     """
   end
@@ -11254,10 +11621,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M11.5 7h1" />
       <path d="M7.403 9.11l.707 -.706" />
-      <circle cx="12" cy="13" r="3.5" />
+      <path d="M12 13m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
       <path d="M12 12v1l.9 -.5z" />
     </svg>
     """
@@ -11345,7 +11712,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="2" />
+      <path d="M12 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M9.591 3.635l-7.13 14.082c-1.712 3.38 1.759 5.45 3.69 3.573l1.86 -1.81c3.142 -3.054 4.959 -2.99 8.039 .11l1.329 1.337c2.372 2.387 5.865 .078 4.176 -3.225l-7.195 -14.067c-1.114 -2.18 -3.666 -2.18 -4.77 0z" />
     </svg>
     """
@@ -11390,13 +11757,13 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="10" x2="4" y2="16" />
-      <line x1="20" y1="10" x2="20" y2="16" />
+      <path d="M4 10l0 6" />
+      <path d="M20 10l0 6" />
       <path d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0" />
-      <line x1="8" y1="3" x2="9" y2="5" />
-      <line x1="16" y1="3" x2="15" y2="5" />
-      <line x1="9" y1="18" x2="9" y2="21" />
-      <line x1="15" y1="18" x2="15" y2="21" />
+      <path d="M8 3l1 2" />
+      <path d="M16 3l-1 2" />
+      <path d="M9 18l0 3" />
+      <path d="M15 18l0 3" />
     </svg>
     """
   end
@@ -11441,8 +11808,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M2 5c7.109 4.1 10.956 10.131 12 14c1.074 -4.67 4.49 -8.94 8 -11" />
-      <circle cx="14" cy="8" r="2" />
-      <path d="M7 9c-.278 5.494 -2.337 7.33 -4 10c4.013 -2 6.02 -5 15.05 -5c4.012 0 3.51 2.5 1.003 3c2.006 .5 2.508 5 -2.007 2" />
+      <path d="M14 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M7 9c-.278 5.494 -2.337 7.33 -4 10c4.013 -2 6.02 -5 15.05 -5c4.012 0 3.51 2.5 1 3c2 .5 2.508 5 -2.007 2" />
     </svg>
     """
   end
@@ -11463,7 +11830,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="4" />
+      <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
       <path d="M9 8a3 3 0 0 0 6 0" />
     </svg>
     """
@@ -11485,10 +11852,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5" r="2" />
-      <path d="M20 12.5v4.75a0.734 .734 0 0 1 -.055 .325a0.704 .704 0 0 1 -.348 .366l-5.462 2.58a4.998 4.998 0 0 1 -4.27 0l-5.462 -2.58a0.705 .705 0 0 1 -.401 -.691l-.002 -4.75" />
+      <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M20 12.5v4.75a0.734 .734 0 0 1 -.055 .325a0.704 .704 0 0 1 -.348 .366l-5.462 2.58a5 5 0 0 1 -4.27 0l-5.462 -2.58a0.705 .705 0 0 1 -.401 -.691l0 -4.75" />
       <path d="M4.431 12.216l5.634 -2.332a5.065 5.065 0 0 1 3.87 0l5.634 2.332a0.692 .692 0 0 1 .028 1.269l-5.462 2.543a5.064 5.064 0 0 1 -4.27 0l-5.462 -2.543a0.691 .691 0 0 1 .028 -1.27z" />
-      <line x1="12" y1="7" x2="12" y2="13" />
+      <path d="M12 7l0 6" />
     </svg>
     """
   end
@@ -11511,7 +11878,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M18.364 18.364a9 9 0 1 0 -12.728 0" />
       <path d="M11.766 22h.468a2 2 0 0 0 1.985 -1.752l.5 -4a2 2 0 0 0 -1.985 -2.248h-1.468a2 2 0 0 0 -1.985 2.248l.5 4a2 2 0 0 0 1.985 1.752z" />
-      <circle cx="12" cy="9" r="2" />
+      <path d="M12 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -11554,10 +11921,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M8 16l1.106 -1.99m1.4 -2.522l2.494 -4.488" />
       <path d="M7 14h5m2.9 0h2.1" />
-      <path d="M16 16l-2.51 -4.518m-1.487 -2.677l-1.003 -1.805" />
+      <path d="M16 16l-2.51 -4.518m-1.487 -2.677l-1 -1.805" />
     </svg>
     """
   end
@@ -11578,9 +11945,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="7" r="3" />
-      <circle cx="17" cy="16" r="3" />
-      <circle cx="7" cy="16" r="3" />
+      <path d="M12 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M17 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M7 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -11623,7 +11990,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M22 9.43c0 5.838 -4.477 10.57 -10 10.57s-10 -4.662 -10 -10.5c-.004 -2.667 1.83 -5.01 4.322 -5.429c2.492 -.418 4.9 1.392 5.678 3.929c.768 -2.54 3.177 -4.354 5.668 -3.931c2.495 .417 4.332 2.69 4.332 5.36z" />
+      <path d="M22 9.43c0 5.838 -4.477 10.57 -10 10.57s-10 -4.662 -10 -10.5c0 -2.667 1.83 -5.01 4.322 -5.429c2.492 -.418 4.9 1.392 5.678 3.929c.768 -2.54 3.177 -4.354 5.668 -3.931c2.495 .417 4.332 2.69 4.332 5.36z" />
       <path d="M7.5 10c0 2.761 2.015 5 4.5 5s4.5 -2.239 4.5 -5" />
     </svg>
     """
@@ -11645,11 +12012,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="5" cy="9.5" rx="1" ry="1.5" />
+      <path d="M5 9.5m-1 0a1 1.5 0 1 0 2 0a1 1.5 0 1 0 -2 0" />
       <path d="M14.463 11.596c1.282 1.774 3.476 3.416 3.476 3.416s1.921 1.574 .593 3.636c-1.328 2.063 -4.892 1.152 -4.892 1.152s-1.416 -.44 -3.06 -.088c-1.644 .356 -3.06 .22 -3.06 .22s-2.055 -.22 -2.47 -2.304c-.416 -2.084 1.918 -3.638 2.102 -3.858c.182 -.222 1.409 -.966 2.284 -2.394c.875 -1.428 3.337 -2.287 5.027 .221z" />
-      <ellipse cx="9" cy="4.5" rx="1" ry="1.5" />
-      <ellipse cx="15" cy="4.5" rx="1" ry="1.5" />
-      <ellipse cx="19" cy="9.5" rx="1" ry="1.5" />
+      <path d="M9 4.5m-1 0a1 1.5 0 1 0 2 0a1 1.5 0 1 0 -2 0" />
+      <path d="M15 4.5m-1 0a1 1.5 0 1 0 2 0a1 1.5 0 1 0 -2 0" />
+      <path d="M19 9.5m-1 0a1 1.5 0 1 0 2 0a1 1.5 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -11713,8 +12080,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="12.5" cy="12.5" r="3.5" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12.5 12.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
       <path d="M9 12v-8" />
     </svg>
     """
@@ -11737,9 +12104,30 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 18v-12h4.5a3 3 0 0 1 0 6a3 3 0 0 1 0 6h-4.5" />
-      <line x1="3" y1="12" x2="7.5" y2="12" />
+      <path d="M3 12l4.5 0" />
       <path d="M14 13h7a3.5 3.5 0 0 0 -7 0v2a3.5 3.5 0 0 0 6.64 1" />
-      <line x1="16" y1="6" x2="19" y2="6" />
+      <path d="M16 6l3 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `brand_bilibili` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.brand_bilibili />
+      <TablerIcons.brand_bilibili class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def brand_bilibili(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6zm5 -7l2 3m6 -3l-2 3m-7 6l3 -1m4 0l3 1m-8 3a1.625 1.625 0 0 0 3 0a1.625 1.625 0 0 0 3 0" />
     </svg>
     """
   end
@@ -11762,7 +12150,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 8l2 2l4 -4l4 4l2 -2l-6 -6z" />
       <path d="M6 16l2 -2l4 4l3.5 -3.5l2 2l-5.5 5.5z" />
-      <path d="M20 10l1.997 2.001l-1.997 1.999l-2 -2z" />
+      <path d="M20 10l2 2l-2 2l-2 -2z" />
       <path d="M4 10l2 2l-2 2l-2 -2z" />
       <path d="M12 10l2 2l-2 2l-2 -2z" />
     </svg>
@@ -11855,8 +12243,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="15" cy="14" rx="6" ry="5" />
-      <circle cx="15" cy="14" r="1" />
+      <path d="M15 14m-6 0a6 5 0 1 0 12 0a6 5 0 1 0 -12 0" />
+      <path d="M15 14m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M3 16l9 -6.5" />
       <path d="M6 9h9" />
       <path d="M13 5l5.65 5" />
@@ -11881,8 +12269,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 21h8a5 5 0 0 0 5 -5v-3a3 3 0 0 0 -3 -3h-1v-2a5 5 0 0 0 -5 -5h-4a5 5 0 0 0 -5 5v8a5 5 0 0 0 5 5z" />
-      <rect x="7" y="7" width="6" height="3" rx="1.5" />
-      <rect x="7" y="14" width="10" height="3" rx="1.5" />
+      <path d="M7 7m0 1.5a1.5 1.5 0 0 1 1.5 -1.5h3a1.5 1.5 0 0 1 1.5 1.5v0a1.5 1.5 0 0 1 -1.5 1.5h-3a1.5 1.5 0 0 1 -1.5 -1.5z" />
+      <path d="M7 14m0 1.5a1.5 1.5 0 0 1 1.5 -1.5h7a1.5 1.5 0 0 1 1.5 1.5v0a1.5 1.5 0 0 1 -1.5 1.5h-7a1.5 1.5 0 0 1 -1.5 -1.5z" />
     </svg>
     """
   end
@@ -11905,7 +12293,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 18v-9.5a4.5 4.5 0 0 1 4.5 -4.5h7a4.5 4.5 0 0 1 4.5 4.5v7a4.5 4.5 0 0 1 -4.5 4.5h-9.5a2 2 0 0 1 -2 -2z" />
       <path d="M8 12h3.5a2 2 0 1 1 0 4h-3.5v-7a1 1 0 0 1 1 -1h1.5a2 2 0 1 1 0 4h-1.5" />
-      <line x1="16" y1="16" x2="16.01" y2="16" />
+      <path d="M16 16l.01 0" />
     </svg>
     """
   end
@@ -11994,7 +12382,32 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3.9 7.205a17.764 17.764 0 0 0 4.008 2.753a7.917 7.917 0 0 0 4.57 .567c1.5 -.33 2.907 -.998 4.121 -1.956a12.107 12.107 0 0 0 2.892 -2.903c.603 -.94 .745 -1.766 .484 -2.231c-.261 -.465 -.927 -.568 -1.72 -.257a7.564 7.564 0 0 0 -2.608 2.034a18.425 18.425 0 0 0 -2.588 3.884a34.927 34.927 0 0 0 -2.093 5.073a12.908 12.908 0 0 0 -.677 3.515c-.07 .752 .07 1.51 .405 2.184c.323 .562 1.06 1.132 2.343 1.132c3.474 0 5.093 -3.53 5.463 -5.62c.24 -1.365 -.085 -3.197 -1.182 -4.01" />
+      <path d="M3.9 7.205a17.764 17.764 0 0 0 4.008 2.753a7.917 7.917 0 0 0 4.57 .567c1.5 -.33 2.907 -1 4.121 -1.956a12.107 12.107 0 0 0 2.892 -2.903c.603 -.94 .745 -1.766 .484 -2.231c-.261 -.465 -.927 -.568 -1.72 -.257a7.564 7.564 0 0 0 -2.608 2.034a18.425 18.425 0 0 0 -2.588 3.884a34.927 34.927 0 0 0 -2.093 5.073a12.908 12.908 0 0 0 -.677 3.515c-.07 .752 .07 1.51 .405 2.184c.323 .562 1.06 1.132 2.343 1.132c3.474 0 5.093 -3.53 5.463 -5.62c.24 -1.365 -.085 -3.197 -1.182 -4.01" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `brand_c_sharp` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.brand_c_sharp />
+      <TablerIcons.brand_c_sharp class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def brand_c_sharp(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 9a3 3 0 0 0 -3 -3h-.5a3.5 3.5 0 0 0 -3.5 3.5v5a3.5 3.5 0 0 0 3.5 3.5h.5a3 3 0 0 0 3 -3" />
+      <path d="M16 7l-1 10" />
+      <path d="M20 7l-1 10" />
+      <path d="M14 10h7.5" />
+      <path d="M21 14h-7.5" />
     </svg>
     """
   end
@@ -12037,7 +12450,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 10v-.2a1.8 1.8 0 0 0 -1.8 -1.8h-.4a1.8 1.8 0 0 0 -1.8 1.8v4.4a1.8 1.8 0 0 0 1.8 1.8h.4a1.8 1.8 0 0 0 1.8 -1.8v-.2" />
-      <rect x="3" y="3" width="18" height="18" rx="3" />
+      <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
     </svg>
     """
   end
@@ -12079,8 +12492,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="12" cy="12" r="3" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M12 9h8.4" />
       <path d="M14.598 13.5l-4.2 7.275" />
       <path d="M9.402 13.5l-4.2 -7.275" />
@@ -12151,10 +12564,10 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 15l9 6l9 -6l-9 -6l-9 6" />
       <path d="M3 9l9 6l9 -6l-9 -6l-9 6" />
-      <line x1="3" y1="9" x2="3" y2="15" />
-      <line x1="21" y1="9" x2="21" y2="15" />
-      <line x1="12" y1="3" x2="12" y2="9" />
-      <line x1="12" y1="15" x2="12" y2="21" />
+      <path d="M3 9l0 6" />
+      <path d="M21 9l0 6" />
+      <path d="M12 3l0 6" />
+      <path d="M12 15l0 6" />
     </svg>
     """
   end
@@ -12177,7 +12590,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M20 7.5v9l-4 2.25l-4 2.25l-4 -2.25l-4 -2.25v-9l4 -2.25l4 -2.25l4 2.25z" />
       <path d="M12 12l4 -2.25l4 -2.25" />
-      <line x1="12" y1="12" x2="12" y2="21" />
+      <path d="M12 12l0 9" />
       <path d="M12 12l-4 -2.25l-4 -2.25" />
       <path d="M20 12l-4 2v4.75" />
       <path d="M4 12l4 2l0 4.75" />
@@ -12202,9 +12615,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="17" cy="14" rx="3" ry="2" />
+      <path d="M17 14m-3 0a3 2 0 1 0 6 0a3 2 0 1 0 -6 0" />
       <path d="M4.526 17.666c-1.133 -.772 -1.897 -1.924 -2.291 -3.456c-.398 -1.54 -.29 -2.937 .32 -4.19c.61 -1.255 1.59 -2.34 2.938 -3.254c1.348 -.914 2.93 -1.625 4.749 -2.132c1.81 -.504 3.516 -.708 5.12 -.61c1.608 .1 2.979 .537 4.112 1.31s1.897 1.924 2.291 3.456c.398 1.541 .29 2.938 -.32 4.192c-.61 1.253 -1.59 2.337 -2.938 3.252c-1.348 .915 -2.93 1.626 -4.749 2.133c-1.81 .503 -3.516 .707 -5.12 .61c-1.608 -.102 -2.979 -.538 -4.112 -1.31z" />
-      <path d="M10.998 12.508c-.53 -.316 -1.23 -.508 -1.998 -.508c-1.657 0 -3 .895 -3 2s1.343 2 3 2c.767 0 1.467 -.192 1.998 -.508" />
+      <path d="M11 12.508c-.53 -.316 -1.23 -.508 -2 -.508c-1.657 0 -3 .895 -3 2s1.343 2 3 2c.767 0 1.467 -.192 2 -.508" />
     </svg>
     """
   end
@@ -12225,7 +12638,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12.95 22c-4.503 .001 -8.445 -3.04 -9.61 -7.413c-1.165 -4.373 .737 -8.988 4.638 -11.25a9.906 9.906 0 0 1 12.008 1.598l-3.335 3.367a5.185 5.185 0 0 0 -7.354 .013a5.252 5.252 0 0 0 0 7.393a5.185 5.185 0 0 0 7.354 .013l3.349 3.367a9.887 9.887 0 0 1 -7.05 2.912z" />
+      <path d="M12.95 22c-4.503 0 -8.445 -3.04 -9.61 -7.413c-1.165 -4.373 .737 -8.988 4.638 -11.25a9.906 9.906 0 0 1 12.008 1.598l-3.335 3.367a5.185 5.185 0 0 0 -7.354 .013a5.252 5.252 0 0 0 0 7.393a5.185 5.185 0 0 0 7.354 .013l3.349 3.367a9.887 9.887 0 0 1 -7.05 2.912z" />
     </svg>
     """
   end
@@ -12269,7 +12682,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z" />
-      <path d="M12 3c-3.263 3.212 -2.994 7.654 -3 12c4.59 .244 8.814 -.282 12 -3" />
+      <path d="M12 3c-3.263 3.212 -3 7.654 -3 12c4.59 .244 8.814 -.282 12 -3" />
       <path d="M9.5 9a4.494 4.494 0 0 1 5.5 5.5" />
     </svg>
     """
@@ -12316,8 +12729,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3.1 13c3.267 0 5.9 -.167 7.9 -.5c3 -.5 4 -2 4 -3.5a3 3 0 1 0 -6 0c0 1.554 1.807 3.005 3 4c1.193 .995 2 2.5 2 3.5a1.5 1.5 0 1 1 -3 0c0 -2 4 -3.5 7 -3.5h2.9" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M3.1 13c3.267 0 5.9 -.167 7.9 -.5c3 -.5 4 -2 4 -3.5a3 3 0 1 0 -6 0c0 1.554 1.807 3 3 4c1.193 1 2 2.5 2 3.5a1.5 1.5 0 1 1 -3 0c0 -2 4 -3.5 7 -3.5h2.9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -12409,7 +12822,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M20 10.99c-.01 5.52 -4.48 10 -10 10.01v-2.26l-.01 -.01c-4.28 -1.11 -6.86 -5.47 -5.76 -9.75a8.001 8.001 0 0 1 9.74 -5.76c3.53 .91 6.03 4.13 6.03 7.78v-.01z" />
+      <path d="M20 10.99c-.01 5.52 -4.48 10 -10 10.01v-2.26l-.01 -.01c-4.28 -1.11 -6.86 -5.47 -5.76 -9.75a8 8 0 0 1 9.74 -5.76c3.53 .91 6.03 4.13 6.03 7.78v-.01z" />
       <path d="M10.5 8l-.5 -1" />
       <path d="M13.5 14l.5 1" />
       <path d="M9 12.5l-1 .5" />
@@ -12552,7 +12965,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 17c-2.397 -.943 -4 -3.153 -4 -5.635c0 -2.19 1.039 -3.14 1.604 -3.595c2.646 -2.133 6.396 -.27 6.396 3.23c0 2.5 -2.905 2.121 -3.5 1.5c-.595 -.621 -1 -1.5 -.5 -2.5" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -12596,7 +13009,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M13.47 20.882l-1.47 -5.882c-2.649 -.088 -5 -1.624 -5 -3.5c0 -1.933 2.239 -3.5 5 -3.5s4 1 5 3c.024 .048 .69 2.215 2 6.5" />
       <path d="M12 11h.01" />
     </svg>
@@ -12689,8 +13102,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="9" cy="12" r="1" />
-      <circle cx="15" cy="12" r="1" />
+      <path d="M9 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M15 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M7.5 7.5c3.5 -1 5.5 -1 9 0" />
       <path d="M7 16.5c3.5 1 6.5 1 10 0" />
       <path d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833 -1.667 3.5 -3c.667 -1.667 .5 -5.833 -1.5 -11.5c-1.457 -1.015 -3 -1.34 -4.5 -1.5l-1 2.5" />
@@ -12759,7 +13172,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="18" height="18" rx="3" />
+      <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
       <path d="M12 7v8.5l-2.015 .201a2.715 2.715 0 1 1 0 -5.402l2.015 .201" />
       <path d="M16 7v.01" />
       <path d="M16 10v5.586c0 .905 -.36 1.774 -1 2.414" />
@@ -12783,7 +13196,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M22 12.54c-1.804 -.345 -2.701 -1.08 -3.523 -2.94c-.487 .696 -1.102 1.568 -.92 2.4c.028 .238 -.32 1.002 -.557 1h-14c0 5.208 3.164 7 6.196 7c4.124 .022 7.828 -1.376 9.854 -5c1.146 -.101 2.296 -1.505 2.95 -2.46z" />
+      <path d="M22 12.54c-1.804 -.345 -2.701 -1.08 -3.523 -2.94c-.487 .696 -1.102 1.568 -.92 2.4c.028 .238 -.32 1 -.557 1h-14c0 5.208 3.164 7 6.196 7c4.124 .022 7.828 -1.376 9.854 -5c1.146 -.101 2.296 -1.505 2.95 -2.46z" />
       <path d="M5 10h3v3h-3z" />
       <path d="M8 10h3v3h-3z" />
       <path d="M11 10h3v3h-3z" />
@@ -12791,7 +13204,7 @@ defmodule TablerIcons do
       <path d="M11 7h3v3h-3z" />
       <path d="M11 4h3v3h-3z" />
       <path d="M4.571 18c1.5 0 2.047 -.074 2.958 -.78" />
-      <line x1="10" y1="16" x2="10" y2="16.01" />
+      <path d="M10 16l0 .01" />
     </svg>
     """
   end
@@ -12812,7 +13225,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="14" r="7" />
+      <path d="M12 14m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M9 14h6" />
       <path d="M12 11l3 3l-3 3" />
       <path d="M10 3l6.9 6" />
@@ -12883,7 +13296,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 3.6c5 6 7 10.5 7.5 16.2" />
       <path d="M6.4 19c3.5 -3.5 6 -6.5 14.5 -6.4" />
       <path d="M3.1 10.75c5 0 9.814 -.38 15.314 -5" />
@@ -12929,8 +13342,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 2c0 4.308 -7 6 -7 12.005a7 7 0 0 0 14 0c0 -6.005 -7 -7.697 -7 -12.005z" />
-      <path d="M12 11.33a65.753 65.753 0 0 1 -2.012 2.023c-.996 .957 -1.988 1.967 -1.988 3.647c0 2.17 1.79 3.997 4 3.997s4 -1.827 4 -3.997c0 -1.676 -.989 -2.685 -1.983 -3.642c-.42 -.404 -2.259 -2.357 -5.517 -5.858l3.5 3.83z" />
+      <path d="M12 2c0 4.308 -7 6 -7 12a7 7 0 0 0 14 0c0 -6 -7 -7.697 -7 -12z" />
+      <path d="M12 11.33a65.753 65.753 0 0 1 -2.012 2.023c-1 .957 -1.988 1.967 -1.988 3.647c0 2.17 1.79 4 4 4s4 -1.827 4 -4c0 -1.676 -.989 -2.685 -1.983 -3.642c-.42 -.404 -2.259 -2.357 -5.517 -5.858l3.5 3.83z" />
     </svg>
     """
   end
@@ -12975,12 +13388,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M14 2a5 5 0 0 1 5 5c0 .712 -.232 1.387 -.5 2c1.894 .042 3.5 1.595 3.5 3.5c0 1.869 -1.656 3.4 -3.5 3.5c.333 .625 .5 1.125 .5 1.5a2.5 2.5 0 0 1 -2.5 2.5c-.787 0 -1.542 -.432 -2 -1c-.786 1.73 -2.476 3 -4.5 3a5 5 0 0 1 -4.583 -7.003a3.5 3.5 0 0 1 -.11 -6.992l.195 -.005a2.5 2.5 0 0 1 1.998 -4c.787 0 1.542 .432 2 1c.786 -1.73 2.476 -3 4.5 -3z" />
-      <path d="M8.5 9l-2.999 -1" />
+      <path d="M14 2a5 5 0 0 1 5 5c0 .712 -.232 1.387 -.5 2c1.894 .042 3.5 1.595 3.5 3.5c0 1.869 -1.656 3.4 -3.5 3.5c.333 .625 .5 1.125 .5 1.5a2.5 2.5 0 0 1 -2.5 2.5c-.787 0 -1.542 -.432 -2 -1c-.786 1.73 -2.476 3 -4.5 3a5 5 0 0 1 -4.583 -7a3.5 3.5 0 0 1 -.11 -6.992l.195 0a2.5 2.5 0 0 1 2 -4c.787 0 1.542 .432 2 1c.786 -1.73 2.476 -3 4.5 -3z" />
+      <path d="M8.5 9l-3 -1" />
       <path d="M9.5 5l-1 4l1 2l5 2l4 -4" />
-      <path d="M18.499 16l-2.999 -.5l-1 -2.5" />
+      <path d="M18.499 16l-3 -.5l-1 -2.5" />
       <path d="M14.5 19l1 -3.5" />
-      <path d="M5.417 14.997l4.083 -3.997" />
+      <path d="M5.417 15l4.083 -4" />
     </svg>
     """
   end
@@ -13023,7 +13436,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4.711 17.875c-.534 -1.339 -1.35 -4.178 .129 -6.47c1.415 -2.193 3.769 -3.608 5.099 -4.278l-5.229 10.748z" />
-      <path d="M19.715 12.508c-.54 3.409 -2.094 6.156 -4.155 7.348c-4.069 2.353 -8.144 .45 -9.297 -.188c.877 -1.436 4.433 -7.22 6.882 -10.591c2.714 -3.737 5.864 -5.978 6.565 -6.077c.001 .201 .03 .55 .071 1.03c.144 1.709 .443 5.264 -.066 8.478z" />
+      <path d="M19.715 12.508c-.54 3.409 -2.094 6.156 -4.155 7.348c-4.069 2.353 -8.144 .45 -9.297 -.188c.877 -1.436 4.433 -7.22 6.882 -10.591c2.714 -3.737 5.864 -5.978 6.565 -6.077c0 .201 .03 .55 .071 1.03c.144 1.709 .443 5.264 -.066 8.478z" />
     </svg>
     """
   end
@@ -13045,7 +13458,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 12h-5" />
-      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <path d="M3 3m0 5a5 5 0 0 1 5 -5h8a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-8a5 5 0 0 1 -5 -5z" />
       <path d="M15 16h-5a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h5" />
     </svg>
     """
@@ -13111,8 +13524,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="15" cy="12" r="3" />
-      <rect x="6" y="3" width="12" height="6" rx="3" />
+      <path d="M15 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M6 3m0 3a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v0a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3z" />
       <path d="M9 9a3 3 0 0 0 0 6h3m-3 0a3 3 0 1 0 3 3v-15" />
     </svg>
     """
@@ -13134,7 +13547,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="4" width="18" height="16" rx="1" />
+      <path d="M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
       <path d="M7 8v1" />
       <path d="M17 8v1" />
       <path d="M12.5 4c-.654 1.486 -1.26 3.443 -1.5 9h2.5c-.19 2.867 .094 5.024 .5 7" />
@@ -13183,7 +13596,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4.028 7.82a9 9 0 1 0 12.823 -3.4c-1.636 -1.02 -3.064 -1.02 -4.851 -1.02h-1.647" />
-      <path d="M4.914 9.485c-1.756 -1.569 -.805 -5.38 .109 -6.17c.086 .896 .585 1.208 1.111 1.685c.88 -.275 1.313 -.282 1.867 0c.82 -.91 1.694 -2.354 2.628 -2.093c-1.082 1.741 -.07 3.733 1.371 4.173c-.17 .975 -1.484 1.913 -2.76 2.686c-1.296 .938 -.722 1.85 0 2.234c.949 .506 3.611 -.995 4.545 .354c-1.698 .102 -1.536 3.107 -3.983 2.727c2.523 .957 4.345 .462 5.458 -.34c1.965 -1.52 2.879 -3.542 2.879 -5.557c-.014 -1.398 .194 -2.695 -1.26 -4.75" />
+      <path d="M4.914 9.485c-1.756 -1.569 -.805 -5.38 .109 -6.17c.086 .896 .585 1.208 1.111 1.685c.88 -.275 1.313 -.282 1.867 0c.82 -.91 1.694 -2.354 2.628 -2.093c-1.082 1.741 -.07 3.733 1.371 4.173c-.17 .975 -1.484 1.913 -2.76 2.686c-1.296 .938 -.722 1.85 0 2.234c.949 .506 3.611 -1 4.545 .354c-1.698 .102 -1.536 3.107 -3.983 2.727c2.523 .957 4.345 .462 5.458 -.34c1.965 -1.52 2.879 -3.542 2.879 -5.557c-.014 -1.398 .194 -2.695 -1.26 -4.75" />
     </svg>
     """
   end
@@ -13204,8 +13617,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="12" r="3" />
-      <circle cx="17" cy="12" r="3" />
+      <path d="M7 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M17 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -13226,10 +13639,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="12" cy="12" r="5" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
       <path d="M8.5 20l3.5 -8l-6.5 6" />
-      <circle cx="12" cy="12" r="1" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -13314,8 +13727,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 3h10c.644 0 1.11 .696 .978 1.33l-1.984 9.859a1.014 1.014 0 0 1 -.994 .811h-2.254c-.308 0 -.6 .141 -.793 .382l-4.144 5.25c-.599 .752 -1.809 .331 -1.809 -.632v-16c0 -.564 .44 -1 1 -1z" />
-      <line x1="12" y1="9" x2="17" y2="9" />
+      <path d="M7 3h10c.644 0 1.11 .696 .978 1.33l-1.984 9.859a1.014 1.014 0 0 1 -1 .811h-2.254c-.308 0 -.6 .141 -.793 .382l-4.144 5.25c-.599 .752 -1.809 .331 -1.809 -.632v-16c0 -.564 .44 -1 1 -1z" />
+      <path d="M12 9l5 0" />
     </svg>
     """
   end
@@ -13357,7 +13770,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M8 13h8a4 4 0 1 1 -8 0z" />
     </svg>
     """
@@ -13380,7 +13793,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3.296 14.297l6.407 6.407a9.018 9.018 0 0 1 -6.325 -6.116l-.082 -.291z" />
-      <path d="M16 13h5c-.41 3.603 -3.007 6.59 -6.386 7.614l-11.228 -11.229a9.004 9.004 0 0 1 15.66 -2.985" />
+      <path d="M16 13h5c-.41 3.603 -3.007 6.59 -6.386 7.614l-11.228 -11.229a9 9 0 0 1 15.66 -2.985" />
     </svg>
     """
   end
@@ -13401,9 +13814,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="16" cy="12" r="1" />
-      <circle cx="12" cy="8" r="1" />
-      <circle cx="12" cy="16" r="1" />
+      <path d="M16 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M12 15v-6" />
       <path d="M15 11l-2 -2" />
       <path d="M11 7l-1.9 -1.9" />
@@ -13429,10 +13842,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 18v-5.5c0 -.667 .167 -1.333 .5 -2" />
-      <path d="M12 7.5c0 -1 -.01 -4.07 -4 -3.5c-3.5 .5 -4 2.5 -4 3.5c0 1.5 .002 4 3 4c4 0 5 -2.5 5 -4z" />
-      <path d="M4 12c-1.333 .667 -2 1.333 -2 2c0 1 0 3 1.5 4c3.001 2 6.5 3 8.5 3s5.499 -1 8.5 -3c1.5 -1 1.5 -3 1.5 -4c0 -.667 -.667 -1.333 -2 -2" />
+      <path d="M12 7.5c0 -1 -.01 -4.07 -4 -3.5c-3.5 .5 -4 2.5 -4 3.5c0 1.5 0 4 3 4c4 0 5 -2.5 5 -4z" />
+      <path d="M4 12c-1.333 .667 -2 1.333 -2 2c0 1 0 3 1.5 4c3 2 6.5 3 8.5 3s5.499 -1 8.5 -3c1.5 -1 1.5 -3 1.5 -4c0 -.667 -.667 -1.333 -2 -2" />
       <path d="M20 18v-5.5c0 -.667 -.167 -1.333 -.5 -2" />
-      <path d="M12 7.5l.003 -.297l.01 -.269l.027 -.298l.013 -.105l.033 -.215c.014 -.073 .029 -.146 .046 -.22l.06 -.223c.336 -1.118 1.262 -2.237 3.808 -1.873c2.838 .405 3.703 1.797 3.93 2.842l.036 .204c.005 .033 .01 .066 .013 .098l.016 .185l.005 .171l-.003 .49l-.015 .394l-.02 .271c-.122 1.366 -.655 2.845 -2.962 2.845c-3.256 0 -4.524 -1.656 -4.883 -3.081l-.053 -.242a3.865 3.865 0 0 1 -.036 -.235l-.021 -.227a3.518 3.518 0 0 1 -.007 -.215z" />
+      <path d="M12 7.5l0 -.297l.01 -.269l.027 -.298l.013 -.105l.033 -.215c.014 -.073 .029 -.146 .046 -.22l.06 -.223c.336 -1.118 1.262 -2.237 3.808 -1.873c2.838 .405 3.703 1.797 3.93 2.842l.036 .204c0 .033 .01 .066 .013 .098l.016 .185l0 .171l0 .49l-.015 .394l-.02 .271c-.122 1.366 -.655 2.845 -2.962 2.845c-3.256 0 -4.524 -1.656 -4.883 -3.081l-.053 -.242a3.865 3.865 0 0 1 -.036 -.235l-.021 -.227a3.518 3.518 0 0 1 -.007 -.215z" />
       <path d="M10 15v2" />
       <path d="M14 15v2" />
     </svg>
@@ -13521,9 +13934,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="10" y="9" width="4" height="12" rx="1.105" />
-      <rect x="17" y="3" width="4" height="18" rx="1.105" />
-      <circle cx="5" cy="19" r="2" />
+      <path d="M10 9m0 1.105a1.105 1.105 0 0 1 1.105 -1.105h1.79a1.105 1.105 0 0 1 1.105 1.105v9.79a1.105 1.105 0 0 1 -1.105 1.105h-1.79a1.105 1.105 0 0 1 -1.105 -1.105z" />
+      <path d="M17 3m0 1.105a1.105 1.105 0 0 1 1.105 -1.105h1.79a1.105 1.105 0 0 1 1.105 1.105v15.79a1.105 1.105 0 0 1 -1.105 1.105h-1.79a1.105 1.105 0 0 1 -1.105 -1.105z" />
+      <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -13545,7 +13958,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M17.73 19.875a2.225 2.225 0 0 1 -1.948 1.125h-7.283a2.222 2.222 0 0 1 -1.947 -1.158l-4.272 -6.75a2.269 2.269 0 0 1 0 -2.184l4.272 -6.75a2.225 2.225 0 0 1 1.946 -1.158h7.285c.809 0 1.554 .443 1.947 1.158l3.98 6.75a2.33 2.33 0 0 1 0 2.25l-3.98 6.75v-.033z" />
-      <circle cx="11.5" cy="11.5" r="3.5" />
+      <path d="M11.5 11.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
       <path d="M14 14l2 2" />
     </svg>
     """
@@ -13611,7 +14024,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M19.072 20.998h-14.144a1.928 1.928 0 0 1 -1.928 -1.928v-6.857c0 -.512 .203 -1.003 .566 -1.365l7.07 -7.063a1.928 1.928 0 0 1 2.727 0l7.071 7.063c.363 .362 .566 .853 .566 1.365v6.857a1.928 1.928 0 0 1 -1.928 1.928z" />
+      <path d="M19.072 21h-14.144a1.928 1.928 0 0 1 -1.928 -1.928v-6.857c0 -.512 .203 -1 .566 -1.365l7.07 -7.063a1.928 1.928 0 0 1 2.727 0l7.071 7.063c.363 .362 .566 .853 .566 1.365v6.857a1.928 1.928 0 0 1 -1.928 1.928z" />
       <path d="M7 13v4h10v-4l-5 -5" />
       <path d="M14.8 5.2l-11.8 11.8" />
       <path d="M7 17v4" />
@@ -13636,7 +14049,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M11 4.998v13.982a1.998 1.998 0 0 0 3.995 0v-13.982a1.998 1.998 0 1 0 -3.995 0z" />
+      <path d="M11 5v13.982a2 2 0 0 0 4 0v-13.982a2 2 0 1 0 -4 0z" />
       <path d="M6.63 8.407a2.125 2.125 0 0 0 -.074 2.944c.77 .834 2.051 .869 2.862 .077l4.95 -4.834c.812 -.792 .846 -2.11 .076 -2.945a1.984 1.984 0 0 0 -2.861 -.077l-4.953 4.835z" />
     </svg>
     """
@@ -13683,8 +14096,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 3.71v16.58a0.7 .7 0 0 0 1.05 .606l14.622 -8.42a0.55 .55 0 0 0 0 -.953l-14.622 -8.419a0.7 .7 0 0 0 -1.05 .607z" />
-      <line x1="15" y1="9" x2="4.5" y2="20.5" />
-      <line x1="4.5" y1="3.5" x2="15" y2="15" />
+      <path d="M15 9l-10.5 11.5" />
+      <path d="M4.5 3.5l10.5 11.5" />
     </svg>
     """
   end
@@ -13755,7 +14168,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M15.697 9.434a4.5 4.5 0 1 0 .217 4.788" />
       <path d="M13.5 14h2.5v2.5" />
     </svg>
@@ -13787,12 +14200,12 @@ defmodule TablerIcons do
       <path d="M12.772 4.786l6.121 10.202" />
       <path d="M18.5 16h-13" />
       <path d="M5.107 14.988l6.122 -10.201" />
-      <circle cx="12" cy="3.5" r="1.5" />
-      <circle cx="12" cy="20.5" r="1.5" />
-      <circle cx="4" cy="8" r="1.5" />
-      <circle cx="4" cy="16" r="1.5" />
-      <circle cx="20" cy="16" r="1.5" />
-      <circle cx="20" cy="8" r="1.5" />
+      <path d="M12 3.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+      <path d="M12 20.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+      <path d="M4 8m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+      <path d="M4 16m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+      <path d="M20 16m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+      <path d="M20 8m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
     </svg>
     """
   end
@@ -13911,7 +14324,7 @@ defmodule TablerIcons do
       <path d="M2 12h4" />
       <path d="M9 16h2a2 2 0 1 0 0 -4h-2h2a2 2 0 1 0 0 -4h-2v8z" />
       <path d="M19 8a4 4 0 1 1 0 8a4 4 0 0 1 0 -8z" />
-      <circle cx="19" cy="12" r="1" />
+      <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -13954,7 +14367,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M17.802 17.292s.077 -.055 .2 -.149c1.843 -1.425 2.998 -3.49 2.998 -5.789c0 -4.286 -4.03 -7.764 -8.998 -7.764c-4.97 0 -9.002 3.478 -9.002 7.764c0 4.288 4.03 7.646 9 7.646c.424 0 1.12 -.028 2.088 -.084c1.262 .82 3.104 1.493 4.716 1.493c.499 0 .734 -.41 .414 -.828c-.486 -.596 -1.156 -1.551 -1.416 -2.29z" />
+      <path d="M17.802 17.292s.077 -.055 .2 -.149c1.843 -1.425 3 -3.49 3 -5.789c0 -4.286 -4.03 -7.764 -9 -7.764c-4.97 0 -9 3.478 -9 7.764c0 4.288 4.03 7.646 9 7.646c.424 0 1.12 -.028 2.088 -.084c1.262 .82 3.104 1.493 4.716 1.493c.499 0 .734 -.41 .414 -.828c-.486 -.596 -1.156 -1.551 -1.416 -2.29z" />
       <path d="M7.5 13.5c2.5 2.5 6.5 2.5 9 0" />
     </svg>
     """
@@ -14020,9 +14433,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="4" />
-      <circle cx="12" cy="12" r="3" />
-      <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+      <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M16.5 7.5l0 0" />
     </svg>
     """
   end
@@ -14043,7 +14456,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M7 8v3" />
       <path d="M10 7v6" />
       <path d="M14 7v6" />
@@ -14092,7 +14505,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M11 9l2.975 -4.65c.615 -.9 1.405 -1.35 2.377 -1.35c.79 0 1.474 .286 2.054 .858c.576 .574 .866 1.256 .866 2.054c0 .588 -.153 1.109 -.46 1.559l-2.812 4.029l3.465 4.912c.356 .46 .535 .998 .535 1.613a2.92 2.92 0 0 1 -.843 2.098c-.561 .584 -1.242 .877 -2.04 .877c-.876 0 -1.545 -.29 -2.005 -.87l-4.112 -5.697v3.067c0 .876 -.313 1.69 -.611 2.175c-.543 .883 -1.35 1.325 -2.389 1.325c-.944 0 -1.753 -.327 -2.271 -.974c-.486 -.6 -.729 -1.392 -.729 -2.38v-11.371c0 -.934 .247 -1.706 .74 -2.313c.512 -.641 1.347 -.962 2.26 -.962c.868 0 1.821 .321 2.4 .962c.323 .356 .515 .714 .6 1.08c.052 .224 0 .643 0 1.26v2.698z" />
+      <path d="M11 9l2.975 -4.65c.615 -.9 1.405 -1.35 2.377 -1.35c.79 0 1.474 .286 2.054 .858c.576 .574 .866 1.256 .866 2.054c0 .588 -.153 1.109 -.46 1.559l-2.812 4.029l3.465 4.912c.356 .46 .535 1 .535 1.613a2.92 2.92 0 0 1 -.843 2.098c-.561 .584 -1.242 .877 -2.04 .877c-.876 0 -1.545 -.29 -2 -.87l-4.112 -5.697v3.067c0 .876 -.313 1.69 -.611 2.175c-.543 .883 -1.35 1.325 -2.389 1.325c-.944 0 -1.753 -.327 -2.271 -.974c-.486 -.6 -.729 -1.392 -.729 -2.38v-11.371c0 -.934 .247 -1.706 .74 -2.313c.512 -.641 1.347 -.962 2.26 -.962c.868 0 1.821 .321 2.4 .962c.323 .356 .515 .714 .6 1.08c.052 .224 0 .643 0 1.26v2.698z" />
     </svg>
     """
   end
@@ -14114,9 +14527,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M20 20h-16v-16h16" />
-      <line x1="4" y1="20" x2="20" y2="4" />
+      <path d="M4 20l16 -16" />
       <path d="M4 12l8 -8" />
-      <line x1="12" y1="12" x2="20" y2="20" />
+      <path d="M12 12l8 8" />
     </svg>
     """
   end
@@ -14165,7 +14578,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M20 8c-.83 -1 -1.388 -1 -2 -1c-.612 0 -2 .271 -2 2s1.384 2.233 3 3c1.616 .767 2.125 1.812 2 3s-1 2 -3 2s-3 -1 -3.5 -2s-1.585 -4.78 -2.497 -5.997a5 5 0 1 0 -1.003 6.997" />
+      <path d="M20 8c-.83 -1 -1.388 -1 -2 -1c-.612 0 -2 .271 -2 2s1.384 2.233 3 3c1.616 .767 2.125 1.812 2 3s-1 2 -3 2s-3 -1 -3.5 -2s-1.585 -4.78 -2.497 -6a5 5 0 1 0 -1 7" />
     </svg>
     """
   end
@@ -14186,10 +14599,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="8" y1="11" x2="8" y2="16" />
-      <line x1="8" y1="8" x2="8" y2="8.01" />
-      <line x1="12" y1="16" x2="12" y2="11" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M8 11l0 5" />
+      <path d="M8 8l0 .01" />
+      <path d="M12 16l0 -5" />
       <path d="M16 16v-3a2 2 0 0 0 -4 0" />
     </svg>
     """
@@ -14254,10 +14667,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M17.464 6.518a6.001 6.001 0 1 0 -3.023 7.965" />
-      <path d="M17.482 17.464a6.001 6.001 0 1 0 -7.965 -3.023" />
-      <path d="M6.54 17.482a6.001 6.001 0 1 0 3.024 -7.965" />
-      <path d="M6.518 6.54a6.001 6.001 0 1 0 7.965 3.024" />
+      <path d="M17.464 6.518a6 6 0 1 0 -3.023 7.965" />
+      <path d="M17.482 17.464a6 6 0 1 0 -7.965 -3.023" />
+      <path d="M6.54 17.482a6 6 0 1 0 3.024 -7.965" />
+      <path d="M6.518 6.54a6 6 0 1 0 7.965 3.024" />
     </svg>
     """
   end
@@ -14279,9 +14692,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M17 12a2 2 0 1 0 4 0a9 9 0 1 0 -2.987 6.697" />
-      <circle cx="12" cy="12" r="5" />
-      <circle cx="12" cy="12" r="1" />
-      <circle cx="12" cy="12" r="1" />
+      <path d="M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -14302,7 +14715,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M11 16c1.22 -.912 2 -2.36 2 -4a5.01 5.01 0 0 0 -2 -4" />
       <path d="M14 9h-2" />
       <path d="M14 15h-2" />
@@ -14327,9 +14740,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="14" cy="12" r="3" />
+      <path d="M14 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M12 9.765a3 3 0 1 0 0 4.47" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -14418,12 +14831,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M8 9h1l3 3l3 -3h1" />
-      <line x1="8" y1="15" x2="10" y2="15" />
-      <line x1="14" y1="15" x2="16" y2="15" />
-      <line x1="9" y1="9" x2="9" y2="15" />
-      <line x1="15" y1="9" x2="15" y2="15" />
+      <path d="M8 15l2 0" />
+      <path d="M14 15l2 0" />
+      <path d="M9 9l0 6" />
+      <path d="M15 9l0 6" />
     </svg>
     """
   end
@@ -14444,7 +14857,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 3v9" />
       <path d="M12 12l7 5" />
       <path d="M12 12l-7 5" />
@@ -14513,7 +14926,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z" />
-      <path d="M7.996 11.503a2.5 2.5 0 1 0 4.004 1.997v-3a2.5 2.5 0 1 1 3.995 2.004" />
+      <path d="M8 11.503a2.5 2.5 0 1 0 4 2v-3a2.5 2.5 0 1 1 4 2" />
     </svg>
     """
   end
@@ -14534,9 +14947,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="4.5" cy="12" r="2.5" />
-      <circle cx="20.5" cy="12" r="1.5" />
-      <circle cx="13" cy="12" r="2" />
+      <path d="M4.5 12m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
+      <path d="M20.5 12m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+      <path d="M13 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -14557,7 +14970,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="19.5" cy="15.5" r="1.5" />
+      <path d="M19.5 15.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
       <path d="M9.5 7a1.5 1.5 0 0 1 1.339 2.177l-4.034 7.074c-.264 .447 -.75 .749 -1.305 .749a1.5 1.5 0 0 1 -1.271 -2.297l3.906 -6.827a1.5 1.5 0 0 1 1.365 -.876z" />
       <path d="M16.5 7a1.5 1.5 0 0 1 1.339 2.177l-4.034 7.074c-.264 .447 -.75 .749 -1.305 .749a1.5 1.5 0 0 1 -1.271 -2.297l3.906 -6.827a1.5 1.5 0 0 1 1.365 -.876z" />
     </svg>
@@ -14717,7 +15130,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M9 4c-2.93 1.346 -5 5.046 -5 8.492c0 4.508 4 7.508 8 7.508s8 -3 8 -7c0 -3.513 -3.5 -5.513 -6 -5.513s-5 1.513 -5 4.513c0 2 1.5 3 3 3s3 -.998 3 -3c0 -3.513 -2 -4.508 -2 -6.515c0 -3.504 3.5 -2.603 4 -1.502" />
+      <path d="M9 4c-2.93 1.346 -5 5.046 -5 8.492c0 4.508 4 7.508 8 7.508s8 -3 8 -7c0 -3.513 -3.5 -5.513 -6 -5.513s-5 1.513 -5 4.513c0 2 1.5 3 3 3s3 -1 3 -3c0 -3.513 -2 -4.508 -2 -6.515c0 -3.504 3.5 -2.603 4 -1.502" />
     </svg>
     """
   end
@@ -14783,9 +15196,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="5" />
-      <circle cx="4.5" cy="12.5" r="2.5" />
-      <circle cx="19.5" cy="12.5" r="2.5" />
+      <path d="M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+      <path d="M4.5 12.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
+      <path d="M19.5 12.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
     </svg>
     """
   end
@@ -14850,7 +15263,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M7 7h3l6 6" />
       <path d="M8 7v10" />
       <path d="M7 17h2" />
@@ -14925,7 +15338,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M11.036 5.058a8.001 8.001 0 1 0 8.706 9.965" />
+      <path d="M11.036 5.058a8 8 0 1 0 8.706 9.965" />
       <path d="M12 21v-11l-7.5 4" />
       <path d="M17.5 3a2.5 2.5 0 1 1 0 5l-11 -5a2.5 2.5 0 0 0 -.67 4.91" />
       <path d="M9 12v8" />
@@ -14971,7 +15384,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="9" r="2" />
+      <path d="M12 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M20 12c0 8 0 8 -8 8s-8 0 -8 -8s0 -8 8 -8s8 0 8 8z" />
       <path d="M9.5 13c1.333 .667 3.667 .667 5 0" />
       <path d="M9.5 17l2.5 -3l2.5 3" />
@@ -14996,7 +15409,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M18.456 10.45a6.45 6.45 0 0 0 -11.999 -2.151a4.857 4.857 0 0 0 -4.44 5.241a4.856 4.856 0 0 0 5.236 4.444h10.751a3.771 3.771 0 0 0 3.99 -3.54a3.772 3.772 0 0 0 -3.538 -3.992z" />
+      <path d="M18.456 10.45a6.45 6.45 0 0 0 -12 -2.151a4.857 4.857 0 0 0 -4.44 5.241a4.856 4.856 0 0 0 5.236 4.444h10.751a3.771 3.771 0 0 0 3.99 -3.54a3.772 3.772 0 0 0 -3.538 -3.992z" />
     </svg>
     """
   end
@@ -15062,7 +15475,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15.618 20.243l-2.193 -5.602a3 3 0 1 0 -2.849 0l-2.193 5.603" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -15083,8 +15496,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <ellipse cx="12" cy="12" rx="3" ry="5" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 12m-3 0a3 5 0 1 0 6 0a3 5 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -15127,7 +15540,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 3h3v18h-3z" />
-      <circle cx="15" cy="9.5" r="6.5" />
+      <path d="M15 9.5m-6.5 0a6.5 6.5 0 1 0 13 0a6.5 6.5 0 1 0 -13 0" />
     </svg>
     """
   end
@@ -15192,7 +15605,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M15 16.25l-.816 -.36l-.462 -.196c-1.444 -.592 -2 -.593 -3.447 -.002l-.462 .195l-.817 .359a4.5 4.5 0 1 1 .004 -8.49v-.006l1.054 .462l.434 .178c1.292 .507 1.863 .48 3.237 -.082l.462 -.195l.817 -.359a4.5 4.5 0 1 1 -.004 8.49" />
+      <path d="M15 16.25l-.816 -.36l-.462 -.196c-1.444 -.592 -2 -.593 -3.447 0l-.462 .195l-.817 .359a4.5 4.5 0 1 1 0 -8.49v0l1.054 .462l.434 .178c1.292 .507 1.863 .48 3.237 -.082l.462 -.195l.817 -.359a4.5 4.5 0 1 1 0 8.49" />
     </svg>
     """
   end
@@ -15213,7 +15626,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M4 16c5.713 -2.973 11 -3.5 13.449 -11.162" />
       <path d="M5 17.5c5.118 -2.859 15 0 14 -11" />
     </svg>
@@ -15236,7 +15649,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="12" cy="12" rx="10" ry="9" />
+      <path d="M12 12m-10 0a10 9 0 1 0 20 0a10 9 0 1 0 -20 0" />
       <path d="M5.5 15l.395 -1.974l.605 -3.026h1.32a1 1 0 0 1 .986 1.164l-.167 1a1 1 0 0 1 -.986 .836h-1.653" />
       <path d="M15.5 15l.395 -1.974l.605 -3.026h1.32a1 1 0 0 1 .986 1.164l-.167 1a1 1 0 0 1 -.986 .836h-1.653" />
       <path d="M12 7.5l-1 5.5" />
@@ -15261,8 +15674,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="9" r="7" />
-      <circle cx="12" cy="9" r="3" />
+      <path d="M12 9m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+      <path d="M12 9m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M5 9v11a2 2 0 1 0 4 0v-4.5" />
     </svg>
     """
@@ -15284,9 +15697,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="8" y1="20" x2="12" y2="11" />
+      <path d="M8 20l4 -9" />
       <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -15308,7 +15721,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 4h14a2 2 0 0 1 2 2v6a9 9 0 0 1 -18 0v-6a2 2 0 0 1 2 -2" />
-      <polyline points="8 11 12 15 16 11" />
+      <path d="M8 11l4 4l4 -4" />
     </svg>
     """
   end
@@ -15396,7 +15809,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 16v-8h2.5a2.5 2.5 0 1 1 0 5h-2.5" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -15417,7 +15830,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M11 8v8h2a4 4 0 1 0 0 -8h-2z" />
       <path d="M8 8v8" />
     </svg>
@@ -15465,8 +15878,8 @@ defmodule TablerIcons do
       <path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3" />
       <path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3" />
       <path d="M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4" />
-      <line x1="11" y1="6" x2="11" y2="6.01" />
-      <line x1="13" y1="18" x2="13" y2="18.01" />
+      <path d="M11 6l0 .01" />
+      <path d="M13 18l0 .01" />
     </svg>
     """
   end
@@ -15542,10 +15955,10 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6.306 8.711c-2.602 .723 -4.306 1.926 -4.306 3.289c0 2.21 4.477 4 10 4c.773 0 1.526 -.035 2.248 -.102" />
       <path d="M17.692 15.289c2.603 -.722 4.308 -1.926 4.308 -3.289c0 -2.21 -4.477 -4 -10 -4c-.773 0 -1.526 .035 -2.25 .102" />
-      <path d="M6.305 15.287c-.676 2.615 -.485 4.693 .695 5.373c1.913 1.105 5.703 -1.877 8.464 -6.66c.387 -.67 .733 -1.339 1.036 -1.998" />
-      <path d="M17.694 8.716c.677 -2.616 .487 -4.696 -.694 -5.376c-1.913 -1.105 -5.703 1.877 -8.464 6.66c-.387 .67 -.733 1.34 -1.037 1.999" />
+      <path d="M6.305 15.287c-.676 2.615 -.485 4.693 .695 5.373c1.913 1.105 5.703 -1.877 8.464 -6.66c.387 -.67 .733 -1.339 1.036 -2" />
+      <path d="M17.694 8.716c.677 -2.616 .487 -4.696 -.694 -5.376c-1.913 -1.105 -5.703 1.877 -8.464 6.66c-.387 .67 -.733 1.34 -1.037 2" />
       <path d="M12 5.424c-1.925 -1.892 -3.82 -2.766 -5 -2.084c-1.913 1.104 -1.226 5.877 1.536 10.66c.386 .67 .793 1.304 1.212 1.896" />
-      <path d="M11.998 18.574c1.926 1.893 3.821 2.768 5.002 2.086c1.913 -1.104 1.226 -5.877 -1.536 -10.66c-.375 -.65 -.78 -1.283 -1.212 -1.897" />
+      <path d="M12 18.574c1.926 1.893 3.821 2.768 5 2.086c1.913 -1.104 1.226 -5.877 -1.536 -10.66c-.375 -.65 -.78 -1.283 -1.212 -1.897" />
       <path d="M11.5 12.866a1 1 0 1 0 1 -1.732a1 1 0 0 0 -1 1.732z" />
     </svg>
     """
@@ -15567,7 +15980,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="18" height="18" rx="2" />
+      <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M18 18h-3v-6h3" />
       <path d="M18 15h-3" />
       <path d="M8 18v-6h2.5a1.5 1.5 0 0 1 0 3h-2.5" />
@@ -15594,7 +16007,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 8c2.648 0 5.028 .826 6.675 2.14a2.5 2.5 0 0 1 2.326 4.36c0 3.59 -4.03 6.5 -9 6.5c-4.875 0 -8.845 -2.8 -9 -6.294l-1 -.206a2.5 2.5 0 0 1 2.326 -4.36c1.646 -1.313 4.026 -2.14 6.674 -2.14z" />
       <path d="M12 8l1 -5l6 1" />
-      <circle cx="19" cy="4" r="1" />
+      <path d="M19 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <circle cx="9" cy="13" r=".5" fill="currentColor" />
       <circle cx="15" cy="13" r=".5" fill="currentColor" />
       <path d="M10 17c.667 .333 1.333 .5 2 .5s1.333 -.167 2 -.5" />
@@ -15640,12 +16053,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M16.54 7c-.805 -2.365 -2.536 -4 -4.54 -4c-2.774 0 -5.023 2.632 -5.023 6.496c0 1.956 1.582 4.727 2.512 5.996" />
+      <path d="M16.54 7c-.805 -2.365 -2.536 -4 -4.54 -4c-2.774 0 -5.023 2.632 -5.023 6.496c0 1.956 1.582 4.727 2.512 6" />
       <path d="M4.711 11.979c-1.656 1.877 -2.214 4.185 -1.211 5.911c1.387 2.39 5.138 2.831 8.501 .9c1.703 -.979 2.875 -3.362 3.516 -4.798" />
       <path d="M15.014 19.99c2.511 0 4.523 -.438 5.487 -2.1c1.387 -2.39 -.215 -5.893 -3.579 -7.824c-1.702 -.979 -4.357 -1.235 -5.927 -1.07" />
-      <path d="M10.493 9.862c.48 .276 1.095 .112 1.372 -.366a0.997 .997 0 0 0 -.367 -1.365a1.007 1.007 0 0 0 -1.373 .366a0.997 .997 0 0 0 .368 1.365z" />
-      <ellipse cx="9.5" cy="15.5" rx="1" />
-      <ellipse cx="15.5" cy="14" rx="1" />
+      <path d="M10.493 9.862c.48 .276 1.095 .112 1.372 -.366a1 1 0 0 0 -.367 -1.365a1.007 1.007 0 0 0 -1.373 .366a1 1 0 0 0 .368 1.365z" />
+      <path d="M9.5 15.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M15.5 14m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -15666,8 +16079,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M10.908 6c-.091 .363 -.908 5 -.908 5h1.228c1.59 0 2.772 -1.168 2.772 -2.943c0 -1.249 -.818 -2.057 -2.087 -2.057h-1.005z" />
-      <path d="M15.5 13.5l1.791 4.558c.535 1.352 1.13 2.008 1.709 2.442c-1 .5 -2.616 .522 -3.605 .497c-.973 0 -2.28 -.24 -3.106 -2.6l-1.289 -3.397h-1.5s-.465 2.243 -.65 3.202c-.092 .704 .059 1.594 .15 2.298c-1 .5 -2.5 .5 -3.5 .5c-.727 0 -1.45 -.248 -1.5 -1.5l.004 -.311a7 7 0 0 1 .149 -1.409c.75 -3.577 1.366 -7.17 1.847 -10.78c.23 -1.722 0 -3.5 0 -3.5c.585 -.144 2.709 -.602 6.787 -.471a10.26 10.26 0 0 1 3.641 .722c.308 .148 .601 .326 .875 .531c.254 .212 .497 .437 .727 .674c.3 .382 .545 .804 .727 1.253c.155 .483 .237 .987 .243 1.493c.001 2.462 -1.412 4.676 -3.5 5.798z" />
+      <path d="M10.908 6c-.091 .363 -.908 5 -.908 5h1.228c1.59 0 2.772 -1.168 2.772 -2.943c0 -1.249 -.818 -2.057 -2.087 -2.057h-1z" />
+      <path d="M15.5 13.5l1.791 4.558c.535 1.352 1.13 2.008 1.709 2.442c-1 .5 -2.616 .522 -3.605 .497c-.973 0 -2.28 -.24 -3.106 -2.6l-1.289 -3.397h-1.5s-.465 2.243 -.65 3.202c-.092 .704 .059 1.594 .15 2.298c-1 .5 -2.5 .5 -3.5 .5c-.727 0 -1.45 -.248 -1.5 -1.5l0 -.311a7 7 0 0 1 .149 -1.409c.75 -3.577 1.366 -7.17 1.847 -10.78c.23 -1.722 0 -3.5 0 -3.5c.585 -.144 2.709 -.602 6.787 -.471a10.26 10.26 0 0 1 3.641 .722c.308 .148 .601 .326 .875 .531c.254 .212 .497 .437 .727 .674c.3 .382 .545 .804 .727 1.253c.155 .483 .237 .987 .243 1.493c0 2.462 -1.412 4.676 -3.5 5.798z" />
     </svg>
     """
   end
@@ -15688,8 +16101,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="8 16 10 10 16 8 14 14 8 16" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M8 16l2 -6l6 -2l-2 6l-6 2" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -15710,7 +16123,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="10" width="16" height="11" rx="2" />
+      <path d="M4 10m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M7 10v-1.862c0 -2.838 2.239 -5.138 5 -5.138s5 2.3 5 5.138v1.862" />
       <path d="M10.485 17.577c.337 .29 .7 .423 1.515 .423h.413c.323 0 .633 -.133 .862 -.368a1.27 1.27 0 0 0 .356 -.886c0 -.332 -.128 -.65 -.356 -.886a1.203 1.203 0 0 0 -.862 -.368h-.826a1.2 1.2 0 0 1 -.861 -.367a1.27 1.27 0 0 1 -.356 -.886c0 -.332 .128 -.651 .356 -.886a1.2 1.2 0 0 1 .861 -.368h.413c.816 0 1.178 .133 1.515 .423" />
     </svg>
@@ -15733,8 +16146,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <path d="M12 10.523c2.46 -.826 4.002 -.826 4.002 -2.155c0 -1.366 -1.347 -1.366 -2.735 -1.366c-1.91 0 -3.352 .49 -4.537 1.748c-.848 .902 -1.027 2.449 -.153 3.307c.973 .956 3.206 1.789 2.884 3.493c-.233 1.235 -1.469 1.823 -2.617 1.202c-.782 -.424 -.454 -1.746 .626 -2.512s2.822 -.992 4.1 -.24c.98 .575 1.046 1.724 .434 2.193" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 10.523c2.46 -.826 4 -.826 4 -2.155c0 -1.366 -1.347 -1.366 -2.735 -1.366c-1.91 0 -3.352 .49 -4.537 1.748c-.848 .902 -1.027 2.449 -.153 3.307c.973 .956 3.206 1.789 2.884 3.493c-.233 1.235 -1.469 1.823 -2.617 1.202c-.782 -.424 -.454 -1.746 .626 -2.512s2.822 -.992 4.1 -.24c.98 .575 1.046 1.724 .434 2.193" />
     </svg>
     """
   end
@@ -15755,7 +16168,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3 18a1.93 1.93 0 0 0 .306 1.076a2 2 0 0 0 1.584 .924c.646 .033 -.537 0 .11 0h3a4.992 4.992 0 0 0 -3.66 -4.81c.558 -.973 1.24 -2.149 2.04 -3.531a8.997 8.997 0 0 1 5.62 8.341h4c.663 0 2.337 .005 3 0a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-1.84 3.176c4.482 2.05 7.6 6.571 7.6 11.824" />
+      <path d="M3 18a1.93 1.93 0 0 0 .306 1.076a2 2 0 0 0 1.584 .924c.646 .033 -.537 0 .11 0h3a4.992 4.992 0 0 0 -3.66 -4.81c.558 -.973 1.24 -2.149 2.04 -3.531a9 9 0 0 1 5.62 8.341h4c.663 0 2.337 0 3 0a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-1.84 3.176c4.482 2.05 7.6 6.571 7.6 11.824" />
     </svg>
     """
   end
@@ -15799,7 +16212,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 12l2 -2a2.828 2.828 0 0 1 4 0a2.828 2.828 0 0 1 0 4l-3 3" />
       <path d="M14 12l-2 2a2.828 2.828 0 1 1 -4 -4l3 -3" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -15820,7 +16233,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 7l.867 12.143a2 2 0 0 0 1.995 1.857h10.276a2 2 0 0 0 1.995 -1.857l.867 -12.143h-16z" />
+      <path d="M4 7l.867 12.143a2 2 0 0 0 2 1.857h10.276a2 2 0 0 0 2 -1.857l.867 -12.143h-16z" />
       <path d="M8.5 7c0 -1.653 1.5 -4 3.5 -4s3.5 2.347 3.5 4" />
       <path d="M9.5 17c.413 .462 1 1 2.5 1s2.5 -.897 2.5 -2s-1 -1.5 -2.5 -2s-2 -1.47 -2 -2c0 -1.104 1 -2 2 -2s1.5 0 2.5 1" />
     </svg>
@@ -15865,7 +16278,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3a9 9 0 0 1 8.603 11.65a4.5 4.5 0 0 1 -5.953 5.953a9 9 0 0 1 -11.253 -11.253a4.5 4.5 0 0 1 5.953 -5.954a8.987 8.987 0 0 1 2.65 -.396z" />
-      <path d="M8 14.5c.5 2 2.358 2.5 4 2.5c2.905 0 4 -1.187 4 -2.5c0 -1.503 -1.927 -2.5 -4 -2.5s-4 -.997 -4 -2.5c0 -1.313 1.095 -2.5 4 -2.5c1.642 0 3.5 .5 4 2.5" />
+      <path d="M8 14.5c.5 2 2.358 2.5 4 2.5c2.905 0 4 -1.187 4 -2.5c0 -1.503 -1.927 -2.5 -4 -2.5s-4 -1 -4 -2.5c0 -1.313 1.095 -2.5 4 -2.5c1.642 0 3.5 .5 4 2.5" />
     </svg>
     """
   end
@@ -15980,7 +16393,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M11 11h1l3 -4z" />
       <path d="M12 13h1l-4 4z" />
     </svg>
@@ -16031,9 +16444,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M17 11h1c1.38 0 3 1.274 3 3c0 1.657 -1.5 3 -3 3l-6 0v-10c3 0 4.5 1.5 5 4z" />
-      <line x1="9" y1="8" x2="9" y2="17" />
-      <line x1="6" y1="17" x2="6" y2="10" />
-      <line x1="3" y1="16" x2="3" y2="14" />
+      <path d="M9 8l0 9" />
+      <path d="M6 17l0 -7" />
+      <path d="M3 16l0 -2" />
     </svg>
     """
   end
@@ -16054,7 +16467,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="17" cy="6" r="2" />
+      <path d="M17 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M14 20h6v-6a3 3 0 0 0 -6 0v6z" />
       <path d="M11 8v2.5a3.5 3.5 0 0 1 -3.5 3.5h-.5a3 3 0 0 1 0 -6h4z" />
     </svg>
@@ -16077,7 +16490,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M8 11.973c2.5 -1.473 5.5 -.973 7.5 .527" />
       <path d="M9 15c1.5 -1 4 -1 5 .5" />
       <path d="M7 9c2 -1 6 -2 10 .5" />
@@ -16126,9 +16539,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="19" cy="6" r="2" />
-      <circle cx="19" cy="18" r="2" />
-      <circle cx="5" cy="12" r="2" />
+      <path d="M19 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M7 12h3l3.5 6h3.5" />
       <path d="M17 6h-3.5l-3.5 6" />
     </svg>
@@ -16151,7 +16564,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 2.995l-.176 .005a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z" />
+      <path d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 3l-.176 0a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z" />
       <circle cx="16.5" cy="9.5" r="1" fill="currentColor" />
     </svg>
     """
@@ -16174,7 +16587,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 4l.5 16.5l13.5 .5v-18z" />
-      <path d="M9 15c.6 1.5 1.639 2 3.283 2h-.283c1.8 0 3 -.974 3 -2.435c0 -1.194 -.831 -1.799 -2.147 -2.333l-1.975 -.802c-1.15 -.467 -1.878 -1.422 -1.878 -2.467c0 -.97 .899 -1.786 2.087 -1.893l.613 -.055c1.528 -.138 2.999 .762 3.3 1.985" />
+      <path d="M9 15c.6 1.5 1.639 2 3.283 2h-.283c1.8 0 3 -.974 3 -2.435c0 -1.194 -.831 -1.799 -2.147 -2.333l-1.975 -.802c-1.15 -.467 -1.878 -1.422 -1.878 -2.467c0 -.97 .899 -1.786 2.087 -1.893l.613 -.055c1.528 -.138 3 .762 3.3 1.985" />
       <path d="M16 3.5v1" />
     </svg>
     """
@@ -16238,7 +16651,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M11.453 8.056c0 -.623 .518 -.979 1.442 -.979c1.69 0 3.41 .343 4.605 .923l.5 -4c-.948 -.449 -2.82 -1 -5.5 -1c-1.895 0 -3.373 .087 -4.5 1c-1.172 .956 -2 2.33 -2 4c0 3.03 1.958 4.906 5 6c1.961 .69 3 .743 3 1.5c0 .735 -.851 1.5 -2 1.5c-1.423 0 -3.963 -.609 -5.5 -1.5l-.5 4c1.321 .734 3.474 1.5 6 1.5c2.004 0 3.957 -.468 5.084 -1.36c1.263 -.979 1.916 -2.268 1.916 -4.14c0 -3.096 -1.915 -4.547 -5.003 -5.637c-1.646 -.605 -2.544 -1.07 -2.544 -1.807z" />
+      <path d="M11.453 8.056c0 -.623 .518 -.979 1.442 -.979c1.69 0 3.41 .343 4.605 .923l.5 -4c-.948 -.449 -2.82 -1 -5.5 -1c-1.895 0 -3.373 .087 -4.5 1c-1.172 .956 -2 2.33 -2 4c0 3.03 1.958 4.906 5 6c1.961 .69 3 .743 3 1.5c0 .735 -.851 1.5 -2 1.5c-1.423 0 -3.963 -.609 -5.5 -1.5l-.5 4c1.321 .734 3.474 1.5 6 1.5c2 0 3.957 -.468 5.084 -1.36c1.263 -.979 1.916 -2.268 1.916 -4.14c0 -3.096 -1.915 -4.547 -5 -5.637c-1.646 -.605 -2.544 -1.07 -2.544 -1.807z" />
     </svg>
     """
   end
@@ -16263,6 +16676,27 @@ defmodule TablerIcons do
       <path d="M19 17l-14 4.5v-5.5l14 -4.5z" />
       <path d="M19 11.5l-14 -4.5" />
       <path d="M5 12.5l14 4.5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `brand_supabase` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.brand_supabase />
+      <TablerIcons.brand_supabase class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def brand_supabase(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 14h8v7l8 -11h-8v-7z" />
     </svg>
     """
   end
@@ -16306,7 +16740,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="2" />
+      <path d="M12 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M15 15h.5c3.038 0 5.5 -1.343 5.5 -3s-2.462 -3 -5.5 -3c-1.836 0 -3.462 .49 -4.46 1.245" />
       <path d="M9 9h-.5c-3.038 0 -5.5 1.343 -5.5 3s2.462 3 5.5 3c1.844 0 3.476 -.495 4.474 -1.255" />
       <path d="M15 9v-.5c0 -3.038 -1.343 -5.5 -3 -5.5s-3 2.462 -3 5.5c0 1.833 .49 3.457 1.241 4.456" />
@@ -16331,7 +16765,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M19.954 9.447c-.237 -6.217 0 -6.217 -5.996 -6.425c-5.774 -.208 -6.824 1.002 -7.91 5.382c-2.884 11.816 -3.845 14.716 4.792 11.198c9.392 -3.831 9.297 -5.382 9.114 -10.155z" />
+      <path d="M19.954 9.447c-.237 -6.217 0 -6.217 -6 -6.425c-5.774 -.208 -6.824 1 -7.91 5.382c-2.884 11.816 -3.845 14.716 4.792 11.198c9.392 -3.831 9.297 -5.382 9.114 -10.155z" />
       <path d="M8 16h.452c1.943 .007 3.526 -1.461 3.543 -3.286v-2.428c.018 -1.828 1.607 -3.298 3.553 -3.286h.452" />
     </svg>
     """
@@ -16399,8 +16833,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 9l3 3l-3 3" />
-      <line x1="13" y1="15" x2="16" y2="15" />
-      <rect x="4" y="4" width="16" height="16" rx="4" />
+      <path d="M13 15l3 0" />
+      <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
     </svg>
     """
   end
@@ -16451,7 +16885,7 @@ defmodule TablerIcons do
       <path d="M3 10c4.5 1 2.902 4.85 0 8" />
       <path d="M7 9c1.43 -1.652 2.06 -2.876 2.5 -4" />
       <path d="M8.5 7c4.333 -.667 7 -1 8 -1c1.5 0 3.5 -.5 4 1.5c.333 1.333 .5 2.833 .5 4.5v4c0 2 -1 3 -5 3" />
-      <circle cx="5" cy="6" r="1" />
+      <path d="M5 6m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -16671,7 +17105,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="12" cy="12" rx="10" ry="7" />
+      <path d="M12 12m-10 0a10 7 0 1 0 20 0a10 7 0 1 0 -20 0" />
       <path d="M9 12c0 3.866 1.343 7 3 7s3 -3.134 3 -7s-1.343 -7 -3 -7s-3 3.134 -3 7z" />
       <path d="M6.415 6.191c-.888 .503 -1.415 1.13 -1.415 1.809c0 1.657 3.134 3 7 3s7 -1.343 7 -3c0 -.678 -.525 -1.304 -1.41 -1.806" />
     </svg>
@@ -16694,7 +17128,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M7 7h3v10h-3z" />
       <path d="M14 7h3v6h-3z" />
     </svg>
@@ -16717,8 +17151,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6.5" cy="13.5" r="1.5" />
-      <circle cx="17.5" cy="13.5" r="1.5" />
+      <path d="M6.5 13.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+      <path d="M17.5 13.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
       <path d="M17.5 9a4.5 4.5 0 1 0 3.5 1.671l1 -1.671h-4.5z" />
       <path d="M6.5 9a4.5 4.5 0 1 1 -3.5 1.671l-1 -1.671h4.5z" />
       <path d="M10.5 15.5l1.5 2l1.5 -2" />
@@ -16765,10 +17199,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z" />
-      <circle cx="9" cy="9" r="1" />
-      <circle cx="15" cy="9" r="1" />
-      <circle cx="15" cy="15" r="1" />
-      <circle cx="9" cy="15" r="1" />
+      <path d="M9 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M15 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M9 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -16790,8 +17224,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 5v11a1 1 0 0 0 1 1h2v4l4 -4h5.584c.266 0 .52 -.105 .707 -.293l2.415 -2.414c.187 -.188 .293 -.442 .293 -.708v-8.585a1 1 0 0 0 -1 -1h-14a1 1 0 0 0 -1 1z" />
-      <line x1="16" y1="8" x2="16" y2="12" />
-      <line x1="12" y1="8" x2="12" y2="12" />
+      <path d="M16 8l0 4" />
+      <path d="M12 8l0 4" />
     </svg>
     """
   end
@@ -16812,7 +17246,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+      <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z" />
     </svg>
     """
   end
@@ -16857,8 +17291,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <rect x="9" y="9" width="6" height="6" rx="1" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 9m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
       <path d="M3 12h6" />
     </svg>
     """
@@ -16880,10 +17314,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5" r="2" />
-      <path d="M17.723 7.41a7.992 7.992 0 0 0 -3.74 -2.162m-3.971 0a7.993 7.993 0 0 0 -3.789 2.216m-1.881 3.215a8 8 0 0 0 -.342 2.32c0 .738 .1 1.453 .287 2.132m1.96 3.428a7.993 7.993 0 0 0 3.759 2.19m3.998 -.003a7.993 7.993 0 0 0 3.747 -2.186m1.962 -3.43a8.008 8.008 0 0 0 .287 -2.131c0 -.764 -.107 -1.503 -.307 -2.203" />
-      <circle cx="5" cy="17" r="2" />
-      <circle cx="19" cy="17" r="2" />
+      <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17.723 7.41a7.992 7.992 0 0 0 -3.74 -2.162m-3.971 0a7.993 7.993 0 0 0 -3.789 2.216m-1.881 3.215a8 8 0 0 0 -.342 2.32c0 .738 .1 1.453 .287 2.132m1.96 3.428a7.993 7.993 0 0 0 3.759 2.19m4 0a7.993 7.993 0 0 0 3.747 -2.186m1.962 -3.43a8.008 8.008 0 0 0 .287 -2.131c0 -.764 -.107 -1.503 -.307 -2.203" />
+      <path d="M5 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -16950,7 +17384,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3 7v5a3 3 0 0 0 6 0v-5h1l4 6c.824 1.319 1.945 2 3.5 2a3.5 3.5 0 0 0 0 -7c-2.027 0 -3.137 1.006 -3.5 3c-.242 1.33 -.908 3.996 -2 8" />
+      <path d="M3 7v5a3 3 0 0 0 6 0v-5h1l4 6c.824 1.319 1.945 2 3.5 2a3.5 3.5 0 0 0 0 -7c-2.027 0 -3.137 1 -3.5 3c-.242 1.33 -.908 4 -2 8" />
     </svg>
     """
   end
@@ -17014,7 +17448,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3 8.5l1 1s1.5 -1.102 2 -.5c.509 .609 1.863 7.65 2.5 9c.556 1.184 1.978 2.89 4 1.5c2 -1.5 7.5 -5.5 8.5 -11.5c.444 -2.661 -1 -4 -2.5 -4c-2 0 -4.047 1.202 -4.5 4c2.05 -1.254 2.551 1.003 1.5 3c-1.052 2.005 -2 3 -2.5 3c-.49 0 -.924 -1.165 -1.5 -3.5c-.59 -2.42 -.5 -6.5 -3 -6.5s-5.5 4.5 -5.5 4.5z" />
+      <path d="M3 8.5l1 1s1.5 -1.102 2 -.5c.509 .609 1.863 7.65 2.5 9c.556 1.184 1.978 2.89 4 1.5c2 -1.5 7.5 -5.5 8.5 -11.5c.444 -2.661 -1 -4 -2.5 -4c-2 0 -4.047 1.202 -4.5 4c2.05 -1.254 2.551 1 1.5 3c-1.052 2 -2 3 -2.5 3c-.49 0 -.924 -1.165 -1.5 -3.5c-.59 -2.42 -.5 -6.5 -3 -6.5s-5.5 4.5 -5.5 4.5z" />
     </svg>
     """
   end
@@ -17035,7 +17469,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M11.028 6c0 7.695 -.292 11.728 0 12c2.046 -5.002 4.246 -12.642 5.252 -14.099c.343 -.497 .768 -.93 1.257 -1.277c.603 -.39 1.292 -.76 1.463 -.575c-.07 2.319 -4.023 15.822 -4.209 16.314a6.135 6.135 0 0 1 -3.465 3.386c-3.213 .78 -3.429 -.446 -3.836 -1.134c-.95 -2.103 -1.682 -14.26 -1.445 -15.615c.05 -.523 .143 -1.851 2.491 -2c2.359 -.354 2.547 1.404 2.492 3z" />
+      <path d="M11.028 6c0 7.695 -.292 11.728 0 12c2.046 -5 4.246 -12.642 5.252 -14.099c.343 -.497 .768 -.93 1.257 -1.277c.603 -.39 1.292 -.76 1.463 -.575c-.07 2.319 -4.023 15.822 -4.209 16.314a6.135 6.135 0 0 1 -3.465 3.386c-3.213 .78 -3.429 -.446 -3.836 -1.134c-.95 -2.103 -1.682 -14.26 -1.445 -15.615c.05 -.523 .143 -1.851 2.491 -2c2.359 -.354 2.547 1.404 2.492 3z" />
     </svg>
     """
   end
@@ -17145,7 +17579,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M14 19h-4a8 8 0 0 1 -8 -8v-5h4v5a4 4 0 0 0 4 4h0v-9h4v4.5l.03 -.004a4.531 4.531 0 0 0 3.97 -4.496h4l-.342 1.711a6.858 6.858 0 0 1 -3.658 4.789h0a5.34 5.34 0 0 1 3.566 4.111l.434 2.389h0h-4a4.531 4.531 0 0 0 -3.97 -4.496v4.5z" />
+      <path d="M14 19h-4a8 8 0 0 1 -8 -8v-5h4v5a4 4 0 0 0 4 4h0v-9h4v4.5l.03 0a4.531 4.531 0 0 0 3.97 -4.496h4l-.342 1.711a6.858 6.858 0 0 1 -3.658 4.789h0a5.34 5.34 0 0 1 3.566 4.111l.434 2.389h0h-4a4.531 4.531 0 0 0 -3.97 -4.496v4.5z" />
     </svg>
     """
   end
@@ -17292,8 +17726,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6.66 17.52a7 7 0 0 1 -3.66 -4.52c2 0 3 -1 3 -2.51c0 -3.92 2.25 -7.49 7.38 -7.49c4.62 0 7.62 3.51 7.62 8a8.08 8.08 0 0 1 -3.39 6.62" />
       <path d="M10 18.69a17.29 17.29 0 0 0 3.33 .3h.54" />
-      <circle cx="16" cy="19" r="2" />
-      <circle cx="8" cy="19" r="2" />
+      <path d="M16 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M8 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M16 9h.01" />
       <path d="M11 9h.01" />
     </svg>
@@ -17316,7 +17750,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M17 10s-1.376 3.606 -1.5 4c-.046 -.4 -1.5 -8 -1.5 -8c-2.627 0 -3.766 1.562 -4.5 3.5c0 0 -1.843 4.593 -2 5c-.013 -.368 -.5 -4.5 -.5 -4.5c-.15 -2.371 -2.211 -3.98 -4 -3.98l2 12.98c2.745 -.013 4.72 -1.562 5.5 -3.5c0 0 1.44 -4.3 1.5 -4.5c.013 .18 1 8 1 8c2.758 0 4.694 -1.626 5.5 -3.5l3.5 -9.5c-2.732 -.006 -4.253 2.055 -5 4z" />
+      <path d="M17 10s-1.376 3.606 -1.5 4c-.046 -.4 -1.5 -8 -1.5 -8c-2.627 0 -3.766 1.562 -4.5 3.5c0 0 -1.843 4.593 -2 5c-.013 -.368 -.5 -4.5 -.5 -4.5c-.15 -2.371 -2.211 -3.98 -4 -3.98l2 12.98c2.745 -.013 4.72 -1.562 5.5 -3.5c0 0 1.44 -4.3 1.5 -4.5c.013 .18 1 8 1 8c2.758 0 4.694 -1.626 5.5 -3.5l3.5 -9.5c-2.732 0 -4.253 2.055 -5 4z" />
     </svg>
     """
   end
@@ -17337,8 +17771,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M16.5 10c3.038 0 5.5 2.015 5.5 4.5c0 1.397 -.778 2.645 -1.999 3.47l-.001 2.03l-1.964 -1.178a6.649 6.649 0 0 1 -1.536 .178c-3.038 0 -5.5 -2.015 -5.5 -4.5s2.462 -4.5 5.5 -4.5z" />
-      <path d="M11.197 15.698c-.69 .196 -1.43 .302 -2.197 .302a8.008 8.008 0 0 1 -2.612 -.432l-2.388 1.432v-2.801c-1.237 -1.082 -2 -2.564 -2 -4.199c0 -3.314 3.134 -6 7 -6c3.782 0 6.863 2.57 6.996 5.785l.004 .233" />
+      <path d="M16.5 10c3.038 0 5.5 2.015 5.5 4.5c0 1.397 -.778 2.645 -2 3.47l0 2.03l-1.964 -1.178a6.649 6.649 0 0 1 -1.536 .178c-3.038 0 -5.5 -2.015 -5.5 -4.5s2.462 -4.5 5.5 -4.5z" />
+      <path d="M11.197 15.698c-.69 .196 -1.43 .302 -2.197 .302a8.008 8.008 0 0 1 -2.612 -.432l-2.388 1.432v-2.801c-1.237 -1.082 -2 -2.564 -2 -4.199c0 -3.314 3.134 -6 7 -6c3.782 0 6.863 2.57 7 5.785l0 .233" />
       <path d="M10 8h.01" />
       <path d="M7 8h.01" />
       <path d="M15 14h.01" />
@@ -17408,8 +17842,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M17.8 20l-12 -1.5c-1 -.1 -1.8 -.9 -1.8 -1.9v-9.2c0 -1 .8 -1.8 1.8 -1.9l12 -1.5c1.2 -.1 2.2 .8 2.2 1.9v12.1c0 1.2 -1.1 2.1 -2.2 1.9z" />
-      <line x1="12" y1="5" x2="12" y2="19" />
-      <line x1="4" y1="12" x2="20" y2="12" />
+      <path d="M12 5l0 14" />
+      <path d="M4 12l16 0" />
     </svg>
     """
   end
@@ -17453,7 +17887,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M2 6l5.981 2.392l-.639 6.037c-.18 .893 .06 1.819 .65 2.514a3 3 0 0 0 2.381 1.057a4.328 4.328 0 0 0 4.132 -3.57c-.18 .893 .06 1.819 .65 2.514a3 3 0 0 0 2.38 1.056a4.328 4.328 0 0 0 4.132 -3.57l.333 -4.633" />
-      <path d="M14.504 14.429l.334 -2.999" />
+      <path d="M14.504 14.429l.334 -3" />
     </svg>
     """
   end
@@ -17504,7 +17938,7 @@ defmodule TablerIcons do
       <path d="M11 9l3 11l4 -9" />
       <path d="M5.5 9l3.5 11l3 -7" />
       <path d="M18 11c.177 -.528 1 -1.364 1 -2.5c0 -1.78 -.776 -2.5 -1.875 -2.5c-.898 0 -1.125 .812 -1.125 1.429c0 1.83 2 2.058 2 3.571z" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -17525,7 +17959,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M6.5 5c7.72 2.266 10.037 7.597 12.5 12.5" />
       <path d="M17.5 5c-7.72 2.266 -10.037 7.597 -12.5 12.5" />
     </svg>
@@ -17570,13 +18004,13 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="6" x2="8" y2="6" />
-      <line x1="7" y1="18" x2="14" y2="18" />
+      <path d="M3 6l5 0" />
+      <path d="M7 18l7 0" />
       <path d="M4.5 6l5.5 7v5" />
       <path d="M10 13l6 -5" />
-      <line x1="12.5" y1="8" x2="17.5" y2="8" />
-      <line x1="20" y1="11" x2="20" y2="15" />
-      <line x1="20" y1="18" x2="20" y2="18.01" />
+      <path d="M12.5 8l5 0" />
+      <path d="M20 11l0 4" />
+      <path d="M20 18l0 .01" />
     </svg>
     """
   end
@@ -17597,7 +18031,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7.002 3l4.998 2.876v5.088l4.197 -2.73l4.803 2.731l-9.281 5.478l-2.383 1.41l-2.334 1.377l-3.002 1.77v-5.565l3.002 -1.771z" />
+      <path d="M7 3l5 2.876v5.088l4.197 -2.73l4.803 2.731l-9.281 5.478l-2.383 1.41l-2.334 1.377l-3 1.77v-5.565l3 -1.771z" />
     </svg>
     """
   end
@@ -17618,9 +18052,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <path d="M8 7.002l4 5.998l4 -6" />
-      <line x1="12" y1="17" x2="12" y2="13" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M8 7l4 6l4 -6" />
+      <path d="M12 17l0 -4" />
     </svg>
     """
   end
@@ -17641,7 +18075,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M17.782 17.03l-3.413 .235l-.023 .002c-1.117 .09 -2.214 .335 -3.257 .725l-2.197 .794a3.597 3.597 0 0 1 -2.876 -.189a3.342 3.342 0 0 1 -1.732 -2.211l-1.204 -5.293a3.21 3.21 0 0 1 .469 -2.503a3.468 3.468 0 0 1 2.177 -1.452l9.843 -2.06c1.87 -.392 3.716 .744 4.124 2.537l1.227 5.392a3.217 3.217 0 0 1 -.61 2.7a3.506 3.506 0 0 1 -2.528 1.323z" />
+      <path d="M17.782 17.03l-3.413 .235l-.023 0c-1.117 .09 -2.214 .335 -3.257 .725l-2.197 .794a3.597 3.597 0 0 1 -2.876 -.189a3.342 3.342 0 0 1 -1.732 -2.211l-1.204 -5.293a3.21 3.21 0 0 1 .469 -2.503a3.468 3.468 0 0 1 2.177 -1.452l9.843 -2.06c1.87 -.392 3.716 .744 4.124 2.537l1.227 5.392a3.217 3.217 0 0 1 -.61 2.7a3.506 3.506 0 0 1 -2.528 1.323z" />
       <path d="M10 10l.972 4l4.028 -3z" />
     </svg>
     """
@@ -17663,7 +18097,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="4" />
+      <path d="M3 5m0 4a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" />
       <path d="M10 9l5 3l-5 3z" />
     </svg>
     """
@@ -17685,7 +18119,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7.531 21c-.65 0 -1.004 -.15 -1.196 -.27c-.266 -.157 -.753 -.563 -1.197 -1.747a20.583 20.583 0 0 1 -1.137 -6.983c.015 -2.745 .436 -5.07 1.137 -6.975c.444 -1.2 .93 -1.605 1.197 -1.763c.192 -.103 .545 -.262 1.195 -.262c.244 0 .532 .022 .871 .075a19.093 19.093 0 0 1 6.425 2.475h.007a19.572 19.572 0 0 1 5.287 4.508c.783 .99 .879 1.627 .879 1.942c0 .315 -.096 .953 -.879 1.943a19.571 19.571 0 0 1 -5.287 4.5h-.007a19.041 19.041 0 0 1 -6.425 2.474a5.01 5.01 0 0 1 -.871 .083z" />
+      <path d="M7.531 21c-.65 0 -1 -.15 -1.196 -.27c-.266 -.157 -.753 -.563 -1.197 -1.747a20.583 20.583 0 0 1 -1.137 -6.983c.015 -2.745 .436 -5.07 1.137 -6.975c.444 -1.2 .93 -1.605 1.197 -1.763c.192 -.103 .545 -.262 1.195 -.262c.244 0 .532 .022 .871 .075a19.093 19.093 0 0 1 6.425 2.475h.007a19.572 19.572 0 0 1 5.287 4.508c.783 .99 .879 1.627 .879 1.942c0 .315 -.096 .953 -.879 1.943a19.571 19.571 0 0 1 -5.287 4.5h-.007a19.041 19.041 0 0 1 -6.425 2.474a5.01 5.01 0 0 1 -.871 .083z" />
     </svg>
     """
   end
@@ -17782,7 +18216,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M17.011 9.385v5.128l3.989 3.487v-12z" />
-      <path d="M3.887 6h10.08c1.468 0 3.033 1.203 3.033 2.803v8.196a0.991 .991 0 0 1 -.975 1.001h-10.373c-1.667 0 -2.652 -1.5 -2.652 -3l.01 -8.002a0.882 .882 0 0 1 .208 -.71a0.841 .841 0 0 1 .67 -.287z" />
+      <path d="M3.887 6h10.08c1.468 0 3.033 1.203 3.033 2.803v8.196a0.991 .991 0 0 1 -.975 1h-10.373c-1.667 0 -2.652 -1.5 -2.652 -3l.01 -8a0.882 .882 0 0 1 .208 -.71a0.841 .841 0 0 1 .67 -.287z" />
     </svg>
     """
   end
@@ -17846,7 +18280,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M18.415 18.414a1.994 1.994 0 0 1 -1.415 .586h-10a2 2 0 0 1 -2 -2v-6.764a3 3 0 0 1 .435 -4.795m3.565 -.441h8a3 3 0 0 1 2 5.235v4.765" />
+      <path d="M18.415 18.414a2 2 0 0 1 -1.415 .586h-10a2 2 0 0 1 -2 -2v-6.764a3 3 0 0 1 .435 -4.795m3.565 -.441h8a3 3 0 0 1 2 5.235v4.765" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -17868,7 +18302,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M17 5a3 3 0 0 1 2 5.235v6.765a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6.764a3 3 0 0 1 1.824 -5.231l.176 -.005h10z" />
+      <path d="M17 5a3 3 0 0 1 2 5.235v6.765a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6.764a3 3 0 0 1 1.824 -5.231l.176 0h10z" />
     </svg>
     """
   end
@@ -17892,7 +18326,7 @@ defmodule TablerIcons do
       <path d="M11 7h8a2 2 0 0 1 2 2v8m-1.166 2.818a1.993 1.993 0 0 1 -.834 .182h-14a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h2" />
       <path d="M8.185 4.158a2 2 0 0 1 1.815 -1.158h4a2 2 0 0 1 2 2v2" />
       <path d="M12 12v.01" />
-      <path d="M3 13a19.998 19.998 0 0 0 11.905 1.928m3.263 -.763a20.003 20.003 0 0 0 2.832 -1.165" />
+      <path d="M3 13a20 20 0 0 0 11.905 1.928m3.263 -.763a20 20 0 0 0 2.832 -1.165" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -17914,9 +18348,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="7" width="18" height="13" rx="2" />
+      <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
-      <line x1="12" y1="12" x2="12" y2="12.01" />
+      <path d="M12 12l0 .01" />
       <path d="M3 13a20 20 0 0 0 18 0" />
     </svg>
     """
@@ -17938,7 +18372,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="3" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M6 6h3.5l2.5 -2.5l2.5 2.5h3.5v3.5l2.5 2.5l-2.5 2.5v3.5h-3.5l-2.5 2.5l-2.5 -2.5h-3.5v-3.5l-2.5 -2.5l2.5 -2.5z" />
     </svg>
     """
@@ -17960,15 +18394,15 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="3" />
-      <line x1="12" y1="5" x2="12" y2="5.01" />
-      <line x1="17" y1="7" x2="17" y2="7.01" />
-      <line x1="19" y1="12" x2="19" y2="12.01" />
-      <line x1="17" y1="17" x2="17" y2="17.01" />
-      <line x1="12" y1="19" x2="12" y2="19.01" />
-      <line x1="7" y1="17" x2="7" y2="17.01" />
-      <line x1="5" y1="12" x2="5" y2="12.01" />
-      <line x1="7" y1="7" x2="7" y2="7.01" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M12 5l0 .01" />
+      <path d="M17 7l0 .01" />
+      <path d="M19 12l0 .01" />
+      <path d="M17 17l0 .01" />
+      <path d="M12 19l0 .01" />
+      <path d="M7 17l0 .01" />
+      <path d="M5 12l0 .01" />
+      <path d="M7 7l0 .01" />
     </svg>
     """
   end
@@ -18015,7 +18449,7 @@ defmodule TablerIcons do
       <path d="M5.641 5.631a9 9 0 1 0 12.719 12.738m1.68 -2.318a9 9 0 0 0 -12.074 -12.098" />
       <path d="M12.5 8.5l4.15 -4.15" />
       <path d="M12 14l1.025 -.983m2.065 -1.981l4.28 -4.106" />
-      <path d="M12 19.6l3.79 -3.79m2.006 -2.006l3.054 -3.054" />
+      <path d="M12 19.6l3.79 -3.79m2 -2l3.054 -3.054" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -18037,15 +18471,15 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="3" />
-      <line x1="12" y1="5" x2="12" y2="3" />
-      <line x1="17" y1="7" x2="18.4" y2="5.6" />
-      <line x1="19" y1="12" x2="21" y2="12" />
-      <line x1="17" y1="17" x2="18.4" y2="18.4" />
-      <line x1="12" y1="19" x2="12" y2="21" />
-      <line x1="7" y1="17" x2="5.6" y2="18.4" />
-      <line x1="6" y1="12" x2="4" y2="12" />
-      <line x1="7" y1="7" x2="5.6" y2="5.6" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M12 5l0 -2" />
+      <path d="M17 7l1.4 -1.4" />
+      <path d="M19 12l2 0" />
+      <path d="M17 17l1.4 1.4" />
+      <path d="M12 19l0 2" />
+      <path d="M7 17l-1.4 1.4" />
+      <path d="M6 12l-2 0" />
+      <path d="M7 7l-1.4 -1.4" />
     </svg>
     """
   end
@@ -18066,11 +18500,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="12" y1="3" x2="12" y2="21" />
-      <line x1="12" y1="9" x2="16.65" y2="4.35" />
-      <line x1="12" y1="14.3" x2="19.37" y2="6.93" />
-      <line x1="12" y1="19.6" x2="20.85" y2="10.75" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 3l0 18" />
+      <path d="M12 9l4.65 -4.65" />
+      <path d="M12 14.3l7.37 -7.37" />
+      <path d="M12 19.6l8.85 -8.85" />
     </svg>
     """
   end
@@ -18092,7 +18526,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M18.364 19.364a9 9 0 0 0 -9.721 -14.717m-2.488 1.509a9 9 0 0 0 -.519 13.208" />
-      <path d="M15.536 16.536a5 5 0 0 0 -3.536 -8.536m-3.001 1a5 5 0 0 0 -.535 7.536" />
+      <path d="M15.536 16.536a5 5 0 0 0 -3.536 -8.536m-3 1a5 5 0 0 0 -.535 7.536" />
       <path d="M12 12a1 1 0 1 0 1 1" />
       <path d="M3 3l18 18" />
     </svg>
@@ -18117,7 +18551,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M18.364 19.364a9 9 0 1 0 -12.728 0" />
       <path d="M15.536 16.536a5 5 0 1 0 -7.072 0" />
-      <circle cx="12" cy="13" r="1" />
+      <path d="M12 13m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -18138,7 +18572,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="1" />
+      <path d="M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
       <path d="M4 8h16" />
       <path d="M8 4v4" />
       <path d="M9.5 14.5l1.5 1.5l3 -3" />
@@ -18162,7 +18596,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8 4h11a1 1 0 0 1 1 1v11m-.288 3.702a0.997 .997 0 0 1 -.712 .298h-14a1 1 0 0 1 -1 -1v-14c0 -.276 .112 -.526 .293 -.707" />
+      <path d="M8 4h11a1 1 0 0 1 1 1v11m-.288 3.702a1 1 0 0 1 -.712 .298h-14a1 1 0 0 1 -1 -1v-14c0 -.276 .112 -.526 .293 -.707" />
       <path d="M4 8h4m4 0h8" />
       <path d="M3 3l18 18" />
     </svg>
@@ -18185,7 +18619,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="1" />
+      <path d="M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
       <path d="M4 8h16" />
       <path d="M8 4v4" />
       <path d="M10 14h4" />
@@ -18210,7 +18644,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="1" />
+      <path d="M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
       <path d="M4 8h16" />
       <path d="M8 4v4" />
       <path d="M10 16l4 -4" />
@@ -18235,9 +18669,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="1" />
-      <line x1="4" y1="8" x2="20" y2="8" />
-      <line x1="8" y1="4" x2="8" y2="8" />
+      <path d="M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
+      <path d="M4 8l16 0" />
+      <path d="M8 4l0 4" />
     </svg>
     """
   end
@@ -18259,8 +18693,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 17a4 4 0 1 1 4 4h-4v-4z" />
-      <path d="M21 3a15.996 15.996 0 0 0 -9.309 4.704m-1.795 2.212a15.993 15.993 0 0 0 -1.696 3.284" />
-      <path d="M21 3a15.996 15.996 0 0 1 -4.697 9.302m-2.195 1.786a15.993 15.993 0 0 1 -3.308 1.712" />
+      <path d="M21 3a16 16 0 0 0 -9.309 4.704m-1.795 2.212a15.993 15.993 0 0 0 -1.696 3.284" />
+      <path d="M21 3a16 16 0 0 1 -4.697 9.302m-2.195 1.786a15.993 15.993 0 0 1 -3.308 1.712" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -18352,7 +18786,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="12" cy="7" rx="8" ry="4" />
+      <path d="M12 7m-8 0a8 4 0 1 0 16 0a8 4 0 1 0 -16 0" />
       <path d="M4 7c0 .664 .088 1.324 .263 1.965l2.737 10.035c.5 1.5 2.239 2 5 2s4.5 -.5 5 -2c.333 -1 1.246 -4.345 2.737 -10.035a7.45 7.45 0 0 0 .263 -1.965" />
     </svg>
     """
@@ -18375,7 +18809,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9.884 5.873a3 3 0 0 1 5.116 2.127v1" />
-      <path d="M13 9h3a6 6 0 0 1 1 3v1m-.298 3.705a5.002 5.002 0 0 1 -9.702 -1.705v-3a6 6 0 0 1 1 -3h1" />
+      <path d="M13 9h3a6 6 0 0 1 1 3v1m-.298 3.705a5 5 0 0 1 -9.702 -1.705v-3a6 6 0 0 1 1 -3h1" />
       <path d="M3 13h4" />
       <path d="M17 13h4" />
       <path d="M12 20v-6" />
@@ -18405,13 +18839,13 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 9v-1a3 3 0 0 1 6 0v1" />
       <path d="M8 9h8a6 6 0 0 1 1 3v3a5 5 0 0 1 -10 0v-3a6 6 0 0 1 1 -3" />
-      <line x1="3" y1="13" x2="7" y2="13" />
-      <line x1="17" y1="13" x2="21" y2="13" />
-      <line x1="12" y1="20" x2="12" y2="14" />
-      <line x1="4" y1="19" x2="7.35" y2="17" />
-      <line x1="20" y1="19" x2="16.65" y2="17" />
-      <line x1="4" y1="7" x2="7.75" y2="9.4" />
-      <line x1="20" y1="7" x2="16.25" y2="9.4" />
+      <path d="M3 13l4 0" />
+      <path d="M17 13l4 0" />
+      <path d="M12 20l0 -6" />
+      <path d="M4 19l3.35 -2" />
+      <path d="M20 19l-3.35 -2" />
+      <path d="M4 7l3.75 2.4" />
+      <path d="M20 7l-3.75 2.4" />
     </svg>
     """
   end
@@ -18432,7 +18866,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="21" x2="21" y2="21" />
+      <path d="M3 21l18 0" />
       <path d="M4 21v-15a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v15" />
       <path d="M9 21v-8a3 3 0 0 1 6 0v8" />
     </svg>
@@ -18455,14 +18889,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="21" x2="21" y2="21" />
-      <line x1="3" y1="10" x2="21" y2="10" />
-      <polyline points="5 6 12 3 19 6" />
-      <line x1="4" y1="10" x2="4" y2="21" />
-      <line x1="20" y1="10" x2="20" y2="21" />
-      <line x1="8" y1="14" x2="8" y2="17" />
-      <line x1="12" y1="14" x2="12" y2="17" />
-      <line x1="16" y1="14" x2="16" y2="17" />
+      <path d="M3 21l18 0" />
+      <path d="M3 10l18 0" />
+      <path d="M5 6l7 -3l7 3" />
+      <path d="M4 10l0 11" />
+      <path d="M20 10l0 11" />
+      <path d="M8 14l0 3" />
+      <path d="M12 14l0 3" />
+      <path d="M16 14l0 3" />
     </svg>
     """
   end
@@ -18504,11 +18938,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="6" y1="5" x2="6" y2="19" />
-      <line x1="18" y1="5" x2="18" y2="19" />
-      <line x1="2" y1="15" x2="22" y2="15" />
+      <path d="M6 5l0 14" />
+      <path d="M18 5l0 14" />
+      <path d="M2 15l20 0" />
       <path d="M3 8a7.5 7.5 0 0 0 3 -2a6.5 6.5 0 0 0 12 0a7.5 7.5 0 0 0 3 2" />
-      <line x1="12" y1="10" x2="12" y2="15" />
+      <path d="M12 10l0 5" />
     </svg>
     """
   end
@@ -18529,8 +18963,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="1" />
-      <path d="M16.616 13.924a5 5 0 1 0 -9.23 .004" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M16.616 13.924a5 5 0 1 0 -9.23 0" />
       <path d="M20.307 15.469a9 9 0 1 0 -16.615 0" />
       <path d="M9 21l3 -9l3 9" />
       <path d="M10 19h4" />
@@ -18554,12 +18988,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="6" />
-      <circle cx="5" cy="8" r="2" />
-      <circle cx="12" cy="4" r="2" />
-      <circle cx="19" cy="8" r="2" />
-      <circle cx="5" cy="16" r="2" />
-      <circle cx="19" cy="16" r="2" />
+      <path d="M12 12m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
+      <path d="M5 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M12 4m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 16m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 16m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M8 22l4 -10l4 10" />
     </svg>
     """
@@ -18582,7 +19016,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 19v-2a3 3 0 0 0 -6 0v2a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-14h4v3h3v-3h4v3h3v-3h4v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
-      <line x1="3" y1="11" x2="21" y2="11" />
+      <path d="M3 11l18 0" />
     </svg>
     """
   end
@@ -18603,10 +19037,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="21" x2="21" y2="21" />
+      <path d="M3 21l18 0" />
       <path d="M10 21v-4a2 2 0 0 1 4 0v4" />
-      <line x1="10" y1="5" x2="14" y2="5" />
-      <line x1="12" y1="3" x2="12" y2="8" />
+      <path d="M10 5l4 0" />
+      <path d="M12 3l0 5" />
       <path d="M6 21v-7m-2 2l8 -8l8 8m-2 -2v7" />
     </svg>
     """
@@ -18655,10 +19089,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8" />
-      <line x1="13" y1="7" x2="13" y2="7.01" />
-      <line x1="17" y1="7" x2="17" y2="7.01" />
-      <line x1="17" y1="11" x2="17" y2="11.01" />
-      <line x1="17" y1="15" x2="17" y2="15.01" />
+      <path d="M13 7l0 .01" />
+      <path d="M17 7l0 .01" />
+      <path d="M17 11l0 .01" />
+      <path d="M17 15l0 .01" />
     </svg>
     """
   end
@@ -18679,9 +19113,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="21" x2="21" y2="21" />
+      <path d="M3 21l18 0" />
       <path d="M4 21v-11l2.5 -4.5l5.5 -2.5l5.5 2.5l2.5 4.5v11" />
-      <circle cx="12" cy="9" r="2" />
+      <path d="M12 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M9 21v-5a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v5" />
     </svg>
     """
@@ -18758,7 +19192,7 @@ defmodule TablerIcons do
       <path d="M4 21c1.147 -4.02 1.983 -8.027 2 -12h6c.017 3.973 .853 7.98 2 12" />
       <path d="M12.5 13h4.5c.025 2.612 .894 5.296 2 8" />
       <path d="M9 5a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1" />
-      <line x1="3" y1="21" x2="22" y2="21" />
+      <path d="M3 21l19 0" />
     </svg>
     """
   end
@@ -18806,11 +19240,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="21" x2="21" y2="21" />
+      <path d="M3 21l18 0" />
       <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
       <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" />
-      <line x1="10" y1="9" x2="14" y2="9" />
-      <line x1="12" y1="7" x2="12" y2="11" />
+      <path d="M10 9l4 0" />
+      <path d="M12 7l0 4" />
     </svg>
     """
   end
@@ -18832,7 +19266,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3l2 3l2 15h-8l2 -15z" />
-      <line x1="8" y1="9" x2="16" y2="9" />
+      <path d="M8 9l8 0" />
       <path d="M3 11l2 -2l-2 -2" />
       <path d="M21 11l-2 -2l2 -2" />
     </svg>
@@ -18857,30 +19291,30 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 18l2 -13l2 -2l2 2l2 13" />
       <path d="M5 21v-3h14v3" />
-      <line x1="3" y1="21" x2="21" y2="21" />
+      <path d="M3 21l18 0" />
     </svg>
     """
   end
 
   @doc """
-  Renders the `building_pavilon` icon.
+  Renders the `building_pavilion` icon.
 
   You may pass arbitrary HTML attributes to the component.
 
   ## Examples
 
-      <TablerIcons.building_pavilon />
-      <TablerIcons.building_pavilon class="w-4 h-4" />
+      <TablerIcons.building_pavilion />
+      <TablerIcons.building_pavilion class="w-4 h-4" />
   """
   attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
 
-  def building_pavilon(assigns) do
+  def building_pavilion(assigns) do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 21h7v-3a2 2 0 0 1 4 0v3h7" />
-      <line x1="6" y1="21" x2="6" y2="12" />
-      <line x1="18" y1="21" x2="18" y2="12" />
+      <path d="M6 21l0 -9" />
+      <path d="M18 21l0 -9" />
       <path d="M6 12h12a3 3 0 0 0 3 -3a9 8 0 0 1 -9 -6a9 8 0 0 1 -9 6a3 3 0 0 0 3 3" />
     </svg>
     """
@@ -18902,13 +19336,13 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="21" x2="21" y2="21" />
+      <path d="M3 21l18 0" />
       <path d="M5 21v-14l8 -4v18" />
       <path d="M19 21v-10l-6 -4" />
-      <line x1="9" y1="9" x2="9" y2="9.01" />
-      <line x1="9" y1="12" x2="9" y2="12.01" />
-      <line x1="9" y1="15" x2="9" y2="15.01" />
-      <line x1="9" y1="18" x2="9" y2="18.01" />
+      <path d="M9 9l0 .01" />
+      <path d="M9 12l0 .01" />
+      <path d="M9 15l0 .01" />
+      <path d="M9 18l0 .01" />
     </svg>
     """
   end
@@ -18929,7 +19363,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="12" cy="12" rx="8" ry="2" />
+      <path d="M12 12m-8 0a8 2 0 1 0 16 0a8 2 0 1 0 -16 0" />
       <path d="M4 12v7c0 .94 2.51 1.785 6 2v-3h4v3c3.435 -.225 6 -1.07 6 -2v-7" />
       <path d="M15 6h4v-3h-4v7" />
       <path d="M7 6h4v-3h-4v7" />
@@ -18953,10 +19387,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="21" x2="21" y2="21" />
+      <path d="M3 21l18 0" />
       <path d="M3 7v1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1h-18l2 -4h14l2 4" />
-      <line x1="5" y1="21" x2="5" y2="10.85" />
-      <line x1="19" y1="21" x2="19" y2="10.85" />
+      <path d="M5 21l0 -10.15" />
+      <path d="M19 21l0 -10.15" />
       <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" />
     </svg>
     """
@@ -19030,9 +19464,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="11" r="2" />
+      <path d="M12 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M10 11v-2.573c0 -.18 .013 -.358 .04 -.536l.716 -4.828c.064 -.597 .597 -1.063 1.244 -1.063s1.18 .466 1.244 1.063l.716 4.828c.027 .178 .04 .357 .04 .536v2.573" />
-      <path d="M13.01 9.28l2.235 1.276c.156 .09 .305 .19 .446 .3l3.836 2.911c.487 .352 .624 1.04 .3 1.596c-.325 .556 -.997 .782 -1.548 .541l-4.555 -1.68a3.624 3.624 0 0 1 -.486 -.231l-2.235 -1.277" />
+      <path d="M13.01 9.28l2.235 1.276c.156 .09 .305 .19 .446 .3l3.836 2.911c.487 .352 .624 1.04 .3 1.596c-.325 .556 -1 .782 -1.548 .541l-4.555 -1.68a3.624 3.624 0 0 1 -.486 -.231l-2.235 -1.277" />
       <path d="M13 12.716l-2.236 1.277a3.624 3.624 0 0 1 -.485 .23l-4.555 1.681c-.551 .241 -1.223 .015 -1.548 -.54c-.324 -.557 -.187 -1.245 .3 -1.597l3.836 -2.91a3.41 3.41 0 0 1 .446 -.3l2.235 -1.277" />
       <path d="M7 21h10" />
       <path d="M10 21l1 -7" />
@@ -19057,14 +19491,38 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="21" x2="21" y2="21" />
-      <line x1="9" y1="8" x2="10" y2="8" />
-      <line x1="9" y1="12" x2="10" y2="12" />
-      <line x1="9" y1="16" x2="10" y2="16" />
-      <line x1="14" y1="8" x2="15" y2="8" />
-      <line x1="14" y1="12" x2="15" y2="12" />
-      <line x1="14" y1="16" x2="15" y2="16" />
+      <path d="M3 21l18 0" />
+      <path d="M9 8l1 0" />
+      <path d="M9 12l1 0" />
+      <path d="M9 16l1 0" />
+      <path d="M14 8l1 0" />
+      <path d="M14 12l1 0" />
+      <path d="M14 16l1 0" />
       <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `bulb_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.bulb_filled />
+      <TablerIcons.bulb_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def bulb_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7m-3.405 10.7a3.5 3.5 0 0 0 -.295 2a2 2 0 1 1 -4 0a3.5 3.5 0 0 0 -.295 -2m2.295 -10a5 5 0 0 1 3 9a3.498 3.498 0 0 0 -.706 1h-4.588a3.498 3.498 0 0 0 -.706 -1a5 5 0 0 1 3 -9z"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -19111,7 +19569,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" />
       <path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" />
-      <line x1="9.7" y1="17" x2="14.3" y2="17" />
+      <path d="M9.7 17l4.6 0" />
     </svg>
     """
   end
@@ -19132,14 +19590,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="4" cy="17" r="2" />
-      <circle cx="13" cy="17" r="2" />
+      <path d="M4 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M13 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M18 13v6h3" />
-      <line x1="13" y1="19" x2="4" y2="19" />
-      <line x1="4" y1="15" x2="13" y2="15" />
+      <path d="M13 19l-9 0" />
+      <path d="M4 15l9 0" />
       <path d="M8 12v-5h2a3 3 0 0 1 3 3v5" />
       <path d="M5 15v-2a1 1 0 0 1 1 -1h7" />
-      <line x1="18" y1="17" x2="15" y2="17" />
+      <path d="M18 17l-3 0" />
     </svg>
     """
   end
@@ -19160,7 +19618,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="17" r="2" />
+      <path d="M6 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M16.18 16.172a2 2 0 0 0 2.652 2.648" />
       <path d="M4 17h-2v-11a1 1 0 0 1 1 -1h2m4 0h8c2.761 0 5 3.134 5 7v5h-1m-5 0h-8" />
       <path d="M16 5l1.5 7h4.5" />
@@ -19188,8 +19646,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="4" height="6" rx="1" />
-      <circle cx="18" cy="17" r="2" />
+      <path d="M3 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M10 5h7c2.761 0 5 3.134 5 7v5h-2" />
       <path d="M16 17h-8" />
       <path d="M16 5l1.5 7h4.5" />
@@ -19216,13 +19674,13 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="17" r="2" />
-      <circle cx="18" cy="17" r="2" />
+      <path d="M6 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M4 17h-2v-11a1 1 0 0 1 1 -1h14a5 7 0 0 1 5 7v5h-2m-4 0h-8" />
-      <polyline points="16 5 17.5 12 22 12" />
-      <line x1="2" y1="10" x2="17" y2="10" />
-      <line x1="7" y1="5" x2="7" y2="10" />
-      <line x1="12" y1="5" x2="12" y2="10" />
+      <path d="M16 5l1.5 7l4.5 0" />
+      <path d="M2 10l15 0" />
+      <path d="M7 5l0 5" />
+      <path d="M12 5l0 5" />
     </svg>
     """
   end
@@ -19243,7 +19701,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="16" cy="6" rx="5" ry="3" />
+      <path d="M16 6m-5 0a5 3 0 1 0 10 0a5 3 0 1 0 -10 0" />
       <path d="M11 6v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
       <path d="M11 10v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
       <path d="M11 14v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" />
@@ -19269,34 +19727,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M11.995 18.176a3 3 0 1 1 -4.953 -2.449l-.025 .023a4.502 4.502 0 0 1 1.483 -8.75c1.414 0 2.675 .652 3.5 1.671a4.5 4.5 0 1 1 4.983 7.079a3 3 0 1 1 -4.983 2.25z" />
+      <path d="M12 18.176a3 3 0 1 1 -4.953 -2.449l-.025 .023a4.502 4.502 0 0 1 1.483 -8.75c1.414 0 2.675 .652 3.5 1.671a4.5 4.5 0 1 1 4.983 7.079a3 3 0 1 1 -4.983 2.25z" />
       <path d="M12 19v-10" />
       <path d="M9 3l3 2l3 -2" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `c_sharp` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.c_sharp />
-      <TablerIcons.c_sharp class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def c_sharp(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M10 9a3 3 0 0 0 -3 -3h-.5a3.5 3.5 0 0 0 -3.5 3.5v5a3.5 3.5 0 0 0 3.5 3.5h.5a3 3 0 0 0 3 -3" />
-      <path d="M16 7l-1 10" />
-      <path d="M20 7l-1 10" />
-      <path d="M14 10h7.5" />
-      <path d="M21 14h-7.5" />
     </svg>
     """
   end
@@ -19318,7 +19751,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 9v1a3 3 0 0 0 3 3h1" />
-      <path d="M18 8v5a3 3 0 0 1 -.129 .872m-2.014 2.004a3 3 0 0 1 -.857 .124h-1" />
+      <path d="M18 8v5a3 3 0 0 1 -.129 .872m-2.014 2a3 3 0 0 1 -.857 .124h-1" />
       <path d="M10 21v-11m0 -4v-1a2 2 0 1 1 4 0v5m0 4v7" />
       <path d="M7 21h10" />
       <path d="M3 3l18 18" />
@@ -19367,7 +19800,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M21 17v-5a3 3 0 0 0 -3 -3h-5m-4 0h-3a3 3 0 0 0 -3 3v8h17" />
-      <path d="M2.996 14.803c.312 .135 .654 .204 1.004 .197a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1m4 0a2.4 2.4 0 0 0 2 1c.35 .007 .692 -.062 1.004 -.197" />
+      <path d="M3 14.803c.312 .135 .654 .204 1 .197a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1m4 0a2.4 2.4 0 0 0 2 1c.35 .007 .692 -.062 1 -.197" />
       <path d="M10.172 6.188c.07 -.158 .163 -.31 .278 -.451l1.55 -1.737l1.465 1.638a2 2 0 0 1 -.65 3.19" />
       <path d="M3 3l18 18" />
     </svg>
@@ -19391,7 +19824,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 20h18v-8a3 3 0 0 0 -3 -3h-12a3 3 0 0 0 -3 3v8z" />
-      <path d="M2.996 14.803c.312 .135 .654 .204 1.004 .197a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1c.35 .007 .692 -.062 1.004 -.197" />
+      <path d="M3 14.803c.312 .135 .654 .204 1 .197a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1c.35 .007 .692 -.062 1 -.197" />
       <path d="M12 4l1.465 1.638a2 2 0 1 1 -3.015 .099l1.55 -1.737z" />
     </svg>
     """
@@ -19441,14 +19874,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="3" width="16" height="18" rx="2" />
-      <rect x="8" y="7" width="8" height="3" rx="1" />
-      <line x1="8" y1="14" x2="8" y2="14.01" />
-      <line x1="12" y1="14" x2="12" y2="14.01" />
-      <line x1="16" y1="14" x2="16" y2="14.01" />
-      <line x1="8" y1="17" x2="8" y2="17.01" />
-      <line x1="12" y1="17" x2="12" y2="17.01" />
-      <line x1="16" y1="17" x2="16" y2="17.01" />
+      <path d="M4 3m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M8 7m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
+      <path d="M8 14l0 .01" />
+      <path d="M12 14l0 .01" />
+      <path d="M16 14l0 .01" />
+      <path d="M8 17l0 .01" />
+      <path d="M12 17l0 .01" />
+      <path d="M16 17l0 .01" />
     </svg>
     """
   end
@@ -19469,11 +19902,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="5" width="16" height="16" rx="2" />
+      <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M16 3v4" />
       <path d="M8 3v4" />
       <path d="M4 11h16" />
-      <circle cx="12" cy="16" r="1" />
+      <path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -19494,11 +19927,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="5" width="16" height="16" rx="2" />
-      <line x1="16" y1="3" x2="16" y2="7" />
-      <line x1="8" y1="3" x2="8" y2="7" />
-      <line x1="4" y1="11" x2="20" y2="11" />
-      <rect x="8" y="15" width="2" height="2" />
+      <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M16 3l0 4" />
+      <path d="M8 3l0 4" />
+      <path d="M4 11l16 0" />
+      <path d="M8 15h2v2h-2z" />
     </svg>
     """
   end
@@ -19519,11 +19952,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="5" width="16" height="16" rx="2" />
-      <line x1="16" y1="3" x2="16" y2="7" />
-      <line x1="8" y1="3" x2="8" y2="7" />
-      <line x1="4" y1="11" x2="20" y2="11" />
-      <line x1="10" y1="16" x2="14" y2="16" />
+      <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M16 3l0 4" />
+      <path d="M8 3l0 4" />
+      <path d="M4 11l16 0" />
+      <path d="M10 16l4 0" />
     </svg>
     """
   end
@@ -19545,12 +19978,12 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19.823 19.824a2 2 0 0 1 -1.823 1.176h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 1.175 -1.823m3.825 -.177h9a2 2 0 0 1 2 2v9" />
-      <line x1="16" y1="3" x2="16" y2="7" />
-      <line x1="8" y1="3" x2="8" y2="4" />
+      <path d="M16 3l0 4" />
+      <path d="M8 3l0 1" />
       <path d="M4 11h7m4 0h5" />
-      <line x1="11" y1="15" x2="12" y2="15" />
-      <line x1="12" y1="15" x2="12" y2="18" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M11 15l1 0" />
+      <path d="M12 15l0 3" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -19571,12 +20004,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="5" width="16" height="16" rx="2" />
-      <line x1="16" y1="3" x2="16" y2="7" />
-      <line x1="8" y1="3" x2="8" y2="7" />
-      <line x1="4" y1="11" x2="20" y2="11" />
-      <line x1="10" y1="16" x2="14" y2="16" />
-      <line x1="12" y1="14" x2="12" y2="18" />
+      <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M16 3l0 4" />
+      <path d="M8 3l0 4" />
+      <path d="M4 11l16 0" />
+      <path d="M10 16l4 0" />
+      <path d="M12 14l0 4" />
     </svg>
     """
   end
@@ -19599,7 +20032,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
       <path d="M18 14v4h4" />
-      <circle cx="18" cy="18" r="4" />
+      <path d="M18 18m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M15 3v4" />
       <path d="M7 3v4" />
       <path d="M3 11h16" />
@@ -19624,7 +20057,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-      <circle cx="18" cy="18" r="4" />
+      <path d="M18 18m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M15 3v4" />
       <path d="M7 3v4" />
       <path d="M3 11h16" />
@@ -19649,12 +20082,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="5" width="16" height="16" rx="2" />
-      <line x1="16" y1="3" x2="16" y2="7" />
-      <line x1="8" y1="3" x2="8" y2="7" />
-      <line x1="4" y1="11" x2="20" y2="11" />
-      <line x1="11" y1="15" x2="12" y2="15" />
-      <line x1="12" y1="15" x2="12" y2="18" />
+      <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M16 3l0 4" />
+      <path d="M8 3l0 4" />
+      <path d="M4 11l16 0" />
+      <path d="M11 15l1 0" />
+      <path d="M12 15l0 3" />
     </svg>
     """
   end
@@ -19675,9 +20108,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="13" r="3" />
+      <path d="M12 13m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M5 7h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h3m9 6v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2" />
-      <line x1="15" y1="6" x2="21" y2="6" />
+      <path d="M15 6l6 0" />
     </svg>
     """
   end
@@ -19700,7 +20133,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8.29 4.296a1 1 0 0 1 .71 -.296h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v8m-1.179 2.824c-.25 .113 -.528 .176 -.821 .176h-14a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h1c.292 0 .568 -.062 .818 -.175" />
       <path d="M10.436 10.44a3 3 0 1 0 4.126 4.122" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -19721,10 +20154,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="13" r="3" />
+      <path d="M12 13m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M5 7h2a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h2m9 7v7a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2" />
-      <line x1="15" y1="6" x2="21" y2="6" />
-      <line x1="18" y1="3" x2="18" y2="9" />
+      <path d="M15 6l6 0" />
+      <path d="M18 3l0 6" />
     </svg>
     """
   end
@@ -19771,8 +20204,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 7h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2" />
       <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
-      <line x1="15" y1="11" x2="15.01" y2="11" />
-      <line x1="9" y1="11" x2="9.01" y2="11" />
+      <path d="M15 11l.01 0" />
+      <path d="M9 11l.01 0" />
     </svg>
     """
   end
@@ -19794,7 +20227,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 7h1a2 2 0 0 0 2 -2a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2" />
-      <circle cx="12" cy="13" r="3" />
+      <path d="M12 13m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -19860,7 +20293,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M11.174 7.17l.119 -.12a2 2 0 0 1 2.828 0l2.829 2.83a2 2 0 0 1 0 2.828l-.124 .124m-1.996 1.996l-2.123 2.123a2 2 0 0 1 -2.828 0l-2.829 -2.831a2 2 0 0 1 0 -2.828l2.113 -2.112" />
+      <path d="M11.174 7.17l.119 -.12a2 2 0 0 1 2.828 0l2.829 2.83a2 2 0 0 1 0 2.828l-.124 .124m-2 2l-2.123 2.123a2 2 0 0 1 -2.828 0l-2.829 -2.831a2 2 0 0 1 0 -2.828l2.113 -2.112" />
       <path d="M16.243 9.172l3.086 -.772a1.5 1.5 0 0 0 .697 -2.516l-2.216 -2.217a1.5 1.5 0 0 0 -2.44 .47l-1.248 2.913" />
       <path d="M9.172 16.243l-.772 3.086a1.5 1.5 0 0 1 -2.516 .697l-2.217 -2.216a1.5 1.5 0 0 1 .47 -2.44l2.913 -1.248" />
       <path d="M3 3l18 18" />
@@ -19980,7 +20413,7 @@ defmodule TablerIcons do
       <path d="M4 16v2a2 2 0 0 0 2 2h2" />
       <path d="M16 4h2a2 2 0 0 1 2 2v2" />
       <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
-      <circle cx="12" cy="12" r="3" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -20001,8 +20434,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="17" r="2" />
-      <circle cx="17" cy="17" r="2" />
+      <path d="M5 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M7 18h8m4 0h2v-6a5 5 0 0 0 -5 -5h-1l1.5 5h4.5" />
       <path d="M12 18v-11h3" />
       <path d="M3 17v-5h9" />
@@ -20028,7 +20461,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="17" r="2" />
+      <path d="M10 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M7 6l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-5m0 -6h8m-6 0v-5m2 0h-4" />
       <path d="M14 8v-2" />
       <path d="M19 12h2" />
@@ -20054,7 +20487,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="17" r="2" />
+      <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M15.584 15.588a2 2 0 0 0 2.828 2.83" />
       <path d="M5 17h-2v-6l2 -5h1m4 0h4l4 5h1a2 2 0 0 1 2 2v4m-6 0h-6m-6 -6h8m4 0h3m-6 -3v-2" />
       <path d="M3 3l18 18" />
@@ -20078,10 +20511,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="11" cy="13" r="4" />
+      <path d="M11 13m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M18.86 11c.088 .66 .14 1.512 .14 2a8 8 0 1 1 -8 -8h6" />
       <path d="M11 9c2.489 .108 4.489 .108 6 0" />
-      <rect x="17" y="3" width="4" height="8" rx="1" />
+      <path d="M17 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
       <path d="M11 13l-3.5 -1.5" />
       <path d="M11 13l2.5 3" />
       <path d="M8.5 16l2.5 -3" />
@@ -20107,8 +20540,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="17" r="2" />
-      <circle cx="17" cy="17" r="2" />
+      <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" />
     </svg>
     """
@@ -20130,10 +20563,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="11" cy="17" r="2" />
-      <line x1="21" y1="17" x2="13" y2="17" />
+      <path d="M11 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M21 17l-8 0" />
       <path d="M9 17h-5a1 1 0 0 1 -1 -1v-9a2 2 0 0 1 2 -2h10l4 4v8" />
-      <rect x="6" y="8" width="6" height="4" rx="1" />
+      <path d="M6 8m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -20155,7 +20588,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M20.96 16.953c.026 -.147 .04 -.298 .04 -.453v-8.5a2 2 0 0 0 -2 -2h-9m-4 0h-1a2 2 0 0 0 -2 2v8.5a2.5 2.5 0 0 0 2.5 2.5h1.06a3 3 0 0 0 2.34 -1.13l1.54 -1.92a2 2 0 0 1 3.12 0l1.54 1.92a3 3 0 0 0 2.34 1.13h1.06c.155 0 .307 -.014 .454 -.041" />
-      <circle cx="8" cy="12" r="1" />
+      <path d="M8 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M16.714 12.7a1 1 0 0 0 -1.417 -1.411l1.417 1.41z" />
       <path d="M3 3l18 18" />
     </svg>
@@ -20179,8 +20612,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 8v8.5a2.5 2.5 0 0 0 2.5 2.5h1.06a3 3 0 0 0 2.34 -1.13l1.54 -1.92a2 2 0 0 1 3.12 0l1.54 1.92a3 3 0 0 0 2.34 1.13h1.06a2.5 2.5 0 0 0 2.5 -2.5v-8.5a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2z" />
-      <circle cx="8" cy="12" r="1" />
-      <circle cx="16" cy="12" r="1" />
+      <path d="M8 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M16 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -20201,7 +20634,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3.604 7.197l7.138 -3.109a0.96 .96 0 0 1 1.27 .527l4.924 11.902a1.004 1.004 0 0 1 -.514 1.304l-7.137 3.109a0.96 .96 0 0 1 -1.271 -.527l-4.924 -11.903a1.005 1.005 0 0 1 .514 -1.304z" />
+      <path d="M3.604 7.197l7.138 -3.109a0.96 .96 0 0 1 1.27 .527l4.924 11.902a1 1 0 0 1 -.514 1.304l-7.137 3.109a0.96 .96 0 0 1 -1.271 -.527l-4.924 -11.903a1 1 0 0 1 .514 -1.304z" />
       <path d="M15 4h1a1 1 0 0 1 1 1v3.5" />
       <path d="M20 6c.264 .112 .52 .217 .768 .315a1 1 0 0 1 .53 1.311l-2.298 5.374" />
     </svg>
@@ -20308,7 +20741,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="7" y="5" width="10" height="14" rx="1" />
+      <path d="M7 5m0 1a1 1 0 0 1 1 -1h8a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1z" />
       <path d="M22 17h-1a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h1" />
       <path d="M2 17h1a1 1 0 0 0 1 -1v-8a1 1 0 0 0 -1 -1h-1" />
     </svg>
@@ -20379,7 +20812,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3 21s9.834 -3.489 12.684 -6.34a4.487 4.487 0 0 0 .005 -6.344a4.483 4.483 0 0 0 -6.342 -.005c-2.86 2.861 -6.347 12.689 -6.347 12.689z" />
+      <path d="M3 21s9.834 -3.489 12.684 -6.34a4.487 4.487 0 0 0 0 -6.344a4.483 4.483 0 0 0 -6.342 0c-2.86 2.861 -6.347 12.689 -6.347 12.689z" />
       <path d="M9 13l-1.5 -1.5" />
       <path d="M16 14l-2 -2" />
       <path d="M22 8s-1.14 -2 -3 -2c-1.406 0 -3 2 -3 2s1.14 2 3 2s3 -2 3 -2z" />
@@ -20406,9 +20839,9 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9.88 9.878a3 3 0 1 0 4.242 4.243m.58 -3.425a3.012 3.012 0 0 0 -1.412 -1.405" />
       <path d="M10 6h9a2 2 0 0 1 2 2v8c0 .294 -.064 .574 -.178 .825m-2.822 1.175h-13a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h1" />
-      <line x1="18" y1="12" x2="18.01" y2="12" />
-      <line x1="6" y1="12" x2="6.01" y2="12" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M18 12l.01 0" />
+      <path d="M6 12l.01 0" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -20429,10 +20862,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="3" />
-      <rect x="3" y="6" width="18" height="12" rx="2" />
-      <line x1="18" y1="12" x2="18.01" y2="12" />
-      <line x1="6" y1="12" x2="6.01" y2="12" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M3 6m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+      <path d="M18 12l.01 0" />
+      <path d="M6 12l.01 0" />
     </svg>
     """
   end
@@ -20477,8 +20910,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="7" y="9" width="14" height="10" rx="2" />
-      <circle cx="14" cy="14" r="2" />
+      <path d="M7 9m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+      <path d="M14 14m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M17 9v-2a2 2 0 0 0 -2 -2h-10a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h2" />
     </svg>
     """
@@ -20503,7 +20936,7 @@ defmodule TablerIcons do
       <path d="M3 19h.01" />
       <path d="M7 19a4 4 0 0 0 -4 -4" />
       <path d="M11 19a8 8 0 0 0 -8 -8" />
-      <path d="M15 19h3a3 3 0 0 0 .875 -.13m1.997 -2.002a3 3 0 0 0 .128 -.868v-8a3 3 0 0 0 -3 -3h-9m-3.865 .136a3 3 0 0 0 -1.935 1.864" />
+      <path d="M15 19h3a3 3 0 0 0 .875 -.13m2 -2a3 3 0 0 0 .128 -.868v-8a3 3 0 0 0 -3 -3h-9m-3.865 .136a3 3 0 0 0 -1.935 1.864" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -20525,7 +20958,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="19" x2="3.01" y2="19" />
+      <path d="M3 19l.01 0" />
       <path d="M7 19a4 4 0 0 0 -4 -4" />
       <path d="M11 19a8 8 0 0 0 -8 -8" />
       <path d="M15 19h3a3 3 0 0 0 3 -3v-8a3 3 0 0 0 -3 -3h-12a3 3 0 0 0 -2.8 2" />
@@ -20552,7 +20985,7 @@ defmodule TablerIcons do
       <path d="M20 3v10a8 8 0 1 1 -16 0v-10l3.432 3.432a7.963 7.963 0 0 1 4.568 -1.432c1.769 0 3.403 .574 4.728 1.546l3.272 -3.546z" />
       <path d="M2 16h5l-4 4" />
       <path d="M22 16h-5l4 4" />
-      <circle cx="12" cy="16" r="1" />
+      <path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M9 11v.01" />
       <path d="M15 11v.01" />
     </svg>
@@ -20577,8 +21010,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 4h6v6h-6z" />
       <path d="M4 14h6v6h-6z" />
-      <circle cx="17" cy="17" r="3" />
-      <circle cx="7" cy="7" r="3" />
+      <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M7 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -20602,7 +21035,7 @@ defmodule TablerIcons do
       <path d="M4 4h6v6h-6z" />
       <path d="M14 4h6v6h-6z" />
       <path d="M4 14h6v6h-6z" />
-      <circle cx="17" cy="17" r="3" />
+      <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -20625,7 +21058,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11 4a7.99 7.99 0 0 0 -2.581 .426" />
       <path d="M5.867 5.864a8 8 0 0 0 5.133 14.136" />
-      <path d="M20 4a8.001 8.001 0 0 0 -7.29 4.7" />
+      <path d="M20 4a8 8 0 0 0 -7.29 4.7" />
       <path d="M12 12a8 8 0 0 0 8 8" />
       <path d="M16 12h4" />
       <path d="M3 3l18 18" />
@@ -20651,7 +21084,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11 4a8 8 0 1 0 0 16" />
       <path d="M20 4a8 8 0 1 0 0 16" />
-      <line x1="12" y1="12" x2="20" y2="12" />
+      <path d="M12 12l8 0" />
     </svg>
     """
   end
@@ -20783,7 +21216,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M20 20h-15.269a0.731 .731 0 0 1 -.517 -1.249l7.265 -7.264m2 -2.001l5.272 -5.272a0.731 .731 0 0 1 1.249 .517v11.269" />
+      <path d="M20 20h-15.269a0.731 .731 0 0 1 -.517 -1.249l7.265 -7.264m2 -2l5.272 -5.272a0.731 .731 0 0 1 1.249 .517v11.269" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -20853,7 +21286,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="15" r="3" />
+      <path d="M12 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M10 7h4" />
       <path d="M10 18v4l2 -1l2 1v-4" />
       <path d="M10 19h-2a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-2" />
@@ -20904,12 +21337,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="15" cy="15" r="3" />
+      <path d="M15 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5" />
       <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73" />
-      <line x1="6" y1="9" x2="18" y2="9" />
-      <line x1="6" y1="12" x2="9" y2="12" />
-      <line x1="6" y1="15" x2="8" y2="15" />
+      <path d="M6 9l12 0" />
+      <path d="M6 12l3 0" />
+      <path d="M6 15l2 0" />
     </svg>
     """
   end
@@ -20981,7 +21414,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 19h-3a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v11a1 1 0 0 1 -1 1" />
-      <rect x="11" y="16" width="6" height="3" rx="1" />
+      <path d="M11 16m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -21002,12 +21435,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="18" y1="7" x2="17" y2="8" />
+      <path d="M18 7l-1 1" />
       <path d="M14 11h1a2 2 0 0 1 2 2v3a1.5 1.5 0 0 0 3 0v-7l-3 -3" />
       <path d="M4 20v-14a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v14" />
       <path d="M9 11.5l-1.5 2.5h3l-1.5 2.5" />
-      <line x1="3" y1="20" x2="15" y2="20" />
-      <line x1="4" y1="8" x2="14" y2="8" />
+      <path d="M3 20l12 0" />
+      <path d="M4 8l10 0" />
     </svg>
     """
   end
@@ -21028,7 +21461,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="1" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M7 12a5 5 0 1 0 5 -5" />
       <path d="M6.29 18.957a9 9 0 1 0 5.71 -15.957" />
     </svg>
@@ -21051,9 +21484,53 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="1" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M16.924 11.132a5 5 0 1 0 -4.056 5.792" />
       <path d="M3 12a9 9 0 1 0 9 -9" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `chart_area_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.chart_area_filled />
+      <TablerIcons.chart_area_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def chart_area_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19l16 0" />
+      <path d="M4 15l4 -6l4 2l4 -5l4 4l0 5l-16 0" fill="currentColor" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `chart_area_line_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.chart_area_line_filled />
+      <TablerIcons.chart_area_line_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def chart_area_line_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19l4 -6l4 2l4 -5l4 4l0 5l-16 0" fill="currentColor" />
+      <path d="M4 12l3 -4l4 2l5 -6l4 4" />
     </svg>
     """
   end
@@ -21074,8 +21551,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="4 19 8 13 12 15 16 10 20 14 20 19 4 19" />
-      <polyline points="4 12 7 8 11 10 16 4 20 8" />
+      <path d="M4 19l4 -6l4 2l4 -5l4 4l0 5l-16 0" />
+      <path d="M4 12l3 -4l4 2l5 -6l4 4" />
     </svg>
     """
   end
@@ -21096,8 +21573,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="19" x2="20" y2="19" />
-      <polyline points="4 15 8 9 12 11 16 6 20 10 20 15 4 15" />
+      <path d="M4 19l16 0" />
+      <path d="M4 15l4 -6l4 2l4 -5l4 4l0 5l-16 0" />
     </svg>
     """
   end
@@ -21121,8 +21598,8 @@ defmodule TablerIcons do
       <path d="M18 21v-14" />
       <path d="M9 15l3 -3l3 3" />
       <path d="M15 10l3 -3l3 3" />
-      <line x1="3" y1="21" x2="21" y2="21" />
-      <line x1="12" y1="21" x2="12" y2="12" />
+      <path d="M3 21l18 0" />
+      <path d="M12 21l0 -9" />
       <path d="M3 6l3 -3l3 3" />
       <path d="M6 21v-18" />
     </svg>
@@ -21145,13 +21622,13 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="18" x2="17" y2="18" />
+      <path d="M3 18l14 0" />
       <path d="M9 9l3 3l-3 3" />
       <path d="M14 15l3 3l-3 3" />
-      <line x1="3" y1="3" x2="3" y2="21" />
-      <line x1="3" y1="12" x2="12" y2="12" />
+      <path d="M3 3l0 18" />
+      <path d="M3 12l9 0" />
       <path d="M18 3l3 3l-3 3" />
-      <line x1="3" y1="6" x2="21" y2="6" />
+      <path d="M3 6l18 0" />
     </svg>
     """
   end
@@ -21172,7 +21649,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="12" width="6" height="8" rx="1" />
+      <path d="M3 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
       <path d="M12 8h2a1 1 0 0 1 1 1v2m0 4v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-10" />
       <path d="M15 11v-6a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v12m-1 3h-4a1 1 0 0 1 -1 -1v-4" />
       <path d="M4 20h14" />
@@ -21197,10 +21674,33 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="12" width="6" height="8" rx="1" />
-      <rect x="9" y="8" width="6" height="12" rx="1" />
-      <rect x="15" y="4" width="6" height="16" rx="1" />
-      <line x1="4" y1="20" x2="18" y2="20" />
+      <path d="M3 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M9 8m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M15 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M4 20l14 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `chart_bubble_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.chart_bubble_filled />
+      <TablerIcons.chart_bubble_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def chart_bubble_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M6 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" fill="currentColor" />
+      <path d="M16 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" fill="currentColor" />
+      <path d="M14.5 7.5m-4.5 0a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0" fill="currentColor" />
     </svg>
     """
   end
@@ -21221,9 +21721,38 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="16" r="3" />
-      <circle cx="16" cy="19" r="2" />
-      <circle cx="14.5" cy="7.5" r="4.5" />
+      <path d="M6 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M16 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M14.5 7.5m-4.5 0a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `chart_candle_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.chart_candle_filled />
+      <TablerIcons.chart_candle_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def chart_candle_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 6m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" fill="currentColor" />
+      <path d="M6 4l0 2" />
+      <path d="M6 11l0 9" />
+      <path d="M10 14m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" fill="currentColor" />
+      <path d="M12 4l0 10" />
+      <path d="M12 19l0 1" />
+      <path d="M16 5m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" fill="currentColor" />
+      <path d="M18 4l0 1" />
+      <path d="M18 11l0 9" />
     </svg>
     """
   end
@@ -21244,15 +21773,15 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="6" width="4" height="5" rx="1" />
-      <line x1="6" y1="4" x2="6" y2="6" />
-      <line x1="6" y1="11" x2="6" y2="20" />
-      <rect x="10" y="14" width="4" height="5" rx="1" />
-      <line x1="12" y1="4" x2="12" y2="14" />
-      <line x1="12" y1="19" x2="12" y2="20" />
-      <rect x="16" y="5" width="4" height="6" rx="1" />
-      <line x1="18" y1="4" x2="18" y2="5" />
-      <line x1="18" y1="11" x2="18" y2="20" />
+      <path d="M4 6m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M6 4l0 2" />
+      <path d="M6 11l0 9" />
+      <path d="M10 14m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M12 4l0 10" />
+      <path d="M12 19l0 1" />
+      <path d="M16 5m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M18 4l0 1" />
+      <path d="M18 11l0 9" />
     </svg>
     """
   end
@@ -21273,8 +21802,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="9.5" cy="9.5" r="5.5" />
-      <circle cx="14.5" cy="14.5" r="5.5" />
+      <path d="M9.5 9.5m-5.5 0a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0" />
+      <path d="M14.5 14.5m-5.5 0a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0" />
     </svg>
     """
   end
@@ -21296,8 +21825,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3v5m4 4h5" />
-      <circle cx="12" cy="12" r="4" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -21320,8 +21849,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3v5m4 4h5" />
       <path d="M8.929 14.582l-3.429 2.918" />
-      <circle cx="12" cy="12" r="4" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -21344,9 +21873,34 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8.848 14.667l-3.348 2.833" />
       <path d="M12 3v5m4 4h5" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M14.219 15.328l2.781 4.172" />
-      <circle cx="12" cy="12" r="4" />
+      <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `chart_donut_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.chart_donut_filled />
+      <TablerIcons.chart_donut_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def chart_donut_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M10 3.2a9 9 0 1 0 10.8 10.8a1 1 0 0 0 -1 -1h-3.8a4.1 4.1 0 1 1 -5 -5v-4a0.9 .9 0 0 0 -1 -.8"
+        fill="currentColor"
+      />
+      <path d="M15 3.5a9 9 0 0 1 5.5 5.5h-4.5a9 9 0 0 0 -1 -1v-4.5" fill="currentColor" />
     </svg>
     """
   end
@@ -21390,9 +21944,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 3v18h18" />
-      <circle cx="9" cy="15" r="2" />
-      <circle cx="13" cy="5" r="2" />
-      <circle cx="18" cy="12" r="2" />
+      <path d="M9 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M13 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M21 3l-6 1.5" />
       <path d="M14.113 6.65l2.771 3.695" />
       <path d="M16 12.5l-5 2" />
@@ -21416,10 +21970,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="7" r="2" />
-      <circle cx="16" cy="15" r="2" />
-      <circle cx="18" cy="6" r="3" />
-      <circle cx="6" cy="18" r="3" />
+      <path d="M5 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M16 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M6 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M9 17l5 -1.5" />
       <path d="M6.5 8.5l7.81 5.37" />
       <path d="M7 7l8 -1" />
@@ -21444,10 +21998,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 3v18h18" />
-      <circle cx="9" cy="9" r="2" />
-      <circle cx="19" cy="7" r="2" />
-      <circle cx="14" cy="15" r="2" />
-      <line x1="10.16" y1="10.62" x2="12.5" y2="13.5" />
+      <path d="M9 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M14 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M10.16 10.62l2.34 2.88" />
       <path d="M15.088 13.328l2.837 -4.586" />
     </svg>
     """
@@ -21469,10 +22023,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="18" cy="6" r="2" />
-      <circle cx="6" cy="12" r="2" />
-      <circle cx="6" cy="18" r="2" />
-      <circle cx="18" cy="18" r="2" />
+      <path d="M18 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M6 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M6 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M8 18h8" />
       <path d="M18 20v1" />
       <path d="M18 3v1" />
@@ -21533,12 +22087,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="7" r="4" />
+      <path d="M7 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M7 3v4h4" />
-      <line x1="9" y1="17" x2="9" y2="21" />
-      <line x1="17" y1="14" x2="17" y2="21" />
-      <line x1="13" y1="13" x2="13" y2="21" />
-      <line x1="21" y1="12" x2="21" y2="21" />
+      <path d="M9 17l0 4" />
+      <path d="M17 14l0 7" />
+      <path d="M13 13l0 8" />
+      <path d="M21 12l0 9" />
     </svg>
     """
   end
@@ -21559,8 +22113,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="19" x2="20" y2="19" />
-      <polyline points="4 15 8 9 12 11 16 6 20 10" />
+      <path d="M4 19l16 0" />
+      <path d="M4 15l4 -6l4 2l4 -5l4 4" />
     </svg>
     """
   end
@@ -21582,7 +22136,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3v9h9" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -21605,7 +22159,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 12l-6.5 5.5" />
       <path d="M12 3v9h9" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -21628,8 +22182,30 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 12l-6.5 5.5" />
       <path d="M12 3v9h9" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12l5 7.5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `chart_pie_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.chart_pie_filled />
+      <TablerIcons.chart_pie_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def chart_pie_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 3.2a9 9 0 1 0 10.8 10.8a1 1 0 0 0 -1 -1h-6.8a2 2 0 0 1 -2 -2v-7a0.9 .9 0 0 0 -1 -.8" fill="currentColor" />
+      <path d="M15 3.5a9 9 0 0 1 5.5 5.5h-4.5a1 1 0 0 1 -1 -1v-4.5" fill="currentColor" />
     </svg>
     """
   end
@@ -21650,7 +22226,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M5.63 5.643a9 9 0 0 0 12.742 12.715m1.674 -2.29a9.03 9.03 0 0 0 .754 -2.068a1 1 0 0 0 -1 -1h-2.8m-4 0a2 2 0 0 1 -2 -2m0 -4v-3a0.9 .9 0 0 0 -1 -.8a9.005 9.005 0 0 0 -2.057 .749" />
+      <path d="M5.63 5.643a9 9 0 0 0 12.742 12.715m1.674 -2.29a9.03 9.03 0 0 0 .754 -2.068a1 1 0 0 0 -1 -1h-2.8m-4 0a2 2 0 0 1 -2 -2m0 -4v-3a0.9 .9 0 0 0 -1 -.8a9 9 0 0 0 -2.057 .749" />
       <path d="M15 3.5a9 9 0 0 1 5.5 5.5h-4.5a1 1 0 0 1 -1 -1v-4.5" />
       <path d="M3 3l18 18" />
     </svg>
@@ -21765,7 +22341,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M12 4v16" />
       <path d="M4 15h8" />
       <path d="M12 12h8" />
@@ -21812,7 +22388,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="9 11 12 14 20 6" />
+      <path d="M9 11l3 3l8 -8" />
       <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
     </svg>
     """
@@ -21881,7 +22457,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
       <path d="M9 14h.01" />
       <path d="M9 17h.01" />
       <path d="M12 16l1 1l3 -3" />
@@ -21930,7 +22506,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8.72 4.712a3.999 3.999 0 0 1 7.19 1.439a4 4 0 0 1 2.09 7.723v.126m0 4v3h-12v-7.126a4.002 4.002 0 0 1 .081 -7.796" />
+      <path d="M8.72 4.712a4 4 0 0 1 7.19 1.439a4 4 0 0 1 2.09 7.723v.126m0 4v3h-12v-7.126a4 4 0 0 1 .081 -7.796" />
       <path d="M6.161 17.009l10.839 -.009" />
       <path d="M3 3l18 18" />
     </svg>
@@ -21953,7 +22529,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 3c1.918 0 3.52 1.35 3.91 3.151a4 4 0 0 1 2.09 7.723l0 7.126h-12v-7.126a4.002 4.002 0 1 1 2.092 -7.723a3.999 3.999 0 0 1 3.908 -3.151z" />
+      <path d="M12 3c1.918 0 3.52 1.35 3.91 3.151a4 4 0 0 1 2.09 7.723l0 7.126h-12v-7.126a4 4 0 1 1 2.092 -7.723a4 4 0 0 1 3.908 -3.151z" />
       <path d="M6.161 17.009l11.839 -.009" />
     </svg>
     """
@@ -21975,9 +22551,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7.5" cy="16.5" r="3.5" />
-      <circle cx="17" cy="18" r="3" />
-      <path d="M9 13c.366 -2.006 1.866 -3.873 4.5 -5.6" />
+      <path d="M7.5 16.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
+      <path d="M17 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M9 13c.366 -2 1.866 -3.873 4.5 -5.6" />
       <path d="M17 15c-1.333 -2.333 -2.333 -5.333 -1 -9" />
       <path d="M5 6c3.667 -2.667 7.333 -2.667 11 0c-3.667 2.667 -7.333 2.667 -11 0" />
     </svg>
@@ -22001,8 +22577,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 16l-1.447 .724a1 1 0 0 0 -.553 .894v2.382h12v-2.382a1 1 0 0 0 -.553 -.894l-1.447 -.724h-8z" />
-      <circle cx="12" cy="4" r="1" />
-      <path d="M9.5 16c-1.667 0 -2.5 -1.669 -2.5 -3c0 -3.667 1.667 -6 5 -7c3.333 1 5 3.427 5 7c0 1.284 -.775 2.881 -2.325 2.994l-.175 .006h-5z" />
+      <path d="M12 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M9.5 16c-1.667 0 -2.5 -1.669 -2.5 -3c0 -3.667 1.667 -6 5 -7c3.333 1 5 3.427 5 7c0 1.284 -.775 2.881 -2.325 3l-.175 0h-5z" />
       <path d="M15 8l-3 3" />
       <path d="M12 5v1" />
     </svg>
@@ -22073,9 +22649,9 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M16 16l2 -11l-4 4l-2 -5l-2 5l-4 -4l2 11" />
       <path d="M8 16l-1.447 .724a1 1 0 0 0 -.553 .894v2.382h12v-2.382a1 1 0 0 0 -.553 -.894l-1.447 -.724h-8z" />
-      <circle cx="12" cy="4" r="1" />
-      <circle cx="6" cy="5" r="1" />
-      <circle cx="18" cy="5" r="1" />
+      <path d="M12 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M6 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M18 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -22186,7 +22762,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="6 9 12 15 18 9" />
+      <path d="M6 9l6 6l6 -6" />
     </svg>
     """
   end
@@ -22207,7 +22783,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="15 6 9 12 15 18" />
+      <path d="M15 6l-6 6l6 6" />
     </svg>
     """
   end
@@ -22228,7 +22804,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="9 6 15 12 9 18" />
+      <path d="M9 6l6 6l-6 6" />
     </svg>
     """
   end
@@ -22291,7 +22867,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="6 15 12 9 18 15" />
+      <path d="M6 15l6 -6l6 6" />
     </svg>
     """
   end
@@ -22356,8 +22932,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="7 7 12 12 17 7" />
-      <polyline points="7 13 12 18 17 13" />
+      <path d="M7 7l5 5l5 -5" />
+      <path d="M7 13l5 5l5 -5" />
     </svg>
     """
   end
@@ -22378,8 +22954,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="11 7 6 12 11 17" />
-      <polyline points="17 7 12 12 17 17" />
+      <path d="M11 7l-5 5l5 5" />
+      <path d="M17 7l-5 5l5 5" />
     </svg>
     """
   end
@@ -22400,8 +22976,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="7 7 12 12 7 17" />
-      <polyline points="13 7 18 12 13 17" />
+      <path d="M7 7l5 5l-5 5" />
+      <path d="M13 7l5 5l-5 5" />
     </svg>
     """
   end
@@ -22466,8 +23042,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="7 11 12 6 17 11" />
-      <polyline points="7 17 12 12 17 17" />
+      <path d="M7 11l5 -5l5 5" />
+      <path d="M7 17l5 -5l5 5" />
     </svg>
     """
   end
@@ -22556,7 +23132,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 15l-4 -4h8z" />
     </svg>
     """
@@ -22601,7 +23177,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 12l-4 -4v8z" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -22623,7 +23199,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 9l4 4h-8z" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -22644,7 +23220,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 12l2 2l4 -4" />
     </svg>
     """
@@ -22733,7 +23309,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 13l3 -3l3 3" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -22779,7 +23355,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 15l-3 -3l3 -3" />
       <path d="M11 15l-3 -3l3 -3" />
-      <path d="M21 12a9 9 0 1 0 -.004 .265l.004 -.265z" />
+      <path d="M21 12a9 9 0 1 0 0 .265l0 -.265z" />
     </svg>
     """
   end
@@ -22802,7 +23378,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 9l3 3l-3 3" />
       <path d="M13 9l3 3l-3 3" />
-      <path d="M3 12a9 9 0 1 0 .004 -.265l-.004 .265z" />
+      <path d="M3 12a9 9 0 1 0 0 -.265l0 .265z" />
     </svg>
     """
   end
@@ -22825,7 +23401,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 15l3 -3l3 3" />
       <path d="M9 11l3 -3l3 3" />
-      <path d="M12 21a9 9 0 1 0 -.265 -.004l.265 .004z" />
+      <path d="M12 21a9 9 0 1 0 -.265 0l.265 0z" />
     </svg>
     """
   end
@@ -22874,8 +23450,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="1" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -22896,18 +23472,39 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="7.5" y1="4.21" x2="7.5" y2="4.22" />
-      <line x1="4.21" y1="7.5" x2="4.21" y2="7.51" />
-      <line x1="3" y1="12" x2="3" y2="12.01" />
-      <line x1="4.21" y1="16.5" x2="4.21" y2="16.51" />
-      <line x1="7.5" y1="19.79" x2="7.5" y2="19.8" />
-      <line x1="12" y1="21" x2="12" y2="21.01" />
-      <line x1="16.5" y1="19.79" x2="16.5" y2="19.8" />
-      <line x1="19.79" y1="16.5" x2="19.79" y2="16.51" />
-      <line x1="21" y1="12" x2="21" y2="12.01" />
-      <line x1="19.79" y1="7.5" x2="19.79" y2="7.51" />
-      <line x1="16.5" y1="4.21" x2="16.5" y2="4.22" />
-      <line x1="12" y1="3" x2="12" y2="3.01" />
+      <path d="M7.5 4.21l0 .01" />
+      <path d="M4.21 7.5l0 .01" />
+      <path d="M3 12l0 .01" />
+      <path d="M4.21 16.5l0 .01" />
+      <path d="M7.5 19.79l0 .01" />
+      <path d="M12 21l0 .01" />
+      <path d="M16.5 19.79l0 .01" />
+      <path d="M19.79 16.5l0 .01" />
+      <path d="M21 12l0 .01" />
+      <path d="M19.79 7.5l0 .01" />
+      <path d="M16.5 4.21l0 .01" />
+      <path d="M12 3l0 .01" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `circle_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.circle_filled />
+      <TablerIcons.circle_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def circle_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" fill="currentColor" />
     </svg>
     """
   end
@@ -22928,7 +23525,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 3v18" />
       <path d="M12 14l7 -7" />
       <path d="M12 19l8.5 -8.5" />
@@ -22953,7 +23550,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M3 12h18" />
     </svg>
     """
@@ -22975,7 +23572,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 3v18" />
     </svg>
     """
@@ -22997,7 +23594,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="14" cy="10" r="2" />
+      <path d="M14 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0z" />
       <path d="M12.5 11.5l-4 4l1.5 1.5" />
       <path d="M12 15l-1.5 -1.5" />
@@ -23021,7 +23618,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 16v-6a2 2 0 1 1 4 0v6" />
       <path d="M10 13h4" />
     </svg>
@@ -23044,7 +23641,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 16h2a2 2 0 1 0 0 -4h-2h2a2 2 0 1 0 0 -4h-2v8z" />
     </svg>
     """
@@ -23066,7 +23663,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M14 10a2 2 0 1 0 -4 0v4a2 2 0 1 0 4 0" />
     </svg>
     """
@@ -23088,7 +23685,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 8v8h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-2z" />
     </svg>
     """
@@ -23110,7 +23707,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M14 8h-4v8h4" />
       <path d="M10 12h2.5" />
     </svg>
@@ -23133,7 +23730,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 12h3" />
       <path d="M14 8h-4v8" />
     </svg>
@@ -23156,7 +23753,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M14 8h-2a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2v-4h-1" />
     </svg>
     """
@@ -23178,7 +23775,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 16v-8m4 0v8" />
       <path d="M10 12h4" />
     </svg>
@@ -23201,7 +23798,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 8v8" />
     </svg>
     """
@@ -23223,7 +23820,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 8h4v6a2 2 0 1 1 -4 0" />
     </svg>
     """
@@ -23245,7 +23842,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 8v8" />
       <path d="M14 8l-2.5 4l2.5 4" />
       <path d="M10 12h1.5" />
@@ -23269,7 +23866,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 8v8h4" />
     </svg>
     """
@@ -23291,7 +23888,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 16v-8l3 5l3 -5v8" />
     </svg>
     """
@@ -23313,7 +23910,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 16v-8l4 8v-8" />
     </svg>
     """
@@ -23335,7 +23932,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2z" />
     </svg>
     """
@@ -23357,7 +23954,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 12h2a2 2 0 1 0 0 -4h-2v8" />
     </svg>
     """
@@ -23379,7 +23976,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2z" />
       <path d="M13 15l1 1" />
     </svg>
@@ -23402,7 +23999,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 12h2a2 2 0 1 0 0 -4h-2v8m4 0l-3 -4" />
     </svg>
     """
@@ -23424,7 +24021,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1" />
     </svg>
     """
@@ -23446,7 +24043,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 8h4" />
       <path d="M12 8v8" />
     </svg>
@@ -23469,7 +24066,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 8v6a2 2 0 1 0 4 0v-6" />
     </svg>
     """
@@ -23491,7 +24088,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 8l2 8l2 -8" />
     </svg>
     """
@@ -23513,7 +24110,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 8l1 8l2 -5l2 5l1 -8" />
     </svg>
     """
@@ -23535,7 +24132,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 8l4 8" />
       <path d="M10 16l4 -8" />
     </svg>
@@ -23558,7 +24155,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 8l2 5l2 -5" />
       <path d="M12 16v-3" />
     </svg>
@@ -23581,7 +24178,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 8h4l-4 8h4" />
     </svg>
     """
@@ -23603,8 +24200,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="12" x2="15" y2="12" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 12l6 0" />
     </svg>
     """
   end
@@ -23625,7 +24222,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0z" />
     </svg>
     """
@@ -23647,7 +24244,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 10l2 -2v8" />
     </svg>
     """
@@ -23669,7 +24266,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3" />
     </svg>
     """
@@ -23691,7 +24288,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 9a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1" />
     </svg>
     """
@@ -23713,7 +24310,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 8v3a1 1 0 0 0 1 1h3" />
       <path d="M14 8v8" />
     </svg>
@@ -23736,7 +24333,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4" />
     </svg>
     """
@@ -23758,7 +24355,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M14 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3" />
     </svg>
     """
@@ -23780,7 +24377,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 8h4l-2 8" />
     </svg>
     """
@@ -23802,7 +24399,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1" />
     </svg>
     """
@@ -23824,7 +24421,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3" />
     </svg>
     """
@@ -23868,9 +24465,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="12" x2="15" y2="12" />
-      <line x1="12" y1="9" x2="12" y2="15" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 12l6 0" />
+      <path d="M12 9l0 6" />
     </svg>
     """
   end
@@ -23914,7 +24511,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M7 10h10v4h-10z" />
     </svg>
     """
@@ -23936,8 +24533,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="9.5" cy="9.5" r="6.5" />
-      <rect x="10" y="10" width="11" height="11" rx="2" />
+      <path d="M9.5 9.5m-6.5 0a6.5 6.5 0 1 0 13 0a6.5 6.5 0 1 0 -13 0" />
+      <path d="M10 10m0 2a2 2 0 0 1 2 -2h7a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -23958,7 +24555,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 20l7 -12h-14z" />
     </svg>
     """
@@ -23980,7 +24577,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 10l4 4m0 -4l-4 4" />
     </svg>
     """
@@ -24002,7 +24599,31 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `circles_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.circles_filled />
+      <TablerIcons.circles_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def circles_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0m-1.5 10m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0m15 0m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -24045,9 +24666,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="7" r="4" />
-      <circle cx="6.5" cy="17" r="4" />
-      <circle cx="17.5" cy="17" r="4" />
+      <path d="M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+      <path d="M6.5 17m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+      <path d="M17.5 17m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
     </svg>
     """
   end
@@ -24068,7 +24689,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="7" />
+      <path d="M12 12m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M5 12h-3" />
       <path d="M19 12h3" />
       <path d="M10 14v-3c0 -1.036 .895 -2 2 -2s2 .964 2 2v3" />
@@ -24121,7 +24742,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M2 12h5" />
       <path d="M17 12h5" />
-      <circle cx="12" cy="12" r="5" />
+      <path d="M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
       <path d="M8.5 8.5l7 7" />
       <path d="M15.5 8.5l-7 7" />
     </svg>
@@ -24246,10 +24867,10 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M2 12h2" />
       <path d="M20 7h2" />
-      <circle cx="6" cy="12" r="2" />
-      <circle cx="18" cy="7" r="2" />
+      <path d="M6 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M20 17h2" />
-      <circle cx="18" cy="17" r="2" />
+      <path d="M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M7.5 10.5l8.5 -3.5" />
     </svg>
     """
@@ -24386,7 +25007,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="7" />
+      <path d="M12 12m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M5 12h-3" />
       <path d="M19 12h3" />
       <path d="M10 14v-4l2 2l2 -2v4" />
@@ -24412,8 +25033,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M2 17h2" />
       <path d="M20 17h2" />
-      <circle cx="6" cy="17" r="2" />
-      <circle cx="18" cy="17" r="2" />
+      <path d="M6 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M6 11h12" />
       <path d="M12 11v-6" />
     </svg>
@@ -24459,8 +25080,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M2 12h2" />
       <path d="M20 12h2" />
-      <circle cx="6" cy="12" r="2" />
-      <circle cx="18" cy="12" r="2" />
+      <path d="M6 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M8 12h8" />
     </svg>
     """
@@ -24484,8 +25105,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M2 12h2" />
       <path d="M20 12h2" />
-      <circle cx="6" cy="12" r="2" />
-      <circle cx="18" cy="12" r="2" />
+      <path d="M6 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M7.5 10.5l7.5 -5.5" />
     </svg>
     """
@@ -24507,7 +25128,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="7" />
+      <path d="M12 12m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M5 12h-3" />
       <path d="M19 12h3" />
       <path d="M10 10l2 4l2 -4" />
@@ -24556,8 +25177,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M17 15l4 4m0 -4l-4 4" />
       <path d="M7 6v-1h11v1" />
-      <line x1="7" y1="19" x2="11" y2="19" />
-      <line x1="13" y1="5" x2="9" y2="19" />
+      <path d="M7 19l4 0" />
+      <path d="M13 5l-4 14" />
     </svg>
     """
   end
@@ -24578,11 +25199,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="12" x2="6" y2="12" />
-      <line x1="12" y1="3" x2="12" y2="6" />
-      <line x1="7.8" y1="7.8" x2="5.6" y2="5.6" />
-      <line x1="16.2" y1="7.8" x2="18.4" y2="5.6" />
-      <line x1="7.8" y1="16.2" x2="5.6" y2="18.4" />
+      <path d="M3 12l3 0" />
+      <path d="M12 3l0 3" />
+      <path d="M7.8 7.8l-2.2 -2.2" />
+      <path d="M16.2 7.8l2.2 -2.2" />
+      <path d="M7.8 16.2l-2.2 2.2" />
       <path d="M12 12l9 3l-4 2l-2 4l-3 -9" />
     </svg>
     """
@@ -24605,7 +25226,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
       <path d="M9 14l2 2l4 -4" />
     </svg>
     """
@@ -24629,7 +25250,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h3m9 -9v-5a2 2 0 0 0 -2 -2h-2" />
       <path d="M13 17v-1a1 1 0 0 1 1 -1h1m3 0h1a1 1 0 0 1 1 1v1m0 3v1a1 1 0 0 1 -1 1h-1m-3 0h-1a1 1 0 0 1 -1 -1v-1" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -24651,7 +25272,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
       <path d="M9 17v-4" />
       <path d="M12 17v-1" />
       <path d="M15 17v-2" />
@@ -24677,8 +25298,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
-      <path d="M11.993 16.75l2.747 -2.815a1.9 1.9 0 0 0 .005 -2.632a1.775 1.775 0 0 0 -2.56 -.005l-.183 .188l-.183 -.189a1.775 1.775 0 0 0 -2.56 -.004a1.899 1.899 0 0 0 -.004 2.632l2.738 2.825z" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M11.993 16.75l2.747 -2.815a1.9 1.9 0 0 0 0 -2.632a1.775 1.775 0 0 0 -2.56 0l-.183 .188l-.183 -.189a1.775 1.775 0 0 0 -2.56 0a1.899 1.899 0 0 0 0 2.632l2.738 2.825z" />
     </svg>
     """
   end
@@ -24700,11 +25321,11 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
-      <line x1="9" y1="12" x2="9.01" y2="12" />
-      <line x1="13" y1="12" x2="15" y2="12" />
-      <line x1="9" y1="16" x2="9.01" y2="16" />
-      <line x1="13" y1="16" x2="15" y2="16" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M9 12l.01 0" />
+      <path d="M13 12l2 0" />
+      <path d="M9 16l.01 0" />
+      <path d="M13 16l2 0" />
     </svg>
     """
   end
@@ -24725,7 +25346,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M5.575 5.597a1.994 1.994 0 0 0 -.575 1.403v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2m0 -4v-8a2 2 0 0 0 -2 -2h-2" />
+      <path d="M5.575 5.597a2 2 0 0 0 -.575 1.403v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2m0 -4v-8a2 2 0 0 0 -2 -2h-2" />
       <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 1 1 0 4h-2" />
       <path d="M3 3l18 18" />
     </svg>
@@ -24749,7 +25370,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
       <path d="M10 14h4" />
       <path d="M12 12v4" />
     </svg>
@@ -24773,7 +25394,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
       <path d="M9 12h6" />
       <path d="M9 16h6" />
     </svg>
@@ -24797,7 +25418,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
       <path d="M9 12v-1h6v1" />
       <path d="M12 11v6" />
       <path d="M11 17h2" />
@@ -24822,7 +25443,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
       <path d="M10 12l4 4m0 -4l-4 4" />
     </svg>
     """
@@ -24845,7 +25466,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -24866,7 +25487,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="1" />
+      <path d="M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
       <path d="M12 7v5l3 3" />
       <path d="M4 12h1" />
       <path d="M19 12h1" />
@@ -24891,9 +25512,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="19" cy="19" r="3" />
+      <path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M17 21l4 -4" />
-      <path d="M20.995 12.3a9 9 0 1 0 -8.683 8.694" />
+      <path d="M21 12.3a9 9 0 1 0 -8.683 8.694" />
       <path d="M12 7v5l2 2" />
     </svg>
     """
@@ -24915,7 +25536,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M21 12a9.001 9.001 0 1 0 -9.972 8.948c.32 .034 .644 .052 .972 .052" />
+      <path d="M21 12a9 9 0 1 0 -9.972 8.948c.32 .034 .644 .052 .972 .052" />
       <path d="M12 7v5l2 2" />
       <path d="M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39z" />
     </svg>
@@ -24938,7 +25559,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 7v5" />
       <path d="M12 12l2 -3" />
     </svg>
@@ -24961,7 +25582,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12l-3 -2" />
       <path d="M12 7v5" />
     </svg>
@@ -24984,7 +25605,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12l-2 -3" />
       <path d="M12 7v5" />
     </svg>
@@ -25007,7 +25628,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 7v5" />
     </svg>
     """
@@ -25029,7 +25650,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12l3 -2" />
       <path d="M12 7v5" />
     </svg>
@@ -25052,7 +25673,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12h3.5" />
       <path d="M12 7v5" />
     </svg>
@@ -25075,7 +25696,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12l3 2" />
       <path d="M12 7v5" />
     </svg>
@@ -25098,7 +25719,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12l2 3" />
       <path d="M12 7v5" />
     </svg>
@@ -25121,7 +25742,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12v3.5" />
       <path d="M12 7v5" />
     </svg>
@@ -25144,7 +25765,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12l-2 3" />
       <path d="M12 7v5" />
     </svg>
@@ -25167,7 +25788,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12l-3 2" />
       <path d="M12 7v5" />
     </svg>
@@ -25190,7 +25811,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 12h-3.5" />
       <path d="M12 7v5" />
     </svg>
@@ -25283,9 +25904,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M20.995 12.3a9 9 0 1 0 -8.683 8.694" />
+      <path d="M21 12.3a9 9 0 1 0 -8.683 8.694" />
       <path d="M12 7v5l2 2" />
-      <circle cx="19" cy="19" r="3" />
+      <path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -25329,8 +25950,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <polyline points="12 7 12 12 15 15" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 7l0 5l3 3" />
     </svg>
     """
   end
@@ -25351,10 +25972,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5" r="2" />
+      <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M12 7v1m0 4v9" />
       <path d="M9 21h6" />
-      <path d="M7.757 9.243a6 6 0 0 0 3.129 1.653m3.578 -.424a5.999 5.999 0 0 0 1.779 -1.229" />
+      <path d="M7.757 9.243a6 6 0 0 0 3.129 1.653m3.578 -.424a6 6 0 0 0 1.779 -1.229" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -25376,7 +25997,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5" r="2" />
+      <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M12 7v14" />
       <path d="M9 21h6" />
       <path d="M7.757 9.243a6 6 0 0 0 8.486 0" />
@@ -25400,7 +26021,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M6.657 16c-2.572 0 -4.657 -2.007 -4.657 -4.483c0 -2.475 2.085 -4.482 4.657 -4.482c.393 -1.762 1.794 -3.2 3.675 -3.773c1.88 -.572 3.956 -.193 5.444 .996c1.488 1.19 2.162 3.007 1.77 4.769h.99c1.913 0 3.464 1.56 3.464 3.486c0 1.927 -1.551 3.487 -3.465 3.487h-11.878" />
+      <path d="M6.657 16c-2.572 0 -4.657 -2.007 -4.657 -4.483c0 -2.475 2.085 -4.482 4.657 -4.482c.393 -1.762 1.794 -3.2 3.675 -3.773c1.88 -.572 3.956 -.193 5.444 1c1.488 1.19 2.162 3.007 1.77 4.769h.99c1.913 0 3.464 1.56 3.464 3.486c0 1.927 -1.551 3.487 -3.465 3.487h-11.878" />
       <path d="M12 16v5" />
       <path d="M16 16v4a1 1 0 0 0 1 1h4" />
       <path d="M8 16v4a1 1 0 0 1 -1 1h-4" />
@@ -25426,7 +26047,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 9.897c0 -1.714 1.46 -3.104 3.26 -3.104c.275 -1.22 1.255 -2.215 2.572 -2.611c1.317 -.397 2.77 -.134 3.811 .69c1.042 .822 1.514 2.08 1.239 3.3h.693a2.42 2.42 0 0 1 2.425 2.414a2.42 2.42 0 0 1 -2.425 2.414h-8.315c-1.8 0 -3.26 -1.39 -3.26 -3.103z" />
       <path d="M12 13v3" />
-      <circle cx="12" cy="18" r="2" />
+      <path d="M12 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M14 18h7" />
       <path d="M3 18h7" />
     </svg>
@@ -25450,8 +26071,32 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19 18a3.5 3.5 0 0 0 0 -7h-1a5 4.5 0 0 0 -11 -2a4.6 4.4 0 0 0 -2.1 8.4" />
-      <line x1="12" y1="13" x2="12" y2="22" />
-      <polyline points="9 19 12 22 15 19" />
+      <path d="M12 13l0 9" />
+      <path d="M9 19l3 3l3 -3" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `cloud_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.cloud_filled />
+      <TablerIcons.cloud_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def cloud_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M6.657 18c-2.572 0 -4.657 -2.007 -4.657 -4.483c0 -2.475 2.085 -4.482 4.657 -4.482c.393 -1.762 1.794 -3.2 3.675 -3.773c1.88 -.572 3.956 -.193 5.444 1c1.488 1.19 2.162 3.007 1.77 4.769h.99c1.913 0 3.464 1.56 3.464 3.486c0 1.927 -1.551 3.487 -3.465 3.487h-11.878"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -25473,7 +26118,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 16a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-12" />
-      <line x1="5" y1="20" x2="19" y2="20" />
+      <path d="M5 20l14 0" />
     </svg>
     """
   end
@@ -25495,8 +26140,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19 18a3.5 3.5 0 0 0 0 -7h-1c.397 -1.768 -.285 -3.593 -1.788 -4.787c-1.503 -1.193 -3.6 -1.575 -5.5 -1s-3.315 2.019 -3.712 3.787c-2.199 -.088 -4.155 1.326 -4.666 3.373c-.512 2.047 .564 4.154 2.566 5.027" />
-      <rect x="8" y="15" width="8" height="5" rx="1" />
-      <path d="M10 15v-2a2 2 0 0 1 3.736 -.994" />
+      <path d="M8 15m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
+      <path d="M10 15v-2a2 2 0 0 1 3.736 -1" />
     </svg>
     """
   end
@@ -25518,7 +26163,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19 18a3.5 3.5 0 0 0 0 -7h-1c.397 -1.768 -.285 -3.593 -1.788 -4.787c-1.503 -1.193 -3.6 -1.575 -5.5 -1s-3.315 2.019 -3.712 3.787c-2.199 -.088 -4.155 1.326 -4.666 3.373c-.512 2.047 .564 4.154 2.566 5.027" />
-      <rect x="8" y="15" width="8" height="5" rx="1" />
+      <path d="M8 15m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
       <path d="M10 15v-2a2 2 0 1 1 4 0v2" />
     </svg>
     """
@@ -25540,8 +26185,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
-      <path d="M18 18h-11c-2.598 0 -4.705 -2.015 -4.705 -4.5s2.107 -4.5 4.705 -4.5c.112 -.5 .305 -.973 .568 -1.408m2.094 -1.948c.329 -.174 .68 -.319 1.05 -.43c1.9 -.576 3.997 -.194 5.5 1c1.503 1.192 2.185 3.017 1.788 4.786h1a3.5 3.5 0 0 1 2.212 6.212" />
+      <path d="M3 3l18 18" />
+      <path d="M18 18h-11c-2.598 0 -4.705 -2.015 -4.705 -4.5s2.107 -4.5 4.705 -4.5c.112 -.5 .305 -.973 .568 -1.408m2.094 -1.948c.329 -.174 .68 -.319 1.05 -.43c1.9 -.576 4 -.194 5.5 1c1.503 1.192 2.185 3.017 1.788 4.786h1a3.5 3.5 0 0 1 2.212 6.212" />
     </svg>
     """
   end
@@ -25607,7 +26252,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1" />
-      <polyline points="13 14 11 18 14 18 12 22" />
+      <path d="M13 14l-2 4l3 0l-2 4" />
     </svg>
     """
   end
@@ -25629,8 +26274,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-1" />
-      <polyline points="9 15 12 12 15 15" />
-      <line x1="12" y1="12" x2="12" y2="21" />
+      <path d="M9 15l3 -3l3 3" />
+      <path d="M12 12l0 9" />
     </svg>
     """
   end
@@ -25651,7 +26296,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M6.657 18c-2.572 0 -4.657 -2.007 -4.657 -4.483c0 -2.475 2.085 -4.482 4.657 -4.482c.393 -1.762 1.794 -3.2 3.675 -3.773c1.88 -.572 3.956 -.193 5.444 .996c1.488 1.19 2.162 3.007 1.77 4.769h.99c1.913 0 3.464 1.56 3.464 3.486c0 1.927 -1.551 3.487 -3.465 3.487h-11.878" />
+      <path d="M6.657 18c-2.572 0 -4.657 -2.007 -4.657 -4.483c0 -2.475 2.085 -4.482 4.657 -4.482c.393 -1.762 1.794 -3.2 3.675 -3.773c1.88 -.572 3.956 -.193 5.444 1c1.488 1.19 2.162 3.007 1.77 4.769h.99c1.913 0 3.464 1.56 3.464 3.486c0 1.927 -1.551 3.487 -3.465 3.487h-11.878" />
     </svg>
     """
   end
@@ -25706,6 +26351,30 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `clubs_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.clubs_filled />
+      <TablerIcons.clubs_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def clubs_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 3a4 4 0 0 1 3.164 6.447a4 4 0 1 1 -1.164 6.198v1.355l1 4h-6l1 -4l0 -1.355a4 4 0 1 1 -1.164 -6.199a4 4 0 0 1 3.163 -6.446z"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `clubs` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -25721,7 +26390,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 3a4 4 0 0 1 3.164 6.447a4 4 0 1 1 -1.164 6.198v1.355l1 4h-6l1 -4l.001 -1.355a4 4 0 1 1 -1.164 -6.199a4 4 0 0 1 3.163 -6.446z" />
+      <path d="M12 3a4 4 0 0 1 3.164 6.447a4 4 0 1 1 -1.164 6.198v1.355l1 4h-6l1 -4l0 -1.355a4 4 0 1 1 -1.164 -6.199a4 4 0 0 1 3.163 -6.446z" />
     </svg>
     """
   end
@@ -25772,7 +26441,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8.5 13.5l-1.5 -1.5l1.5 -1.5" />
       <path d="M15.5 10.5l1.5 1.5l-1.5 1.5" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M13 9.5l-2 5.5" />
     </svg>
     """
@@ -25796,7 +26465,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 14l-2 -2l2 -2" />
       <path d="M14 10l2 2l-2 2" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -25867,7 +26536,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 8l-4 4l4 4" />
       <path d="M17 8l4 4l-2.5 2.5" />
-      <path d="M14 4l-1.201 4.805m-.802 3.207l-1.997 7.988" />
+      <path d="M14 4l-1.201 4.805m-.802 3.207l-2 7.988" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -25913,9 +26582,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="7 8 3 12 7 16" />
-      <polyline points="17 8 21 12 17 16" />
-      <line x1="14" y1="4" x2="10" y2="20" />
+      <path d="M7 8l-4 4l4 4" />
+      <path d="M17 8l4 4l-4 4" />
+      <path d="M14 4l-4 16" />
     </svg>
     """
   end
@@ -25936,10 +26605,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3 14c.83 .642 2.077 1.017 3.5 1c1.423 .017 2.67 -.358 3.5 -1c.73 -.565 1.783 -.923 2.994 -.99" />
+      <path d="M3 14c.83 .642 2.077 1.017 3.5 1c1.423 .017 2.67 -.358 3.5 -1c.73 -.565 1.783 -.923 3 -.99" />
       <path d="M8 3c-.194 .14 -.364 .305 -.506 .49" />
       <path d="M12 3a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2" />
-      <path d="M14 10h3v3m-.257 3.743a6.003 6.003 0 0 1 -5.743 4.257h-2a6 6 0 0 1 -6 -6v-5h7" />
+      <path d="M14 10h3v3m-.257 3.743a6 6 0 0 1 -5.743 4.257h-2a6 6 0 0 1 -6 -6v-5h7" />
       <path d="M20.116 16.124a3 3 0 0 0 -3.118 -4.953" />
       <path d="M3 3l18 18" />
     </svg>
@@ -26011,7 +26680,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 8h4.09c1.055 0 1.91 .895 1.91 2s-.855 2 -1.91 2c1.055 0 1.91 .895 1.91 2s-.855 2 -1.91 2h-4.09" />
       <path d="M10 12h4" />
       <path d="M10 7v10v-9" />
@@ -26037,7 +26706,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M14.401 8c-.669 -.628 -1.5 -1 -2.401 -1c-2.21 0 -4 2.239 -4 5s1.79 5 4 5c.9 0 1.731 -.372 2.4 -1" />
       <path d="M7 10.5h4" />
       <path d="M7 13.5h4" />
@@ -26061,7 +26730,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M4 16h4v-7l4 4l4 -4v7h4" />
     </svg>
     """
@@ -26107,7 +26776,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M15 9a2 2 0 1 0 -4 0v5a2 2 0 0 1 -2 2h6" />
       <path d="M9 12h4" />
     </svg>
@@ -26130,7 +26799,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M15 8h-6h1a3 3 0 0 1 0 6h-1l3 3" />
       <path d="M9 11h6" />
     </svg>
@@ -26153,7 +26822,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 12h6" />
       <path d="M9 15h6" />
       <path d="M9 8l3 4.5" />
@@ -26178,7 +26847,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 13h6" />
       <path d="M9 8l3 4.5" />
       <path d="M15 8l-3 4.5v4.5" />
@@ -26202,7 +26871,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M14.8 9a2 2 0 0 0 -1.8 -1h-2a2 2 0 1 0 0 4h2a2 2 0 1 1 0 4h-2a2 2 0 0 1 -1.8 -1" />
       <path d="M12 7v10" />
     </svg>
@@ -26252,7 +26921,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M13.58 13.79c.27 .68 .42 1.43 .42 2.21c0 1.77 -.77 3.37 -2 4.46a5.93 5.93 0 0 1 -4 1.54c-3.31 0 -6 -2.69 -6 -6c0 -2.76 1.88 -5.1 4.42 -5.79" />
       <path d="M17.58 10.21c2.54 .69 4.42 3.03 4.42 5.79c0 3.31 -2.69 6 -6 6a5.93 5.93 0 0 1 -4 -1.54" />
-      <circle cx="12" cy="8" r="6" />
+      <path d="M12 8m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
     </svg>
     """
   end
@@ -26274,7 +26943,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11 7l6 6" />
-      <path d="M12.001 7.999l3.699 -3.699a1 1 0 0 1 1.4 0l2.6 2.6a1 1 0 0 1 0 1.4l-3.702 3.702m-1.998 1.998l-6 6h-4v-4l6.002 -6.002" />
+      <path d="M12 8l3.699 -3.699a1 1 0 0 1 1.4 0l2.6 2.6a1 1 0 0 1 0 1.4l-3.702 3.702m-2 2l-6 6h-4v-4l6 -6" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -26346,7 +27015,7 @@ defmodule TablerIcons do
       <path d="M19 3h-4a2 2 0 0 0 -2 2v12a4 4 0 0 0 8 0v-12a2 2 0 0 0 -2 -2" />
       <path d="M13 7.35l-2 -2a2 2 0 0 0 -2.828 0l-2.828 2.828a2 2 0 0 0 0 2.828l9 9" />
       <path d="M7.3 13h-2.3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h12" />
-      <line x1="17" y1="17" x2="17" y2="17.01" />
+      <path d="M17 17l0 .01" />
     </svg>
     """
   end
@@ -26368,8 +27037,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 4h4a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1z" />
-      <line x1="5" y1="12" x2="9" y2="12" />
-      <line x1="7" y1="10" x2="7" y2="14" />
+      <path d="M5 12l4 0" />
+      <path d="M7 10l0 4" />
     </svg>
     """
   end
@@ -26391,8 +27060,71 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 4h4a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1z" />
-      <line x1="15" y1="12" x2="19" y2="12" />
-      <line x1="17" y1="10" x2="17" y2="14" />
+      <path d="M15 12l4 0" />
+      <path d="M17 10l0 4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `columns_1` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.columns_1 />
+      <TablerIcons.columns_1 class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def columns_1(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M5 3m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v16a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `columns_2` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.columns_2 />
+      <TablerIcons.columns_2 class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def columns_2(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M3 3m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v16a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1zm9 -1v18" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `columns_3` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.columns_3 />
+      <TablerIcons.columns_3 class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def columns_3(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M3 3m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v16a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1zm6 -1v18m6 -18v18" />
     </svg>
     """
   end
@@ -26442,14 +27174,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="6" x2="9.5" y2="6" />
-      <line x1="4" y1="10" x2="9.5" y2="10" />
-      <line x1="4" y1="14" x2="9.5" y2="14" />
-      <line x1="4" y1="18" x2="9.5" y2="18" />
-      <line x1="14.5" y1="6" x2="20" y2="6" />
-      <line x1="14.5" y1="10" x2="20" y2="10" />
-      <line x1="14.5" y1="14" x2="20" y2="14" />
-      <line x1="14.5" y1="18" x2="20" y2="18" />
+      <path d="M4 6l5.5 0" />
+      <path d="M4 10l5.5 0" />
+      <path d="M4 14l5.5 0" />
+      <path d="M4 18l5.5 0" />
+      <path d="M14.5 6l5.5 0" />
+      <path d="M14.5 10l5.5 0" />
+      <path d="M14.5 14l5.5 0" />
+      <path d="M14.5 18l5.5 0" />
     </svg>
     """
   end
@@ -26471,9 +27203,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15.5 18.5l-3 1.5l.5 -3.5l-2 -2l3 -.5l1.5 -3l1.5 3l3 .5l-2 2l.5 3.5z" />
-      <line x1="4" y1="4" x2="11" y2="11" />
-      <line x1="9" y1="4" x2="12.5" y2="7.5" />
-      <line x1="4" y1="9" x2="7.5" y2="12.5" />
+      <path d="M4 4l7 7" />
+      <path d="M9 4l3.5 3.5" />
+      <path d="M4 9l3.5 3.5" />
     </svg>
     """
   end
@@ -26537,7 +27269,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12.999 9l3.001 -1l-1.002 3.005m-.998 2.995l-6 2l2 -6" />
+      <path d="M13 9l3 -1l-1 3m-1 3l-6 2l2 -6" />
       <path d="M20.042 16.045a9 9 0 0 0 -12.087 -12.087m-2.318 1.677a9 9 0 1 0 12.725 12.73" />
       <path d="M12 3v2" />
       <path d="M12 19v2" />
@@ -26564,12 +27296,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="8 16 10 10 16 8 14 14 8 16" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="12" y1="3" x2="12" y2="5" />
-      <line x1="12" y1="19" x2="12" y2="21" />
-      <line x1="3" y1="12" x2="5" y2="12" />
-      <line x1="19" y1="12" x2="21" y2="12" />
+      <path d="M8 16l2 -6l6 -2l-2 6l-6 2" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 3l0 2" />
+      <path d="M12 19l0 2" />
+      <path d="M3 12l2 0" />
+      <path d="M19 12l2 0" />
     </svg>
     """
   end
@@ -26639,7 +27371,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="12" cy="7" rx="7" ry="3" />
+      <path d="M12 7m-7 0a7 3 0 1 0 14 0a7 3 0 1 0 -14 0" />
       <path d="M19 7v.5l-7 12.5l-7 -12.5v-.5" />
     </svg>
     """
@@ -26661,7 +27393,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M18.305 18.305c-1.132 1.003 -3.53 1.695 -6.305 1.695c-3.866 0 -7 -1.343 -7 -3s3.134 -3 7 -3c.747 0 1.467 .05 2.142 .143" />
+      <path d="M18.305 18.305c-1.132 1 -3.53 1.695 -6.305 1.695c-3.866 0 -7 -1.343 -7 -3s3.134 -3 7 -3c.747 0 1.467 .05 2.142 .143" />
       <path d="M17.07 13.054l-5.07 -9.054l-1.432 2.558m-1.439 2.569l-4.129 7.373v.5" />
       <path d="M3 3l18 18" />
     </svg>
@@ -26715,7 +27447,7 @@ defmodule TablerIcons do
       <path d="M18 13l2 -.5" />
       <path d="M18 19h1" />
       <path d="M19 19v1" />
-      <path d="M14 16.518l-6.518 -6.518l-4.39 9.58a1.003 1.003 0 0 0 1.329 1.329l9.579 -4.39v-.001z" />
+      <path d="M14 16.518l-6.518 -6.518l-4.39 9.58a1 1 0 0 0 1.329 1.329l9.579 -4.39v0z" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -26746,7 +27478,7 @@ defmodule TablerIcons do
       <path d="M18 13l2 -.5" />
       <path d="M18 19h2" />
       <path d="M19 18v2" />
-      <path d="M14 16.518l-6.518 -6.518l-4.39 9.58a1.003 1.003 0 0 0 1.329 1.329l9.579 -4.39z" />
+      <path d="M14 16.518l-6.518 -6.518l-4.39 9.58a1 1 0 0 0 1.329 1.329l9.579 -4.39z" />
     </svg>
     """
   end
@@ -26796,7 +27528,7 @@ defmodule TablerIcons do
       <path d="M20 16v.01" />
       <path d="M20 12v.01" />
       <path d="M20 8v.01" />
-      <path d="M8.297 4.289a0.997 .997 0 0 1 .703 -.289h6a1 1 0 0 1 1 1v7m0 4v3a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-11" />
+      <path d="M8.297 4.289a1 1 0 0 1 .703 -.289h6a1 1 0 0 1 1 1v7m0 4v3a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1v-11" />
       <path d="M4 4v.01" />
       <path d="M4 20v.01" />
       <path d="M4 16v.01" />
@@ -26828,7 +27560,7 @@ defmodule TablerIcons do
       <path d="M20 16v.01" />
       <path d="M20 12v.01" />
       <path d="M20 8v.01" />
-      <rect x="8" y="4" width="8" height="16" rx="1" />
+      <path d="M8 4m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
       <path d="M4 4v.01" />
       <path d="M4 20v.01" />
       <path d="M4 16v.01" />
@@ -26854,8 +27586,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 18h2a6 6 0 0 0 6 -6m.878 -3.126a5.996 5.996 0 0 1 5.122 -2.874h2" />
-      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a1.994 1.994 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
+      <path d="M4 18h2a6 6 0 0 0 6 -6m.878 -3.126a6 6 0 0 1 5.122 -2.874h2" />
+      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a2 2 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -26877,7 +27609,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M4 18h2a6 6 0 0 0 6 -6a6 6 0 0 1 6 -6h2" />
     </svg>
     """
@@ -26922,7 +27654,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 17a5 5 0 0 0 0 -10v10" />
     </svg>
     """
@@ -26947,7 +27679,7 @@ defmodule TablerIcons do
       <path d="M12 7h.01" />
       <path d="M15 7h.01" />
       <path d="M9 7h.01" />
-      <rect x="5" y="3" width="14" height="18" rx="2" />
+      <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
       <path d="M9 15h6" />
       <path d="M5 11h14" />
     </svg>
@@ -26970,7 +27702,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 2a5 5 0 0 1 2.845 9.112l.147 .369l1.755 -.803c.969 -.443 2.12 -.032 2.571 .918a1.88 1.88 0 0 1 -.787 2.447l-.148 .076l-2.383 1.089v2.02l1.426 1.425l.114 .125a1.96 1.96 0 0 1 -2.762 2.762l-.125 -.114l-2.079 -2.08l-.114 -.124a1.957 1.957 0 0 1 -.161 -.22h-.599c-.047 .075 -.101 .15 -.16 .22l-.115 .125l-2.08 2.079a1.96 1.96 0 0 1 -2.886 -2.648l.114 -.125l1.427 -1.426v-2.019l-2.383 -1.09l-.148 -.075a1.88 1.88 0 0 1 -.787 -2.447c.429 -.902 1.489 -1.318 2.424 -.978l.147 .06l1.755 .803l.147 -.369a4.995 4.995 0 0 1 -2.15 -3.895l-.005 -.217a5 5 0 0 1 5 -5z" />
+      <path d="M12 2a5 5 0 0 1 2.845 9.112l.147 .369l1.755 -.803c.969 -.443 2.12 -.032 2.571 .918a1.88 1.88 0 0 1 -.787 2.447l-.148 .076l-2.383 1.089v2.02l1.426 1.425l.114 .125a1.96 1.96 0 0 1 -2.762 2.762l-.125 -.114l-2.079 -2.08l-.114 -.124a1.957 1.957 0 0 1 -.161 -.22h-.599c-.047 .075 -.101 .15 -.16 .22l-.115 .125l-2.08 2.079a1.96 1.96 0 0 1 -2.886 -2.648l.114 -.125l1.427 -1.426v-2.019l-2.383 -1.09l-.148 -.075a1.88 1.88 0 0 1 -.787 -2.447c.429 -.902 1.489 -1.318 2.424 -.978l.147 .06l1.755 .803l.147 -.369a5 5 0 0 1 -2.15 -3.895l0 -.217a5 5 0 0 1 5 -5z" />
       <path d="M12 16h.01" />
       <path d="M12 13h.01" />
       <path d="M10 7h.01" />
@@ -27047,7 +27779,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M19.414 19.415a1.994 1.994 0 0 1 -1.414 .585h-8a2 2 0 0 1 -2 -2v-8c0 -.554 .225 -1.055 .589 -1.417m3.411 -.583h6a2 2 0 0 1 2 2v6" />
+      <path d="M19.414 19.415a2 2 0 0 1 -1.414 .585h-8a2 2 0 0 1 -2 -2v-8c0 -.554 .225 -1.055 .589 -1.417m3.411 -.583h6a2 2 0 0 1 2 2v6" />
       <path d="M16 8v-2a2 2 0 0 0 -2 -2h-6m-3.418 .59c-.36 .36 -.582 .86 -.582 1.41v8a2 2 0 0 0 2 2h2" />
       <path d="M3 3l18 18" />
     </svg>
@@ -27070,7 +27802,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="8" y="8" width="12" height="12" rx="2" />
+      <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
       <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
     </svg>
     """
@@ -27115,7 +27847,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 9.75a3.016 3.016 0 0 1 4.163 .173a2.993 2.993 0 0 1 0 4.154a3.016 3.016 0 0 1 -4.163 .173" />
     </svg>
     """
@@ -27160,7 +27892,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M14 9.75a3.016 3.016 0 0 0 -4.163 .173a2.993 2.993 0 0 0 0 4.154a3.016 3.016 0 0 0 4.163 .173" />
     </svg>
     """
@@ -27526,7 +28258,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="5" width="14" height="14" rx="1" />
+      <path d="M5 5m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z" />
       <path d="M8 10v-2h2m6 6v2h-2m-4 0h-2v-2m8 -4v-2h-2" />
       <path d="M3 10h2" />
       <path d="M3 14h2" />
@@ -27556,7 +28288,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M9 5h9a1 1 0 0 1 1 1v9m-.292 3.706a0.997 .997 0 0 1 -.708 .294h-12a1 1 0 0 1 -1 -1v-12c0 -.272 .108 -.518 .284 -.698" />
+      <path d="M9 5h9a1 1 0 0 1 1 1v9m-.292 3.706a1 1 0 0 1 -.708 .294h-12a1 1 0 0 1 -1 -1v-12c0 -.272 .108 -.518 .284 -.698" />
       <path d="M13 9h2v2m0 4h-6v-6" />
       <path d="M3 10h2" />
       <path d="M3 14h2" />
@@ -27587,7 +28319,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="5" width="14" height="14" rx="1" />
+      <path d="M5 5m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z" />
       <path d="M9 9h6v6h-6z" />
       <path d="M3 10h2" />
       <path d="M3 14h2" />
@@ -27619,8 +28351,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 21h6" />
       <path d="M9 21v-12" />
-      <path d="M9 5v-2l-1.001 1.001" />
-      <path d="M6.005 5.995l-3.005 3.005h6" />
+      <path d="M9 5v-2l-1 1" />
+      <path d="M6 6l-3 3h6" />
       <path d="M13 9h8" />
       <path d="M9 3l10 6" />
       <path d="M17 9v4a2 2 0 0 1 2 2m-2 2a2 2 0 0 1 -2 -2" />
@@ -27669,8 +28401,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="12" cy="7" r="1" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 7m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M9 13v-1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-.5l-.5 4h-2l-.5 -4h-.5a1 1 0 0 1 -1 -1z" />
     </svg>
     """
@@ -27692,7 +28424,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M15 9h-4.5a1.5 1.5 0 0 0 0 3h3a1.5 1.5 0 0 1 0 3h-4.5" />
       <path d="M12 7v2" />
       <path d="M12 15v2" />
@@ -27718,7 +28450,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 10h6" />
       <path d="M9 14h6" />
     </svg>
@@ -27765,7 +28497,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 16a4 4 0 1 0 -4 -4v1" />
       <path d="M6 12l2 2l2 -2" />
     </svg>
@@ -27788,8 +28520,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <ellipse cx="12" cy="12" rx="3" ry="4" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 12m-3 0a3 4 0 1 0 6 0a3 4 0 1 0 -6 0" />
       <path d="M14 9l-4 6" />
     </svg>
     """
@@ -27811,7 +28543,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10.5 10.5c-.847 -.71 -2.132 -.658 -2.914 .116a1.928 1.928 0 0 0 0 2.768c.782 .774 2.067 .825 2.914 .116" />
       <path d="M16.5 10.5c-.847 -.71 -2.132 -.658 -2.914 .116a1.928 1.928 0 0 0 0 2.768c.782 .774 2.067 .825 2.914 .116" />
     </svg>
@@ -27834,13 +28566,13 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M9 5h9a3 3 0 0 1 3 3v8a3 3 0 0 1 -.128 .87" />
       <path d="M18.87 18.872a3 3 0 0 1 -.87 .128h-12a3 3 0 0 1 -3 -3v-8c0 -1.352 .894 -2.495 2.124 -2.87" />
-      <line x1="3" y1="11" x2="11" y2="11" />
-      <line x1="15" y1="11" x2="21" y2="11" />
-      <line x1="7" y1="15" x2="7.01" y2="15" />
-      <line x1="11" y1="15" x2="13" y2="15" />
+      <path d="M3 11l8 0" />
+      <path d="M15 11l6 0" />
+      <path d="M7 15l.01 0" />
+      <path d="M11 15l2 0" />
     </svg>
     """
   end
@@ -27861,10 +28593,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="3" />
-      <line x1="3" y1="10" x2="21" y2="10" />
-      <line x1="7" y1="15" x2="7.01" y2="15" />
-      <line x1="11" y1="15" x2="13" y2="15" />
+      <path d="M3 5m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+      <path d="M3 10l18 0" />
+      <path d="M7 15l.01 0" />
+      <path d="M11 15l2 0" />
     </svg>
     """
   end
@@ -27885,9 +28617,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M11.105 18.79l-1.006 .992a4.159 4.159 0 0 1 -6.038 -5.715l.157 -.166l8.282 -8.401l1.5 1.5l3.45 -3.391a2.08 2.08 0 0 1 3.057 2.815l-.116 .126l-3.391 3.45l1.5 1.5l-3.668 3.617" />
+      <path d="M11.105 18.79l-1 .992a4.159 4.159 0 0 1 -6.038 -5.715l.157 -.166l8.282 -8.401l1.5 1.5l3.45 -3.391a2.08 2.08 0 0 1 3.057 2.815l-.116 .126l-3.391 3.45l1.5 1.5l-3.668 3.617" />
       <path d="M10.5 7.5l6 6" />
-      <circle cx="14" cy="18" r="3" />
+      <path d="M14 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -27910,6 +28642,27 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 5v10a1 1 0 0 0 1 1h10" />
       <path d="M5 8h10a1 1 0 0 1 1 1v10" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `cross_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.cross_filled />
+      <TablerIcons.cross_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def cross_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 21h4v-9h5v-4h-5v-5h-4v5h-5v4h5z" fill="currentColor" />
     </svg>
     """
   end
@@ -27977,8 +28730,8 @@ defmodule TablerIcons do
       <path d="M4 16v2a2 2 0 0 0 2 2h2" />
       <path d="M16 4h2a2 2 0 0 1 2 2v2" />
       <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
-      <line x1="9" y1="12" x2="15" y2="12" />
-      <line x1="12" y1="9" x2="12" y2="15" />
+      <path d="M9 12l6 0" />
+      <path d="M12 9l0 6" />
     </svg>
     """
   end
@@ -28000,7 +28753,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M18 18h-13l-1.865 -9.327a0.25 .25 0 0 1 .4 -.244l4.465 3.571l1.6 -2.4m1.596 -2.394l.804 -1.206l4 6l4.464 -3.571a0.25 .25 0 0 1 .401 .244l-1.363 6.818" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -28068,7 +28821,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="8" y="3" width="8" height="4" rx="2" />
+      <path d="M8 3m0 2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2z" />
       <path d="M11 21h2" />
       <path d="M12 21v-4.092a3 3 0 0 1 .504 -1.664l.992 -1.488a3 3 0 0 0 .504 -1.664v-5.092" />
       <path d="M12 21v-4.092a3 3 0 0 0 -.504 -1.664l-.992 -1.488a3 3 0 0 1 -.504 -1.664v-5.092" />
@@ -28213,7 +28966,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="9" width="16" height="10" rx="4" />
+      <path d="M4 9m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v2a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
       <path d="M4 14h16" />
       <path d="M8 5h6a2 2 0 0 1 2 2v2" />
     </svg>
@@ -28283,7 +29036,7 @@ defmodule TablerIcons do
       <path d="M3 10v1a4 4 0 0 0 4 4h2a2 2 0 0 0 2 -2v-3" />
       <path d="M7 19.01v-.01" />
       <path d="M14 15.01v-.01" />
-      <path d="M17 15h2.004a2 2 0 0 0 1.649 -3.131l-2.653 -3.869" />
+      <path d="M17 15h2a2 2 0 0 0 1.649 -3.131l-2.653 -3.869" />
     </svg>
     """
   end
@@ -28330,12 +29083,12 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 6h8a3 3 0 0 1 0 6a3 3 0 0 1 0 6h-8" />
-      <line x1="8" y1="6" x2="8" y2="18" />
-      <line x1="8" y1="12" x2="14" y2="12" />
-      <line x1="9" y1="3" x2="9" y2="6" />
-      <line x1="13" y1="3" x2="13" y2="6" />
-      <line x1="9" y1="18" x2="9" y2="21" />
-      <line x1="13" y1="18" x2="13" y2="21" />
+      <path d="M8 6l0 12" />
+      <path d="M8 12l6 0" />
+      <path d="M9 3l0 3" />
+      <path d="M13 3l0 3" />
+      <path d="M9 18l0 3" />
+      <path d="M13 18l0 3" />
     </svg>
     """
   end
@@ -28356,7 +29109,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M16.007 7.54a5.965 5.965 0 0 0 -4.008 -1.54a5.996 5.996 0 0 0 -5.992 6c0 3.314 2.682 6 5.992 6a5.965 5.965 0 0 0 4.004 -1.536" />
+      <path d="M16.007 7.54a5.965 5.965 0 0 0 -4.008 -1.54a6 6 0 0 0 -5.992 6c0 3.314 2.682 6 5.992 6a5.965 5.965 0 0 0 4 -1.536" />
       <path d="M12 20v-2" />
       <path d="M12 6v-2" />
     </svg>
@@ -28382,7 +29135,7 @@ defmodule TablerIcons do
       <path d="M14 20.01v-.01" />
       <path d="M6 13l2.386 -.9a1 1 0 0 0 -.095 -1.902l-1.514 -.404a1 1 0 0 1 -.102 -1.9l2.325 -.894" />
       <path d="M3 14v1a3 3 0 0 0 3 3h4.161a3 3 0 0 0 2.983 -3.32l-1.144 -10.68" />
-      <path d="M16 17l1 1h2.004a2 2 0 0 0 1.649 -3.131l-2.653 -3.869" />
+      <path d="M16 17l1 1h2a2 2 0 0 0 1.649 -3.131l-2.653 -3.869" />
     </svg>
     """
   end
@@ -28548,7 +29301,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4m-2.557 1.431a3 3 0 0 0 2.557 4.569h2m4.564 4.558a2.998 2.998 0 0 1 -2.564 1.442h-4a3 3 0 0 1 -2.7 -2" />
+      <path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4m-2.557 1.431a3 3 0 0 0 2.557 4.569h2m4.564 4.558a3 3 0 0 1 -2.564 1.442h-4a3 3 0 0 1 -2.7 -2" />
       <path d="M12 3v3m0 12v3" />
       <path d="M3 3l18 18" />
     </svg>
@@ -28642,7 +29395,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 19h12" />
-      <circle cx="12" cy="12" r="4" />
+      <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M16 16v-12" />
       <path d="M17 5h-4" />
     </svg>
@@ -28710,7 +29463,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M17.2 7c-1.977 -2.26 -4.954 -2.602 -7.234 -1.04m-1.913 2.079c-1.604 2.72 -1.374 6.469 .69 8.894c2.292 2.691 5.995 2.758 8.356 .18" />
+      <path d="M17.2 7c-1.977 -2.26 -4.954 -2.602 -7.234 -1.04m-1.913 2.079c-1.604 2.72 -1.374 6.469 .69 8.894c2.292 2.691 6 2.758 8.356 .18" />
       <path d="M10 10h-5m0 4h8" />
       <path d="M3 3l18 18" />
     </svg>
@@ -28802,7 +29555,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M16.007 7.54a5.965 5.965 0 0 0 -4.008 -1.54a5.996 5.996 0 0 0 -5.992 6c0 3.314 2.682 6 5.992 6a5.965 5.965 0 0 0 4.004 -1.536c.732 -.66 1.064 -2.148 .997 -4.464h-5" />
+      <path d="M16.007 7.54a5.965 5.965 0 0 0 -4.008 -1.54a6 6 0 0 0 -5.992 6c0 3.314 2.682 6 5.992 6a5.965 5.965 0 0 0 4 -1.536c.732 -.66 1.064 -2.148 1 -4.464h-5" />
       <path d="M12 20v-16" />
     </svg>
     """
@@ -29242,7 +29995,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="6" />
+      <path d="M12 12m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
       <path d="M13 13l5 5" />
     </svg>
     """
@@ -29312,9 +30065,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="12" r="3" />
-      <circle cx="17" cy="7" r="3" />
-      <circle cx="17" cy="17" r="3" />
+      <path d="M7 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M17 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M10 12h3l2 -2.5" />
       <path d="M15 14.5l-2 -2.5" />
     </svg>
@@ -29428,7 +30181,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-      <line x1="7" y1="9" x2="18" y2="9" />
+      <path d="M7 9l11 0" />
     </svg>
     """
   end
@@ -29516,7 +30269,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="16.5" cy="15.5" r="1" />
+      <path d="M16.5 15.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M7 7a2 2 0 1 1 4 0v9a3 3 0 0 0 6 0v-.5" />
       <path d="M8 11h6" />
     </svg>
@@ -29634,8 +30387,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 19v-7l-5 -7m10 0l-5 7" />
-      <line x1="8" y1="17" x2="16" y2="17" />
-      <line x1="8" y1="13" x2="16" y2="13" />
+      <path d="M8 17l8 0" />
+      <path d="M8 13l8 0" />
     </svg>
     """
   end
@@ -29702,7 +30455,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="7" />
+      <path d="M12 12m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M4 4l3 3" />
       <path d="M20 4l-3 3" />
       <path d="M4 20l3 -3" />
@@ -29754,12 +30507,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="3" />
-      <circle cx="12" cy="12" r="8" />
-      <line x1="12" y1="2" x2="12" y2="4" />
-      <line x1="12" y1="20" x2="12" y2="22" />
-      <line x1="20" y1="12" x2="22" y2="12" />
-      <line x1="2" y1="12" x2="4" y2="12" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M12 12m-8 0a8 8 0 1 0 16 0a8 8 0 1 0 -16 0" />
+      <path d="M12 2l0 2" />
+      <path d="M12 20l0 2" />
+      <path d="M20 12l2 0" />
+      <path d="M2 12l2 0" />
     </svg>
     """
   end
@@ -29826,10 +30579,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="17" r="3" />
-      <circle cx="17" cy="17" r="3" />
-      <line x1="9.15" y1="14.85" x2="18" y2="4" />
-      <line x1="6" y1="4" x2="14.85" y2="14.85" />
+      <path d="M7 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M9.15 14.85l8.85 -10.85" />
+      <path d="M6 4l8.85 10.85" />
     </svg>
     """
   end
@@ -29850,7 +30603,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="12" cy="6" rx="5" ry="3" />
+      <path d="M12 6m-5 0a5 3 0 1 0 10 0a5 3 0 1 0 -10 0" />
       <path d="M7 6v12c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-12" />
     </svg>
     """
@@ -29896,8 +30649,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="13" r="2" />
-      <line x1="13.45" y1="11.55" x2="15.5" y2="9.5" />
+      <path d="M12 13m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M13.45 11.55l2.05 -2.05" />
       <path d="M6.4 20a9 9 0 1 1 11.2 0z" />
     </svg>
     """
@@ -29919,9 +30672,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="12" cy="6" rx="8" ry="3" />
+      <path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
       <path d="M4 6v6c0 1.657 3.582 3 8 3a19.84 19.84 0 0 0 3.302 -.267m4.698 -2.733v-6" />
-      <path d="M4 12v6c0 1.599 3.335 2.905 7.538 2.995m8.462 -6.995v-2m-6 7h7m-3 -3l3 3l-3 3" />
+      <path d="M4 12v6c0 1.599 3.335 2.905 7.538 3m8.462 -7v-2m-6 7h7m-3 -3l3 3l-3 3" />
     </svg>
     """
   end
@@ -29942,7 +30695,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="12" cy="6" rx="8" ry="3" />
+      <path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
       <path d="M4 6v8m5.009 .783c.924 .14 1.933 .217 2.991 .217c4.418 0 8 -1.343 8 -3v-6" />
       <path d="M11.252 20.987c.246 .009 .496 .013 .748 .013c4.418 0 8 -1.343 8 -3v-6m-18 7h7m-3 -3l3 3l-3 3" />
     </svg>
@@ -29968,7 +30721,7 @@ defmodule TablerIcons do
       <path d="M12.983 8.978c3.955 -.182 7.017 -1.446 7.017 -2.978c0 -1.657 -3.582 -3 -8 -3c-1.661 0 -3.204 .19 -4.483 .515m-2.783 1.228c-.471 .382 -.734 .808 -.734 1.257c0 1.22 1.944 2.271 4.734 2.74" />
       <path d="M4 6v6c0 1.657 3.582 3 8 3c.986 0 1.93 -.067 2.802 -.19m3.187 -.82c1.251 -.53 2.011 -1.228 2.011 -1.99v-6" />
       <path d="M4 12v6c0 1.657 3.582 3 8 3c3.217 0 5.991 -.712 7.261 -1.74m.739 -3.26v-4" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -29989,7 +30742,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="12" cy="6" rx="8" ry="3" />
+      <path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" />
       <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
       <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
     </svg>
@@ -30064,7 +30817,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 5.5c-1.074 -.586 -2.583 -1.5 -4 -1.5c-2.1 -.001 -4 1.247 -4 5c0 4.899 1.056 8.41 2.671 10.537c.573 .756 1.97 .521 2.567 -.236c.398 -.505 .819 -1.439 1.262 -2.801c.292 -.771 .892 -1.504 1.5 -1.5c.602 .004 1.21 .737 1.5 1.5c.443 1.362 .864 2.295 1.262 2.8c.597 .759 1.994 .993 2.567 .237c1.615 -2.127 2.671 -5.637 2.671 -10.537c0 -3.74 -1.908 -4.994 -4 -5c-1.423 -.004 -2.92 .911 -4 1.5z" />
+      <path d="M12 5.5c-1.074 -.586 -2.583 -1.5 -4 -1.5c-2.1 0 -4 1.247 -4 5c0 4.899 1.056 8.41 2.671 10.537c.573 .756 1.97 .521 2.567 -.236c.398 -.505 .819 -1.439 1.262 -2.801c.292 -.771 .892 -1.504 1.5 -1.5c.602 0 1.21 .737 1.5 1.5c.443 1.362 .864 2.295 1.262 2.8c.597 .759 2 .993 2.567 .237c1.615 -2.127 2.671 -5.637 2.671 -10.537c0 -3.74 -1.908 -5 -4 -5c-1.423 0 -2.92 .911 -4 1.5z" />
       <path d="M12 5.5l1 2.5l-2 2l2 2" />
     </svg>
     """
@@ -30086,7 +30839,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M19.277 15.281c.463 -1.75 .723 -3.844 .723 -6.281c0 -3.74 -1.908 -4.994 -4 -5c-1.423 -.004 -2.92 .911 -4 1.5c-1.074 -.586 -2.583 -1.5 -4 -1.5m-2.843 1.153c-.707 .784 -1.157 2.017 -1.157 3.847c0 4.899 1.056 8.41 2.671 10.537c.573 .756 1.97 .521 2.567 -.236c.398 -.505 .819 -1.439 1.262 -2.801c.292 -.771 .892 -1.504 1.5 -1.5c.602 .004 1.21 .737 1.5 1.5c.443 1.362 .864 2.295 1.262 2.8c.597 .759 1.994 .993 2.567 .237c.305 -.402 .59 -.853 .852 -1.353" />
+      <path d="M19.277 15.281c.463 -1.75 .723 -3.844 .723 -6.281c0 -3.74 -1.908 -5 -4 -5c-1.423 0 -2.92 .911 -4 1.5c-1.074 -.586 -2.583 -1.5 -4 -1.5m-2.843 1.153c-.707 .784 -1.157 2.017 -1.157 3.847c0 4.899 1.056 8.41 2.671 10.537c.573 .756 1.97 .521 2.567 -.236c.398 -.505 .819 -1.439 1.262 -2.801c.292 -.771 .892 -1.504 1.5 -1.5c.602 0 1.21 .737 1.5 1.5c.443 1.362 .864 2.295 1.262 2.8c.597 .759 2 .993 2.567 .237c.305 -.402 .59 -.853 .852 -1.353" />
       <path d="M12 5.5l3 1.5" />
       <path d="M3 3l18 18" />
     </svg>
@@ -30109,7 +30862,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 5.5c-1.074 -.586 -2.583 -1.5 -4 -1.5c-2.1 -.001 -4 1.247 -4 5c0 4.899 1.056 8.41 2.671 10.537c.573 .756 1.97 .521 2.567 -.236c.398 -.505 .819 -1.439 1.262 -2.801c.292 -.771 .892 -1.504 1.5 -1.5c.602 .004 1.21 .737 1.5 1.5c.443 1.362 .864 2.295 1.262 2.8c.597 .759 1.994 .993 2.567 .237c1.615 -2.127 2.671 -5.637 2.671 -10.537c0 -3.74 -1.908 -4.994 -4 -5c-1.423 -.004 -2.92 .911 -4 1.5z" />
+      <path d="M12 5.5c-1.074 -.586 -2.583 -1.5 -4 -1.5c-2.1 0 -4 1.247 -4 5c0 4.899 1.056 8.41 2.671 10.537c.573 .756 1.97 .521 2.567 -.236c.398 -.505 .819 -1.439 1.262 -2.801c.292 -.771 .892 -1.504 1.5 -1.5c.602 0 1.21 .737 1.5 1.5c.443 1.362 .864 2.295 1.262 2.8c.597 .759 2 .993 2.567 .237c1.615 -2.127 2.671 -5.637 2.671 -10.537c0 -3.74 -1.908 -5 -4 -5c-1.423 0 -2.92 .911 -4 1.5z" />
       <path d="M12 5.5l3 1.5" />
     </svg>
     """
@@ -30132,7 +30885,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 19h14" />
-      <path d="M20.986 16.984a2.003 2.003 0 0 0 -.146 -.734l-7.1 -12.25a2 2 0 0 0 -3.5 0l-.821 1.417m-1.469 2.534l-4.81 8.299a2 2 0 0 0 1.75 2.75" />
+      <path d="M20.986 16.984a2 2 0 0 0 -.146 -.734l-7.1 -12.25a2 2 0 0 0 -3.5 0l-.821 1.417m-1.469 2.534l-4.81 8.299a2 2 0 0 0 1.75 2.75" />
       <path d="M12 3v5m0 4v7" />
       <path d="M3 3l18 18" />
     </svg>
@@ -30178,7 +30931,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M21 10h-18" />
-      <rect x="3" y="4" width="18" height="16" rx="4" />
+      <path d="M3 4m0 4a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" />
       <path d="M7 10v1.5a1.5 1.5 0 0 0 1.5 1.5h7a1.5 1.5 0 0 0 1.5 -1.5v-1.5" />
     </svg>
     """
@@ -30200,8 +30953,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M6 4a4 4 0 0 1 3.995 3.8l.005 .2v10.5a1.5 1.5 0 0 1 -3 0v-6.5h-1a4 4 0 0 1 -3.995 -3.8l-.005 -.2a4 4 0 0 1 4 -4z" />
-      <path d="M18 4a4 4 0 0 0 -3.995 3.8l-.005 .2v10.5a1.5 1.5 0 0 0 3 0v-6.5h1a4 4 0 0 0 3.995 -3.8l.005 -.2a4 4 0 0 0 -4 -4z" />
+      <path d="M6 4a4 4 0 0 1 4 3.8l0 .2v10.5a1.5 1.5 0 0 1 -3 0v-6.5h-1a4 4 0 0 1 -4 -3.8l0 -.2a4 4 0 0 1 4 -4z" />
+      <path d="M18 4a4 4 0 0 0 -4 3.8l0 .2v10.5a1.5 1.5 0 0 0 3 0v-6.5h1a4 4 0 0 0 4 -3.8l0 -.2a4 4 0 0 0 -4 -4z" />
     </svg>
     """
   end
@@ -30222,10 +30975,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="4" width="18" height="12" rx="1" />
-      <line x1="7" y1="20" x2="17" y2="20" />
-      <line x1="9" y1="16" x2="9" y2="20" />
-      <line x1="15" y1="16" x2="15" y2="20" />
+      <path d="M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+      <path d="M7 20l10 0" />
+      <path d="M9 16l0 4" />
+      <path d="M15 16l0 4" />
       <path d="M8 12l3 -3l2 2l3 -3" />
     </svg>
     """
@@ -30247,7 +31000,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M3 17l4 -3h10l4 3" />
       <circle cx="7.5" cy="9.5" r=".5" fill="currentColor" />
       <circle cx="16.5" cy="9.5" r=".5" fill="currentColor" />
@@ -30271,7 +31024,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="18.5" cy="8.5" r="2.5" />
+      <path d="M18.5 8.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
       <path d="M13 7h-8a2 2 0 0 0 -2 2v7a2 2 0 0 0 2 2h13a2 2 0 0 0 2 -2v-2" />
       <path d="M17 15v-1" />
     </svg>
@@ -30296,7 +31049,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 7h-3a1 1 0 0 1 -1 -1v-2c0 -.275 .11 -.523 .29 -.704m3.71 -.296h13a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-9" />
       <path d="M10.36 10.35a4 4 0 1 0 5.285 5.3" />
-      <path d="M19 7v7c0 .321 -.022 .637 -.064 .947m-1.095 2.913a7 7 0 0 1 -12.841 -3.86l-.001 -7" />
+      <path d="M19 7v7c0 .321 -.022 .637 -.064 .947m-1.095 2.913a7 7 0 0 1 -12.841 -3.86l0 -7" />
       <path d="M12 14h.01" />
       <path d="M3 3l18 18" />
     </svg>
@@ -30319,10 +31072,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="18" height="4" rx="1" />
-      <circle cx="12" cy="14" r="4" />
+      <path d="M3 3m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+      <path d="M12 14m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M19 7v7a7 7 0 0 1 -14 0v-7" />
-      <line x1="12" y1="14" x2="12.01" y2="14" />
+      <path d="M12 14l.01 0" />
     </svg>
     """
   end
@@ -30346,7 +31099,7 @@ defmodule TablerIcons do
       <path d="M6.15 6.153a7 7 0 0 0 9.696 9.696m2 -2a7 7 0 0 0 -9.699 -9.695" />
       <path d="M9.13 9.122a3 3 0 0 0 3.743 3.749m2 -2a3 3 0 0 0 -3.737 -3.736" />
       <path d="M8 16l-2.091 3.486a1 1 0 0 0 .857 1.514h10.468a1 1 0 0 0 .857 -1.514l-2.091 -3.486" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -30367,8 +31120,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="10" r="7" />
-      <circle cx="12" cy="10" r="3" />
+      <path d="M12 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+      <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M8 16l-2.091 3.486a1 1 0 0 0 .857 1.514h10.468a1 1 0 0 0 .857 -1.514l-2.091 -3.486" />
     </svg>
     """
@@ -30390,7 +31143,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="4" width="18" height="12" rx="1" />
+      <path d="M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
       <path d="M7 20h10" />
       <path d="M9 16v4" />
       <path d="M15 16v4" />
@@ -30419,10 +31172,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 4h12a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1m-4 0h-12a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1" />
-      <line x1="7" y1="20" x2="17" y2="20" />
-      <line x1="9" y1="16" x2="9" y2="20" />
-      <line x1="15" y1="16" x2="15" y2="20" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M7 20l10 0" />
+      <path d="M9 16l0 4" />
+      <path d="M15 16l0 4" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -30443,10 +31196,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="4" width="18" height="12" rx="1" />
-      <line x1="7" y1="20" x2="17" y2="20" />
-      <line x1="9" y1="16" x2="9" y2="20" />
-      <line x1="15" y1="16" x2="15" y2="20" />
+      <path d="M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+      <path d="M7 20l10 0" />
+      <path d="M9 16l0 4" />
+      <path d="M15 16l0 4" />
     </svg>
     """
   end
@@ -30468,8 +31221,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 4h10l4 4v10a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2" />
-      <circle cx="12" cy="14" r="2" />
-      <polyline points="14 4 14 8 8 8 8 4" />
+      <path d="M12 14m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M14 4l0 4l-6 0l0 -4" />
     </svg>
     """
   end
@@ -30515,10 +31268,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="2" y="6" width="20" height="12" rx="2" />
+      <path d="M2 6m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z" />
       <path d="M6 12h4m-2 -2v4" />
-      <line x1="15" y1="11" x2="15" y2="11.01" />
-      <line x1="18" y1="13" x2="18" y2="13.01" />
+      <path d="M15 11l0 .01" />
+      <path d="M18 13l0 .01" />
     </svg>
     """
   end
@@ -30539,7 +31292,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M4 9h6l1 -2l2 4l1 -2h6" />
       <path d="M4 14h16" />
       <path d="M14 17v.01" />
@@ -30564,7 +31317,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="2" y="4" width="20" height="16" rx="2" />
+      <path d="M2 4m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z" />
       <path d="M9 17h6" />
     </svg>
     """
@@ -30660,8 +31413,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="19" x2="21" y2="19" />
-      <rect x="5" y="6" width="14" height="10" rx="1" />
+      <path d="M3 19l18 0" />
+      <path d="M5 6m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -30682,7 +31435,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="6" y="3" width="12" height="18" rx="2" />
+      <path d="M6 3m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
       <path d="M11 4h2" />
       <path d="M12 9.5l-1 2.5h2l-1 2.5" />
     </svg>
@@ -30752,7 +31505,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="6" width="18" height="12" rx="2" />
+      <path d="M3 6m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M20 11v2" />
       <path d="M7 12h-.01" />
     </svg>
@@ -30775,9 +31528,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="12" height="18" rx="2" />
-      <line x1="8" y1="4" x2="10" y2="4" />
-      <line x1="9" y1="17" x2="9" y2="17.01" />
+      <path d="M3 3m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+      <path d="M8 4l2 0" />
+      <path d="M9 17l0 .01" />
       <path d="M21 6l-2 3l2 3l-2 3l2 3" />
     </svg>
     """
@@ -30799,9 +31552,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="6" y="3" width="12" height="18" rx="2" />
-      <line x1="11" y1="4" x2="13" y2="4" />
-      <line x1="12" y1="17" x2="12" y2="17.01" />
+      <path d="M6 3m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+      <path d="M11 4l2 0" />
+      <path d="M12 17l0 .01" />
     </svg>
     """
   end
@@ -30822,9 +31575,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4.713 4.718a3.995 3.995 0 0 0 -1.713 3.282v8a4 4 0 0 0 4 4h3v-10m0 -4v-2h-2" />
+      <path d="M4.713 4.718a4 4 0 0 0 -1.713 3.282v8a4 4 0 0 0 4 4h3v-10m0 -4v-2h-2" />
       <path d="M14 10v-6h3a4 4 0 0 1 4 4v8c0 .308 -.035 .608 -.1 .896m-1.62 2.39a3.982 3.982 0 0 1 -2.28 .714h-3v-6" />
-      <circle cx="6.5" cy="8.5" r="1" />
+      <path d="M6.5 8.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -30988,7 +31741,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 3h10a2 2 0 0 1 2 2v10m0 4a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14" />
-      <path d="M11.114 11.133a3.001 3.001 0 1 0 3.754 3.751" />
+      <path d="M11.114 11.133a3 3 0 1 0 3.754 3.751" />
       <path d="M12 7v.01" />
       <path d="M3 3l18 18" />
     </svg>
@@ -31011,9 +31764,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="3" width="14" height="18" rx="2" />
-      <circle cx="12" cy="14" r="3" />
-      <line x1="12" y1="7" x2="12" y2="7.01" />
+      <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+      <path d="M12 14m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M12 7l0 .01" />
     </svg>
     """
   end
@@ -31035,7 +31788,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 3h11a1 1 0 0 1 1 1v11m0 4v1a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1v-15" />
-      <circle cx="12" cy="17" r="1" />
+      <path d="M12 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -31057,8 +31810,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="3" width="14" height="18" rx="1" />
-      <circle cx="12" cy="17" r="1" />
+      <path d="M5 3m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v16a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z" />
+      <path d="M12 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -31102,7 +31855,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="7" width="18" height="13" rx="2" />
+      <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M16 3l-4 4l-4 -4" />
       <path d="M15 7v13" />
       <path d="M18 15v.01" />
@@ -31127,8 +31880,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="7" width="18" height="13" rx="2" />
-      <polyline points="16 3 12 7 8 3" />
+      <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+      <path d="M16 3l-4 4l-4 -4" />
     </svg>
     """
   end
@@ -31173,7 +31926,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="6" y="6" width="12" height="12" rx="3" />
+      <path d="M6 6m0 3a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3z" />
       <path d="M9 18v3h6v-3" />
       <path d="M9 6v-3h6v3" />
       <path d="M12 10a2 2 0 1 0 2 2" />
@@ -31197,7 +31950,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="6" y="6" width="12" height="12" rx="3" />
+      <path d="M6 6m0 3a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3z" />
       <path d="M9 18v3h6v-3" />
       <path d="M9 6v-3h6v3" />
       <path d="M9 14v-4" />
@@ -31223,7 +31976,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="6" y="6" width="12" height="12" rx="3" />
+      <path d="M6 6m0 3a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3z" />
       <path d="M9 18v3h6v-3" />
       <path d="M9 6v-3h6v3" />
     </svg>
@@ -31247,11 +32000,11 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 15h-6a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h6" />
-      <rect x="13" y="4" width="8" height="16" rx="1" />
-      <line x1="7" y1="19" x2="10" y2="19" />
-      <line x1="17" y1="8" x2="17" y2="8.01" />
-      <circle cx="17" cy="16" r="1" />
-      <line x1="9" y1="15" x2="9" y2="19" />
+      <path d="M13 4m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
+      <path d="M7 19l3 0" />
+      <path d="M17 8l0 .01" />
+      <path d="M17 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M9 15l0 4" />
     </svg>
     """
   end
@@ -31349,9 +32102,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="13" y="8" width="8" height="12" rx="1" />
+      <path d="M13 8m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
       <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9" />
-      <line x1="16" y1="9" x2="18" y2="9" />
+      <path d="M16 9l2 0" />
     </svg>
     """
   end
@@ -31457,6 +32210,30 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `diamonds_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.diamonds_filled />
+      <TablerIcons.diamonds_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def diamonds_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M10.831 20.413l-5.375 -6.91c-.608 -.783 -.608 -2.223 0 -3l5.375 -6.911a1.457 1.457 0 0 1 2.338 0l5.375 6.91c.608 .783 .608 2.223 0 3l-5.375 6.911a1.457 1.457 0 0 1 -2.338 0z"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `diamonds` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -31472,7 +32249,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M10.831 20.413l-5.375 -6.91c-.608 -.783 -.608 -2.223 0 -3.005l5.375 -6.911a1.457 1.457 0 0 1 2.338 0l5.375 6.91c.608 .783 .608 2.223 0 3.005l-5.375 6.911a1.457 1.457 0 0 1 -2.338 0z" />
+      <path d="M10.831 20.413l-5.375 -6.91c-.608 -.783 -.608 -2.223 0 -3l5.375 -6.911a1.457 1.457 0 0 1 2.338 0l5.375 6.91c.608 .783 .608 2.223 0 3l-5.375 6.911a1.457 1.457 0 0 1 -2.338 0z" />
     </svg>
     """
   end
@@ -31493,7 +32270,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <circle cx="12" cy="12" r=".5" fill="currentColor" />
     </svg>
     """
@@ -31515,7 +32292,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <circle cx="9.5" cy="9.5" r=".5" fill="currentColor" />
       <circle cx="14.5" cy="14.5" r=".5" fill="currentColor" />
     </svg>
@@ -31538,7 +32315,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <circle cx="8.5" cy="8.5" r=".5" fill="currentColor" />
       <circle cx="15.5" cy="15.5" r=".5" fill="currentColor" />
       <circle cx="12" cy="12" r=".5" fill="currentColor" />
@@ -31562,7 +32339,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <circle cx="8.5" cy="8.5" r=".5" fill="currentColor" />
       <circle cx="15.5" cy="8.5" r=".5" fill="currentColor" />
       <circle cx="15.5" cy="15.5" r=".5" fill="currentColor" />
@@ -31587,7 +32364,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <circle cx="8.5" cy="8.5" r=".5" fill="currentColor" />
       <circle cx="15.5" cy="8.5" r=".5" fill="currentColor" />
       <circle cx="15.5" cy="15.5" r=".5" fill="currentColor" />
@@ -31613,7 +32390,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
       <circle cx="15.5" cy="7.5" r=".5" fill="currentColor" />
       <circle cx="8.5" cy="12" r=".5" fill="currentColor" />
@@ -31640,7 +32417,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <circle cx="8.5" cy="8.5" r=".5" fill="currentColor" />
       <circle cx="15.5" cy="8.5" r=".5" fill="currentColor" />
       <circle cx="15.5" cy="15.5" r=".5" fill="currentColor" />
@@ -31671,7 +32448,7 @@ defmodule TablerIcons do
       <path d="M19 10v11" />
       <path d="M17 19l2 2l2 -2" />
       <path d="M21 12l-2 -2l-2 2" />
-      <rect x="3" y="10" width="11" height="11" rx="2" />
+      <path d="M3 10m0 2a2 2 0 0 1 2 -2h7a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -31836,7 +32613,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="17" cy="6" r="2" />
+      <path d="M17 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M9 11a5 5 0 1 0 3.95 7.95" />
       <path d="M19 20l-4 -5h-4l3 -5l-4 -3l-4 1" />
     </svg>
@@ -31884,9 +32661,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="11" cy="5" r="2" />
-      <polyline points="11 7 11 15 15 15 19 20" />
-      <line x1="11" y1="11" x2="16" y2="11" />
+      <path d="M11 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M11 7l0 8l4 0l4 5" />
+      <path d="M11 11l5 0" />
       <path d="M7 11.5a5 5 0 1 0 6 7.5" />
     </svg>
     """
@@ -31911,8 +32688,8 @@ defmodule TablerIcons do
       <path d="M5 5h14" />
       <path d="M6 5c.32 6.744 2.74 9.246 6 10" />
       <path d="M18 5c-.32 6.744 -2.74 9.246 -6 10" />
-      <path d="M10 5c.006 4.915 .552 7.082 2 10" />
-      <path d="M14 5c-.006 4.915 -.552 7.082 -2 10" />
+      <path d="M10 5c0 4.915 .552 7.082 2 10" />
+      <path d="M14 5c0 4.915 -.552 7.082 -2 10" />
       <path d="M12 15v6" />
       <path d="M12 3v2" />
       <path d="M7 16c.64 .64 1.509 1 2.414 1h5.172c.905 0 1.774 -.36 2.414 -1" />
@@ -31937,7 +32714,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M20.044 16.04a9 9 0 0 0 -12.082 -12.085m-2.333 1.688a9 9 0 0 0 6.371 15.357c2.491 0 4.73 -.997 6.36 -2.631" />
+      <path d="M20.044 16.04a9 9 0 0 0 -12.082 -12.085m-2.333 1.688a9 9 0 0 0 6.371 15.357c2.491 0 4.73 -1 6.36 -2.631" />
       <path d="M11.298 11.288a1 1 0 1 0 1.402 1.427" />
       <path d="M7 12c0 -1.38 .559 -2.629 1.462 -3.534m2.607 -1.38c.302 -.056 .613 -.086 .931 -.086" />
       <path d="M12 17a4.985 4.985 0 0 0 3.551 -1.48m1.362 -2.587c.057 -.302 .087 -.614 .087 -.933" />
@@ -31962,8 +32739,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="12" cy="12" r="1" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M7 12a5 5 0 0 1 5 -5" />
       <path d="M12 17a5 5 0 0 0 5 -5" />
     </svg>
@@ -32011,7 +32788,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="9" y1="15" x2="15" y2="9" />
+      <path d="M9 15l6 -6" />
       <circle cx="9.5" cy="9.5" r=".5" fill="currentColor" />
       <circle cx="14.5" cy="14.5" r=".5" fill="currentColor" />
       <path d="M5 7.2a2.2 2.2 0 0 1 2.2 -2.2h1a2.2 2.2 0 0 0 1.55 -.64l.7 -.7a2.2 2.2 0 0 1 3.12 0l.7 .7a2.2 2.2 0 0 0 1.55 .64h1a2.2 2.2 0 0 1 2.2 2.2v1a2.2 2.2 0 0 0 .64 1.55l.7 .7a2.2 2.2 0 0 1 0 3.12l-.7 .7a2.2 2.2 0 0 0 -.64 1.55v1a2.2 2.2 0 0 1 -2.2 2.2h-1a2.2 2.2 0 0 0 -1.55 .64l-.7 .7a2.2 2.2 0 0 1 -3.12 0l-.7 -.7a2.2 2.2 0 0 0 -1.55 -.64h-1a2.2 2.2 0 0 1 -2.2 -2.2v-1a2.2 2.2 0 0 0 -.64 -1.55l-.7 -.7a2.2 2.2 0 0 1 0 -3.12l.7 -.7a2.2 2.2 0 0 0 .64 -1.55v-1" />
@@ -32082,10 +32859,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="9" y1="15" x2="15" y2="9" />
+      <path d="M9 15l6 -6" />
       <circle cx="9.5" cy="9.5" r=".5" fill="currentColor" />
       <circle cx="14.5" cy="14.5" r=".5" fill="currentColor" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -32108,7 +32885,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <circle cx="12" cy="6" r="1" fill="currentColor" />
       <circle cx="12" cy="18" r="1" fill="currentColor" />
-      <line x1="5" y1="12" x2="19" y2="12" />
+      <path d="M5 12l14 0" />
     </svg>
     """
   end
@@ -32129,8 +32906,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M17 3v1c-.007 2.46 -.91 4.554 -2.705 6.281m-2.295 1.719c-3.328 1.99 -4.997 4.662 -5.008 8.014v1" />
-      <path d="M17 21.014v-1c-.004 -1.44 -.315 -2.755 -.932 -3.944m-4.068 -4.07c-1.903 -1.138 -3.263 -2.485 -4.082 -4.068" />
+      <path d="M17 3v1c-.007 2.46 -.91 4.554 -2.705 6.281m-2.295 1.719c-3.328 1.99 -5 4.662 -5.008 8.014v1" />
+      <path d="M17 21.014v-1c0 -1.44 -.315 -2.755 -.932 -3.944m-4.068 -4.07c-1.903 -1.138 -3.263 -2.485 -4.082 -4.068" />
       <path d="M8 4h9" />
       <path d="M7 20h10" />
       <path d="M12 8h4" />
@@ -32156,8 +32933,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M17 3v1c-.01 3.352 -1.68 6.023 -5.008 8.014c-3.328 1.99 3.336 -2.005 .008 -.014c-3.328 1.99 -4.997 4.662 -5.008 8.014v1" />
-      <path d="M17 21.014v-1c-.01 -3.352 -1.68 -6.023 -5.008 -8.014c-3.328 -1.99 3.336 2.005 .008 .014c-3.328 -1.991 -4.997 -4.662 -5.008 -8.014v-1" />
+      <path d="M17 3v1c-.01 3.352 -1.68 6.023 -5.008 8.014c-3.328 1.99 3.336 -2 .008 -.014c-3.328 1.99 -5 4.662 -5.008 8.014v1" />
+      <path d="M17 21.014v-1c-.01 -3.352 -1.68 -6.023 -5.008 -8.014c-3.328 -1.99 3.336 2 .008 .014c-3.328 -1.991 -5 -4.662 -5.008 -8.014v-1" />
       <path d="M7 4h10" />
       <path d="M7 20h10" />
       <path d="M8 8h8" />
@@ -32376,10 +33153,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="8" y1="12" x2="8" y2="12.01" />
-      <line x1="12" y1="12" x2="12" y2="12.01" />
-      <line x1="16" y1="12" x2="16" y2="12.01" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M8 12l0 .01" />
+      <path d="M12 12l0 .01" />
+      <path d="M16 12l0 .01" />
     </svg>
     """
   end
@@ -32400,9 +33177,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="7" r="1" />
-      <circle cx="12" cy="12" r="1" />
-      <circle cx="17" cy="17" r="1" />
+      <path d="M7 7m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M17 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -32423,9 +33200,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="17" r="1" />
-      <circle cx="12" cy="12" r="1" />
-      <circle cx="17" cy="7" r="1" />
+      <path d="M7 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M17 7m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -32446,9 +33223,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="1" />
-      <circle cx="12" cy="19" r="1" />
-      <circle cx="12" cy="5" r="1" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -32469,9 +33246,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="12" r="1" />
-      <circle cx="12" cy="12" r="1" />
-      <circle cx="19" cy="12" r="1" />
+      <path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -32493,7 +33270,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 1.83 -1.19" />
-      <path d="M7 11l5 5l2.005 -2.005m1.994 -1.994l1.001 -1.001" />
+      <path d="M7 11l5 5l2 -2m2 -2l1 -1" />
       <path d="M12 4v4m0 4v4" />
       <path d="M3 3l18 18" />
     </svg>
@@ -32517,8 +33294,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
-      <polyline points="7 11 12 16 17 11" />
-      <line x1="12" y1="4" x2="12" y2="16" />
+      <path d="M7 11l5 5l5 -5" />
+      <path d="M12 4l0 12" />
     </svg>
     """
   end
@@ -32539,14 +33316,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="8" y="8" width="12" height="12" rx="2" />
-      <line x1="4" y1="4" x2="4" y2="4.01" />
-      <line x1="8" y1="4" x2="8" y2="4.01" />
-      <line x1="12" y1="4" x2="12" y2="4.01" />
-      <line x1="16" y1="4" x2="16" y2="4.01" />
-      <line x1="4" y1="8" x2="4" y2="8.01" />
-      <line x1="4" y1="12" x2="4" y2="12.01" />
-      <line x1="4" y1="16" x2="4" y2="16.01" />
+      <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+      <path d="M4 4l0 .01" />
+      <path d="M8 4l0 .01" />
+      <path d="M12 4l0 .01" />
+      <path d="M16 4l0 .01" />
+      <path d="M4 8l0 .01" />
+      <path d="M4 12l0 .01" />
+      <path d="M4 16l0 .01" />
     </svg>
     """
   end
@@ -32569,13 +33346,13 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19 11v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
       <path d="M13 13l9 3l-4 2l-2 4l-3 -9" />
-      <line x1="3" y1="3" x2="3" y2="3.01" />
-      <line x1="7" y1="3" x2="7" y2="3.01" />
-      <line x1="11" y1="3" x2="11" y2="3.01" />
-      <line x1="15" y1="3" x2="15" y2="3.01" />
-      <line x1="3" y1="7" x2="3" y2="7.01" />
-      <line x1="3" y1="11" x2="3" y2="11.01" />
-      <line x1="3" y1="15" x2="3" y2="15.01" />
+      <path d="M3 3l0 .01" />
+      <path d="M7 3l0 .01" />
+      <path d="M11 3l0 .01" />
+      <path d="M15 3l0 .01" />
+      <path d="M3 7l0 .01" />
+      <path d="M3 11l0 .01" />
+      <path d="M3 15l0 .01" />
     </svg>
     """
   end
@@ -32601,11 +33378,11 @@ defmodule TablerIcons do
       <path d="M9.957 5.95a3.503 3.503 0 0 0 -2.917 -2.91m-3.02 .989a3.5 3.5 0 0 0 1.98 5.936" />
       <path d="M14 10l3.5 -3.5" />
       <path d="M18 9.965a3.5 3.5 0 1 0 -3.966 -3.965" />
-      <line x1="14" y1="14" x2="17.5" y2="17.5" />
+      <path d="M14 14l3.5 3.5" />
       <path d="M14.035 18a3.5 3.5 0 0 0 5.936 1.98m.987 -3.026a3.503 3.503 0 0 0 -2.918 -2.913" />
-      <line x1="10" y1="14" x2="6.5" y2="17.5" />
+      <path d="M10 14l-3.5 3.5" />
       <path d="M6 14.035a3.5 3.5 0 1 0 3.966 3.965" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -32627,13 +33404,13 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 10h4v4h-4z" />
-      <line x1="10" y1="10" x2="6.5" y2="6.5" />
+      <path d="M10 10l-3.5 -3.5" />
       <path d="M9.96 6a3.5 3.5 0 1 0 -3.96 3.96" />
       <path d="M14 10l3.5 -3.5" />
       <path d="M18 9.96a3.5 3.5 0 1 0 -3.96 -3.96" />
-      <line x1="14" y1="14" x2="17.5" y2="17.5" />
+      <path d="M14 14l3.5 3.5" />
       <path d="M14.04 18a3.5 3.5 0 1 0 3.96 -3.96" />
-      <line x1="10" y1="14" x2="6.5" y2="17.5" />
+      <path d="M10 14l-3.5 3.5" />
       <path d="M6 14.04a3.5 3.5 0 1 0 3.96 3.96" />
     </svg>
     """
@@ -32656,7 +33433,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10.07 15.34c1.115 .88 2.74 .88 3.855 0c1.115 -.88 1.398 -2.388 .671 -3.575l-2.596 -3.765l-2.602 3.765c-.726 1.187 -.443 2.694 .672 3.575z" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -32701,10 +33478,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M6.8 11a6 6 0 1 0 10.396 0l-5.197 -8l-5.2 8z" />
-      <path d="M12 3v17" />
-      <path d="M12 12l3.544 -3.544" />
-      <path d="M12 17.3l5.558 -5.558" />
+      <path d="M6.8 11a6 6 0 1 0 10.396 0l-5.197 -8l-5.2 8z" fill="currentColor" />
     </svg>
     """
   end
@@ -32727,6 +33501,27 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6.8 11a6 6 0 1 0 10.396 0l-5.197 -8l-5.2 8z" />
       <path d="M6 14h12" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `droplet_half_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.droplet_half_filled />
+      <TablerIcons.droplet_half_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def droplet_half_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M6.8 11a6 6 0 1 0 10.396 0l-5.197 -8l-5.2 8zm5.2 -8v17m0 -8l3.544 -3.544m-3.544 8.844l5.558 -5.558" />
     </svg>
     """
   end
@@ -32813,8 +33608,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="2" y="5" width="20" height="14" rx="1.999" />
-      <circle cx="12" cy="12" r="3" />
+      <path d="M2 5m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M9 12h-7" />
       <path d="M15 12h7" />
     </svg>
@@ -32839,7 +33634,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 10c0 -1.146 .277 -2.245 .78 -3.219m1.792 -2.208a7 7 0 0 1 10.428 9.027a10 10 0 0 1 -.633 .762m-2.045 1.96a8 8 0 0 0 -1.322 2.278a4.5 4.5 0 0 1 -6.8 1.4" />
       <path d="M11.42 7.414a3 3 0 0 1 4.131 4.13" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -33020,9 +33815,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M10.507 10.498l-1.507 1.502v3h3l1.493 -1.498m2.002 -2.01l4.89 -4.907a2.1 2.1 0 0 0 -2.97 -2.97l-4.913 4.896" />
+      <path d="M10.507 10.498l-1.507 1.502v3h3l1.493 -1.498m2 -2.01l4.89 -4.907a2.1 2.1 0 0 0 -2.97 -2.97l-4.913 4.896" />
       <path d="M16 5l3 3" />
-      <path d="M7.476 7.471a7.002 7.002 0 0 0 2.524 13.529a7.004 7.004 0 0 0 6.53 -4.474" />
+      <path d="M7.476 7.471a7 7 0 0 0 2.524 13.529a7 7 0 0 0 6.53 -4.474" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -33046,7 +33841,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 15l8.385 -8.415a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3z" />
       <path d="M16 5l3 3" />
-      <path d="M9 7.07a7.002 7.002 0 0 0 1 13.93a7.002 7.002 0 0 0 6.929 -5.999" />
+      <path d="M9 7.07a7 7 0 0 0 1 13.93a7 7 0 0 0 6.929 -6" />
     </svg>
     """
   end
@@ -33068,7 +33863,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1" />
-      <path d="M10.507 10.498l-1.507 1.502v3h3l1.493 -1.498m2.002 -2.01l4.89 -4.907a2.1 2.1 0 0 0 -2.97 -2.97l-4.913 4.896" />
+      <path d="M10.507 10.498l-1.507 1.502v3h3l1.493 -1.498m2 -2.01l4.89 -4.907a2.1 2.1 0 0 0 -2.97 -2.97l-4.913 4.896" />
       <path d="M16 5l3 3" />
       <path d="M3 3l18 18" />
     </svg>
@@ -33114,8 +33909,32 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M19 14.083c0 4.154 -2.966 6.74 -7 6.917c-4.2 .006 -7 -2.763 -7 -6.917c0 -5.538 3.5 -11.09 7 -11.083c3.5 .007 7 5.545 7 11.083z" />
+      <path d="M19 14.083c0 4.154 -2.966 6.74 -7 6.917c-4.2 0 -7 -2.763 -7 -6.917c0 -5.538 3.5 -11.09 7 -11.083c3.5 .007 7 5.545 7 11.083z" />
       <path d="M12 3l-1.5 5l3.5 2.5l-2 3.5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `egg_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.egg_filled />
+      <TablerIcons.egg_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def egg_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M19 14.083c0 4.154 -2.966 6.74 -7 6.917c-4.2 0 -7 -2.763 -7 -6.917c0 -5.538 3.5 -11.09 7 -11.083c3.5 .007 7 5.545 7 11.083z"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -33136,8 +33955,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="3" />
-      <path d="M14 3a5 5 0 0 1 4.872 6.13a3 3 0 0 1 .178 5.681a3 3 0 1 1 -4.684 3.626a5 5 0 1 1 -8.662 -4.996a5 5 0 1 1 4.645 -8.856a4.982 4.982 0 0 1 3.651 -1.585z" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M14 3a5 5 0 0 1 4.872 6.13a3 3 0 0 1 .178 5.681a3 3 0 1 1 -4.684 3.626a5 5 0 1 1 -8.662 -5a5 5 0 1 1 4.645 -8.856a4.982 4.982 0 0 1 3.651 -1.585z" />
     </svg>
     """
   end
@@ -33158,7 +33977,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M17.927 17.934c-1.211 1.858 -3.351 2.953 -5.927 3.066c-4.2 .006 -7 -2.763 -7 -6.917c0 -2.568 .753 -5.14 1.91 -7.158" />
+      <path d="M17.927 17.934c-1.211 1.858 -3.351 2.953 -5.927 3.066c-4.2 0 -7 -2.763 -7 -6.917c0 -2.568 .753 -5.14 1.91 -7.158" />
       <path d="M8.642 4.628c1.034 -1.02 2.196 -1.63 3.358 -1.628c3.5 .007 7 5.545 7 11.083c0 .298 -.015 .587 -.045 .868" />
       <path d="M3 3l18 18" />
     </svg>
@@ -33181,7 +34000,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M19 14.083c0 4.154 -2.966 6.74 -7 6.917c-4.2 .006 -7 -2.763 -7 -6.917c0 -5.538 3.5 -11.09 7 -11.083c3.5 .007 7 5.545 7 11.083z" />
+      <path d="M19 14.083c0 4.154 -2.966 6.74 -7 6.917c-4.2 0 -7 -2.763 -7 -6.917c0 -5.538 3.5 -11.09 7 -11.083c3.5 .007 7 5.545 7 11.083z" />
     </svg>
     """
   end
@@ -33202,8 +34021,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M13 22c-3 0 -4.868 -2.118 -4.995 -5c-.005 -3 1.995 -5 4.995 -5c4 0 8.01 2.5 8.005 5c-.005 2.5 -4.005 5 -8.005 5z" />
-      <path d="M8 18c-3.03 -.196 -5 -2.309 -5 -5.38c0 -4.307 2.75 -8.625 5.5 -8.62c2.614 .005 5.248 3.915 5.5 8" />
+      <path d="M13 22c-3 0 -4.868 -2.118 -5 -5c0 -3 2 -5 5 -5c4 0 8.01 2.5 8 5c0 2.5 -4 5 -8 5z" />
+      <path d="M8 18c-3.03 -.196 -5 -2.309 -5 -5.38c0 -4.307 2.75 -8.625 5.5 -8.62c2.614 0 5.248 3.915 5.5 8" />
     </svg>
     """
   end
@@ -33248,7 +34067,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="4" width="14" height="16" rx="1" />
+      <path d="M5 4m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z" />
       <path d="M10 10l2 -2l2 2" />
       <path d="M10 14l2 2l2 -2" />
     </svg>
@@ -33271,8 +34090,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="16" cy="18" r="2" />
-      <circle cx="8" cy="18" r="2" />
+      <path d="M16 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M8 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M4 8l2.1 2.8a3 3 0 0 0 2.4 1.2h11.5" />
       <path d="M10 6h4" />
       <path d="M12 4v4" />
@@ -33321,7 +34140,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5.5" r="2.5" />
+      <path d="M12 5.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
       <path d="M12 21.368l5.095 -5.096a3.088 3.088 0 1 0 -4.367 -4.367l-.728 .727l-.728 -.727a3.088 3.088 0 1 0 -4.367 4.367l5.095 5.096z" />
     </svg>
     """
@@ -33344,10 +34163,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M16 5h-8v10h8m-1 -5h-7" />
-      <line x1="6" y1="20" x2="6" y2="20.01" />
-      <line x1="10" y1="20" x2="10" y2="20.01" />
-      <line x1="14" y1="20" x2="14" y2="20.01" />
-      <line x1="18" y1="20" x2="18" y2="20.01" />
+      <path d="M6 20l0 .01" />
+      <path d="M10 20l0 .01" />
+      <path d="M14 20l0 .01" />
+      <path d="M18 20l0 .01" />
     </svg>
     """
   end
@@ -33489,7 +34308,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 3l18 18" />
-      <path d="M19 20h-10.5l-4.21 -4.3a1 1 0 0 1 0 -1.41l4.995 -4.993m2.009 -2.01l2.997 -2.996a1 1 0 0 1 1.41 0l5 5a1 1 0 0 1 0 1.41c-1.417 1.431 -2.406 2.432 -2.97 3m-2.02 2.043l-4.211 4.256" />
+      <path d="M19 20h-10.5l-4.21 -4.3a1 1 0 0 1 0 -1.41l5 -4.993m2.009 -2.01l3 -3a1 1 0 0 1 1.41 0l5 5a1 1 0 0 1 0 1.41c-1.417 1.431 -2.406 2.432 -2.97 3m-2.02 2.043l-4.211 4.256" />
       <path d="M18 13.3l-6.3 -6.3" />
     </svg>
     """
@@ -33584,11 +34403,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="18" r="2" />
-      <circle cx="19" cy="6" r="2" />
+      <path d="M5 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M19 8v5c0 .594 -.104 1.164 -.294 1.692m-1.692 2.298a4.978 4.978 0 0 1 -3.014 1.01h-3l3 -3" />
       <path d="M14 21l-3 -3" />
-      <path d="M5 16v-5c0 -1.632 .782 -3.082 1.992 -3.995m3.008 -1.005h3l-3 -3" />
+      <path d="M5 16v-5c0 -1.632 .782 -3.082 1.992 -4m3.008 -1h3l-3 -3" />
       <path d="M11.501 7.499l1.499 -1.499" />
       <path d="M3 3l18 18" />
     </svg>
@@ -33611,8 +34430,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="18" r="2" />
-      <circle cx="19" cy="6" r="2" />
+      <path d="M5 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M19 8v5a5 5 0 0 1 -5 5h-3l3 -3m0 6l-3 -3" />
       <path d="M5 16v-5a5 5 0 0 1 5 -5h3l-3 -3m0 6l3 -3" />
     </svg>
@@ -33635,7 +34454,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 9v4" />
       <path d="M12 16v.01" />
     </svg>
@@ -33704,7 +34523,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 8h-2m-2 2v6h4" />
-      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a1.994 1.994 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
+      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a2 2 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
       <path d="M12 12h-2" />
       <path d="M3 3l18 18" />
     </svg>
@@ -33727,7 +34546,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="1" />
+      <path d="M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
       <path d="M14 8h-4v8h4" />
       <path d="M14 12h-4" />
     </svg>
@@ -33816,8 +34635,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4.6 19.4l7.4 -7.4m2 -2l5.4 -5.4" />
-      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a1.994 1.994 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
-      <path d="M7 9h2m0 0v2" />
+      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a2 2 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
+      <path d="M7 9h2v2" />
       <path d="M13 16h3" />
       <path d="M3 3l18 18" />
     </svg>
@@ -33886,10 +34705,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="4.6" y1="19.4" x2="19.4" y2="4.6" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M4.6 19.4l14.8 -14.8" />
       <path d="M7 9h4m-2 -2v4" />
-      <line x1="13" y1="16" x2="17" y2="16" />
+      <path d="M13 16l4 0" />
     </svg>
     """
   end
@@ -33911,7 +34730,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1" />
-      <path d="M10 14l1.996 -1.996m2.007 -2.007l5.997 -5.997" />
+      <path d="M10 14l2 -2m2.007 -2.007l6 -6" />
       <path d="M15 4h5v5" />
       <path d="M3 3l18 18" />
     </svg>
@@ -33935,8 +34754,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
-      <line x1="10" y1="14" x2="20" y2="4" />
-      <polyline points="15 4 20 4 20 9" />
+      <path d="M10 14l10 -10" />
+      <path d="M15 4l5 0l0 5" />
     </svg>
     """
   end
@@ -33957,9 +34776,33 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="2" />
+      <path d="M12 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M12 19c-4 0 -7.333 -2.333 -10 -7c2.667 -4.667 6 -7 10 -7s7.333 2.333 10 7c-.42 .736 -.858 1.414 -1.311 2.033" />
       <path d="M15 19l2 2l4 -4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `eye_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.eye_filled />
+      <TablerIcons.eye_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def eye_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M22 12c-2.667 4.667 -6 7 -10 7s-7.333 -2.333 -10 -7c2.667 -4.667 6 -7 10 -7s7.333 2.333 10 7m-13 0a3 3 0 0 0 6 0a3 3 0 0 0 -6 0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -33980,7 +34823,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M10.584 10.587a2 2 0 0 0 2.828 2.83" />
       <path d="M9.363 5.365a9.466 9.466 0 0 1 2.637 -.365c4 0 7.333 2.333 10 7c-.778 1.361 -1.612 2.524 -2.503 3.488m-2.14 1.861c-1.631 1.1 -3.415 1.651 -5.357 1.651c-4 0 -7.333 -2.333 -10 -7c1.369 -2.395 2.913 -4.175 4.632 -5.341" />
     </svg>
@@ -34003,9 +34846,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8.003 18.003h-.011" />
-      <path d="M12.003 18.002h-.011" />
-      <path d="M16.003 18.002h-.011" />
+      <path d="M8 18h-.011" />
+      <path d="M12 18h-.011" />
+      <path d="M16 18h-.011" />
       <path d="M4 3h16" />
       <path d="M5 3v17a1 1 0 0 0 1 1h12a1 1 0 0 0 1 -1v-17" />
       <path d="M14 7h-4" />
@@ -34032,7 +34875,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="2" />
+      <path d="M12 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M22 12c-2.667 4.667 -6 7 -10 7s-7.333 -2.333 -10 -7c2.667 -4.667 6 -7 10 -7s7.333 2.333 10 7" />
     </svg>
     """
@@ -34056,9 +34899,9 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 4h-2l-3 10v2.5" />
       <path d="M16 4h2l3 10v2.5" />
-      <line x1="10" y1="16" x2="14" y2="16" />
-      <circle cx="17.5" cy="16.5" r="3.5" />
-      <circle cx="6.5" cy="16.5" r="3.5" />
+      <path d="M10 16l4 0" />
+      <path d="M17.5 16.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
+      <path d="M6.5 16.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
     </svg>
     """
   end
@@ -34107,7 +34950,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 4h-2l-3 10" />
       <path d="M16 4h2l3 10" />
-      <line x1="10" y1="16" x2="14" y2="16" />
+      <path d="M10 16l4 0" />
       <path d="M21 16.5a3.5 3.5 0 0 1 -7 0v-2.5h7v2.5" />
       <path d="M10 16.5a3.5 3.5 0 0 1 -7 0v-2.5h7v2.5" />
     </svg>
@@ -34161,8 +35004,8 @@ defmodule TablerIcons do
       <path d="M4 16v2a2 2 0 0 0 2 2h2" />
       <path d="M16 4h2a2 2 0 0 1 2 2v2" />
       <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
-      <line x1="9" y1="10" x2="9.01" y2="10" />
-      <line x1="15" y1="10" x2="15.01" y2="10" />
+      <path d="M9 10l.01 0" />
+      <path d="M15 10l.01 0" />
       <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
     </svg>
     """
@@ -34184,8 +35027,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M5.002 14.5h-.222c-1.535 0 -2.778 -1.12 -2.778 -2.5s1.243 -2.5 2.778 -2.5h.222" />
-      <path d="M19.002 14.5h.222c1.534 0 2.778 -1.12 2.778 -2.5s-1.244 -2.5 -2.778 -2.5h-.222" />
+      <path d="M5 14.5h-.222c-1.535 0 -2.778 -1.12 -2.778 -2.5s1.243 -2.5 2.778 -2.5h.222" />
+      <path d="M19 14.5h.222c1.534 0 2.778 -1.12 2.778 -2.5s-1.244 -2.5 -2.778 -2.5h-.222" />
       <path d="M9 10h1m4 0h1" />
       <path d="M9 14h5" />
       <path d="M19 15v-6.49a2 2 0 0 0 -1.45 -1.923l-5 -1.429a2 2 0 0 0 -1.1 0l-1.788 .511m-3.118 .891l-.094 .027a2 2 0 0 0 -1.45 1.922v6.982a2 2 0 0 0 1.45 1.923l5 1.429a2 2 0 0 0 1.1 0l4.899 -1.4" />
@@ -34210,8 +35053,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M5.002 14.5h-.222c-1.535 0 -2.778 -1.12 -2.778 -2.5s1.243 -2.5 2.778 -2.5h.222" />
-      <path d="M19.002 14.5h.222c1.534 0 2.778 -1.12 2.778 -2.5s-1.244 -2.5 -2.778 -2.5h-.222" />
+      <path d="M5 14.5h-.222c-1.535 0 -2.778 -1.12 -2.778 -2.5s1.243 -2.5 2.778 -2.5h.222" />
+      <path d="M19 14.5h.222c1.534 0 2.778 -1.12 2.778 -2.5s-1.244 -2.5 -2.778 -2.5h-.222" />
       <path d="M9 10h6" />
       <path d="M9 14h6" />
       <path d="M12.55 18.843l5 -1.429a2 2 0 0 0 1.45 -1.923v-6.981a2 2 0 0 0 -1.45 -1.923l-5 -1.429a2 2 0 0 0 -1.1 0l-5 1.429a2 2 0 0 0 -1.45 1.922v6.982a2 2 0 0 0 1.45 1.923l5 1.429a2 2 0 0 0 1.1 0z" />
@@ -34237,7 +35080,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11 21l1 -5l-1 -4l-3 -4h4l3 -3" />
       <path d="M6 16l-1 -4l3 -4" />
-      <circle cx="6" cy="5" r="1" />
+      <path d="M6 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M13.5 12h2.5l4 2" />
     </svg>
     """
@@ -34358,7 +35201,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M10 17a3 3 0 1 1 -1.543 -2.623l2.087 -3.754a3 3 0 0 1 1.456 -5.623a3 3 0 0 1 1.457 5.623l2.087 3.754a3 3 0 1 1 -1.538 2.8l-.006 -.177h-4z" />
+      <path d="M10 17a3 3 0 1 1 -1.543 -2.623l2.087 -3.754a3 3 0 0 1 1.456 -5.623a3 3 0 0 1 1.457 5.623l2.087 3.754a3 3 0 1 1 -1.538 2.8l0 -.177h-4z" />
       <path d="M17 17v.01" />
       <path d="M7 17v.01" />
       <path d="M12 8v.01" />
@@ -34409,8 +35252,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-      <line x1="12" y1="17" x2="12.01" y2="17" />
-      <line x1="12" y1="11" x2="12" y2="14" />
+      <path d="M12 17l.01 0" />
+      <path d="M12 11l0 3" />
     </svg>
     """
   end
@@ -34433,9 +35276,9 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-      <line x1="9" y1="17" x2="9" y2="12" />
-      <line x1="12" y1="17" x2="12" y2="16" />
-      <line x1="15" y1="17" x2="15" y2="14" />
+      <path d="M9 17l0 -5" />
+      <path d="M12 17l0 -1" />
+      <path d="M15 17l0 -3" />
     </svg>
     """
   end
@@ -34559,7 +35402,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M5 8v-3a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-5" />
-      <circle cx="6" cy="14" r="3" />
+      <path d="M6 14m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5" />
     </svg>
     """
@@ -34584,7 +35427,7 @@ defmodule TablerIcons do
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
       <path d="M12 10v4h4" />
-      <circle cx="12" cy="14" r="4" />
+      <path d="M12 14m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
     </svg>
     """
   end
@@ -34676,7 +35519,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="12" cy="12.75" rx="4" ry="1.75" />
+      <path d="M12 12.75m-4 0a4 1.75 0 1 0 8 0a4 1.75 0 1 0 -8 0" />
       <path d="M8 12.5v3.75c0 .966 1.79 1.75 4 1.75s4 -.784 4 -1.75v-3.75" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
@@ -34749,9 +35592,9 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-      <line x1="12" y1="10" x2="12" y2="14" />
-      <line x1="10" y1="12" x2="14" y2="12" />
-      <line x1="10" y1="17" x2="14" y2="17" />
+      <path d="M12 10l0 4" />
+      <path d="M10 12l4 0" />
+      <path d="M10 17l4 0" />
     </svg>
     """
   end
@@ -34773,7 +35616,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-      <rect x="9" y="12" width="3" height="5" rx="1" />
+      <path d="M9 12m0 1a1 1 0 0 1 1 -1h1a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1z" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
       <path d="M15 12v5" />
     </svg>
@@ -34796,7 +35639,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="14" width="3" height="5" rx="1" />
+      <path d="M3 14m0 1a1 1 0 0 1 1 -1h1a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1z" />
       <path d="M6 15a1 1 0 0 1 1 -1h3.756a1 1 0 0 1 .958 .713l1.2 3c.09 .303 .133 .63 -.056 .884c-.188 .254 -.542 .403 -.858 .403h-2v2.467a1.1 1.1 0 0 1 -2.015 .61l-1.985 -3.077v-4z" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M5 11v-6a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-2.5" />
@@ -34896,7 +35739,7 @@ defmodule TablerIcons do
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
       <path d="M12 14h-3" />
-      <path d="M14.004 11.172a3 3 0 1 0 -.001 5.656" />
+      <path d="M14 11.172a3 3 0 1 0 0 5.656" />
     </svg>
     """
   end
@@ -35007,8 +35850,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M15.536 17.586a2.123 2.123 0 0 0 -2.929 0a1.951 1.951 0 0 0 0 2.828c.809 .781 2.12 .781 2.929 0c.809 -.781 -.805 .778 .004 -.003l1.46 -1.41l1.46 -1.419" />
-      <path d="M15.54 17.582l1.46 1.42l1.46 1.41c.809 .78 -.805 -.779 .004 .002s2.12 .781 2.929 0a1.951 1.951 0 0 0 0 -2.828a2.123 2.123 0 0 0 -2.929 0" />
+      <path d="M15.536 17.586a2.123 2.123 0 0 0 -2.929 0a1.951 1.951 0 0 0 0 2.828c.809 .781 2.12 .781 2.929 0c.809 -.781 -.805 .778 0 0l1.46 -1.41l1.46 -1.419" />
+      <path d="M15.54 17.582l1.46 1.42l1.46 1.41c.809 .78 -.805 -.779 0 0s2.12 .781 2.929 0a1.951 1.951 0 0 0 0 -2.828a2.123 2.123 0 0 0 -2.929 0" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M9.5 21h-2.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v6" />
     </svg>
@@ -35057,9 +35900,9 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-      <line x1="9" y1="7" x2="10" y2="7" />
-      <line x1="9" y1="13" x2="15" y2="13" />
-      <line x1="13" y1="17" x2="15" y2="17" />
+      <path d="M9 7l1 0" />
+      <path d="M9 13l6 0" />
+      <path d="M13 17l2 0" />
     </svg>
     """
   end
@@ -35104,7 +35947,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="16" width="3" height="5" rx="1" />
+      <path d="M3 16m0 1a1 1 0 0 1 1 -1h1a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1z" />
       <path d="M6 20a1 1 0 0 0 1 1h3.756a1 1 0 0 0 .958 -.713l1.2 -3c.09 -.303 .133 -.63 -.056 -.884c-.188 -.254 -.542 -.403 -.858 -.403h-2v-2.467a1.1 1.1 0 0 0 -2.015 -.61l-1.985 3.077v4z" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M5 12.1v-7.1a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-2.3" />
@@ -35130,7 +35973,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-      <line x1="9" y1="14" x2="15" y2="14" />
+      <path d="M9 14l6 0" />
     </svg>
     """
   end
@@ -35153,8 +35996,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-      <circle cx="11" cy="16" r="1" />
-      <polyline points="12 16 12 11 14 12" />
+      <path d="M11 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 16l0 -5l2 1" />
     </svg>
     """
   end
@@ -35175,7 +36018,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M7 3h7l5 5v7m0 4a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-14" />
     </svg>
     """
@@ -35295,8 +36138,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-      <line x1="12" y1="11" x2="12" y2="17" />
-      <line x1="9" y1="14" x2="15" y2="14" />
+      <path d="M12 11l0 6" />
+      <path d="M9 14l6 0" />
     </svg>
     """
   end
@@ -35340,7 +36183,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="17" cy="17" r="4" />
+      <path d="M17 17m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M17 13v4h4" />
       <path d="M12 3v4a1 1 0 0 0 1 1h4" />
       <path d="M11.5 21h-6.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v2m0 3v4" />
@@ -35391,8 +36234,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-      <circle cx="15" cy="17" r="1" />
-      <circle cx="9" cy="17" r="1" />
+      <path d="M15 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M9 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M9 17l6 -6" />
       <path d="M15 17l-6 -6" />
     </svg>
@@ -35417,8 +36260,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M12 21h-5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v4.5" />
-      <circle cx="16.5" cy="17.5" r="2.5" />
-      <line x1="18.5" y1="19.5" x2="21" y2="22" />
+      <path d="M16.5 17.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
+      <path d="M18.5 19.5l2.5 2.5" />
     </svg>
     """
   end
@@ -35439,7 +36282,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="14" r="2" />
+      <path d="M12 14m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M12 10.5v1.5" />
       <path d="M12 16v1.5" />
       <path d="M15.031 12.25l-1.299 .75" />
@@ -35470,11 +36313,11 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4" />
-      <line x1="3" y1="12" x2="21" y2="12" />
-      <line x1="6" y1="16" x2="6" y2="18" />
-      <line x1="10" y1="16" x2="10" y2="22" />
-      <line x1="14" y1="16" x2="14" y2="18" />
-      <line x1="18" y1="16" x2="18" y2="20" />
+      <path d="M3 12l18 0" />
+      <path d="M6 16l0 2" />
+      <path d="M10 16l0 6" />
+      <path d="M14 16l0 2" />
+      <path d="M18 16l0 4" />
     </svg>
     """
   end
@@ -35618,9 +36461,9 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-      <line x1="9" y1="9" x2="10" y2="9" />
-      <line x1="9" y1="13" x2="15" y2="13" />
-      <line x1="9" y1="17" x2="15" y2="17" />
+      <path d="M9 9l1 0" />
+      <path d="M9 13l6 0" />
+      <path d="M9 17l6 0" />
     </svg>
     """
   end
@@ -35643,7 +36486,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
-      <circle cx="12" cy="14" r="4" />
+      <path d="M12 14m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M12 12.496v1.504l1 1" />
     </svg>
     """
@@ -35739,8 +36582,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-      <circle cx="9.5" cy="16.5" r="1.5" />
-      <circle cx="14.5" cy="12.5" r="1.5" />
+      <path d="M9.5 16.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+      <path d="M14.5 12.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
       <path d="M9.5 15a2.5 2.5 0 0 1 2.5 -2.5h1" />
     </svg>
@@ -35788,12 +36631,12 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 20.735a2 2 0 0 1 -1 -1.735v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-1" />
       <path d="M11 17a2 2 0 0 1 2 2v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-2a2 2 0 0 1 2 -2z" />
-      <line x1="11" y1="5" x2="10" y2="5" />
-      <line x1="13" y1="7" x2="12" y2="7" />
-      <line x1="11" y1="9" x2="10" y2="9" />
-      <line x1="13" y1="11" x2="12" y2="11" />
-      <line x1="11" y1="13" x2="10" y2="13" />
-      <line x1="13" y1="15" x2="12" y2="15" />
+      <path d="M11 5l-1 0" />
+      <path d="M13 7l-1 0" />
+      <path d="M11 9l-1 0" />
+      <path d="M13 11l-1 0" />
+      <path d="M11 13l-1 0" />
+      <path d="M13 15l-1 0" />
     </svg>
     """
   end
@@ -35839,7 +36682,7 @@ defmodule TablerIcons do
       <path d="M15 3v4a1 1 0 0 0 1 1h4" />
       <path d="M17 17h-6a2 2 0 0 1 -2 -2v-6m0 -4a2 2 0 0 1 2 -2h4l5 5v7c0 .294 -.063 .572 -.177 .823" />
       <path d="M16 17v2a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -35883,7 +36726,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M9 5h9.5a1 1 0 0 1 .5 1.5l-4.049 4.454m-.951 3.046v5l-4 -3v-4l-5 -5.5a1 1 0 0 1 .18 -1.316" />
     </svg>
     """
@@ -35927,7 +36770,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M18.9 7a8 8 0 0 1 1.1 5v1a6 6 0 0 0 .8 3" />
-      <path d="M8 11c0 -.848 .264 -1.634 .713 -2.28m2.4 -1.621a4 4 0 0 1 4.887 3.901l-.001 1" />
+      <path d="M8 11c0 -.848 .264 -1.634 .713 -2.28m2.4 -1.621a4 4 0 0 1 4.887 3.901l0 1" />
       <path d="M12 12v1a14 14 0 0 0 2.5 8" />
       <path d="M8 15a18 18 0 0 0 1.8 6" />
       <path d="M4.9 19a22 22 0 0 1 -.9 -7v-1a8 8 0 0 1 1.854 -5.143m2.176 -1.825a8 8 0 0 1 7.97 .018" />
@@ -36004,7 +36847,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 21h14" />
       <path d="M17 21v-5h1a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-1v-4a5 5 0 0 0 -10 0v4h-1a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h1v5" />
-      <circle cx="12" cy="14" r="2" />
+      <path d="M12 14m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M6 8h12" />
     </svg>
     """
@@ -36026,13 +36869,13 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="17" r="2" />
-      <circle cx="17" cy="17" r="2" />
+      <path d="M5 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M7 18h8m4 0h2v-6a5 5 0 0 0 -5 -5h-1l1.5 5h4.5" />
       <path d="M12 18v-11h3" />
-      <polyline points="3 17 3 12 12 12" />
-      <line x1="3" y1="9" x2="21" y2="3" />
-      <line x1="6" y1="12" x2="6" y2="8" />
+      <path d="M3 17l0 -5l9 0" />
+      <path d="M3 9l18 -6" />
+      <path d="M6 12l0 -4" />
     </svg>
     """
   end
@@ -36053,8 +36896,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8.595 4.577a1.994 1.994 0 0 1 1.405 -.577h4a2 2 0 0 1 2 2v2" />
-      <path d="M12 8h6a2 2 0 0 1 2 2v6m-.576 3.405a1.994 1.994 0 0 1 -1.424 .595h-12a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h2" />
+      <path d="M8.595 4.577a2 2 0 0 1 1.405 -.577h4a2 2 0 0 1 2 2v2" />
+      <path d="M12 8h6a2 2 0 0 1 2 2v6m-.576 3.405a2 2 0 0 1 -1.424 .595h-12a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h2" />
       <path d="M10 14h4" />
       <path d="M12 12v4" />
       <path d="M3 3l18 18" />
@@ -36079,7 +36922,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 8v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
-      <rect x="4" y="8" width="16" height="12" rx="2" />
+      <path d="M4 8m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 14h4" />
       <path d="M12 12v4" />
     </svg>
@@ -36102,10 +36945,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M16.69 7.44a6.973 6.973 0 0 0 -1.69 4.56a6.97 6.97 0 0 0 1.699 4.571m0 -.004c1.914 -.684 3.691 -2.183 5.301 -4.565c-1.613 -2.384 -3.394 -3.883 -5.312 -4.565" />
+      <path d="M16.69 7.44a6.973 6.973 0 0 0 -1.69 4.56a6.97 6.97 0 0 0 1.699 4.571c1.914 -.684 3.691 -2.183 5.301 -4.565c-1.613 -2.384 -3.394 -3.883 -5.312 -4.565" />
       <path d="M2 9.504a40.73 40.73 0 0 0 2.422 2.504a39.679 39.679 0 0 0 -2.422 2.498" />
       <path d="M18 11v.01" />
-      <path d="M4.422 12.005h10.578" />
+      <path d="M4.422 12h10.578" />
       <path d="M7 10v4" />
       <path d="M11 8v8" />
     </svg>
@@ -36149,8 +36992,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M16 9v3m-.085 3.924a5.002 5.002 0 0 1 -9.915 -.924v-4l3 3" />
-      <circle cx="16" cy="7" r="2" />
+      <path d="M16 9v3m-.085 3.924a5 5 0 0 1 -9.915 -.924v-4l3 3" />
+      <path d="M16 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M16 5v-2" />
       <path d="M3 3l18 18" />
     </svg>
@@ -36174,7 +37017,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M16 9v6a5 5 0 0 1 -10 0v-4l3 3" />
-      <circle cx="16" cy="7" r="2" />
+      <path d="M16 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M16 5v-2" />
     </svg>
     """
@@ -36197,7 +37040,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M16.69 7.44a6.973 6.973 0 0 0 -1.63 3.635" />
-      <path d="M2 9.504c5.307 5.948 10.293 8.57 14.597 7.1m2.583 -1.449c.988 -.788 1.93 -1.836 2.82 -3.153c-3.005 -4.443 -6.596 -5.812 -10.564 -4.548m-2.764 1.266c-2.145 1.266 -4.378 3.215 -6.672 5.786" />
+      <path d="M2 9.504c5.307 5.948 10.293 8.57 14.597 7.1m2.583 -1.449c.988 -.788 1.93 -1.836 2.82 -3.153c-3 -4.443 -6.596 -5.812 -10.564 -4.548m-2.764 1.266c-2.145 1.266 -4.378 3.215 -6.672 5.786" />
       <path d="M18 11v.01" />
       <path d="M11.153 11.169c-.287 .777 -.171 1.554 .347 2.331" />
       <path d="M3 3l18 18" />
@@ -36294,6 +37137,28 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `flag_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.flag_filled />
+      <TablerIcons.flag_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def flag_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1 -7 0a5 5 0 0 0 -7 0v-9z" fill="currentColor" />
+      <path d="M5 21v-7" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `flag_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -36311,7 +37176,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 5v16" />
       <path d="M19 5v9" />
-      <path d="M7.641 3.645a4.994 4.994 0 0 1 4.359 1.355a5 5 0 0 0 7 0" />
+      <path d="M7.641 3.645a5 5 0 0 1 4.359 1.355a5 5 0 0 0 7 0" />
       <path d="M5 14a5 5 0 0 1 7 0a4.984 4.984 0 0 0 3.437 1.429m3.019 -.966c.19 -.14 .371 -.294 .544 -.463" />
       <path d="M3 3l18 18" />
     </svg>
@@ -36334,10 +37199,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="5" y1="5" x2="5" y2="21" />
-      <line x1="19" y1="5" x2="19" y2="14" />
-      <path d="M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0" />
-      <path d="M5 14a5 5 0 0 1 7 0a5 5 0 0 0 7 0" />
+      <path d="M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1 -7 0a5 5 0 0 0 -7 0v-9z" />
+      <path d="M5 21v-7" />
     </svg>
     """
   end
@@ -36423,7 +37286,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6.1 15h8.9" />
-      <path d="M17.742 17.741a6 6 0 0 1 -2.424 3.259h-6.635a6.002 6.002 0 0 1 1.317 -10.66v-.326m0 -4.014v-3h4v7m.613 .598a6.004 6.004 0 0 1 2.801 2.817" />
+      <path d="M17.742 17.741a6 6 0 0 1 -2.424 3.259h-6.635a6 6 0 0 1 1.317 -10.66v-.326m0 -4.014v-3h4v7m.613 .598a6 6 0 0 1 2.801 2.817" />
       <path d="M9 3h6" />
       <path d="M3 3l18 18" />
     </svg>
@@ -36447,7 +37310,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6.1 15h11.8" />
-      <path d="M14 3v7.342a6.002 6.002 0 0 1 1.318 10.658h-6.635a6.002 6.002 0 0 1 1.317 -10.66v-7.34h4z" />
+      <path d="M14 3v7.342a6 6 0 0 1 1.318 10.658h-6.635a6 6 0 0 1 1.317 -10.66v-7.34h4z" />
       <path d="M9 3h6" />
     </svg>
     """
@@ -36493,8 +37356,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="9" y1="3" x2="15" y2="3" />
-      <line x1="10" y1="9" x2="14" y2="9" />
+      <path d="M9 3l6 0" />
+      <path d="M10 9l4 0" />
       <path d="M10 3v6l-4 11a0.7 .7 0 0 0 .5 1h11a0.7 .7 0 0 0 .5 -1l-4 -11v-6" />
     </svg>
     """
@@ -36516,10 +37379,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M18 4c2.21 0 4 1.682 4 3.758c0 .078 -.003 .156 -.008 .234l-.6 9.014c-.11 1.683 -1.596 2.994 -3.392 2.994s-3.28 -1.311 -3.392 -2.994l-.6 -9.014c-.138 -2.071 1.538 -3.855 3.743 -3.985a4.15 4.15 0 0 1 .25 -.007z" />
+      <path d="M18 4c2.21 0 4 1.682 4 3.758c0 .078 0 .156 -.008 .234l-.6 9.014c-.11 1.683 -1.596 3 -3.392 3s-3.28 -1.311 -3.392 -3l-.6 -9.014c-.138 -2.071 1.538 -3.855 3.743 -3.985a4.15 4.15 0 0 1 .25 -.007z" />
       <path d="M14.5 14c1 -3.333 2.167 -5 3.5 -5c1.333 0 2.5 1.667 3.5 5" />
       <path d="M18 16v1" />
-      <path d="M6 4c2.21 0 4 1.682 4 3.758c0 .078 -.003 .156 -.008 .234l-.6 9.014c-.11 1.683 -1.596 2.994 -3.392 2.994s-3.28 -1.311 -3.392 -2.994l-.6 -9.014c-.138 -2.071 1.538 -3.855 3.742 -3.985c.084 -.005 .167 -.007 .25 -.007z" />
+      <path d="M6 4c2.21 0 4 1.682 4 3.758c0 .078 0 .156 -.008 .234l-.6 9.014c-.11 1.683 -1.596 3 -3.392 3s-3.28 -1.311 -3.392 -3l-.6 -9.014c-.138 -2.071 1.538 -3.855 3.742 -3.985c.084 0 .167 -.007 .25 -.007z" />
       <path d="M2.5 14c1 -3.333 2.167 -5 3.5 -5c1.333 0 2.5 1.667 3.5 5" />
       <path d="M6 16v1" />
     </svg>
@@ -36542,9 +37405,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="12" x2="21" y2="12" />
-      <polyline points="7 16 17 16 7 21 7 16" />
-      <polyline points="7 8 17 8 7 3 7 8" />
+      <path d="M3 12l18 0" />
+      <path d="M7 16l10 0l-10 5l0 -5" />
+      <path d="M7 8l10 0l-10 -5l0 5" />
     </svg>
     """
   end
@@ -36565,9 +37428,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="3" x2="12" y2="21" />
-      <polyline points="16 7 16 17 21 17 16 7" />
-      <polyline points="8 7 8 17 3 17 8 7" />
+      <path d="M12 3l0 18" />
+      <path d="M16 7l0 10l5 0l-5 -10" />
+      <path d="M8 7l0 10l-5 0l5 -10" />
     </svg>
     """
   end
@@ -36588,13 +37451,13 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect width="6" height="6" x="9" y="5" rx="1" />
-      <line x1="4" y1="7" x2="5" y2="7" />
-      <line x1="4" y1="11" x2="5" y2="11" />
-      <line x1="19" y1="7" x2="20" y2="7" />
-      <line x1="19" y1="11" x2="20" y2="11" />
-      <line x1="4" y1="15" x2="20" y2="15" />
-      <line x1="4" y1="19" x2="20" y2="19" />
+      <path d="M9 5m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M4 7l1 0" />
+      <path d="M4 11l1 0" />
+      <path d="M19 7l1 0" />
+      <path d="M19 11l1 0" />
+      <path d="M4 15l16 0" />
+      <path d="M4 19l16 0" />
     </svg>
     """
   end
@@ -36615,11 +37478,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect width="6" height="6" x="4" y="5" rx="1" />
-      <line x1="14" y1="7" x2="20" y2="7" />
-      <line x1="14" y1="11" x2="20" y2="11" />
-      <line x1="4" y1="15" x2="20" y2="15" />
-      <line x1="4" y1="19" x2="20" y2="19" />
+      <path d="M4 5m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M14 7l6 0" />
+      <path d="M14 11l6 0" />
+      <path d="M4 15l16 0" />
+      <path d="M4 19l16 0" />
     </svg>
     """
   end
@@ -36640,9 +37503,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect width="6" height="6" x="4" y="5" rx="1" />
-      <line x1="4" y1="15" x2="20" y2="15" />
-      <line x1="4" y1="19" x2="20" y2="19" />
+      <path d="M4 5m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M4 15l16 0" />
+      <path d="M4 19l16 0" />
     </svg>
     """
   end
@@ -36663,11 +37526,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect width="6" height="6" x="14" y="5" rx="1" />
-      <line x1="4" y1="7" x2="10" y2="7" />
-      <line x1="4" y1="11" x2="10" y2="11" />
-      <line x1="4" y1="15" x2="20" y2="15" />
-      <line x1="4" y1="19" x2="20" y2="19" />
+      <path d="M14 5m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M4 7l6 0" />
+      <path d="M4 11l6 0" />
+      <path d="M4 15l16 0" />
+      <path d="M4 19l16 0" />
     </svg>
     """
   end
@@ -36689,7 +37552,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9.875 9.882a3 3 0 0 0 4.247 4.238m.581 -3.423a3.012 3.012 0 0 0 -1.418 -1.409" />
-      <path d="M9 5a3 3 0 0 1 6 0c0 .562 -.259 1.442 -.776 2.64l-.724 1.36l1.76 -1.893c.499 -.6 .922 -1.002 1.27 -1.205a2.968 2.968 0 0 1 4.07 1.099a3.011 3.011 0 0 1 -1.09 4.098c-.374 .217 -.99 .396 -1.846 .535l-1.779 .244m.292 .282l1.223 .166c.995 .145 1.698 .337 2.11 .576a3.011 3.011 0 0 1 1.226 3.832m-2.277 1.733a2.968 2.968 0 0 1 -1.929 -.369c-.348 -.202 -.771 -.604 -1.27 -1.205l-1.76 -1.893l.724 1.36c.516 1.199 .776 2.079 .776 2.64a3 3 0 0 1 -6 0c0 -.562 .259 -1.442 .776 -2.64l.724 -1.36l-1.76 1.893c-.499 .601 -.922 1.003 -1.27 1.205a2.968 2.968 0 0 1 -4.07 -1.098a3.011 3.011 0 0 1 1.09 -4.098c.374 -.218 .99 -.396 1.846 -.536l2.664 -.366l-2.4 -.325c-.995 -.145 -1.698 -.337 -2.11 -.576a3.011 3.011 0 0 1 -1.09 -4.099a2.968 2.968 0 0 1 2.134 -1.467" />
+      <path d="M9 5a3 3 0 0 1 6 0c0 .562 -.259 1.442 -.776 2.64l-.724 1.36l1.76 -1.893c.499 -.6 .922 -1 1.27 -1.205a2.968 2.968 0 0 1 4.07 1.099a3.011 3.011 0 0 1 -1.09 4.098c-.374 .217 -.99 .396 -1.846 .535l-1.779 .244m.292 .282l1.223 .166c1 .145 1.698 .337 2.11 .576a3.011 3.011 0 0 1 1.226 3.832m-2.277 1.733a2.968 2.968 0 0 1 -1.929 -.369c-.348 -.202 -.771 -.604 -1.27 -1.205l-1.76 -1.893l.724 1.36c.516 1.199 .776 2.079 .776 2.64a3 3 0 0 1 -6 0c0 -.562 .259 -1.442 .776 -2.64l.724 -1.36l-1.76 1.893c-.499 .601 -.922 1 -1.27 1.205a2.968 2.968 0 0 1 -4.07 -1.098a3.011 3.011 0 0 1 1.09 -4.098c.374 -.218 .99 -.396 1.846 -.536l2.664 -.366l-2.4 -.325c-1 -.145 -1.698 -.337 -2.11 -.576a3.011 3.011 0 0 1 -1.09 -4.099a2.968 2.968 0 0 1 2.134 -1.467" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -36711,8 +37574,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="3" />
-      <path d="M12 2a3 3 0 0 1 3 3c0 .562 -.259 1.442 -.776 2.64l-.724 1.36l1.76 -1.893c.499 -.6 .922 -1.002 1.27 -1.205a2.968 2.968 0 0 1 4.07 1.099a3.011 3.011 0 0 1 -1.09 4.098c-.374 .217 -.99 .396 -1.846 .535l-2.664 .366l2.4 .326c.995 .145 1.698 .337 2.11 .576a3.011 3.011 0 0 1 1.09 4.098a2.968 2.968 0 0 1 -4.07 1.098c-.348 -.202 -.771 -.604 -1.27 -1.205l-1.76 -1.893l.724 1.36c.516 1.199 .776 2.079 .776 2.64a3 3 0 0 1 -6 0c0 -.562 .259 -1.442 .776 -2.64l.724 -1.36l-1.76 1.893c-.499 .601 -.922 1.003 -1.27 1.205a2.968 2.968 0 0 1 -4.07 -1.098a3.011 3.011 0 0 1 1.09 -4.098c.374 -.218 .99 -.396 1.846 -.536l2.664 -.366l-2.4 -.325c-.995 -.145 -1.698 -.337 -2.11 -.576a3.011 3.011 0 0 1 -1.09 -4.099a2.968 2.968 0 0 1 4.07 -1.099c.348 .203 .771 .604 1.27 1.205l1.76 1.894c-1 -2.292 -1.5 -3.625 -1.5 -4a3 3 0 0 1 3 -3z" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M12 2a3 3 0 0 1 3 3c0 .562 -.259 1.442 -.776 2.64l-.724 1.36l1.76 -1.893c.499 -.6 .922 -1 1.27 -1.205a2.968 2.968 0 0 1 4.07 1.099a3.011 3.011 0 0 1 -1.09 4.098c-.374 .217 -.99 .396 -1.846 .535l-2.664 .366l2.4 .326c1 .145 1.698 .337 2.11 .576a3.011 3.011 0 0 1 1.09 4.098a2.968 2.968 0 0 1 -4.07 1.098c-.348 -.202 -.771 -.604 -1.27 -1.205l-1.76 -1.893l.724 1.36c.516 1.199 .776 2.079 .776 2.64a3 3 0 0 1 -6 0c0 -.562 .259 -1.442 .776 -2.64l.724 -1.36l-1.76 1.893c-.499 .601 -.922 1 -1.27 1.205a2.968 2.968 0 0 1 -4.07 -1.098a3.011 3.011 0 0 1 1.09 -4.098c.374 -.218 .99 -.396 1.846 -.536l2.664 -.366l-2.4 -.325c-1 -.145 -1.698 -.337 -2.11 -.576a3.011 3.011 0 0 1 -1.09 -4.099a2.968 2.968 0 0 1 4.07 -1.099c.348 .203 .771 .604 1.27 1.205l1.76 1.894c-1 -2.292 -1.5 -3.625 -1.5 -4a3 3 0 0 1 3 -3z" />
     </svg>
     """
   end
@@ -36734,11 +37597,11 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <circle cx="12" cy="12" r=".5" fill="currentColor" />
-      <circle cx="12" cy="12" r="7" />
-      <line x1="12" y1="3" x2="12" y2="5" />
-      <line x1="3" y1="12" x2="5" y2="12" />
-      <line x1="12" y1="19" x2="12" y2="21" />
-      <line x1="19" y1="12" x2="21" y2="12" />
+      <path d="M12 12m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+      <path d="M12 3l0 2" />
+      <path d="M3 12l2 0" />
+      <path d="M12 19l0 2" />
+      <path d="M19 12l2 0" />
     </svg>
     """
   end
@@ -36759,7 +37622,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="1" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M4 8v-2a2 2 0 0 1 2 -2h2" />
       <path d="M4 16v2a2 2 0 0 0 2 2h2" />
       <path d="M16 4h2a2 2 0 0 1 2 2v2" />
@@ -36785,7 +37648,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <circle cx="12" cy="12" r=".5" fill="currentColor" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -36807,10 +37670,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 11v8l3 -3m-6 0l3 3" />
-      <line x1="9" y1="7" x2="10" y2="7" />
-      <line x1="14" y1="7" x2="15" y2="7" />
-      <line x1="19" y1="7" x2="20" y2="7" />
-      <line x1="4" y1="7" x2="5" y2="7" />
+      <path d="M9 7l1 0" />
+      <path d="M14 7l1 0" />
+      <path d="M19 7l1 0" />
+      <path d="M4 7l1 0" />
     </svg>
     """
   end
@@ -36832,10 +37695,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 13v-8l-3 3m6 0l-3 -3" />
-      <line x1="9" y1="17" x2="10" y2="17" />
-      <line x1="14" y1="17" x2="15" y2="17" />
-      <line x1="19" y1="17" x2="20" y2="17" />
-      <line x1="4" y1="17" x2="5" y2="17" />
+      <path d="M9 17l1 0" />
+      <path d="M14 17l1 0" />
+      <path d="M19 17l1 0" />
+      <path d="M4 17l1 0" />
     </svg>
     """
   end
@@ -36858,10 +37721,10 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3v6l3 -3m-6 0l3 3" />
       <path d="M12 21v-6l3 3m-6 0l3 -3" />
-      <line x1="4" y1="12" x2="5" y2="12" />
-      <line x1="9" y1="12" x2="10" y2="12" />
-      <line x1="14" y1="12" x2="15" y2="12" />
-      <line x1="19" y1="12" x2="20" y2="12" />
+      <path d="M4 12l1 0" />
+      <path d="M9 12l1 0" />
+      <path d="M14 12l1 0" />
+      <path d="M19 12l1 0" />
     </svg>
     """
   end
@@ -36883,7 +37746,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" />
-      <line x1="9" y1="13" x2="15" y2="13" />
+      <path d="M9 13l6 0" />
     </svg>
     """
   end
@@ -36904,7 +37767,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M19 19h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 1.172 -1.821m3.828 -.179h1l3 3h7a2 2 0 0 1 2 2v8" />
     </svg>
     """
@@ -36927,8 +37790,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" />
-      <line x1="12" y1="10" x2="12" y2="16" />
-      <line x1="9" y1="13" x2="15" y2="13" />
+      <path d="M12 10l0 6" />
+      <path d="M9 13l6 0" />
     </svg>
     """
   end
@@ -37037,8 +37900,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="15" x2="15" y2="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 15l6 -6" />
     </svg>
     """
   end
@@ -37059,8 +37922,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="9" x2="15" y2="15" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 9l6 6" />
     </svg>
     """
   end
@@ -37081,14 +37944,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="17" r="2" />
-      <circle cx="14" cy="17" r="2" />
-      <line x1="7" y1="17" x2="12" y2="17" />
+      <path d="M5 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M14 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M7 17l5 0" />
       <path d="M3 17v-6h13v6" />
       <path d="M5 11v-4h4" />
       <path d="M9 11v-6h4l3 6" />
       <path d="M22 15h-3v-10" />
-      <line x1="16" y1="13" x2="19" y2="13" />
+      <path d="M16 13l3 0" />
     </svg>
     """
   end
@@ -37211,10 +38074,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="7" x2="20" y2="7" />
-      <line x1="4" y1="17" x2="20" y2="17" />
-      <line x1="7" y1="4" x2="7" y2="20" />
-      <line x1="17" y1="4" x2="17" y2="20" />
+      <path d="M4 7l16 0" />
+      <path d="M4 17l16 0" />
+      <path d="M7 4l0 16" />
+      <path d="M17 4l0 16" />
     </svg>
     """
   end
@@ -37235,7 +38098,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M13.867 9.75c-.246 -.48 -.708 -.769 -1.2 -.75h-1.334c-.736 0 -1.333 .67 -1.333 1.5c0 .827 .597 1.499 1.333 1.499h1.334c.736 0 1.333 .671 1.333 1.5c0 .828 -.597 1.499 -1.333 1.499h-1.334c-.492 .019 -.954 -.27 -1.2 -.75" />
       <path d="M12 7v2" />
       <path d="M12 15v2" />
@@ -37285,7 +38148,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="3" width="14" height="18" rx="2" />
+      <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
       <path d="M5 10h14" />
       <path d="M9 13v3" />
       <path d="M9 6v1" />
@@ -37311,8 +38174,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 5a2 2 0 0 0 2 2m2 -2a2 2 0 0 0 -2 -2" />
       <path d="M5 22v-5l-1 -1v-4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4l-1 1v5" />
-      <circle cx="17" cy="5" r="2" />
-      <path d="M15 22v-4h-2l1.254 -3.763m1.036 -2.942a0.997 .997 0 0 1 .71 -.295h2a1 1 0 0 1 1 1l1.503 4.508m-1.503 2.492v3" />
+      <path d="M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M15 22v-4h-2l1.254 -3.763m1.036 -2.942a1 1 0 0 1 .71 -.295h2a1 1 0 0 1 1 1l1.503 4.508m-1.503 2.492v3" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -37334,9 +38197,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="5" r="2" />
+      <path d="M7 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5 22v-5l-1 -1v-4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4l-1 1v5" />
-      <circle cx="17" cy="5" r="2" />
+      <path d="M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M15 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4" />
     </svg>
     """
@@ -37359,7 +38222,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 15.5v.25c0 .69 .56 1.25 1.25 1.25a1.38 1.38 0 0 0 1.374 -1.244l.376 -3.756m.363 -3.63l.013 -.126a1.38 1.38 0 0 1 1.374 -1.244c.69 0 1.25 .56 1.25 1.25v.25" />
-      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a1.994 1.994 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
+      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a2 2 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
       <path d="M9 12h3" />
       <path d="M3 3l18 18" />
     </svg>
@@ -37382,7 +38245,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2.667" />
+      <path d="M4 4m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h10.666a2.667 2.667 0 0 1 2.667 2.667v10.666a2.667 2.667 0 0 1 -2.667 2.667h-10.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
       <path d="M9 15.5v.25c0 .69 .56 1.25 1.25 1.25c.71 0 1.304 -.538 1.374 -1.244l.752 -7.512a1.381 1.381 0 0 1 1.374 -1.244c.69 0 1.25 .56 1.25 1.25v.25" />
       <path d="M9 12h6" />
     </svg>
@@ -37407,7 +38270,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15.733 15.732a2.5 2.5 0 1 0 3.544 3.527" />
       <path d="M6 8v11a1 1 0 0 0 1.806 .591l3.694 -5.091v.055" />
-      <path d="M6 8h2m4 0h9l-3.005 6.01m-3.319 .693l-4.276 -.45a4 4 0 0 1 -3.296 -2.493l-2.853 -7.13a1 1 0 0 0 -.928 -.63h-1.323" />
+      <path d="M6 8h2m4 0h9l-3 6.01m-3.319 .693l-4.276 -.45a4 4 0 0 1 -3.296 -2.493l-2.853 -7.13a1 1 0 0 0 -.928 -.63h-1.323" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -37429,7 +38292,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="17.5" cy="17.5" r="2.5" />
+      <path d="M17.5 17.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
       <path d="M6 8v11a1 1 0 0 0 1.806 .591l3.694 -5.091v.055" />
       <path d="M6 8h15l-3.5 7l-7.1 -.747a4 4 0 0 1 -3.296 -2.493l-2.853 -7.13a1 1 0 0 0 -.928 -.63h-1.323" />
     </svg>
@@ -37480,9 +38343,9 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 11h1a2 2 0 0 1 2 2v3a1.5 1.5 0 0 0 3 0v-7l-3 -3" />
       <path d="M4 20v-14a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v14" />
-      <line x1="3" y1="20" x2="15" y2="20" />
+      <path d="M3 20l12 0" />
       <path d="M18 7v1a1 1 0 0 0 1 1h1" />
-      <line x1="4" y1="11" x2="14" y2="11" />
+      <path d="M4 11l10 0" />
     </svg>
     """
   end
@@ -37528,9 +38391,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="12" cy="12" r="1" />
-      <line x1="13.41" y1="10.59" x2="16" y2="8" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M13.41 10.59l2.59 -2.59" />
       <path d="M7 12a5 5 0 0 1 5 -5" />
     </svg>
     """
@@ -37577,7 +38440,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="6" />
+      <path d="M12 12m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
       <path d="M7 12h11" />
     </svg>
     """
@@ -37600,7 +38463,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M13 11l6 -6" />
-      <circle cx="9" cy="15" r="5" />
+      <path d="M9 15m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
       <path d="M19 9v-4h-4" />
       <path d="M16.5 10.5l-3 -3" />
     </svg>
@@ -37623,7 +38486,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="11" cy="11" r="4" />
+      <path d="M11 11m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M19 3l-5 5" />
       <path d="M15 3h4v4" />
       <path d="M11 16v6" />
@@ -37648,7 +38511,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="14" r="5" />
+      <path d="M10 14m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
       <path d="M19 5l-5.4 5.4" />
       <path d="M19 5h-5" />
     </svg>
@@ -37671,7 +38534,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="9" r="5" />
+      <path d="M12 9m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
       <path d="M12 14v7" />
       <path d="M9 18h3" />
     </svg>
@@ -37718,7 +38581,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="9" r="5" />
+      <path d="M12 9m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
       <path d="M12 14v7" />
       <path d="M9 18h6" />
     </svg>
@@ -37741,7 +38604,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="9" r="5" />
+      <path d="M12 9m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
       <path d="M12 14v7" />
       <path d="M7 18h10" />
     </svg>
@@ -37765,7 +38628,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 15.464a4 4 0 1 0 4 -6.928a4 4 0 0 0 -4 6.928z" />
-      <path d="M15.464 13.999l3 -5.196" />
+      <path d="M15.464 14l3 -5.196" />
       <path d="M5.536 15.195l3 -5.196" />
       <path d="M12 12h.01" />
       <path d="M9 9l-6 -6" />
@@ -37888,7 +38751,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="14" r="5" />
+      <path d="M10 14m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
       <path d="M19 5l-5.4 5.4" />
       <path d="M19 5h-5" />
       <path d="M19 5v5" />
@@ -37957,7 +38820,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="4" />
+      <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M15 9l6 -6" />
       <path d="M21 7v-4h-4" />
       <path d="M9 9l-6 -6" />
@@ -38009,7 +38872,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 21l4 -12m2 0l1.48 4.439m.949 2.847l1.571 4.714" />
-      <circle cx="12" cy="7" r="2" />
+      <path d="M12 7m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M4 12c1.526 2.955 4.588 5 8 5c3.41 0 6.473 -2.048 8 -5" />
       <path d="M12 5v-2" />
     </svg>
@@ -38081,8 +38944,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 11a7 7 0 0 1 14 0v7a1.78 1.78 0 0 1 -3.1 1.4a1.65 1.65 0 0 0 -2.6 0a1.65 1.65 0 0 1 -2.6 0a1.65 1.65 0 0 0 -2.6 0a1.78 1.78 0 0 1 -3.1 -1.4v-7" />
-      <line x1="10" y1="10" x2="10.01" y2="10" />
-      <line x1="14" y1="10" x2="14.01" y2="10" />
+      <path d="M10 10l.01 0" />
+      <path d="M14 10l.01 0" />
       <path d="M10 14a3.5 3.5 0 0 0 4 0" />
     </svg>
     """
@@ -38128,7 +38991,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="3" />
+      <path d="M3 5m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
       <path d="M7 16l3 -3l3 3" />
       <path d="M8 13c-.789 0 -2 -.672 -2 -1.5s.711 -1.5 1.5 -1.5c1.128 -.02 2.077 1.17 2.5 3c.423 -1.83 1.372 -3.02 2.5 -3c.789 0 1.5 .672 1.5 1.5s-1.211 1.5 -2 1.5h-4z" />
     </svg>
@@ -38176,8 +39039,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="8" width="18" height="4" rx="1" />
-      <line x1="12" y1="8" x2="12" y2="21" />
+      <path d="M3 8m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+      <path d="M12 8l0 13" />
       <path d="M19 12v7a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-7" />
       <path d="M7.5 8a2.5 2.5 0 0 1 0 -5a4.8 8 0 0 1 4.5 5a4.8 8 0 0 1 4.5 -5a2.5 2.5 0 0 1 0 5" />
     </svg>
@@ -38200,8 +39063,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="18" r="2" />
-      <circle cx="7" cy="6" r="2" />
+      <path d="M7 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M7 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M7 8v8" />
       <path d="M9 18h6a2 2 0 0 0 2 -2v-5" />
       <path d="M14 14l3 -3l3 3" />
@@ -38227,12 +39090,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="18" r="2" />
-      <circle cx="7" cy="6" r="2" />
-      <circle cx="17" cy="6" r="2" />
-      <line x1="7" y1="8" x2="7" y2="16" />
+      <path d="M7 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M7 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M7 8l0 8" />
       <path d="M9 18h6a2 2 0 0 0 2 -2v-5" />
-      <polyline points="14 14 17 11 20 14" />
+      <path d="M14 14l3 -3l3 3" />
     </svg>
     """
   end
@@ -38253,7 +39116,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="12" r="3" />
+      <path d="M7 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M7 3v6" />
       <path d="M7 15v6" />
       <path d="M13 7h2.5l1.5 5l-1.5 5h-2.5" />
@@ -38278,9 +39141,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="3" />
-      <line x1="12" y1="3" x2="12" y2="9" />
-      <line x1="12" y1="15" x2="12" y2="21" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M12 3l0 6" />
+      <path d="M12 15l0 6" />
     </svg>
     """
   end
@@ -38301,12 +39164,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="6" r="2" />
-      <circle cx="18" cy="18" r="2" />
+      <path d="M6 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M11 6h5a2 2 0 0 1 2 2v8" />
-      <polyline points="14 9 11 6 14 3" />
+      <path d="M14 9l-3 -3l3 -3" />
       <path d="M13 18h-5a2 2 0 0 1 -2 -2v-8" />
-      <polyline points="10 15 13 18 10 21" />
+      <path d="M10 15l3 3l-3 3" />
     </svg>
     """
   end
@@ -38327,11 +39190,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="18" r="2" />
-      <circle cx="7" cy="6" r="2" />
-      <circle cx="17" cy="6" r="2" />
+      <path d="M12 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M7 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M7 8v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2 -2v-2" />
-      <line x1="12" y1="12" x2="12" y2="16" />
+      <path d="M12 12l0 4" />
     </svg>
     """
   end
@@ -38352,10 +39215,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="18" r="2" />
-      <circle cx="7" cy="6" r="2" />
-      <circle cx="17" cy="12" r="2" />
-      <line x1="7" y1="8" x2="7" y2="16" />
+      <path d="M7 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M7 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M7 8l0 8" />
       <path d="M7 8a4 4 0 0 0 4 4h4" />
     </svg>
     """
@@ -38377,9 +39240,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="18" r="2" />
-      <circle cx="6" cy="6" r="2" />
-      <circle cx="18" cy="18" r="2" />
+      <path d="M6 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M6 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M6 8v8" />
       <path d="M18 11v5" />
       <path d="M16 4l4 4m0 -4l-4 4" />
@@ -38403,9 +39266,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="18" r="2" />
-      <circle cx="6" cy="6" r="2" />
-      <circle cx="18" cy="18" r="2" />
+      <path d="M6 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M6 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M6 8v8" />
       <path d="M18 11h.01" />
       <path d="M18 6h.01" />
@@ -38429,12 +39292,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="18" r="2" />
-      <circle cx="6" cy="6" r="2" />
-      <circle cx="18" cy="18" r="2" />
-      <line x1="6" y1="8" x2="6" y2="16" />
+      <path d="M6 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M6 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M6 8l0 8" />
       <path d="M11 6h5a2 2 0 0 1 2 2v8" />
-      <polyline points="14 9 11 6 14 3" />
+      <path d="M14 9l-3 -3l3 -3" />
     </svg>
     """
   end
@@ -38457,9 +39320,9 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M20 19l-8 -5.5l-8 5.5" />
       <path d="M12 4v9.5" />
-      <circle cx="12" cy="4" r="1" />
-      <circle cx="4" cy="19" r="1" />
-      <circle cx="20" cy="19" r="1" />
+      <path d="M12 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M4 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M20 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -38480,8 +39343,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="8" y1="21" x2="16" y2="21" />
-      <line x1="12" y1="15" x2="12" y2="21" />
+      <path d="M8 21l8 0" />
+      <path d="M12 15l0 6" />
       <path d="M17 3l1 7c0 3.012 -2.686 5 -6 5s-6 -1.988 -6 -5l1 -7h10z" />
       <path d="M6 10a5 5 0 0 1 6 0a5 5 0 0 0 6 0" />
     </svg>
@@ -38504,10 +39367,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="8" y1="21" x2="16" y2="21" />
-      <line x1="12" y1="15" x2="12" y2="21" />
+      <path d="M8 21l8 0" />
+      <path d="M12 15l0 6" />
       <path d="M7 3h10l1 7a4.511 4.511 0 0 1 -1.053 2.94m-2.386 1.625a7.48 7.48 0 0 1 -2.561 .435c-3.314 0 -6 -1.988 -6 -5l.5 -3.495" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -38528,8 +39391,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="8" y1="21" x2="16" y2="21" />
-      <line x1="12" y1="15" x2="12" y2="21" />
+      <path d="M8 21l8 0" />
+      <path d="M12 15l0 6" />
       <path d="M17 3l1 7c0 3.012 -2.686 5 -6 5s-6 -1.988 -6 -5l1 -7h10z" />
     </svg>
     """
@@ -38551,8 +39414,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8.36 8.339a4 4 0 0 0 5.281 5.31m1.995 -1.98a4 4 0 0 0 -5.262 -5.325" />
-      <path d="M6.75 16a8.015 8.015 0 0 0 9.799 .553m2.016 -1.998a8.015 8.015 0 0 0 -2.565 -11.555" />
+      <path d="M8.36 8.339a4 4 0 0 0 5.281 5.31m2 -1.98a4 4 0 0 0 -5.262 -5.325" />
+      <path d="M6.75 16a8.015 8.015 0 0 0 9.799 .553m2.016 -2a8.015 8.015 0 0 0 -2.565 -11.555" />
       <path d="M12 18v4" />
       <path d="M8 22h8" />
       <path d="M3 3l18 18" />
@@ -38576,10 +39439,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="10" r="4" />
+      <path d="M12 10m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M6.75 16a8.015 8.015 0 1 0 9.25 -13" />
-      <line x1="12" y1="18" x2="12" y2="22" />
-      <line x1="8" y1="22" x2="16" y2="22" />
+      <path d="M12 18l0 4" />
+      <path d="M8 22l8 0" />
     </svg>
     """
   end
@@ -38600,10 +39463,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="6" r="2" />
-      <circle cx="12" cy="12" r="2" />
-      <circle cx="6" cy="18" r="2" />
-      <circle cx="18" cy="18" r="2" />
+      <path d="M6 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M12 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M6 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M3 12h7m4 0h7" />
       <path d="M3 6h1m4 0h13" />
       <path d="M3 18h1m4 0h8m4 0h1" />
@@ -38675,7 +39538,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 17l-1 -4l-4 -1l9 -4z" />
     </svg>
     """
@@ -38697,9 +39560,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3.227 14c.917 3.999 4.497 7 8.773 7c4.277 0 7.858 -3 8.773 -7" />
-      <path d="M20.78 10a8.994 8.994 0 0 0 -8.78 -7a8.985 8.985 0 0 0 -8.782 7" />
-      <circle cx="12" cy="12" r="2" />
+      <path d="M3.227 14c.917 4 4.497 7 8.773 7c4.277 0 7.858 -3 8.773 -7" />
+      <path d="M20.78 10a9 9 0 0 0 -8.78 -7a8.985 8.985 0 0 0 -8.782 7" />
+      <path d="M12 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -38720,14 +39583,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="4.5" cy="9.5" r="1" />
-      <circle cx="9.5" cy="4.5" r="1" />
-      <circle cx="9.5" cy="14.5" r="1" />
-      <circle cx="4.5" cy="19.5" r="1" />
-      <circle cx="14.5" cy="9.5" r="1" />
-      <circle cx="19.5" cy="4.5" r="1" />
-      <circle cx="14.5" cy="19.5" r="1" />
-      <circle cx="19.5" cy="14.5" r="1" />
+      <path d="M4.5 9.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M9.5 4.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M9.5 14.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M4.5 19.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M14.5 9.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M19.5 4.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M14.5 19.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M19.5 14.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -38748,7 +39611,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a1.994 1.994 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
+      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.586 3.414a2 2 0 0 1 -1.414 .586h-12a2 2 0 0 1 -2 -2v-12c0 -.547 .22 -1.043 .576 -1.405" />
       <path d="M7 14l3 -3l2 2l.5 -.5m2 -2l.5 -.5l2 2" />
       <path d="M3 3l18 18" />
     </svg>
@@ -38839,15 +39702,15 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="5" r="1" />
-      <circle cx="12" cy="5" r="1" />
-      <circle cx="19" cy="5" r="1" />
-      <circle cx="5" cy="12" r="1" />
-      <circle cx="12" cy="12" r="1" />
-      <circle cx="19" cy="12" r="1" />
-      <circle cx="5" cy="19" r="1" />
-      <circle cx="12" cy="19" r="1" />
-      <circle cx="19" cy="19" r="1" />
+      <path d="M5 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M19 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M19 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -38868,7 +39731,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8v8" />
       <path d="M14 8v8" />
       <path d="M8 10h8" />
@@ -38916,7 +39779,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8 8h-3a6 6 0 0 0 6 6h2c.315 0 .624 -.024 .926 -.071m2.786 -1.214a5.99 5.99 0 0 0 2.284 -4.49l.004 -.225h-7" />
+      <path d="M8 8h-3a6 6 0 0 0 6 6h2c.315 0 .624 -.024 .926 -.071m2.786 -1.214a5.99 5.99 0 0 0 2.284 -4.49l0 -.225h-7" />
       <path d="M18.827 18.815a2 2 0 1 1 -2.663 -2.633" />
       <path d="M9 14l-3 6" />
       <path d="M15 18h-8" />
@@ -38967,7 +39830,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M19 8h-14a6 6 0 0 0 6 6h2a6 6 0 0 0 5.996 -5.775l.004 -.225z" />
+      <path d="M19 8h-14a6 6 0 0 0 6 6h2a6 6 0 0 0 6 -5.775l0 -.225z" />
       <path d="M17 20a2 2 0 1 1 0 -4a2 2 0 0 1 0 4z" />
       <path d="M15 14l1 2" />
       <path d="M9 14l-3 6" />
@@ -38995,12 +39858,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="9" r="1" />
-      <circle cx="5" cy="15" r="1" />
-      <circle cx="12" cy="9" r="1" />
-      <circle cx="12" cy="15" r="1" />
-      <circle cx="19" cy="9" r="1" />
-      <circle cx="19" cy="15" r="1" />
+      <path d="M5 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M5 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M19 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M19 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -39021,12 +39884,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="9" cy="5" r="1" />
-      <circle cx="9" cy="12" r="1" />
-      <circle cx="9" cy="19" r="1" />
-      <circle cx="15" cy="5" r="1" />
-      <circle cx="15" cy="12" r="1" />
-      <circle cx="15" cy="19" r="1" />
+      <path d="M9 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M9 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M9 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M15 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M15 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M15 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -39048,6 +39911,30 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M16.5 15a4.5 4.5 0 0 0 -4.5 4.5m4.5 -8.5a4.5 4.5 0 0 0 -4.5 4.5m4.5 -8.5a4.5 4.5 0 0 0 -4.5 4.5m-4 3.5c2.21 0 4 2.015 4 4.5m-4 -8.5c2.21 0 4 2.015 4 4.5m-4 -8.5c2.21 0 4 2.015 4 4.5m0 -7.5v6" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `guitar_pick_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.guitar_pick_filled />
+      <TablerIcons.guitar_pick_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def guitar_pick_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M16 18.5c2 -2.5 4 -6.5 4 -10.5c0 -2.946 -2.084 -4.157 -4.204 -4.654c-.864 -.23 -2.13 -.346 -3.796 -.346c-1.667 0 -2.932 .115 -3.796 .346c-2.12 .497 -4.204 1.708 -4.204 4.654c0 3.312 2 8 4 10.5c.297 .37 .618 .731 .963 1.081l.354 .347a3.9 3.9 0 0 0 5.364 0a14.05 14.05 0 0 0 1.319 -1.428z"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -39260,7 +40147,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10.698 10.72l-6.668 6.698a2.091 2.091 0 0 0 0 2.967a2.11 2.11 0 0 0 2.976 0l6.696 -6.676" />
-      <path d="M18.713 14.702l1.994 -1.995a1 1 0 0 0 0 -1.414l-7.586 -7.586a1 1 0 0 0 -1.414 0l-1.999 1.999" />
+      <path d="M18.713 14.702l2 -2a1 1 0 0 0 0 -1.414l-7.586 -7.586a1 1 0 0 0 -1.414 0l-2 2" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -39336,7 +40223,7 @@ defmodule TablerIcons do
       <path d="M8.06 4.077a1.5 1.5 0 0 1 2.94 .423v2.5m0 4v1" />
       <path d="M12.063 8.065a1.5 1.5 0 0 1 1.937 1.435v.5" />
       <path d="M14.06 10.082a1.5 1.5 0 0 1 2.94 .418v1.5" />
-      <path d="M17 11.5a1.5 1.5 0 0 1 3 0v4.5m-.88 3.129a5.996 5.996 0 0 1 -5.12 2.871h-2h.208a6 6 0 0 1 -5.012 -2.7l-.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47" />
+      <path d="M17 11.5a1.5 1.5 0 0 1 3 0v4.5m-.88 3.129a6 6 0 0 1 -5.12 2.871h-2h.208a6 6 0 0 1 -5.012 -2.7l-.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -39480,7 +40367,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M8 13.5v-5.5m.44 -3.562a1.5 1.5 0 0 1 2.56 1.062v1.5m0 4.008v.992m0 -6.5v-2a1.5 1.5 0 1 1 3 0v6.5m0 -4.5a1.5 1.5 0 0 1 3 0v6.5m0 -4.5a1.5 1.5 0 0 1 3 0v8.5a6 6 0 0 1 -6 6h-2c-2.114 -.292 -3.956 -1.397 -5 -3l-2.7 -5.25a1.7 1.7 0 0 1 2.75 -2l.9 1.75" />
     </svg>
     """
@@ -39648,8 +40535,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 9l-7.971 4.428a2 2 0 0 0 -1.029 1.749v.823a2 2 0 0 0 2 2h1" />
-      <path d="M18 18h1a2 2 0 0 0 2 -2v-.823a2 2 0 0 0 -1.029 -1.749l-7.971 -4.428c-1.457 -.81 -1.993 -2.333 -1.996 -4a2 2 0 1 1 4 0" />
-      <rect x="6" y="16" width="12" height="5" rx="2" />
+      <path d="M18 18h1a2 2 0 0 0 2 -2v-.823a2 2 0 0 0 -1.029 -1.749l-7.971 -4.428c-1.457 -.81 -1.993 -2.333 -2 -4a2 2 0 1 1 4 0" />
+      <path d="M6 16m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -39670,7 +40557,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M14.004 6a2 2 0 1 0 -4 0m6.506 6.506l3.461 1.922a2 2 0 0 1 1.029 1.749v.823m-2 2h-14a2 2 0 0 1 -2 -2v-.823a2 2 0 0 1 1.029 -1.749l6.673 -3.707" />
+      <path d="M14 6a2 2 0 1 0 -4 0m6.506 6.506l3.461 1.922a2 2 0 0 1 1.029 1.749v.823m-2 2h-14a2 2 0 0 1 -2 -2v-.823a2 2 0 0 1 1.029 -1.749l6.673 -3.707" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -39692,7 +40579,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M14.004 6a2 2 0 1 0 -4 0c.003 1.667 .67 3 2.004 4h-.008l7.971 4.428a2 2 0 0 1 1.029 1.749v.823a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-.823a2 2 0 0 1 1.029 -1.749l7.971 -4.428" />
+      <path d="M14 6a2 2 0 1 0 -4 0c0 1.667 .67 3 2 4h-.008l7.971 4.428a2 2 0 0 1 1.029 1.749v.823a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-.823a2 2 0 0 1 1.029 -1.749l7.971 -4.428" />
     </svg>
     """
   end
@@ -39713,10 +40600,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="5" y1="9" x2="19" y2="9" />
-      <line x1="5" y1="15" x2="19" y2="15" />
-      <line x1="11" y1="4" x2="7" y2="20" />
-      <line x1="17" y1="4" x2="13" y2="20" />
+      <path d="M5 9l14 0" />
+      <path d="M5 15l14 0" />
+      <path d="M11 4l-4 16" />
+      <path d="M17 4l-4 16" />
     </svg>
     """
   end
@@ -39819,8 +40706,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
-      <rect x="4" y="13" width="5" height="7" rx="2" />
+      <path d="M3 3l18 18" />
+      <path d="M4 13m0 2a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2z" />
       <path d="M17 13h1a2 2 0 0 1 2 2v1m-.589 3.417c-.361 .36 -.86 .583 -1.411 .583h-1a2 2 0 0 1 -2 -2v-3" />
       <path d="M4 15v-3c0 -2.21 .896 -4.21 2.344 -5.658m2.369 -1.638a8 8 0 0 1 11.287 7.296v3" />
     </svg>
@@ -39843,8 +40730,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="13" rx="2" width="5" height="7" />
-      <rect x="15" y="13" rx="2" width="5" height="7" />
+      <path d="M4 13m0 2a2 2 0 0 1 2 -2h3a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-3a2 2 0 0 1 -2 -2z" />
+      <path d="M15 13m0 2a2 2 0 0 1 2 -2h3a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-3a2 2 0 0 1 -2 -2z" />
       <path d="M4 15v-3a8 8 0 0 1 16 0v3" />
     </svg>
     """
@@ -39866,7 +40753,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="13" width="4" height="6" rx="2" />
+      <path d="M4 13m0 2a2 2 0 0 1 2 -2h0a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h0a2 2 0 0 1 -2 -2z" />
       <path d="M17.185 13.173a2 2 0 0 1 2.815 1.827v1m-1.18 2.825a2 2 0 0 1 -2.82 -1.825v-1" />
       <path d="M4 15v-3c0 -2.208 .894 -4.207 2.34 -5.654m2.377 -1.643a8 8 0 0 1 11.283 7.297v3" />
       <path d="M18 19c0 1.657 -2.686 3 -6 3" />
@@ -39891,8 +40778,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="13" rx="2" width="4" height="6" />
-      <rect x="16" y="13" rx="2" width="4" height="6" />
+      <path d="M4 13m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M16 13m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
       <path d="M4 15v-3a8 8 0 0 1 16 0v3" />
       <path d="M18 19a6 3 0 0 1 -6 3" />
     </svg>
@@ -39942,6 +40829,27 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
       <path d="M12 6l-2 4l4 3l-2 4v3" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `heart_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.heart_filled />
+      <TablerIcons.heart_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def heart_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" fill="currentColor" />
     </svg>
     """
   end
@@ -40009,7 +40917,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 3l18 18" />
-      <path d="M19.5 12.572l-1.5 1.428m-2 2l-4 4l-7.5 -7.428m0 0a5 5 0 0 1 -1.288 -5.068a4.976 4.976 0 0 1 1.788 -2.504m3 -1c1.56 .003 3.05 .727 4 2.006a5 5 0 1 1 7.5 6.572" />
+      <path d="M19.5 12.572l-1.5 1.428m-2 2l-4 4l-7.5 -7.428a5 5 0 0 1 -1.288 -5.068a4.976 4.976 0 0 1 1.788 -2.504m3 -1c1.56 0 3.05 .727 4 2a5 5 0 1 1 7.5 6.572" />
     </svg>
     """
   end
@@ -40030,7 +40938,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M13 19l-1 1l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 0 1 8.003 5.996" />
+      <path d="M13 19l-1 1l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 0 1 8 6" />
       <path d="M14 16h6" />
       <path d="M17 13v6" />
     </svg>
@@ -40053,7 +40961,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="4" width="18" height="12" rx="1" />
+      <path d="M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
       <path d="M7 20h10" />
       <path d="M9 16v4" />
       <path d="M15 16v4" />
@@ -40078,7 +40986,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+      <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
     </svg>
     """
   end
@@ -40121,8 +41029,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M14.017 18.001l-2.017 1.999l-7.5 -7.428a5 5 0 0 1 .49 -7.586m3.01 -.998a5 5 0 0 1 4 2.018a5 5 0 0 1 8.153 5.784" />
-      <path d="M11.814 11.814a2.81 2.81 0 0 0 -.007 3.948l4.182 4.238l2.01 -2.021m1.977 -1.99l.211 -.212a2.81 2.81 0 0 0 .006 -3.948a2.747 2.747 0 0 0 -3.91 -.007l-.283 .178" />
+      <path d="M14.017 18l-2.017 2l-7.5 -7.428a5 5 0 0 1 .49 -7.586m3.01 -1a5 5 0 0 1 4 2.018a5 5 0 0 1 8.153 5.784" />
+      <path d="M11.814 11.814a2.81 2.81 0 0 0 -.007 3.948l4.182 4.238l2.01 -2.021m1.977 -1.99l.211 -.212a2.81 2.81 0 0 0 0 -3.948a2.747 2.747 0 0 0 -3.91 -.007l-.283 .178" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -40144,8 +41052,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M14.017 18.001l-2.017 1.999l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 0 1 8.153 5.784" />
-      <path d="M15.99 20l4.197 -4.223a2.81 2.81 0 0 0 .006 -3.948a2.747 2.747 0 0 0 -3.91 -.007l-.28 .282l-.279 -.283a2.747 2.747 0 0 0 -3.91 -.007a2.81 2.81 0 0 0 -.007 3.948l4.182 4.238z" />
+      <path d="M14.017 18l-2.017 2l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 0 1 8.153 5.784" />
+      <path d="M15.99 20l4.197 -4.223a2.81 2.81 0 0 0 0 -3.948a2.747 2.747 0 0 0 -3.91 -.007l-.28 .282l-.279 -.283a2.747 2.747 0 0 0 -3.91 -.007a2.81 2.81 0 0 0 -.007 3.948l4.182 4.238z" />
     </svg>
     """
   end
@@ -40166,10 +41074,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="9" y1="8" x2="9" y2="16" />
-      <line x1="9" y1="12" x2="15" y2="12" />
-      <line x1="15" y1="8" x2="15" y2="16" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M9 8l0 8" />
+      <path d="M9 12l6 0" />
+      <path d="M15 8l0 8" />
     </svg>
     """
   end
@@ -40192,11 +41100,11 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 10l1 2h6" />
       <path d="M12 9a2 2 0 0 0 -2 2v3c0 1.1 .9 2 2 2h7a2 2 0 0 0 2 -2c0 -3.31 -3.13 -5 -7 -5h-2z" />
-      <line x1="13" y1="9" x2="13" y2="6" />
-      <line x1="5" y1="6" x2="20" y2="6" />
+      <path d="M13 9l0 -3" />
+      <path d="M5 6l15 0" />
       <path d="M15 9.1v3.9h5.5" />
-      <line x1="15" y1="19" x2="15" y2="16" />
-      <line x1="19" y1="19" x2="11" y2="19" />
+      <path d="M15 19l0 -3" />
+      <path d="M19 19l-8 0" />
     </svg>
     """
   end
@@ -40286,8 +41194,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="12" y1="17" x2="12" y2="17.01" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 17l0 .01" />
       <path d="M12 13.5a1.5 1.5 0 0 1 1 -1.5a2.6 2.6 0 1 0 -3 -4" />
     </svg>
     """
@@ -40309,13 +41217,37 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M19 6.844a2.007 2.007 0 0 1 1 1.752v6.555c0 .728 -.394 1.399 -1.03 1.753l-5.999 3.844a1.995 1.995 0 0 1 -1.942 0l-6 -3.844a2.007 2.007 0 0 1 -1.029 -1.752v-6.556c0 -.729 .394 -1.4 1.029 -1.753l6 -3.583a2.05 2.05 0 0 1 2 0l6 3.584h-.03z" />
+      <path d="M19 6.844a2.007 2.007 0 0 1 1 1.752v6.555c0 .728 -.394 1.399 -1.03 1.753l-6 3.844a2 2 0 0 1 -1.942 0l-6 -3.844a2.007 2.007 0 0 1 -1.029 -1.752v-6.556c0 -.729 .394 -1.4 1.029 -1.753l6 -3.583a2.05 2.05 0 0 1 2 0l6 3.584h-.03z" />
       <path d="M12 16.5v4.5" />
       <path d="M4.5 7.5l3.5 2.5" />
       <path d="M16 10l4 -2.5" />
       <path d="M12 7.5v4.5l-4 2" />
       <path d="M12 12l4 2" />
       <path d="M12 16.5l4 -2.5v-4l-4 -2.5l-4 2.5v4z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `hexagon_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.hexagon_filled />
+      <TablerIcons.hexagon_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def hexagon_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M19 6.873a2 2 0 0 1 1 1.747v6.536a2 2 0 0 1 -1.029 1.748l-6 3.833a2 2 0 0 1 -1.942 0l-6 -3.833a2 2 0 0 1 -1.029 -1.747v-6.537a2 2 0 0 1 1.029 -1.748l6 -3.572a2.056 2.056 0 0 1 2 0l6 3.573h-.029z"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -41073,7 +42005,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M19.02 6.858a2.006 2.006 0 0 1 1.003 1.752v6.555c0 .728 -.395 1.4 -1.032 1.753l-6.017 3.844a2.006 2.006 0 0 1 -1.948 0l-6.016 -3.844a2.006 2.006 0 0 1 -1.032 -1.752v-6.556c0 -.728 .395 -1.4 1.032 -1.753l6.017 -3.582a2.062 2.062 0 0 1 2.006 0l6.017 3.583h-.029z" />
+      <path d="M19.02 6.858a2 2 0 0 1 1 1.752v6.555c0 .728 -.395 1.4 -1.032 1.753l-6.017 3.844a2 2 0 0 1 -1.948 0l-6.016 -3.844a2 2 0 0 1 -1.032 -1.752v-6.556c0 -.728 .395 -1.4 1.032 -1.753l6.017 -3.582a2.062 2.062 0 0 1 2 0l6.017 3.583h-.029z" />
       <path d="M10 8h4l-2 8" />
     </svg>
     """
@@ -41234,7 +42166,7 @@ defmodule TablerIcons do
       <path d="M3 17h4v4h-4z" />
       <path d="M17 17h4v4h-4z" />
       <path d="M7 17l5 -4l5 4" />
-      <line x1="12" y1="7" x2="12" y2="13" />
+      <path d="M12 7l0 6" />
     </svg>
     """
   end
@@ -41255,12 +42187,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5" r="2" />
-      <circle cx="8" cy="12" r="2" />
-      <circle cx="12" cy="19" r="2" />
-      <circle cx="20" cy="19" r="2" />
-      <circle cx="4" cy="19" r="2" />
-      <circle cx="16" cy="12" r="2" />
+      <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M8 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M12 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M20 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M4 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M16 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5 17l2 -3" />
       <path d="M9 10l2 -3" />
       <path d="M13 7l2 3" />
@@ -41287,8 +42219,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5" r="2" />
-      <circle cx="5" cy="19" r="2" />
+      <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M17.585 17.587a2 2 0 0 0 2.813 2.843" />
       <path d="M6.5 17.5l5.5 -4.5l5.5 4.5" />
       <path d="M12 7v1m0 4v1" />
@@ -41313,11 +42245,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5" r="2" />
-      <circle cx="5" cy="19" r="2" />
-      <circle cx="19" cy="19" r="2" />
+      <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M6.5 17.5l5.5 -4.5l5.5 4.5" />
-      <line x1="12" y1="7" x2="12" y2="13" />
+      <path d="M12 7l0 6" />
     </svg>
     """
   end
@@ -41338,10 +42270,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8.998 9.002l-5.998 5.998v4h4l6 -6m1.997 -1.997l2.503 -2.503a2.828 2.828 0 1 0 -4 -4l-2.497 2.497" />
+      <path d="M9 9l-6 6v4h4l6 -6m2 -2l2.503 -2.503a2.828 2.828 0 1 0 -4 -4l-2.497 2.497" />
       <path d="M12.5 5.5l4 4" />
       <path d="M4.5 13.5l4 4" />
-      <path d="M19 15h2v2m-2 2h-6l3.004 -3.004" />
+      <path d="M19 15h2v2m-2 2h-6l3 -3" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -41438,7 +42370,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="12 8 12 12 14 14" />
+      <path d="M12 8l0 4l2 2" />
       <path d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5" />
     </svg>
     """
@@ -41460,9 +42392,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="5 12 3 12 12 3 21 12 19 12" />
+      <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
       <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-      <rect x="10" y="12" width="4" height="4" />
+      <path d="M10 12h4v4h-4z" />
     </svg>
     """
   end
@@ -41506,7 +42438,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="19" cy="19" r="3" />
+      <path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M17 21l4 -4" />
       <path d="M19 12h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h5.5" />
       <path d="M9 21v-6a2 2 0 0 1 2 -2h2c.58 0 1.103 .247 1.468 .642" />
@@ -41554,10 +42486,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 21v-6a2 2 0 0 1 2 -2h1.6" />
-      <path d="M20.001 11.001l-8.001 -8.001l-9 9h2v7a2 2 0 0 0 2 2h4.159" />
-      <circle cx="18.001" cy="18" r="2" />
-      <path d="M18.001 14.5v1.5" />
-      <path d="M18.001 20v1.5" />
+      <path d="M20 11l-8 -8l-9 9h2v7a2 2 0 0 0 2 2h4.159" />
+      <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 14.5v1.5" />
+      <path d="M18 20v1.5" />
       <path d="M21.032 16.25l-1.299 .75" />
       <path d="M16.27 19l-1.3 .75" />
       <path d="M14.97 16.25l1.3 .75" />
@@ -41607,7 +42539,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19 12h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h5" />
-      <circle cx="19" cy="19" r="3" />
+      <path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M9 21v-6a2 2 0 0 1 2 -2h2c.641 0 1.212 .302 1.578 .771" />
     </svg>
     """
@@ -41653,7 +42585,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M20.002 11.002l-8.002 -8.002l-9 9h2v7a2 2 0 0 0 2 2h5" />
+      <path d="M20 11l-8 -8l-9 9h2v7a2 2 0 0 0 2 2h5" />
       <path d="M9 21v-6a2 2 0 0 1 2 -2h2c.325 0 .631 .077 .902 .215" />
       <path d="M16 22s0 -2 3 -4" />
       <path d="M19 21a3 3 0 0 1 0 -6h3v3a3 3 0 0 1 -3 3z" />
@@ -41678,7 +42610,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 21v-6a2 2 0 0 1 2 -2h2c.645 0 1.218 .305 1.584 .78" />
-      <path d="M20.004 11.004l-8.004 -8.004l-9 9h2v7a2 2 0 0 0 2 2h4" />
+      <path d="M20 11l-8 -8l-9 9h2v7a2 2 0 0 0 2 2h4" />
       <path d="M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39z" />
     </svg>
     """
@@ -41749,7 +42681,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M21 12l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h6" />
       <path d="M9 21v-6a2 2 0 0 1 2 -2h2c.39 0 .754 .112 1.061 .304" />
-      <path d="M18.994 21.5l2.518 -2.58a1.74 1.74 0 0 0 .004 -2.413a1.627 1.627 0 0 0 -2.346 -.005l-.168 .172l-.168 -.172a1.627 1.627 0 0 0 -2.346 -.004a1.74 1.74 0 0 0 -.004 2.412l2.51 2.59z" />
+      <path d="M19 21.5l2.518 -2.58a1.74 1.74 0 0 0 0 -2.413a1.627 1.627 0 0 0 -2.346 0l-.168 .172l-.168 -.172a1.627 1.627 0 0 0 -2.346 0a1.74 1.74 0 0 0 0 2.412l2.51 2.59z" />
     </svg>
     """
   end
@@ -41772,8 +42704,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19 14v-2h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h2.5" />
       <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 1.75 1.032" />
-      <path d="M15.536 17.586a2.123 2.123 0 0 0 -2.929 0a1.951 1.951 0 0 0 0 2.828c.809 .781 2.12 .781 2.929 0c.809 -.781 -.805 .778 .004 -.003l1.46 -1.41l1.46 -1.419" />
-      <path d="M15.54 17.582l1.46 1.42l1.46 1.41c.809 .78 -.805 -.779 .004 .002s2.12 .781 2.929 0a1.951 1.951 0 0 0 0 -2.828a2.123 2.123 0 0 0 -2.929 0" />
+      <path d="M15.536 17.586a2.123 2.123 0 0 0 -2.929 0a1.951 1.951 0 0 0 0 2.828c.809 .781 2.12 .781 2.929 0c.809 -.781 -.805 .778 0 0l1.46 -1.41l1.46 -1.419" />
+      <path d="M15.54 17.582l1.46 1.42l1.46 1.41c.809 .78 -.805 -.779 0 0s2.12 .781 2.929 0a1.951 1.951 0 0 0 0 -2.828a2.123 2.123 0 0 0 -2.929 0" />
     </svg>
     """
   end
@@ -41796,9 +42728,9 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M20.085 11.085l-8.085 -8.085l-9 9h2v7a2 2 0 0 0 2 2h4.5" />
       <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 1.807 1.143" />
-      <circle cx="21" cy="21" r="1" />
-      <circle cx="21" cy="16" r="1" />
-      <circle cx="16" cy="19" r="1" />
+      <path d="M21 21m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M21 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M16 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M21 16l-5 3l5 2" />
     </svg>
     """
@@ -41867,7 +42799,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M5 12h-2l4.497 -4.497m1.999 -1.999l2.504 -2.504l9 9h-2" />
+      <path d="M5 12h-2l4.497 -4.497m2 -2l2.504 -2.504l9 9h-2" />
       <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2m0 -4v-3" />
       <path d="M9 21v-6a2 2 0 0 1 2 -2h2m2 2v6" />
       <path d="M3 3l18 18" />
@@ -41918,7 +42850,7 @@ defmodule TablerIcons do
       <path d="M20.136 11.136l-8.136 -8.136l-9 9h2v7a2 2 0 0 0 2 2h7" />
       <path d="M9 21v-6a2 2 0 0 1 2 -2h2c.467 0 .896 .16 1.236 .428" />
       <path d="M19 22v.01" />
-      <path d="M19 19a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
+      <path d="M19 19a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
     </svg>
     """
   end
@@ -41964,7 +42896,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M21 12l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h4.7" />
       <path d="M9 21v-6a2 2 0 0 1 2 -2h2" />
-      <circle cx="18" cy="18" r="3" />
+      <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M20.2 20.2l1.8 1.8" />
     </svg>
     """
@@ -42153,7 +43085,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="5 12 3 12 12 3 21 12 19 12" />
+      <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
       <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
       <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
     </svg>
@@ -42290,7 +43222,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M18 18v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1v-2a6 6 0 0 1 6 -6" />
-      <path d="M6 6a6 6 0 0 0 6 6m3.13 -.88a5.996 5.996 0 0 0 2.87 -5.12v-2a1 1 0 0 0 -1 -1h-10" />
+      <path d="M6 6a6 6 0 0 0 6 6m3.13 -.88a6 6 0 0 0 2.87 -5.12v-2a1 1 0 0 0 -1 -1h-10" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -42336,8 +43268,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M17.657 11.004a6 6 0 1 0 -11.315 0" />
-      <path d="M6.342 11l5.658 11l5.657 -10.996z" />
+      <path d="M17.657 11a6 6 0 1 0 -11.315 0" />
+      <path d="M6.342 11l5.658 11l5.657 -11z" />
     </svg>
     """
   end
@@ -42407,7 +43339,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M5.905 5h3.418a1 1 0 0 1 .928 .629l1.143 2.856a3 3 0 0 0 2.207 1.83l4.717 .926a2.084 2.084 0 0 1 1.682 2.045v.714a1 1 0 0 1 -1 1h-13.895a1 1 0 0 1 -.995 -1.1l.8 -8a1 1 0 0 1 .995 -.9z" />
+      <path d="M5.905 5h3.418a1 1 0 0 1 .928 .629l1.143 2.856a3 3 0 0 0 2.207 1.83l4.717 .926a2.084 2.084 0 0 1 1.682 2.045v.714a1 1 0 0 1 -1 1h-13.895a1 1 0 0 1 -1 -1.1l.8 -8a1 1 0 0 1 1 -.9z" />
       <path d="M3 19h17a1 1 0 0 0 1 -1" />
       <path d="M9 15v4" />
       <path d="M15 15v4" />
@@ -42457,7 +43389,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6.5" cy="6.5" r="3.5" />
+      <path d="M6.5 6.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
       <path d="M2.5 21h8l-4 -7z" />
       <path d="M14 3l7 7" />
       <path d="M14 10l7 -7" />
@@ -42484,7 +43416,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 12h3v4h-3z" />
       <path d="M10 6h-6a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h16a1 1 0 0 0 1 -1v-12a1 1 0 0 0 -1 -1h-6" />
-      <rect x="10" y="3" width="4" height="5" rx="1" />
+      <path d="M10 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
       <path d="M14 16h2" />
       <path d="M14 12h4" />
     </svg>
@@ -42507,7 +43439,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7.141 3.125a3 3 0 0 1 .859 -.125h8a3 3 0 0 1 3 3v9m-.13 3.874a3.001 3.001 0 0 1 -2.87 2.126h-8a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 .128 -.869" />
+      <path d="M7.141 3.125a3 3 0 0 1 .859 -.125h8a3 3 0 0 1 3 3v9m-.13 3.874a3 3 0 0 1 -2.87 2.126h-8a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 .128 -.869" />
       <path d="M11.179 11.176a2 2 0 1 0 2.635 2.667" />
       <path d="M10 6h4" />
       <path d="M9 18h6" />
@@ -42532,8 +43464,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="3" width="14" height="18" rx="3" />
-      <circle cx="12" cy="13" r="2" />
+      <path d="M5 3m0 3a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3z" />
+      <path d="M12 13m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M10 6h4" />
       <path d="M9 18h6" />
     </svg>
@@ -42582,11 +43514,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="4" width="18" height="16" rx="3" />
-      <circle cx="9" cy="10" r="2" />
-      <line x1="15" y1="8" x2="17" y2="8" />
-      <line x1="15" y1="12" x2="17" y2="12" />
-      <line x1="7" y1="16" x2="17" y2="16" />
+      <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+      <path d="M9 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M15 8l2 0" />
+      <path d="M15 12l2 0" />
+      <path d="M7 16l10 0" />
     </svg>
     """
   end
@@ -42607,7 +43539,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.593 3.422a1.994 1.994 0 0 1 -1.407 .578h-12a2 2 0 0 1 -2 -2v-12c0 -.554 .225 -1.056 .59 -1.418" />
+      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.593 3.422a2 2 0 0 1 -1.407 .578h-12a2 2 0 0 1 -2 -2v-12c0 -.554 .225 -1.056 .59 -1.418" />
       <path d="M4 13h3l3 3h4l.987 -.987m2.013 -2.013h3" />
       <path d="M3 3l18 18" />
     </svg>
@@ -42630,7 +43562,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M4 13h3l3 3h4l3 -3h3" />
     </svg>
     """
@@ -42652,9 +43584,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="20" y1="6" x2="13" y2="6" />
-      <line x1="20" y1="12" x2="11" y2="12" />
-      <line x1="20" y1="18" x2="13" y2="18" />
+      <path d="M20 6l-7 0" />
+      <path d="M20 12l-9 0" />
+      <path d="M20 18l-7 0" />
       <path d="M8 8l-4 4l4 4" />
     </svg>
     """
@@ -42676,9 +43608,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="20" y1="6" x2="9" y2="6" />
-      <line x1="20" y1="12" x2="13" y2="12" />
-      <line x1="20" y1="18" x2="9" y2="18" />
+      <path d="M20 6l-11 0" />
+      <path d="M20 12l-7 0" />
+      <path d="M20 18l-11 0" />
       <path d="M4 8l4 4l-4 4" />
     </svg>
     """
@@ -42700,7 +43632,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8.165 8.174a3.998 3.998 0 0 0 -5.166 3.826a4 4 0 0 0 6.829 2.828a10 10 0 0 0 2.172 -2.828m1.677 -2.347a10 10 0 0 1 .495 -.481a4 4 0 1 1 5.129 6.1m-3.521 .537a3.994 3.994 0 0 1 -1.608 -.981a10 10 0 0 1 -2.172 -2.828" />
+      <path d="M8.165 8.174a4 4 0 0 0 -5.166 3.826a4 4 0 0 0 6.829 2.828a10 10 0 0 0 2.172 -2.828m1.677 -2.347a10 10 0 0 1 .495 -.481a4 4 0 1 1 5.129 6.1m-3.521 .537a4 4 0 0 1 -1.608 -.981a10 10 0 0 1 -2.172 -2.828" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -42743,9 +43675,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="12" y1="8" x2="12.01" y2="8" />
-      <polyline points="11 12 12 12 12 16 13 16" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 8l.01 0" />
+      <path d="M11 12l1 0l0 4l1 0" />
     </svg>
     """
   end
@@ -42789,9 +43721,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="8" x2="12.01" y2="8" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <polyline points="11 12 12 12 12 16 13 16" />
+      <path d="M12 8l.01 0" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M11 12l1 0l0 4l1 0" />
     </svg>
     """
   end
@@ -42812,7 +43744,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M6 12a6 6 0 0 0 6 6" />
     </svg>
     """
@@ -42989,7 +43921,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19 11v-3a2 2 0 0 0 -2 -2h-12a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h5" />
-      <circle cx="15.5" cy="15.5" r="2.5" />
+      <path d="M15.5 15.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
       <path d="M17.5 17.5l2.5 2.5" />
     </svg>
     """
@@ -43103,7 +44035,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 4h7.459a3 3 0 0 1 2.959 2.507l.577 3.464l.81 4.865a1 1 0 0 1 -.821 1.15" />
-      <path d="M16 16h-13a7.001 7.001 0 0 1 6.056 -6.937" />
+      <path d="M16 16h-13a7 7 0 0 1 6.056 -6.937" />
       <path d="M13 9h6.8" />
       <path d="M12 19v2" />
       <path d="M8 19l-1 2" />
@@ -43153,9 +44085,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="11" y1="5" x2="17" y2="5" />
-      <line x1="7" y1="19" x2="13" y2="19" />
-      <line x1="14" y1="5" x2="10" y2="19" />
+      <path d="M11 5l6 0" />
+      <path d="M7 19l6 0" />
+      <path d="M14 5l-4 14" />
     </svg>
     """
   end
@@ -43207,6 +44139,27 @@ defmodule TablerIcons do
       <path d="M15 16c0 2.333 .667 4 2 5c1.333 -1 2 -2.667 2 -5" />
       <path d="M10 8h4" />
       <path d="M10 11h4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `jewish_star_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.jewish_star_filled />
+      <TablerIcons.jewish_star_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def jewish_star_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 2l3 5h6l-3 5l3 5h-6l-3 5l-3 -5h-6l3 -5l-3 -5h6z" fill="currentColor" />
     </svg>
     """
   end
@@ -43272,8 +44225,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 14v-6a3 3 0 1 1 6 0v8a3 3 0 0 0 6 0v-6" />
-      <rect x="16" y="3" width="4" height="7" rx="2" />
-      <rect x="4" y="14" width="4" height="7" rx="2" />
+      <path d="M16 3m0 2a2 2 0 0 1 2 -2h0a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h0a2 2 0 0 1 -2 -2z" />
+      <path d="M4 14m0 2a2 2 0 0 1 2 -2h0a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h0a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -43294,7 +44247,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="18" cy="4" r="1" />
+      <path d="M18 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M3 9l4.5 1l3 2.5" />
       <path d="M13 21v-8l3 -5.5" />
       <path d="M8 4.5l4 2l4 1l4 3.5l-2 3.5" />
@@ -43413,14 +44366,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="2" y="3" width="20" height="12" rx="2" />
-      <line x1="6" y1="7" x2="6" y2="7" />
-      <line x1="10" y1="7" x2="10" y2="7" />
-      <line x1="14" y1="7" x2="14" y2="7" />
-      <line x1="18" y1="7" x2="18" y2="7" />
-      <line x1="6" y1="11" x2="6" y2="11.01" />
-      <line x1="18" y1="11" x2="18" y2="11.01" />
-      <line x1="10" y1="11" x2="14" y2="11" />
+      <path d="M2 3m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z" />
+      <path d="M6 7l0 0" />
+      <path d="M10 7l0 0" />
+      <path d="M14 7l0 0" />
+      <path d="M18 7l0 0" />
+      <path d="M6 11l0 .01" />
+      <path d="M18 11l0 .01" />
+      <path d="M10 11l4 0" />
       <path d="M10 21l2 -2l2 2" />
     </svg>
     """
@@ -43443,14 +44396,14 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M18 18h-14a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h2m4 0h10a2 2 0 0 1 2 2v8c0 .554 -.226 1.056 -.59 1.418" />
-      <line x1="6" y1="10" x2="6" y2="10.01" />
-      <line x1="10" y1="10" x2="10" y2="10.01" />
-      <line x1="14" y1="10" x2="14" y2="10.01" />
-      <line x1="18" y1="10" x2="18" y2="10.01" />
-      <line x1="6" y1="14" x2="6" y2="14.01" />
-      <line x1="18" y1="14" x2="18" y2="14.01" />
-      <line x1="10" y1="14" x2="14" y2="14" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M6 10l0 .01" />
+      <path d="M10 10l0 .01" />
+      <path d="M14 10l0 .01" />
+      <path d="M18 10l0 .01" />
+      <path d="M6 14l0 .01" />
+      <path d="M18 14l0 .01" />
+      <path d="M10 14l4 0" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -43471,14 +44424,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="2" y="3" width="20" height="12" rx="2" />
-      <line x1="6" y1="7" x2="6" y2="7" />
-      <line x1="10" y1="7" x2="10" y2="7" />
-      <line x1="14" y1="7" x2="14" y2="7" />
-      <line x1="18" y1="7" x2="18" y2="7" />
-      <line x1="6" y1="11" x2="6" y2="11.01" />
-      <line x1="18" y1="11" x2="18" y2="11.01" />
-      <line x1="10" y1="11" x2="14" y2="11" />
+      <path d="M2 3m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z" />
+      <path d="M6 7l0 0" />
+      <path d="M10 7l0 0" />
+      <path d="M14 7l0 0" />
+      <path d="M18 7l0 0" />
+      <path d="M6 11l0 .01" />
+      <path d="M18 11l0 .01" />
+      <path d="M10 11l4 0" />
       <path d="M10 19l2 2l2 -2" />
     </svg>
     """
@@ -43500,14 +44453,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="2" y="6" width="20" height="12" rx="2" />
-      <line x1="6" y1="10" x2="6" y2="10" />
-      <line x1="10" y1="10" x2="10" y2="10" />
-      <line x1="14" y1="10" x2="14" y2="10" />
-      <line x1="18" y1="10" x2="18" y2="10" />
-      <line x1="6" y1="14" x2="6" y2="14.01" />
-      <line x1="18" y1="14" x2="18" y2="14.01" />
-      <line x1="10" y1="14" x2="14" y2="14" />
+      <path d="M2 6m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z" />
+      <path d="M6 10l0 0" />
+      <path d="M10 10l0 0" />
+      <path d="M14 10l0 0" />
+      <path d="M18 10l0 0" />
+      <path d="M6 14l0 .01" />
+      <path d="M18 14l0 .01" />
+      <path d="M10 14l4 0" />
     </svg>
     """
   end
@@ -43722,7 +44675,7 @@ defmodule TablerIcons do
       <path d="M10 21l-7 -8l8.5 -5.5" />
       <path d="M13 14c-2.148 -2.148 -2.148 -5.852 0 -8c2.088 -2.088 5.842 -1.972 8 0l-8 8z" />
       <path d="M11.742 7.574l-1.156 -1.156a2 2 0 0 1 2.828 -2.829l1.144 1.144" />
-      <path d="M15.5 11.995l.208 .274a2.527 2.527 0 0 0 3.556 0c.939 -.933 .98 -2.42 .122 -3.4l-.366 -.369" />
+      <path d="M15.5 12l.208 .274a2.527 2.527 0 0 0 3.556 0c.939 -.933 .98 -2.42 .122 -3.4l-.366 -.369" />
     </svg>
     """
   end
@@ -43841,7 +44794,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 5h1m4 0h2" />
       <path d="M9 3v2m-.508 3.517c-.814 2.655 -2.52 4.483 -4.492 4.483" />
-      <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+      <path d="M5 9c0 2.144 2.952 3.908 6.7 4" />
       <path d="M12 20l2.463 -5.541m1.228 -2.764l.309 -.695l.8 1.8" />
       <path d="M18 18h-5.1" />
       <path d="M3 3l18 18" />
@@ -43867,7 +44820,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 5h7" />
       <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
-      <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+      <path d="M5 9c0 2.144 2.952 3.908 6.7 4" />
       <path d="M12 20l4 -9l4 9" />
       <path d="M19.1 18h-6.2" />
     </svg>
@@ -43891,7 +44844,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4.028 13.252c-.657 -.972 -1.028 -2.078 -1.028 -3.252c0 -1.804 .878 -3.449 2.319 -4.69m2.49 -1.506a11.066 11.066 0 0 1 4.191 -.804c4.97 0 9 3.134 9 7c0 1.799 -.873 3.44 -2.307 4.68m-2.503 1.517a11.066 11.066 0 0 1 -4.19 .803c-1.913 0 -3.686 -.464 -5.144 -1.255" />
-      <circle cx="5" cy="15" r="2" />
+      <path d="M5 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5 17c0 1.42 .316 2.805 1 4" />
       <path d="M3 3l18 18" />
     </svg>
@@ -43915,7 +44868,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4.028 13.252l-1.028 -3.252l2 -7l7 5l8 -3l1 9l-9 3l-5.144 -1.255" />
-      <circle cx="5" cy="15" r="2" />
+      <path d="M5 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5 17c0 1.42 .316 2.805 1 4" />
     </svg>
     """
@@ -43938,7 +44891,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4.028 13.252c-.657 -.972 -1.028 -2.078 -1.028 -3.252c0 -3.866 4.03 -7 9 -7s9 3.134 9 7s-4.03 7 -9 7c-1.913 0 -3.686 -.464 -5.144 -1.255" />
-      <circle cx="5" cy="15" r="2" />
+      <path d="M5 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5 17c0 1.42 .316 2.805 1 4" />
     </svg>
     """
@@ -43961,10 +44914,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M16 16v2a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h2v-2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-2" />
-      <polyline points="10 8 8 8 8 10" />
-      <polyline points="8 14 8 16 10 16" />
-      <polyline points="14 8 16 8 16 10" />
-      <polyline points="16 14 16 16 14 16" />
+      <path d="M10 8l-2 0l0 2" />
+      <path d="M8 14l0 2l2 0" />
+      <path d="M14 8l2 0l0 2" />
+      <path d="M16 14l0 2l-2 0" />
     </svg>
     """
   end
@@ -43985,8 +44938,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="8" y="4" width="12" height="12" rx="2" />
-      <rect x="4" y="8" width="12" height="12" rx="2" />
+      <path d="M8 4m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+      <path d="M4 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
       <path d="M9 15l6 -6" />
     </svg>
     """
@@ -44008,8 +44961,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="8" y="4" width="12" height="12" rx="2" />
-      <rect x="4" y="8" width="12" height="12" rx="2" />
+      <path d="M8 4m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+      <path d="M4 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44031,7 +44984,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19 8.268a2 2 0 0 1 1 1.732v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h3" />
-      <path d="M5.003 15.734a2 2 0 0 1 -1.003 -1.734v-8a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-3" />
+      <path d="M5 15.734a2 2 0 0 1 -1 -1.734v-8a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-3" />
     </svg>
     """
   end
@@ -44075,7 +45028,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="8" y="4" width="12" height="12" rx="2" />
+      <path d="M8 4m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
       <path d="M16 16v2a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h2" />
     </svg>
     """
@@ -44118,10 +45071,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="6" height="5" rx="2" />
-      <rect x="4" y="13" width="6" height="7" rx="2" />
-      <rect x="14" y="4" width="6" height="7" rx="2" />
-      <rect x="14" y="15" width="6" height="5" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M4 13m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M14 4m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M14 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44142,8 +45095,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="20" x2="20" y2="20" />
-      <rect x="9" y="4" width="6" height="12" rx="2" />
+      <path d="M4 20l16 0" />
+      <path d="M9 4m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44164,9 +45117,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="4" x2="12" y2="9" />
-      <line x1="12" y1="15" x2="12" y2="20" />
-      <rect x="6" y="9" width="12" height="6" rx="2" />
+      <path d="M12 4l0 5" />
+      <path d="M12 15l0 5" />
+      <path d="M6 9m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44187,8 +45140,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="4" x2="4" y2="20" />
-      <rect x="8" y="9" width="12" height="6" rx="2" />
+      <path d="M4 4l0 16" />
+      <path d="M8 9m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44209,9 +45162,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="12" x2="9" y2="12" />
-      <line x1="15" y1="12" x2="20" y2="12" />
-      <rect x="9" y="6" width="6" height="12" rx="2" />
+      <path d="M4 12l5 0" />
+      <path d="M15 12l5 0" />
+      <path d="M9 6m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44232,8 +45185,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="20" y1="4" x2="20" y2="20" />
-      <rect x="4" y="9" width="12" height="6" rx="2" />
+      <path d="M20 4l0 16" />
+      <path d="M4 9m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44254,8 +45207,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="4" x2="20" y2="4" />
-      <rect x="9" y="8" width="6" height="12" rx="2" />
+      <path d="M4 4l16 0" />
+      <path d="M9 8m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44276,7 +45229,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M4 12h8" />
       <path d="M12 15h8" />
       <path d="M12 9h8" />
@@ -44301,7 +45254,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M4 9h8" />
       <path d="M12 15h8" />
       <path d="M12 4v16" />
@@ -44371,8 +45324,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="4" y1="15" x2="20" y2="15" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M4 15l16 0" />
     </svg>
     """
   end
@@ -44393,8 +45346,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="6" height="16" rx="2" />
-      <rect x="14" y="4" width="6" height="10" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M14 4m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44415,7 +45368,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 4l4 16" />
       <path d="M12 12l-8 2" />
     </svg>
@@ -44438,8 +45391,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="12" y1="4" x2="12" y2="20" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M12 4l0 16" />
     </svg>
     """
   end
@@ -44484,9 +45437,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="4" x2="20" y2="4" />
-      <line x1="4" y1="20" x2="20" y2="20" />
-      <rect x="6" y="9" width="12" height="6" rx="2" />
+      <path d="M4 4l16 0" />
+      <path d="M4 20l16 0" />
+      <path d="M6 9m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44507,9 +45460,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="4" x2="4" y2="20" />
-      <line x1="20" y1="4" x2="20" y2="20" />
-      <rect x="9" y="6" width="6" height="12" rx="2" />
+      <path d="M4 4l0 16" />
+      <path d="M20 4l0 16" />
+      <path d="M9 6m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44530,9 +45483,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="6" height="6" rx="1" />
-      <rect x="14" y="4" width="6" height="6" rx="1" />
-      <rect x="4" y="14" width="6" height="6" rx="1" />
+      <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
       <path d="M14 17h6m-3 -3v6" />
     </svg>
     """
@@ -44554,10 +45507,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="6" height="6" rx="1" />
-      <rect x="14" y="4" width="6" height="6" rx="1" />
-      <rect x="4" y="14" width="6" height="6" rx="1" />
-      <rect x="14" y="14" width="6" height="6" rx="1" />
+      <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -44578,10 +45531,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="4" x2="10" y2="4" />
-      <line x1="14" y1="4" x2="20" y2="4" />
-      <rect x="4" y="8" width="6" height="12" rx="2" />
-      <rect x="14" y="8" width="6" height="6" rx="2" />
+      <path d="M4 4l6 0" />
+      <path d="M14 4l6 0" />
+      <path d="M4 8m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M14 8m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44602,8 +45555,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="6" rx="2" />
-      <rect x="4" y="14" width="16" height="6" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M4 14m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44670,8 +45623,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="4" y1="9" x2="20" y2="9" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M4 9l16 0" />
     </svg>
     """
   end
@@ -44693,8 +45646,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 4a2 2 0 0 1 2 2m-1.162 2.816a1.993 1.993 0 0 1 -.838 .184h-2a2 2 0 0 1 -2 -2v-1c0 -.549 .221 -1.046 .58 -1.407" />
-      <rect x="4" y="13" width="6" height="7" rx="2" />
-      <path d="M14 10v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v10m-.595 3.423a1.994 1.994 0 0 1 -1.405 .577h-2a2 2 0 0 1 -2 -2v-4" />
+      <path d="M4 13m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M14 10v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v10m-.595 3.423a2 2 0 0 1 -1.405 .577h-2a2 2 0 0 1 -2 -2v-4" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -44716,8 +45669,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="4" y1="12" x2="20" y2="12" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M4 12l16 0" />
     </svg>
     """
   end
@@ -44738,7 +45691,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M9 4v16" />
       <path d="M15 10l-2 2l2 2" />
     </svg>
@@ -44761,7 +45714,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M9 4v16" />
       <path d="M14 10l2 2l-2 2" />
     </svg>
@@ -44784,7 +45737,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M15 4v16" />
       <path d="M9 10l2 2l-2 2" />
     </svg>
@@ -44807,7 +45760,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M15 4v16" />
       <path d="M10 10l-2 2l2 2" />
     </svg>
@@ -44830,8 +45783,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="15" y1="4" x2="15" y2="20" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M15 4l0 16" />
     </svg>
     """
   end
@@ -44852,8 +45805,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="9" y1="4" x2="9" y2="20" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M9 4l0 16" />
     </svg>
     """
   end
@@ -44874,9 +45827,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="6" height="5" rx="2" />
-      <rect x="4" y="13" width="6" height="7" rx="2" />
-      <rect x="14" y="4" width="6" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v1a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M4 13m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M14 4m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -44966,8 +45919,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="9.5" y1="11" x2="9.51" y2="11" />
-      <line x1="14.5" y1="11" x2="14.51" y2="11" />
+      <path d="M9.5 11l.01 0" />
+      <path d="M14.5 11l.01 0" />
       <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
       <path d="M7 5h1v-2h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3v1h-10v-1a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3" />
     </svg>
@@ -44990,7 +45943,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M18 4a2 2 0 0 1 1.185 3.611c1.55 2.94 .873 6.917 -1.892 9.682c-2.765 2.765 -6.743 3.442 -9.682 1.892a2 2 0 1 1 -2.796 -2.796c-1.55 -2.94 -.873 -6.917 1.892 -9.682c2.765 -2.765 6.743 -3.442 9.682 -1.892a1.999 1.999 0 0 1 1.611 -.815z" />
+      <path d="M18 4a2 2 0 0 1 1.185 3.611c1.55 2.94 .873 6.917 -1.892 9.682c-2.765 2.765 -6.743 3.442 -9.682 1.892a2 2 0 1 1 -2.796 -2.796c-1.55 -2.94 -.873 -6.917 1.892 -9.682c2.765 -2.765 6.743 -3.442 9.682 -1.892a2 2 0 0 1 1.611 -.815z" />
     </svg>
     """
   end
@@ -45037,7 +45990,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 20v-12a4 4 0 0 1 4 -4h2a4 4 0 0 1 4 4v12" />
-      <line x1="7" y1="13" x2="17" y2="13" />
+      <path d="M7 13l10 0" />
     </svg>
     """
   end
@@ -45059,7 +46012,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 20v-16h6a4 4 0 0 1 0 8a4 4 0 0 1 0 8h-6" />
-      <line x1="7" y1="12" x2="13" y2="12" />
+      <path d="M7 12l6 0" />
     </svg>
     """
   end
@@ -45101,9 +46054,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6.5" cy="15.5" r="3.5" />
+      <path d="M6.5 15.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
       <path d="M10 12v7" />
-      <circle cx="17.5" cy="15.5" r="3.5" />
+      <path d="M17.5 15.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
       <path d="M21 12v7" />
     </svg>
     """
@@ -45125,7 +46078,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6.5" cy="15.5" r="3.5" />
+      <path d="M6.5 15.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
       <path d="M14 19v-10.5a3.5 3.5 0 0 1 7 0v10.5" />
       <path d="M14 13h7" />
       <path d="M10 12v7" />
@@ -45173,7 +46126,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="17.5" cy="15.5" r="3.5" />
+      <path d="M17.5 15.5m-3.5 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0" />
       <path d="M3 19v-10.5a3.5 3.5 0 0 1 7 0v10.5" />
       <path d="M3 13h7" />
       <path d="M21 12v7" />
@@ -45219,7 +46172,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M17 4h-10v16h10" />
-      <line x1="7" y1="12" x2="15" y2="12" />
+      <path d="M7 12l8 0" />
     </svg>
     """
   end
@@ -45241,7 +46194,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M17 4h-10v16" />
-      <line x1="7" y1="12" x2="15" y2="12" />
+      <path d="M7 12l8 0" />
     </svg>
     """
   end
@@ -45283,9 +46236,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="17" y1="4" x2="17" y2="20" />
-      <line x1="7" y1="12" x2="17" y2="12" />
-      <line x1="7" y1="4" x2="7" y2="20" />
+      <path d="M17 4l0 16" />
+      <path d="M7 12l10 0" />
+      <path d="M7 4l0 16" />
     </svg>
     """
   end
@@ -45306,7 +46259,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="4" x2="12" y2="20" />
+      <path d="M12 4l0 16" />
     </svg>
     """
   end
@@ -45348,9 +46301,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="7" y1="4" x2="7" y2="20" />
+      <path d="M7 4l0 16" />
       <path d="M7 12h2l8 -8" />
-      <line x1="9" y1="12" x2="17" y2="20" />
+      <path d="M9 12l8 8" />
     </svg>
     """
   end
@@ -45477,7 +46430,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M18 9a5 5 0 0 0 -5 -5h-2a5 5 0 0 0 -5 5v6a5 5 0 0 0 5 5h2a5 5 0 0 0 5 -5v-6" />
-      <line x1="13" y1="15" x2="18" y2="20" />
+      <path d="M13 15l5 5" />
     </svg>
     """
   end
@@ -45499,7 +46452,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 20v-16h5.5a4 4 0 0 1 0 9h-5.5" />
-      <line x1="12" y1="13" x2="17" y2="20" />
+      <path d="M12 13l5 7" />
     </svg>
     """
   end
@@ -45566,8 +46519,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="6" y1="4" x2="18" y2="4" />
-      <line x1="12" y1="4" x2="12" y2="20" />
+      <path d="M6 4l12 0" />
+      <path d="M12 4l0 16" />
     </svg>
     """
   end
@@ -45651,8 +46604,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="7" y1="4" x2="17" y2="20" />
-      <line x1="17" y1="4" x2="7" y2="20" />
+      <path d="M7 4l10 16" />
+      <path d="M17 4l-10 16" />
     </svg>
     """
   end
@@ -45674,7 +46627,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 4l5 9l5 -9" />
-      <line x1="12" y1="13" x2="12" y2="20" />
+      <path d="M12 13l0 7" />
     </svg>
     """
   end
@@ -45741,8 +46694,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 21h-9a3 3 0 0 1 -3 -3v-1h10v2a2 2 0 0 0 4 0v-14a2 2 0 1 1 2 2h-2m2 -4h-11a3 3 0 0 0 -3 3v11" />
-      <line x1="9" y1="7" x2="13" y2="7" />
-      <line x1="9" y1="11" x2="13" y2="11" />
+      <path d="M9 7l4 0" />
+      <path d="M9 11l4 0" />
     </svg>
     """
   end
@@ -45790,12 +46743,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="4" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="15" y1="15" x2="18.35" y2="18.35" />
-      <line x1="9" y1="15" x2="5.65" y2="18.35" />
-      <line x1="5.65" y1="5.65" x2="9" y2="9" />
-      <line x1="18.35" y1="5.65" x2="15" y2="9" />
+      <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M15 15l3.35 3.35" />
+      <path d="M9 15l-3.35 3.35" />
+      <path d="M5.65 5.65l3.35 3.35" />
+      <path d="M18.35 5.65l-3.35 3.35" />
     </svg>
     """
   end
@@ -45864,12 +46817,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="3 8 6 5 9 8" />
-      <polyline points="3 16 6 19 9 16" />
-      <line x1="6" y1="5" x2="6" y2="19" />
-      <line x1="13" y1="6" x2="20" y2="6" />
-      <line x1="13" y1="12" x2="20" y2="12" />
-      <line x1="13" y1="18" x2="20" y2="18" />
+      <path d="M3 8l3 -3l3 3" />
+      <path d="M3 16l3 3l3 -3" />
+      <path d="M6 5l0 14" />
+      <path d="M13 6l7 0" />
+      <path d="M13 12l7 0" />
+      <path d="M13 18l7 0" />
     </svg>
     """
   end
@@ -45890,9 +46843,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="18" r="2" />
-      <circle cx="18" cy="6" r="2" />
-      <line x1="7.5" y1="16.5" x2="16.5" y2="7.5" />
+      <path d="M6 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M7.5 16.5l9 -9" />
     </svg>
     """
   end
@@ -45962,9 +46915,9 @@ defmodule TablerIcons do
       <path d="M3.5 5.5l1.5 1.5l2.5 -2.5" />
       <path d="M3.5 11.5l1.5 1.5l2.5 -2.5" />
       <path d="M3.5 17.5l1.5 1.5l2.5 -2.5" />
-      <line x1="11" y1="6" x2="20" y2="6" />
-      <line x1="11" y1="12" x2="20" y2="12" />
-      <line x1="11" y1="18" x2="20" y2="18" />
+      <path d="M11 6l9 0" />
+      <path d="M11 12l9 0" />
+      <path d="M11 18l9 0" />
     </svg>
     """
   end
@@ -45989,8 +46942,8 @@ defmodule TablerIcons do
       <path d="M13 9h5" />
       <path d="M13 15h8" />
       <path d="M13 19h5" />
-      <rect x="3" y="4" width="6" height="6" rx="1" />
-      <rect x="3" y="14" width="6" height="6" rx="1" />
+      <path d="M3 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M3 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -46036,7 +46989,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="15" cy="15" r="4" />
+      <path d="M15 15m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M18.5 18.5l2.5 2.5" />
       <path d="M4 6h16" />
       <path d="M4 12h4" />
@@ -46061,12 +47014,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="9" y1="6" x2="20" y2="6" />
-      <line x1="9" y1="12" x2="20" y2="12" />
-      <line x1="9" y1="18" x2="20" y2="18" />
-      <line x1="5" y1="6" x2="5" y2="6.01" />
-      <line x1="5" y1="12" x2="5" y2="12.01" />
-      <line x1="5" y1="18" x2="5" y2="18.01" />
+      <path d="M9 6l11 0" />
+      <path d="M9 12l11 0" />
+      <path d="M9 18l11 0" />
+      <path d="M5 6l0 .01" />
+      <path d="M5 12l0 .01" />
+      <path d="M5 18l0 .01" />
     </svg>
     """
   end
@@ -46124,22 +47077,22 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="1" />
-      <circle cx="12" cy="12" r="5" />
-      <line x1="15.9" y1="20.11" x2="15.9" y2="20.12" />
-      <line x1="19.04" y1="17.61" x2="19.04" y2="17.62" />
-      <line x1="20.77" y1="14" x2="20.77" y2="14.01" />
-      <line x1="20.77" y1="10" x2="20.77" y2="10.01" />
-      <line x1="19.04" y1="6.39" x2="19.04" y2="6.4" />
-      <line x1="15.9" y1="3.89" x2="15.9" y2="3.9" />
-      <line x1="12" y1="3" x2="12" y2="3.01" />
-      <line x1="8.1" y1="3.89" x2="8.1" y2="3.9" />
-      <line x1="4.96" y1="6.39" x2="4.96" y2="6.4" />
-      <line x1="3.23" y1="10" x2="3.23" y2="10.01" />
-      <line x1="3.23" y1="14" x2="3.23" y2="14.01" />
-      <line x1="4.96" y1="17.61" x2="4.96" y2="17.62" />
-      <line x1="8.1" y1="20.11" x2="8.1" y2="20.12" />
-      <line x1="12" y1="21" x2="12" y2="21.01" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+      <path d="M15.9 20.11l0 .01" />
+      <path d="M19.04 17.61l0 .01" />
+      <path d="M20.77 14l0 .01" />
+      <path d="M20.77 10l0 .01" />
+      <path d="M19.04 6.39l0 .01" />
+      <path d="M15.9 3.89l0 .01" />
+      <path d="M12 3l0 .01" />
+      <path d="M8.1 3.89l0 .01" />
+      <path d="M4.96 6.39l0 .01" />
+      <path d="M3.23 10l0 .01" />
+      <path d="M3.23 14l0 .01" />
+      <path d="M4.96 17.61l0 .01" />
+      <path d="M8.1 20.11l0 .01" />
+      <path d="M12 21l0 .01" />
     </svg>
     """
   end
@@ -46164,7 +47117,7 @@ defmodule TablerIcons do
       <path d="M4 16v2a2 2 0 0 0 2 2h2" />
       <path d="M16 4h2a2 2 0 0 1 2 2v2" />
       <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
-      <line x1="12" y1="11" x2="12" y2="11.01" />
+      <path d="M12 11l0 .01" />
       <path d="M12 18l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
     </svg>
     """
@@ -46229,9 +47182,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="6" x2="12" y2="3" />
-      <line x1="6" y1="12" x2="3" y2="12" />
-      <line x1="7.75" y1="7.75" x2="5.6" y2="5.6" />
+      <path d="M12 6l0 -3" />
+      <path d="M6 12l-3 0" />
+      <path d="M7.75 7.75l-2.15 -2.15" />
     </svg>
     """
   end
@@ -46252,14 +47205,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="6" x2="12" y2="3" />
-      <line x1="16.25" y1="7.75" x2="18.4" y2="5.6" />
-      <line x1="18" y1="12" x2="21" y2="12" />
-      <line x1="16.25" y1="16.25" x2="18.4" y2="18.4" />
-      <line x1="12" y1="18" x2="12" y2="21" />
-      <line x1="7.75" y1="16.25" x2="5.6" y2="18.4" />
-      <line x1="6" y1="12" x2="3" y2="12" />
-      <line x1="7.75" y1="7.75" x2="5.6" y2="5.6" />
+      <path d="M12 6l0 -3" />
+      <path d="M16.25 7.75l2.15 -2.15" />
+      <path d="M18 12l3 0" />
+      <path d="M16.25 16.25l2.15 2.15" />
+      <path d="M12 18l0 3" />
+      <path d="M7.75 16.25l-2.15 2.15" />
+      <path d="M6 12l-3 0" />
+      <path d="M7.75 7.75l-2.15 -2.15" />
     </svg>
     """
   end
@@ -46282,6 +47235,27 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M13 20l-3 -6l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5c-1.698 4.703 -3.05 8.37 -4 11" />
       <path d="M16 17l4 4m0 -4l-4 4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `location_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.location_filled />
+      <TablerIcons.location_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def location_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5" fill="currentColor" />
     </svg>
     """
   end
@@ -46349,7 +47323,7 @@ defmodule TablerIcons do
       <path d="M4 16v2a2 2 0 0 0 2 2h2" />
       <path d="M16 4h2a2 2 0 0 1 2 2v2" />
       <path d="M16 20h2c.55 0 1.05 -.222 1.41 -.582" />
-      <path d="M15 11a1 1 0 0 1 1 1m-.29 3.704a0.997 .997 0 0 1 -.71 .296h-6a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h2" />
+      <path d="M15 11a1 1 0 0 1 1 1m-.29 3.704a1 1 0 0 1 -.71 .296h-6a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h2" />
       <path d="M10 11v-1m1.182 -2.826a2 2 0 0 1 2.818 1.826v1" />
       <path d="M3 3l18 18" />
     </svg>
@@ -46376,7 +47350,7 @@ defmodule TablerIcons do
       <path d="M4 16v2a2 2 0 0 0 2 2h2" />
       <path d="M16 4h2a2 2 0 0 1 2 2v2" />
       <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
-      <rect x="8" y="11" width="8" height="5" rx="1" />
+      <path d="M8 11m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
       <path d="M10 11v-2a2 2 0 1 1 4 0v2" />
     </svg>
     """
@@ -46398,9 +47372,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M19 19a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2h4m4 0h2a2 2 0 0 1 2 2v2" />
-      <circle cx="12" cy="16" r="1" />
+      <path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M8 11v-3m.712 -3.278a4 4 0 0 1 7.288 2.278v4" />
     </svg>
     """
@@ -46423,7 +47397,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 11h2a2 2 0 0 1 2 2v2m0 4a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6a2 2 0 0 1 2 -2h4" />
-      <circle cx="12" cy="16" r="1" />
+      <path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M8 11v-3m.347 -3.631a4 4 0 0 1 7.653 1.631" />
       <path d="M3 3l18 18" />
     </svg>
@@ -46446,8 +47420,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="11" width="14" height="10" rx="2" />
-      <circle cx="12" cy="16" r="1" />
+      <path d="M5 11m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+      <path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M8 11v-5a4 4 0 0 1 8 0" />
     </svg>
     """
@@ -46470,7 +47444,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
-      <rect x="8" y="11" width="8" height="5" rx="1" />
+      <path d="M8 11m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
       <path d="M10 11v-2a2 2 0 1 1 4 0v2" />
     </svg>
     """
@@ -46492,9 +47466,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="8" y="11" width="8" height="5" rx="1" />
+      <path d="M8 11m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
       <path d="M10 11v-2a2 2 0 1 1 4 0v2" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -46515,8 +47489,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="11" width="14" height="10" rx="2" />
-      <circle cx="12" cy="16" r="1" />
+      <path d="M5 11m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+      <path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M8 11v-4a4 4 0 0 1 8 0v4" />
     </svg>
     """
@@ -46590,7 +47564,7 @@ defmodule TablerIcons do
       <path d="M2 9h3" />
       <path d="M2 15h3" />
       <path d="M7 5c6 0 8 3.5 8 7s-2 7 -8 7h-2v-14h2z" />
-      <circle cx="17" cy="12" r="2" />
+      <path d="M17 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -46615,7 +47589,7 @@ defmodule TablerIcons do
       <path d="M2 9h5" />
       <path d="M2 15h5" />
       <path d="M6 5c10.667 2.1 10.667 12.6 0 14c1.806 -4.667 1.806 -9.333 0 -14z" />
-      <circle cx="16" cy="12" r="2" />
+      <path d="M16 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -46640,7 +47614,7 @@ defmodule TablerIcons do
       <path d="M2 9h3" />
       <path d="M2 15h3" />
       <path d="M5 5l10 7l-10 7z" />
-      <circle cx="17" cy="12" r="2" />
+      <path d="M17 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -46690,7 +47664,7 @@ defmodule TablerIcons do
       <path d="M2 15h4" />
       <path d="M5 19c1.778 -4.667 1.778 -9.333 0 -14" />
       <path d="M8 5c10.667 2.1 10.667 12.6 0 14c1.806 -4.667 1.806 -9.333 0 -14z" />
-      <circle cx="18" cy="12" r="2" />
+      <path d="M18 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -46807,7 +47781,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="14" cy="10" r="7" />
+      <path d="M14 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M21 10a3.5 3.5 0 0 0 -7 0" />
       <path d="M14 10a3.5 3.5 0 0 1 -7 0" />
       <path d="M14 17a3.5 3.5 0 0 0 0 -7" />
@@ -46860,7 +47834,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="6" y="6" width="12" height="14" rx="2" />
+      <path d="M6 6m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
       <path d="M9 6v-1a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v1" />
       <path d="M6 10h12" />
       <path d="M6 16h12" />
@@ -46887,7 +47861,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6.583 6.608c-1.206 1.058 -2.07 2.626 -2.933 5.449c-.42 1.37 -.636 2.962 -.648 4.775c-.012 1.675 1.261 3.054 2.877 3.161l.203 .007c1.611 0 2.918 -1.335 2.918 -2.98v-8.02" />
-      <path d="M15 11v-3.743c0 -.694 .552 -1.257 1.233 -1.257c.204 0 .405 .052 .584 .15l.13 .083c1.46 1.059 2.432 2.647 3.405 5.824c.42 1.37 .636 2.962 .648 4.775c0 .063 0 .125 -.004 .187m-1.455 2.51c-.417 .265 -.9 .43 -1.419 .464l-.202 .007c-1.613 0 -2.92 -1.335 -2.92 -2.98v-2.02" />
+      <path d="M15 11v-3.743c0 -.694 .552 -1.257 1.233 -1.257c.204 0 .405 .052 .584 .15l.13 .083c1.46 1.059 2.432 2.647 3.405 5.824c.42 1.37 .636 2.962 .648 4.775c0 .063 0 .125 0 .187m-1.455 2.51c-.417 .265 -.9 .43 -1.419 .464l-.202 .007c-1.613 0 -2.92 -1.335 -2.92 -2.98v-2.02" />
       <path d="M9 12a2.99 2.99 0 0 0 2.132 -.89" />
       <path d="M12 4v4" />
       <path d="M3 3l18 18" />
@@ -46936,7 +47910,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 15a6 6 0 0 0 11.47 2.467" />
-      <path d="M15.53 15.53a6.001 6.001 0 0 0 -3.53 5.47" />
+      <path d="M15.53 15.53a6 6 0 0 0 -3.53 5.47" />
       <path d="M12 21a6 6 0 0 0 -6 -6" />
       <path d="M12 21v-10" />
       <path d="M10.866 10.87a5.007 5.007 0 0 1 -3.734 -3.723m-.132 -4.147l3 2l2 -2l2 2l3 -2v3a5 5 0 0 1 -2.604 4.389" />
@@ -46986,7 +47960,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 3a2 2 0 0 1 2 2m0 4v4a3 3 0 0 0 5.552 1.578m.448 -3.578v-6a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v8a7.99 7.99 0 0 1 -.424 2.577m-1.463 2.584a8 8 0 0 1 -14.113 -5.161v-8.001c0 -.297 .065 -.58 .181 -.833" />
+      <path d="M7 3a2 2 0 0 1 2 2m0 4v4a3 3 0 0 0 5.552 1.578m.448 -3.578v-6a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v8a7.99 7.99 0 0 1 -.424 2.577m-1.463 2.584a8 8 0 0 1 -14.113 -5.161v-8c0 -.297 .065 -.58 .181 -.833" />
       <path d="M4 8h4" />
       <path d="M15 8h4" />
       <path d="M3 3l18 18" />
@@ -47011,8 +47985,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 13v-8a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v8a2 2 0 0 0 6 0v-8a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v8a8 8 0 0 1 -16 0" />
-      <line x1="4" y1="8" x2="9" y2="8" />
-      <line x1="15" y1="8" x2="19" y2="8" />
+      <path d="M4 8l5 0" />
+      <path d="M15 8l4 0" />
     </svg>
     """
   end
@@ -47104,10 +48078,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="3 9 12 15 21 9 12 3 3 9" />
+      <path d="M3 9l9 6l9 -6l-9 -6l-9 6" />
       <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
-      <line x1="3" y1="19" x2="9" y2="13" />
-      <line x1="15" y1="13" x2="21" y2="19" />
+      <path d="M3 19l6 -6" />
+      <path d="M15 13l6 6" />
     </svg>
     """
   end
@@ -47128,8 +48102,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
-      <polyline points="3 7 12 13 21 7" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+      <path d="M3 7l9 6l9 -6" />
     </svg>
     """
   end
@@ -47202,7 +48176,7 @@ defmodule TablerIcons do
       <path d="M9 9h6l-1 7h-4z" />
       <path d="M5 11c1.333 -1.333 2.667 -2 4 -2" />
       <path d="M19 11c-1.333 -1.333 -2.667 -2 -4 -2" />
-      <circle cx="12" cy="4" r="2" />
+      <path d="M12 4m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -47223,13 +48197,13 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="6" r="2" />
-      <circle cx="12" cy="6" r="2" />
-      <circle cx="19" cy="6" r="2" />
-      <circle cx="5" cy="18" r="2" />
-      <circle cx="12" cy="18" r="2" />
-      <line x1="5" y1="8" x2="5" y2="16" />
-      <line x1="12" y1="8" x2="12" y2="16" />
+      <path d="M5 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M12 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M12 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 8l0 8" />
+      <path d="M12 8l0 8" />
       <path d="M19 8v2a2 2 0 0 1 -2 2h-12" />
     </svg>
     """
@@ -47251,11 +48225,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="18" y1="6" x2="18" y2="6.01" />
+      <path d="M18 6l0 .01" />
       <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
-      <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
-      <line x1="9" y1="4" x2="9" y2="17" />
-      <line x1="15" y1="15" x2="15" y2="20" />
+      <path d="M10.5 4.75l-1.5 -.75l-6 3l0 13l6 -3l6 3l6 -3l0 -2" />
+      <path d="M9 4l0 13" />
+      <path d="M15 15l0 5" />
     </svg>
     """
   end
@@ -47285,6 +48259,30 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `map_pin_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.map_pin_filled />
+      <TablerIcons.map_pin_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def map_pin_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0m-8.657 -5.657a3 3 0 0 0 6 0a3 3 0 0 0 -6 0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `map_pin_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -47300,7 +48298,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M9.44 9.435a3 3 0 0 0 4.126 4.124m1.434 -2.559a3 3 0 0 0 -3 -3" />
       <path d="M8.048 4.042a8 8 0 0 1 10.912 10.908m-1.8 2.206l-3.745 3.744a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 0 1 -.48 -10.79" />
     </svg>
@@ -47323,7 +48321,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="11" r="3" />
+      <path d="M12 11m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
     </svg>
     """
@@ -47346,9 +48344,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10.828 9.828a4 4 0 1 0 -5.656 0l2.828 2.829l2.828 -2.829z" />
-      <line x1="8" y1="7" x2="8" y2="7.01" />
+      <path d="M8 7l0 .01" />
       <path d="M18.828 17.828a4 4 0 1 0 -5.656 0l2.828 2.829l2.828 -2.829z" />
-      <line x1="16" y1="15" x2="16" y2="15.01" />
+      <path d="M16 15l0 .01" />
     </svg>
     """
   end
@@ -47372,7 +48370,7 @@ defmodule TablerIcons do
       <path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v10" />
       <path d="M9 4v13" />
       <path d="M15 7v5" />
-      <circle cx="16.5" cy="17.5" r="2.5" />
+      <path d="M16.5 17.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
       <path d="M18.5 19.5l2.5 2.5" />
     </svg>
     """
@@ -47394,9 +48392,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="3 7 9 4 15 7 21 4 21 17 15 20 9 17 3 20 3 7" />
-      <line x1="9" y1="4" x2="9" y2="17" />
-      <line x1="15" y1="7" x2="15" y2="20" />
+      <path d="M3 7l6 -3l6 3l6 -3l0 13l-6 3l-6 -3l-6 3l0 -13" />
+      <path d="M9 4l0 13" />
+      <path d="M15 7l0 13" />
     </svg>
     """
   end
@@ -47418,9 +48416,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h10a2 2 0 0 1 2 2v10" />
-      <path d="M19 19h-14a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 1.85 -1.995" />
-      <path d="M7 15v-6l2 2l.995 -.995m1.005 .995v4" />
-      <path d="M17.5 13.5l.5 -.5m-2 -.997v-3.003" />
+      <path d="M19 19h-14a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 1.85 -2" />
+      <path d="M7 15v-6l2 2l1 -1m1 1v4" />
+      <path d="M17.5 13.5l.5 -.5m-2 -1v-3" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -47442,7 +48440,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M7 15v-6l2 2l2 -2v6" />
       <path d="M14 13l2 2l2 -2m-2 2v-6" />
     </svg>
@@ -47540,10 +48538,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="14" r="5" />
-      <line x1="19" y1="5" x2="13.6" y2="10.4" />
-      <line x1="19" y1="5" x2="14" y2="5" />
-      <line x1="19" y1="5" x2="19" y2="10" />
+      <path d="M10 14m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+      <path d="M19 5l-5.4 5.4" />
+      <path d="M19 5l-5 0" />
+      <path d="M19 5l0 5" />
     </svg>
     """
   end
@@ -47587,8 +48585,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="3" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -47609,7 +48607,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M13 9c.058 -.005 .133 0 .192 0h6.616a2 2 0 0 1 1.992 2.183l-.554 6.041m-1.286 2.718a3.99 3.99 0 0 1 -2.71 1.058h-1.5a4 4 0 0 1 -3.983 -3.635l-.567 -6.182" />
+      <path d="M13 9c.058 0 .133 0 .192 0h6.616a2 2 0 0 1 1.992 2.183l-.554 6.041m-1.286 2.718a3.99 3.99 0 0 1 -2.71 1.058h-1.5a4 4 0 0 1 -3.983 -3.635l-.567 -6.182" />
       <path d="M18 13h.01" />
       <path d="M15 16.5c.657 .438 1.313 .588 1.97 .451" />
       <path d="M8.632 15.982a4.05 4.05 0 0 1 -.382 .018h-1.5a4 4 0 0 1 -3.983 -3.635l-.567 -6.182a2 2 0 0 1 .514 -1.531a1.99 1.99 0 0 1 1.286 -.652m4 0h2.808a2 2 0 0 1 2 2" />
@@ -47664,8 +48662,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="4" cy="17" r="1" />
-      <circle cx="9" cy="5" r="1" />
+      <path d="M4 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M9 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M4 22l4 -2v-3h12" />
       <path d="M11 20h9" />
       <path d="M8 14l3 -2l1 -4c3 1 3 4 3 6" />
@@ -47690,7 +48688,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 21l14 -9" />
-      <circle cx="17" cy="12" r="1" />
+      <path d="M17 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M17 3l3.62 7.29a4.007 4.007 0 0 1 -.764 4.51a4 4 0 0 1 -6.493 -4.464l3.637 -7.336z" />
     </svg>
     """
@@ -47759,7 +48757,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 21l18 -18" />
-      <circle cx="12" cy="12" r="8" />
+      <path d="M12 12m-8 0a8 8 0 1 0 16 0a8 8 0 1 0 -16 0" />
     </svg>
     """
   end
@@ -48005,7 +49003,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5" r="2" />
+      <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M3 20c0 -8.75 4 -14 7 -14.5m4 0c3 .5 7 5.75 7 14.5" />
     </svg>
     """
@@ -48144,15 +49142,15 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="12" x2="21" y2="12" />
-      <line x1="12" y1="3" x2="12" y2="21" />
-      <line x1="16.5" y1="4.5" x2="19.5" y2="7.5" />
-      <line x1="19.5" y1="4.5" x2="16.5" y2="7.5" />
-      <line x1="6" y1="4" x2="6" y2="8" />
-      <line x1="4" y1="6" x2="8" y2="6" />
-      <line x1="18" y1="16" x2="18.01" y2="16" />
-      <line x1="18" y1="20" x2="18.01" y2="20" />
-      <line x1="4" y1="18" x2="8" y2="18" />
+      <path d="M3 12l18 0" />
+      <path d="M12 3l0 18" />
+      <path d="M16.5 4.5l3 3" />
+      <path d="M19.5 4.5l-3 3" />
+      <path d="M6 4l0 4" />
+      <path d="M4 6l4 0" />
+      <path d="M18 16l.01 0" />
+      <path d="M18 20l.01 0" />
+      <path d="M4 18l4 0" />
     </svg>
     """
   end
@@ -48578,6 +49576,30 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `medical_cross_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.medical_cross_filled />
+      <TablerIcons.medical_cross_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def medical_cross_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M13 3a1 1 0 0 1 1 1v4.535l3.928 -2.267a1 1 0 0 1 1.366 .366l1 1.732a1 1 0 0 1 -.366 1.366l-3.927 2.268l3.927 2.269a1 1 0 0 1 .366 1.366l-1 1.732a1 1 0 0 1 -1.366 .366l-3.928 -2.269v4.536a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-4.536l-3.928 2.268a1 1 0 0 1 -1.366 -.366l-1 -1.732a1 1 0 0 1 .366 -1.366l3.927 -2.268l-3.927 -2.268a1 1 0 0 1 -.366 -1.366l1 -1.732a1 1 0 0 1 1.366 -.366l3.928 2.267v-4.535a1 1 0 0 1 1 -1h2z"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `medical_cross_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -48705,9 +49727,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="6" x2="20" y2="6" />
-      <line x1="4" y1="12" x2="20" y2="12" />
-      <line x1="4" y1="18" x2="20" y2="18" />
+      <path d="M4 6l16 0" />
+      <path d="M4 12l16 0" />
+      <path d="M4 18l16 0" />
     </svg>
     """
   end
@@ -48752,8 +49774,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="8" x2="20" y2="8" />
-      <line x1="4" y1="16" x2="20" y2="16" />
+      <path d="M4 8l16 0" />
+      <path d="M4 16l16 0" />
     </svg>
     """
   end
@@ -48845,8 +49867,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 20l-3 -3h-2a3 3 0 0 1 -3 -3v-6a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-2l-3 3" />
-      <line x1="8" y1="9" x2="16" y2="9" />
-      <line x1="8" y1="13" x2="14" y2="13" />
+      <path d="M8 9l8 0" />
+      <path d="M8 13l6 0" />
     </svg>
     """
   end
@@ -48871,6 +49893,27 @@ defmodule TablerIcons do
       <path d="M9.5 9h.01" />
       <path d="M14.5 9h.01" />
       <path d="M9.5 13a3.5 3.5 0 0 0 5 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `message_circle_2_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.message_circle_2_filled />
+      <TablerIcons.message_circle_2_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def message_circle_2_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" fill="currentColor" />
     </svg>
     """
   end
@@ -48912,7 +49955,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M8.585 4.581c3.225 -1.181 7.032 -.616 9.66 1.626c2.983 2.543 3.602 6.525 1.634 9.662m-1.908 2.108c-2.786 2.19 -6.89 2.665 -10.271 1.023l-4.7 1l1.3 -3.9c-2.237 -3.308 -1.489 -7.54 1.714 -10.084" />
     </svg>
     """
@@ -48935,9 +49978,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" />
-      <line x1="12" y1="12" x2="12" y2="12.01" />
-      <line x1="8" y1="12" x2="8" y2="12.01" />
-      <line x1="16" y1="12" x2="16" y2="12.01" />
+      <path d="M12 12l0 .01" />
+      <path d="M8 12l0 .01" />
+      <path d="M16 12l0 .01" />
     </svg>
     """
   end
@@ -48982,9 +50025,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" />
-      <line x1="12" y1="11" x2="12" y2="11.01" />
-      <line x1="8" y1="11" x2="8" y2="11.01" />
-      <line x1="16" y1="11" x2="16" y2="11.01" />
+      <path d="M12 11l0 .01" />
+      <path d="M8 11l0 .01" />
+      <path d="M16 11l0 .01" />
     </svg>
     """
   end
@@ -49051,7 +50094,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M17 17h-9l-4 4v-13c0 -1.086 .577 -2.036 1.44 -2.563m3.561 -.437h8a3 3 0 0 1 3 3v6c0 .575 -.162 1.112 -.442 1.568" />
     </svg>
     """
@@ -49074,8 +50117,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" />
-      <line x1="10" y1="11" x2="14" y2="11" />
-      <line x1="12" y1="9" x2="12" y2="13" />
+      <path d="M10 11l4 0" />
+      <path d="M12 9l0 4" />
     </svg>
     """
   end
@@ -49097,8 +50140,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" />
-      <line x1="12" y1="8" x2="12" y2="11" />
-      <line x1="12" y1="14" x2="12" y2="14.01" />
+      <path d="M12 8l0 3" />
+      <path d="M12 14l0 .01" />
     </svg>
     """
   end
@@ -49143,8 +50186,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" />
-      <line x1="8" y1="9" x2="16" y2="9" />
-      <line x1="8" y1="13" x2="14" y2="13" />
+      <path d="M8 9l8 0" />
+      <path d="M8 13l6 0" />
     </svg>
     """
   end
@@ -49165,7 +50208,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M11 11a1 1 0 0 1 -1 -1m0 -3.968v-2.032a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10l-3 -3h-3" />
       <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
     </svg>
@@ -49211,7 +50254,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9.75 5.761l3.25 -2.761l-1 5l9 -5l-5 9h5l-2.467 2.536m-1.983 2.04l-2.441 2.51a6.5 6.5 0 1 1 -8.855 -9.506l2.322 -1.972" />
-      <circle cx="9.5" cy="14.5" r="2.5" />
+      <path d="M9.5 14.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -49234,7 +50277,31 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M21 3l-5 9h5l-6.891 7.086a6.5 6.5 0 1 1 -8.855 -9.506l7.746 -6.58l-1 5l9 -5z" />
-      <circle cx="9.5" cy="14.5" r="2.5" />
+      <path d="M9.5 14.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `mickey_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.mickey_filled />
+      <TablerIcons.mickey_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def mickey_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M5.5 3a3.5 3.5 0 0 1 3.25 4.8a7.017 7.017 0 0 0 -2.424 2.1a3.5 3.5 0 1 1 -.826 -6.9zm13 0a3.5 3.5 0 1 1 -.826 6.902a7.013 7.013 0 0 0 -2.424 -2.103a3.5 3.5 0 0 1 3.25 -4.799zm-6.5 11m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -49257,7 +50324,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5.5 3a3.5 3.5 0 0 1 3.25 4.8a7.017 7.017 0 0 0 -2.424 2.1a3.5 3.5 0 1 1 -.826 -6.9z" />
       <path d="M18.5 3a3.5 3.5 0 1 1 -.826 6.902a7.013 7.013 0 0 0 -2.424 -2.103a3.5 3.5 0 0 1 3.25 -4.799z" />
-      <circle cx="12" cy="14" r="7" />
+      <path d="M12 14m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
     </svg>
     """
   end
@@ -49301,8 +50368,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M15.002 12.9a5 5 0 1 0 -3.902 -3.9" />
-      <path d="M15.002 12.9l-3.902 -3.899l-7.513 8.584a2 2 0 1 0 2.827 2.83l8.588 -7.515z" />
+      <path d="M15 12.9a5 5 0 1 0 -3.902 -3.9" />
+      <path d="M15 12.9l-3.902 -3.899l-7.513 8.584a2 2 0 1 0 2.827 2.83l8.588 -7.515z" />
     </svg>
     """
   end
@@ -49323,11 +50390,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M9 5a3 3 0 0 1 6 0v5a3 3 0 0 1 -.13 .874m-2 2a3 3 0 0 1 -3.87 -2.872v-1" />
-      <path d="M5 10a7 7 0 0 0 10.846 5.85m2.002 -2a6.967 6.967 0 0 0 1.152 -3.85" />
-      <line x1="8" y1="21" x2="16" y2="21" />
-      <line x1="12" y1="17" x2="12" y2="21" />
+      <path d="M5 10a7 7 0 0 0 10.846 5.85m2 -2a6.967 6.967 0 0 0 1.152 -3.85" />
+      <path d="M8 21l8 0" />
+      <path d="M12 17l0 4" />
     </svg>
     """
   end
@@ -49348,10 +50415,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="9" y="2" width="6" height="11" rx="3" />
+      <path d="M9 2m0 3a3 3 0 0 1 3 -3h0a3 3 0 0 1 3 3v5a3 3 0 0 1 -3 3h0a3 3 0 0 1 -3 -3z" />
       <path d="M5 10a7 7 0 0 0 14 0" />
-      <line x1="8" y1="21" x2="16" y2="21" />
-      <line x1="12" y1="17" x2="12" y2="21" />
+      <path d="M8 21l8 0" />
+      <path d="M12 17l0 4" />
     </svg>
     """
   end
@@ -49378,7 +50445,7 @@ defmodule TablerIcons do
       <path d="M10 10l-1 1l3 3l1 -1m2 -2l3 -3l-3 -3l-3 3" />
       <path d="M10.5 12.5l-1.5 1.5" />
       <path d="M17 3l3 3" />
-      <path d="M12 21a6 6 0 0 0 5.457 -3.505m.441 -3.599a5.996 5.996 0 0 0 -2.183 -3.608" />
+      <path d="M12 21a6 6 0 0 0 5.457 -3.505m.441 -3.599a6 6 0 0 0 -2.183 -3.608" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -49454,7 +50521,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="6" width="18" height="12" rx="1" />
+      <path d="M3 6m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
       <path d="M15 6v12" />
       <path d="M18 12h.01" />
       <path d="M18 15h.01" />
@@ -49481,7 +50548,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="13" r="4" />
+      <path d="M12 13m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M8.5 10.5l-1 -2.5h-5.5l2.48 5.788a2 2 0 0 0 1.84 1.212h2.18" />
       <path d="M15.5 10.5l1 -2.5h5.5l-2.48 5.788a2 2 0 0 1 -1.84 1.212h-2.18" />
     </svg>
@@ -49530,7 +50597,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 6h6v-2a1 1 0 0 0 -1 -1h-6a1 1 0 0 0 -1 1" />
       <path d="M16 6l1.094 1.759a6 6 0 0 1 .906 3.17v3.071m0 4v1a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-8.071a6 6 0 0 1 .906 -3.17l.327 -.525" />
-      <circle cx="12" cy="16" r="2" />
+      <path d="M12 16m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -49554,7 +50621,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 6h8v-2a1 1 0 0 0 -1 -1h-6a1 1 0 0 0 -1 1v2z" />
       <path d="M16 6l1.094 1.759a6 6 0 0 1 .906 3.17v8.071a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-8.071a6 6 0 0 1 .906 -3.17l1.094 -1.759" />
-      <circle cx="12" cy="16" r="2" />
+      <path d="M12 16m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M10 10h4" />
     </svg>
     """
@@ -49577,7 +50644,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M17 10a5 5 0 0 0 -10 0" />
-      <rect x="6" y="10" width="12" height="3" rx="1" />
+      <path d="M6 10m0 1a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z" />
       <path d="M7 13l1.81 7.243a1 1 0 0 0 .97 .757h4.44a1 1 0 0 0 .97 -.757l1.81 -7.243" />
       <path d="M12 5v-2" />
     </svg>
@@ -49645,7 +50712,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="5" y1="12" x2="19" y2="12" />
+      <path d="M5 12l14 0" />
     </svg>
     """
   end
@@ -49815,8 +50882,8 @@ defmodule TablerIcons do
       <path d="M9.5 16a3.5 3.5 0 0 0 5 0" />
       <path d="M8.5 2c1.5 1 2.5 3.5 2.5 5" />
       <path d="M12.5 2c1.5 2 2 3.5 2 5" />
-      <line x1="9" y1="12" x2="9.01" y2="12" />
-      <line x1="15" y1="12" x2="15.01" y2="12" />
+      <path d="M9 12l.01 0" />
+      <path d="M15 12l.01 0" />
     </svg>
     """
   end
@@ -49837,9 +50904,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="10" x2="9.01" y2="10" />
-      <line x1="15" y1="10" x2="15.01" y2="10" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 10l.01 0" />
+      <path d="M15 10l.01 0" />
       <path d="M9.5 16a10 10 0 0 1 6 -1.5" />
     </svg>
     """
@@ -49861,10 +50928,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="7" y1="8.5" x2="10" y2="11.5" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M7 8.5l3 3" />
       <path d="M7 11.5l3 -3" />
-      <line x1="14" y1="8.5" x2="17" y2="11.5" />
+      <path d="M14 8.5l3 3" />
       <path d="M14 11.5l3 -3" />
       <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
     </svg>
@@ -49887,8 +50954,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="9" y1="10" x2="9.01" y2="10" />
-      <line x1="15" y1="10" x2="15.01" y2="10" />
+      <path d="M9 10l.01 0" />
+      <path d="M15 10l.01 0" />
       <path d="M9.5 15.25a3.5 3.5 0 0 1 5 0" />
       <path d="M17.566 17.606a2 2 0 1 0 2.897 .03l-1.463 -1.636l-1.434 1.606z" />
       <path d="M20.865 13.517a8.937 8.937 0 0 0 .135 -1.517a9 9 0 1 0 -9 9c.69 0 1.36 -.076 2 -.222" />
@@ -49912,10 +50979,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="10" x2="9.01" y2="10" />
-      <line x1="15" y1="10" x2="15.01" y2="10" />
-      <line x1="9" y1="15" x2="15" y2="15" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 10l.01 0" />
+      <path d="M15 10l.01 0" />
+      <path d="M9 15l6 0" />
     </svg>
     """
   end
@@ -49936,10 +51003,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="9" x2="9.01" y2="9" />
-      <line x1="15" y1="9" x2="15.01" y2="9" />
-      <path d="M8 13a4 4 0 1 0 8 0m0 0h-8" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 9l.01 0" />
+      <path d="M15 9l.01 0" />
+      <path d="M8 13a4 4 0 1 0 8 0h-8" />
     </svg>
     """
   end
@@ -49960,9 +51027,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="10" x2="9.01" y2="10" />
-      <line x1="15" y1="10" x2="15.01" y2="10" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 10l.01 0" />
+      <path d="M15 10l.01 0" />
       <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
       <path d="M12 3a2 2 0 0 0 0 4" />
     </svg>
@@ -49985,7 +51052,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 9h.01" />
       <path d="M4 15h4" />
     </svg>
@@ -50031,9 +51098,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="8" cy="10" r="2" />
-      <circle cx="16" cy="10" r="2" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M8 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M16 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
       <path d="M3.5 9h2.5" />
       <path d="M18 9h2.5" />
@@ -50058,7 +51125,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 10h.01" />
       <path d="M15 10h.01" />
       <path d="M8 16l2 -2l2 2l2 -2l2 2" />
@@ -50082,9 +51149,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="10" x2="9.01" y2="10" />
-      <line x1="15" y1="10" x2="15.01" y2="10" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 10l.01 0" />
+      <path d="M15 10l.01 0" />
     </svg>
     """
   end
@@ -50130,7 +51197,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M14.5 16.05a3.5 3.5 0 0 0 -5 0" />
       <path d="M10 9.25c-.5 1 -2.5 1 -3 0" />
       <path d="M17 9.25c-.5 1 -2.5 1 -3 0" />
@@ -50154,7 +51221,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M14.5 16.05a3.5 3.5 0 0 0 -5 0" />
       <path d="M8 9l2 2" />
       <path d="M10 9l-2 2" />
@@ -50180,7 +51247,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M14.5 16.05a3.5 3.5 0 0 0 -5 0" />
       <path d="M8.5 11.5l1.5 -1.5l-1.5 -1.5" />
       <path d="M15.5 11.5l-1.5 -1.5l1.5 -1.5" />
@@ -50204,9 +51271,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="10" x2="9.01" y2="10" />
-      <line x1="15" y1="10" x2="15.01" y2="10" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 10l.01 0" />
+      <path d="M15 10l.01 0" />
       <path d="M9.5 15.25a3.5 3.5 0 0 1 5 0" />
     </svg>
     """
@@ -50279,10 +51346,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 9h.01" />
       <path d="M15 9h.01" />
-      <circle cx="15" cy="15" r="2" />
+      <path d="M15 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -50327,7 +51394,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M14.5 15a3.5 3.5 0 0 1 -5 0" />
       <path d="M8 9l2 2" />
       <path d="M10 9l-2 2" />
@@ -50353,9 +51420,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="10" x2="9.01" y2="10" />
-      <line x1="15" y1="10" x2="15.01" y2="10" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 10l.01 0" />
+      <path d="M15 10l.01 0" />
       <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
     </svg>
     """
@@ -50377,10 +51444,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="9" x2="9.01" y2="9" />
-      <line x1="15" y1="9" x2="15.01" y2="9" />
-      <circle cx="12" cy="15" r="2" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 9l.01 0" />
+      <path d="M15 9l.01 0" />
+      <path d="M12 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -50401,7 +51468,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z" />
       <path d="M15 10h-.01" />
       <path d="M10 14v2a2 2 0 1 0 4 0v-2m1.5 0h-7" />
@@ -50427,7 +51494,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 10h.01" />
       <path d="M10 14v2a2 2 0 0 0 4 0v-2" />
       <path d="M15.5 14h-7" />
@@ -50452,9 +51519,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="9" y1="10" x2="9.01" y2="10" />
-      <line x1="15" y1="10" x2="15.01" y2="10" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M9 10l.01 0" />
+      <path d="M15 10l.01 0" />
       <path d="M10 14v2a2 2 0 0 0 4 0v-2m1.5 0h-7" />
     </svg>
     """
@@ -50476,7 +51543,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M11 16l4 -1.5" />
       <path d="M10 10c-.5 -1 -2.5 -1 -3 0" />
       <path d="M17 10c-.5 -1 -2.5 -1 -3 0" />
@@ -50524,7 +51591,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M15 10h.01" />
       <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
       <path d="M8.5 8.5l1.5 1.5l-1.5 1.5" />
@@ -50572,7 +51639,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z" />
       <path d="M9 14h6a3 3 0 1 1 -6 0z" />
       <path d="M9 8l6 3" />
@@ -50598,7 +51665,28 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M16.418 4.157a8 8 0 0 0 0 15.686" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `moon_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.moon_filled />
+      <TablerIcons.moon_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def moon_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" fill="currentColor" />
     </svg>
     """
   end
@@ -50685,9 +51773,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="18" cy="17" r="2" />
+      <path d="M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5 16v1a2 2 0 0 0 4 0v-5h-3a3 3 0 0 0 -3 3v1h10a6 6 0 0 1 5 -4v-5a2 2 0 0 0 -2 -2h-1" />
-      <line x1="6" y1="9" x2="9" y2="9" />
+      <path d="M6 9l3 0" />
     </svg>
     """
   end
@@ -50708,8 +51796,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="16" r="3" />
-      <circle cx="19" cy="16" r="3" />
+      <path d="M5 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M19 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M7.5 14h5l4 -4h-10.5m1.5 4l4 -4" />
       <path d="M13 6h2l1.5 3l2 4" />
     </svg>
@@ -50777,7 +51865,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="6" y="3" width="12" height="18" rx="4" />
+      <path d="M6 3m0 4a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-4a4 4 0 0 1 -4 -4z" />
       <path d="M12 3v7" />
       <path d="M6 10h12" />
     </svg>
@@ -50800,7 +51888,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7.733 3.704a3.982 3.982 0 0 1 2.267 -.704h4a4 4 0 0 1 4 4v7m-.1 3.895a4.002 4.002 0 0 1 -3.9 3.105h-4a4 4 0 0 1 -4 -4v-10c0 -.3 .033 -.593 .096 -.874" />
+      <path d="M7.733 3.704a3.982 3.982 0 0 1 2.267 -.704h4a4 4 0 0 1 4 4v7m-.1 3.895a4 4 0 0 1 -3.9 3.105h-4a4 4 0 0 1 -4 -4v-10c0 -.3 .033 -.593 .096 -.874" />
       <path d="M12 7v1" />
       <path d="M3 3l18 18" />
     </svg>
@@ -50823,8 +51911,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="6" y="3" width="12" height="18" rx="4" />
-      <line x1="12" y1="7" x2="12" y2="11" />
+      <path d="M6 3m0 4a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-4a4 4 0 0 1 -4 -4z" />
+      <path d="M12 7l0 4" />
     </svg>
     """
   end
@@ -50845,8 +51933,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M15 9a3 3 0 0 1 2.599 1.5h.001c.933 1.333 2.133 1.556 3.126 1.556l.291 -.006l.77 -.044l.213 -.006c-.963 1.926 -3.163 2.925 -6.6 2.996l-.4 .004l-.165 -.005a3 3 0 0 1 .165 -5.995z" />
-      <path d="M9 9a3 3 0 0 0 -2.599 1.5h-.001c-.933 1.333 -2.133 1.556 -3.126 1.556l-.291 -.006l-.77 -.044l-.213 -.006c.963 1.926 3.163 2.925 6.6 2.996l.4 .004l.165 -.005a3 3 0 0 0 -.165 -5.995z" />
+      <path d="M15 9a3 3 0 0 1 2.599 1.5h0c.933 1.333 2.133 1.556 3.126 1.556l.291 0l.77 -.044l.213 0c-.963 1.926 -3.163 2.925 -6.6 3l-.4 0l-.165 0a3 3 0 0 1 .165 -6z" />
+      <path d="M9 9a3 3 0 0 0 -2.599 1.5h0c-.933 1.333 -2.133 1.556 -3.126 1.556l-.291 0l-.77 -.044l-.213 0c.963 1.926 3.163 2.925 6.6 3l.4 0l.165 0a3 3 0 0 0 -.165 -6z" />
     </svg>
     """
   end
@@ -50895,14 +51983,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="8" y1="4" x2="8" y2="20" />
-      <line x1="16" y1="4" x2="16" y2="20" />
-      <line x1="4" y1="8" x2="8" y2="8" />
-      <line x1="4" y1="16" x2="8" y2="16" />
-      <line x1="4" y1="12" x2="20" y2="12" />
-      <line x1="16" y1="8" x2="20" y2="8" />
-      <line x1="16" y1="16" x2="20" y2="16" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M8 4l0 16" />
+      <path d="M16 4l0 16" />
+      <path d="M4 8l4 0" />
+      <path d="M4 16l4 0" />
+      <path d="M4 12l16 0" />
+      <path d="M16 8l4 0" />
+      <path d="M16 16l4 0" />
     </svg>
     """
   end
@@ -51108,7 +52196,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="17" r="3" />
+      <path d="M6 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M14.42 14.45a3 3 0 1 0 4.138 4.119" />
       <path d="M9 17v-8m0 -4v-1h10v11" />
       <path d="M12 8h7" />
@@ -51133,10 +52221,34 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="17" r="3" />
-      <circle cx="16" cy="17" r="3" />
-      <polyline points="9 17 9 4 19 4 19 17" />
-      <line x1="9" y1="8" x2="19" y2="8" />
+      <path d="M6 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M16 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M9 17l0 -13l10 0l0 13" />
+      <path d="M9 8l10 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `navigation_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.navigation_filled />
+      <TablerIcons.navigation_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def navigation_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 18.5l7.265 2.463a0.535 .535 0 0 0 .57 -.116a0.548 .548 0 0 0 .134 -.572l-7.969 -17.275l-7.97 17.275a0.547 .547 0 0 0 .135 .572a0.535 .535 0 0 0 .57 .116l7.265 -2.463"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -51248,12 +52360,12 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6.537 6.516a6 6 0 0 0 7.932 7.954m2.246 -1.76a6 6 0 0 0 -8.415 -8.433" />
-      <path d="M12 3c1.333 .333 2 2.333 2 6c0 .348 -.006 .681 -.018 1m-.545 3.43c-.332 .89 -.811 1.414 -1.437 1.57" />
+      <path d="M12 3c1.333 .333 2 2.333 2 6c0 .348 0 .681 -.018 1m-.545 3.43c-.332 .89 -.811 1.414 -1.437 1.57" />
       <path d="M12 3c-.938 .234 -1.547 1.295 -1.825 3.182m-.156 3.837c.117 3.02 .777 4.68 1.981 4.981" />
       <path d="M6 9h3m4 0h5" />
       <path d="M3 19h7" />
       <path d="M14 19h5" />
-      <circle cx="12" cy="19" r="2" />
+      <path d="M12 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M12 15v2" />
       <path d="M3 3l18 18" />
     </svg>
@@ -51276,13 +52388,13 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="9" r="6" />
+      <path d="M12 9m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
       <path d="M12 3c1.333 .333 2 2.333 2 6s-.667 5.667 -2 6" />
       <path d="M12 3c-1.333 .333 -2 2.333 -2 6s.667 5.667 2 6" />
       <path d="M6 9h12" />
       <path d="M3 19h7" />
       <path d="M14 19h7" />
-      <circle cx="12" cy="19" r="2" />
+      <path d="M12 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M12 15v2" />
     </svg>
     """
@@ -51304,8 +52416,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="9" y1="12" x2="15" y2="12" />
-      <line x1="12" y1="9" x2="12" y2="15" />
+      <path d="M9 12l6 0" />
+      <path d="M12 9l0 6" />
       <path d="M4 6v-1a1 1 0 0 1 1 -1h1m5 0h2m5 0h1a1 1 0 0 1 1 1v1m0 5v2m0 5v1a1 1 0 0 1 -1 1h-1m-5 0h-2m-5 0h-1a1 1 0 0 1 -1 -1v-1m0 -5v-2m0 -5" />
     </svg>
     """
@@ -51327,7 +52439,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M16 6h3a1 1 0 0 1 1 1v9m-.606 3.435a2 2 0 0 1 -3.394 -1.435v-2m0 -4v-7a1 1 0 0 0 -1 -1h-7m-3.735 .321a0.996 .996 0 0 0 -.265 .679v12a3 3 0 0 0 3 3h11" />
+      <path d="M16 6h3a1 1 0 0 1 1 1v9m-.606 3.435a2 2 0 0 1 -3.394 -1.435v-2m0 -4v-7a1 1 0 0 0 -1 -1h-7m-3.735 .321a1 1 0 0 0 -.265 .679v12a3 3 0 0 0 3 3h11" />
       <path d="M8 12h4" />
       <path d="M8 16h4" />
       <path d="M3 3l18 18" />
@@ -51352,9 +52464,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M16 6h3a1 1 0 0 1 1 1v11a2 2 0 0 1 -4 0v-13a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1v12a3 3 0 0 0 3 3h11" />
-      <line x1="8" y1="8" x2="12" y2="8" />
-      <line x1="8" y1="12" x2="12" y2="12" />
-      <line x1="8" y1="16" x2="12" y2="16" />
+      <path d="M8 8l4 0" />
+      <path d="M8 12l4 0" />
+      <path d="M8 16l4 0" />
     </svg>
     """
   end
@@ -51401,7 +52513,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11 20a3 3 0 0 1 -3 -3v-11l5 5" />
       <path d="M13 4a3 3 0 0 1 3 3v11l-5 -5" />
-      <rect x="4" y="4" width="16" height="16" rx="3" />
+      <path d="M4 4m0 3a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3z" />
     </svg>
     """
   end
@@ -51422,7 +52534,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M14 9.75a3.016 3.016 0 0 0 -4.163 .173a2.993 2.993 0 0 0 0 4.154a3.016 3.016 0 0 0 4.163 .173" />
       <path d="M6 6l1.5 1.5" />
       <path d="M16.5 16.5l1.5 1.5" />
@@ -51446,7 +52558,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10.5 10.5c-.847 -.71 -2.132 -.658 -2.914 .116a1.928 1.928 0 0 0 0 2.768c.782 .774 2.067 .825 2.914 .116" />
       <path d="M16.5 10.5c-.847 -.71 -2.132 -.658 -2.914 .116a1.928 1.928 0 0 0 0 2.768c.782 .774 2.067 .825 2.914 .116" />
       <path d="M6 6l1.5 1.5" />
@@ -51471,7 +52583,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 10h6" />
       <path d="M9 14h6" />
     </svg>
@@ -51518,7 +52630,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M13 20l3.505 -3.505m1.994 -1.994l1.501 -1.501" />
+      <path d="M13 20l3.505 -3.505m2 -2l1.501 -1.501" />
       <path d="M17 13h3v-7a2 2 0 0 0 -2 -2h-10m-3.427 .6c-.355 .36 -.573 .853 -.573 1.4v12a2 2 0 0 0 2 2h7v-6c0 -.272 .109 -.519 .285 -.699" />
       <path d="M3 3l18 18" />
     </svg>
@@ -51541,7 +52653,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="13" y1="20" x2="20" y2="13" />
+      <path d="M13 20l7 -7" />
       <path d="M13 20v-6a1 1 0 0 1 1 -1h6v-7a2 2 0 0 0 -2 -2h-12a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7" />
     </svg>
     """
@@ -51587,8 +52699,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
-      <line x1="13" y1="8" x2="15" y2="8" />
-      <line x1="13" y1="12" x2="15" y2="12" />
+      <path d="M13 8l2 0" />
+      <path d="M13 12l2 0" />
     </svg>
     """
   end
@@ -51634,10 +52746,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="3" width="14" height="18" rx="2" />
-      <line x1="9" y1="7" x2="15" y2="7" />
-      <line x1="9" y1="11" x2="15" y2="11" />
-      <line x1="9" y1="15" x2="13" y2="15" />
+      <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+      <path d="M9 7l6 0" />
+      <path d="M9 11l6 0" />
+      <path d="M9 15l4 0" />
     </svg>
     """
   end
@@ -51659,7 +52771,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6.154 6.187a2 2 0 0 0 -1.154 1.813v9a2 2 0 0 0 2 2h9a2 2 0 0 0 1.811 -1.151" />
-      <circle cx="17" cy="7" r="3" />
+      <path d="M17 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -51682,7 +52794,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 6h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3" />
-      <circle cx="17" cy="7" r="3" />
+      <path d="M17 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -51874,8 +52986,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="8" r="4" />
-      <circle cx="12" cy="16" r="4" />
+      <path d="M12 8m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+      <path d="M12 16m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
     </svg>
     """
   end
@@ -51920,7 +53032,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 17v-10l7 10v-10" />
       <path d="M15 17h5" />
-      <ellipse cx="17.5" cy="10" rx="2.5" ry="3" />
+      <path d="M17.5 10m-2.5 0a2.5 3 0 1 0 5 0a2.5 3 0 1 0 -5 0" />
     </svg>
     """
   end
@@ -51942,7 +53054,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 10v-7l-2 2" />
-      <path d="M6 16a2 2 0 1 1 4 0c0 .591 -.601 1.46 -1 2l-3 3.001h4" />
+      <path d="M6 16a2 2 0 1 1 4 0c0 .591 -.601 1.46 -1 2l-3 3h4" />
       <path d="M15 14a2 2 0 1 0 2 -2a2 2 0 1 0 -2 -2" />
       <path d="M6.5 10h3" />
     </svg>
@@ -51973,6 +53085,30 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `octagon_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.octagon_filled />
+      <TablerIcons.octagon_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def octagon_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M8.7 3h6.6c.3 0 .5 .1 .7 .3l4.7 4.7c.2 .2 .3 .4 .3 .7v6.6c0 .3 -.1 .5 -.3 .7l-4.7 4.7c-.2 .2 -.4 .3 -.7 .3h-6.6c-.3 0 -.5 -.1 -.7 -.3l-4.7 -4.7c-.2 -.2 -.3 -.4 -.3 -.7v-6.6c0 -.3 .1 -.5 .3 -.7l4.7 -4.7c.2 -.2 .4 -.3 .7 -.3z"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `octagon_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -51988,7 +53124,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7.647 3.653l.353 -.353c.2 -.2 .4 -.3 .7 -.3h6.6c.3 0 .5 .1 .7 .3l4.7 4.7c.2 .2 .3 .4 .3 .7v6.6c0 .3 -.1 .5 -.3 .7l-.35 .35m-1.997 1.997l-2.353 2.353c-.2 .2 -.4 .3 -.7 .3h-6.6c-.3 0 -.5 -.1 -.7 -.3l-4.7 -4.7c-.2 -.2 -.3 -.4 -.3 -.7v-6.6c0 -.3 .1 -.5 .3 -.7l2.35 -2.35" />
+      <path d="M7.647 3.653l.353 -.353c.2 -.2 .4 -.3 .7 -.3h6.6c.3 0 .5 .1 .7 .3l4.7 4.7c.2 .2 .3 .4 .3 .7v6.6c0 .3 -.1 .5 -.3 .7l-.35 .35m-2 2l-2.353 2.353c-.2 .2 -.4 .3 -.7 .3h-6.6c-.3 0 -.5 -.1 -.7 -.3l-4.7 -4.7c-.2 -.2 -.3 -.4 -.3 -.7v-6.6c0 -.3 .1 -.5 .3 -.7l2.35 -2.35" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -52033,7 +53169,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11 21l-1 -4l-2 -3v-6" />
       <path d="M5 14l-1 -3l4 -3l3 2l3 .5" />
-      <circle cx="8" cy="4" r="1" />
+      <path d="M8 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M7 17l-2 4" />
       <path d="M16 21v-8.5a1.5 1.5 0 0 1 3 0v.5" />
     </svg>
@@ -52057,9 +53193,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 6a3 3 0 1 0 3 3" />
-      <circle cx="18" cy="9" r="3" />
+      <path d="M18 9m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M9 9a3 3 0 0 0 3 3m2.566 -1.445a3 3 0 0 0 -4.135 -4.113" />
-      <circle cx="9" cy="15" r="3" />
+      <path d="M9 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M12.878 12.88a3 3 0 0 0 4.239 4.247m.586 -3.431a3.012 3.012 0 0 0 -1.43 -1.414" />
       <path d="M3 3l18 18" />
     </svg>
@@ -52082,11 +53218,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="9" r="3" />
-      <circle cx="18" cy="9" r="3" />
-      <circle cx="12" cy="9" r="3" />
-      <circle cx="9" cy="15" r="3" />
-      <circle cx="15" cy="15" r="3" />
+      <path d="M6 9m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M18 9m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M12 9m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M9 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M15 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -52107,7 +53243,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 12c2.21 0 4 -1.567 4 -3.5s-1.79 -3.5 -4 -3.5c-1.594 0 -2.97 .816 -3.613 1.996" />
+      <path d="M7 12c2.21 0 4 -1.567 4 -3.5s-1.79 -3.5 -4 -3.5c-1.594 0 -2.97 .816 -3.613 2" />
       <path d="M3.423 14.483a4.944 4.944 0 0 0 -.423 2.017c0 2.485 1.79 4.5 4 4.5s4 -2.015 4 -4.5s-1.79 -4.5 -4 -4.5" />
       <path d="M14.071 17.01c.327 2.277 1.739 3.99 3.429 3.99c1.933 0 3.5 -2.239 3.5 -5s-1.567 -5 -3.5 -5c-.96 0 -1.868 .606 -2.5 1.5c-.717 1.049 -1.76 1.7 -2.936 1.7c-.92 0 -1.766 -.406 -2.434 -1.087" />
       <path d="M17 3l2 2" />
@@ -52153,7 +53289,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 15l6 -6" />
       <path d="M11 9h4v4" />
     </svg>
@@ -52176,9 +53312,51 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <circle cx="9" cy="12" r=".5" fill="currentColor" />
       <circle cx="15" cy="12" r=".5" fill="currentColor" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `oval_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.oval_filled />
+      <TablerIcons.oval_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def oval_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 12m-6 0a6 9 0 1 0 12 0a6 9 0 1 0 -12 0" fill="currentColor" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `oval_vertical_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.oval_vertical_filled />
+      <TablerIcons.oval_vertical_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def oval_vertical_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M3 12c0 -3.314 4.03 -6 9 -6s9 2.686 9 6s-4.03 6 -9 6s-9 -2.686 -9 -6z" fill="currentColor" />
     </svg>
     """
   end
@@ -52220,7 +53398,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="12" cy="12" rx="6" ry="9" />
+      <path d="M12 12m-6 0a6 9 0 1 0 12 0a6 9 0 1 0 -12 0" />
     </svg>
     """
   end
@@ -52289,11 +53467,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" />
-      <line x1="12" y1="12" x2="20" y2="7.5" />
-      <line x1="12" y1="12" x2="12" y2="21" />
-      <line x1="12" y1="12" x2="4" y2="7.5" />
-      <line x1="16" y1="5.25" x2="8" y2="9.75" />
+      <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5" />
+      <path d="M12 12l8 -4.5" />
+      <path d="M12 12l0 9" />
+      <path d="M12 12l-8 -4.5" />
+      <path d="M16 5.25l-8 4.5" />
     </svg>
     """
   end
@@ -52443,7 +53621,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 3h10a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-4m-4 0h-2a2 2 0 0 1 -2 -2v-2" />
       <path d="M19 6h1a2 2 0 0 1 2 2a5 5 0 0 1 -5 5m-4 0h-1v2" />
-      <rect x="10" y="15" width="4" height="6" rx="1" />
+      <path d="M10 15m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -52465,9 +53643,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="3" width="14" height="6" rx="2" />
+      <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
       <path d="M19 6h1a2 2 0 0 1 2 2a5 5 0 0 1 -5 5l-5 0v2" />
-      <rect x="10" y="15" width="4" height="6" rx="1" />
+      <path d="M10 15m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -52490,9 +53668,9 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 15h-1a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25a9 9 0 0 1 -6.372 -15.356" />
       <path d="M8 4c1.236 -.623 2.569 -1 4 -1c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828a4.516 4.516 0 0 1 -1.127 .73" />
-      <circle cx="8.5" cy="10.5" r="1" />
-      <circle cx="12.5" cy="7.5" r="1" />
-      <circle cx="16.5" cy="10.5" r="1" />
+      <path d="M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -52515,9 +53693,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" />
-      <circle cx="8.5" cy="10.5" r="1" />
-      <circle cx="12.5" cy="7.5" r="1" />
-      <circle cx="16.5" cy="10.5" r="1" />
+      <path d="M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -52560,7 +53738,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4.338 5.53c5.106 1.932 10.211 1.932 15.317 .002a1 1 0 0 1 1.345 .934v11c0 .692 -.692 1.2 -1.34 .962c-5.107 -1.932 -10.214 -1.932 -15.321 0c-.648 .246 -1.339 -.242 -1.339 -.935v-11.027a1 1 0 0 1 1.338 -.935z" />
+      <path d="M4.338 5.53c5.106 1.932 10.211 1.932 15.317 0a1 1 0 0 1 1.345 .934v11c0 .692 -.692 1.2 -1.34 .962c-5.107 -1.932 -10.214 -1.932 -15.321 0c-.648 .246 -1.339 -.242 -1.339 -.935v-11.027a1 1 0 0 1 1.338 -.935z" />
     </svg>
     """
   end
@@ -52650,7 +53828,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 3h8a2 2 0 0 1 2 2v1.82a5 5 0 0 0 .528 2.236l.944 1.888a5 5 0 0 1 .528 2.236v5.82a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-5.82a5 5 0 0 1 .528 -2.236l1.472 -2.944v-3a2 2 0 0 1 2 -2z" />
-      <circle cx="14" cy="15" r="2" />
+      <path d="M14 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M6 21a2 2 0 0 0 2 -2v-5.82a5 5 0 0 0 -.528 -2.236l-1.472 -2.944" />
       <path d="M11 7h2" />
     </svg>
@@ -52697,7 +53875,7 @@ defmodule TablerIcons do
       <path d="M22 12c0 -5.523 -4.477 -10 -10 -10c-1.737 0 -3.37 .443 -4.794 1.222m-2.28 1.71a9.969 9.969 0 0 0 -2.926 7.068" />
       <path d="M22 12c0 -1.66 -1.46 -3 -3.25 -3c-1.63 0 -2.973 1.099 -3.212 2.54m-.097 -.09c-.23 -1.067 -1.12 -1.935 -2.29 -2.284m-3.445 .568c-.739 .55 -1.206 1.36 -1.206 2.266c0 -1.66 -1.46 -3 -3.25 -3c-1.8 0 -3.25 1.34 -3.25 3" />
       <path d="M2 12l10 10l-3.5 -10" />
-      <path d="M14.582 14.624l-2.582 7.376l4.992 -4.992m2.014 -2.014l2.994 -2.994" />
+      <path d="M14.582 14.624l-2.582 7.376l4.992 -4.992m2.014 -2.014l3 -3" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -52811,7 +53989,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M9 16v-8h4a2 2 0 0 1 0 4h-4" />
     </svg>
     """
@@ -52847,6 +54025,46 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `paw_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.paw_filled />
+      <TablerIcons.paw_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def paw_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M14.7 13.5c-1.1 -2 -1.441 -2.5 -2.7 -2.5c-1.259 0 -1.736 .755 -2.836 2.747c-.942 1.703 -2.846 1.845 -3.321 3.291c-.097 .265 -.145 .677 -.143 .962c0 1.176 .787 2 1.8 2c1.259 0 3 -1 4.5 -1s3.241 1 4.5 1c1.013 0 1.8 -.823 1.8 -2c0 -.285 -.049 -.697 -.146 -.962c-.475 -1.451 -2.512 -1.835 -3.454 -3.538z"
+        fill="currentColor"
+      />
+      <path
+        d="M20.188 8.082a1.039 1.039 0 0 0 -.406 -.082h-.015c-.735 .012 -1.56 .75 -1.993 1.866c-.519 1.335 -.28 2.7 .538 3.052c.129 .055 .267 .082 .406 .082c.739 0 1.575 -.742 2.011 -1.866c.516 -1.335 .273 -2.7 -.54 -3.052z"
+        fill="currentColor"
+      />
+      <path
+        d="M9.474 9c.055 0 .109 0 .163 -.011c.944 -.128 1.533 -1.346 1.32 -2.722c-.203 -1.297 -1.047 -2.267 -1.932 -2.267c-.055 0 -.109 0 -.163 .011c-.944 .128 -1.533 1.346 -1.32 2.722c.204 1.293 1.048 2.267 1.933 2.267z"
+        fill="currentColor"
+      />
+      <path
+        d="M16.456 6.733c.214 -1.376 -.375 -2.594 -1.32 -2.722a1.164 1.164 0 0 0 -.162 -.011c-.885 0 -1.728 .97 -1.93 2.267c-.214 1.376 .375 2.594 1.32 2.722c.054 .007 .108 .011 .162 .011c.885 0 1.73 -.974 1.93 -2.267z"
+        fill="currentColor"
+      />
+      <path
+        d="M5.69 12.918c.816 -.352 1.054 -1.719 .536 -3.052c-.436 -1.124 -1.271 -1.866 -2.009 -1.866c-.14 0 -.277 .027 -.407 .082c-.816 .352 -1.054 1.719 -.536 3.052c.436 1.124 1.271 1.866 2.009 1.866c.14 0 .277 -.027 .407 -.082z"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `paw_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -52862,9 +54080,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M11.168 11.154c-.71 .31 -1.184 1.107 -2.004 2.593c-.942 1.703 -2.846 1.845 -3.321 3.291c-.097 .265 -.145 .677 -.143 .962c0 1.176 .787 2 1.8 2c1.259 0 3.004 -1 4.5 -1s3.241 1 4.5 1c.927 0 1.664 -.689 1.783 -1.708" />
-      <path d="M20.188 8.082a1.039 1.039 0 0 0 -.406 -.082h-.015c-.735 .012 -1.56 .75 -1.993 1.866c-.519 1.335 -.28 2.7 .538 3.052c.129 .055 .267 .082 .406 .082c.739 0 1.575 -.742 2.011 -1.866c.516 -1.335 .273 -2.7 -.54 -3.052h-.001z" />
-      <path d="M10.997 6.992a3.608 3.608 0 0 0 -.04 -.725c-.203 -1.297 -1.047 -2.267 -1.932 -2.267a1.237 1.237 0 0 0 -.758 .265" />
+      <path d="M11.168 11.154c-.71 .31 -1.184 1.107 -2 2.593c-.942 1.703 -2.846 1.845 -3.321 3.291c-.097 .265 -.145 .677 -.143 .962c0 1.176 .787 2 1.8 2c1.259 0 3 -1 4.5 -1s3.241 1 4.5 1c.927 0 1.664 -.689 1.783 -1.708" />
+      <path d="M20.188 8.082a1.039 1.039 0 0 0 -.406 -.082h-.015c-.735 .012 -1.56 .75 -1.993 1.866c-.519 1.335 -.28 2.7 .538 3.052c.129 .055 .267 .082 .406 .082c.739 0 1.575 -.742 2.011 -1.866c.516 -1.335 .273 -2.7 -.54 -3.052h0z" />
+      <path d="M11 6.992a3.608 3.608 0 0 0 -.04 -.725c-.203 -1.297 -1.047 -2.267 -1.932 -2.267a1.237 1.237 0 0 0 -.758 .265" />
       <path d="M16.456 6.733c.214 -1.376 -.375 -2.594 -1.32 -2.722a1.164 1.164 0 0 0 -.162 -.011c-.885 0 -1.728 .97 -1.93 2.267c-.214 1.376 .375 2.594 1.32 2.722c.054 .007 .108 .011 .162 .011c.885 0 1.73 -.974 1.93 -2.267z" />
       <path d="M5.69 12.918c.816 -.352 1.054 -1.719 .536 -3.052c-.436 -1.124 -1.271 -1.866 -2.009 -1.866c-.14 0 -.277 .027 -.407 .082c-.816 .352 -1.054 1.719 -.536 3.052c.436 1.124 1.271 1.866 2.009 1.866c.14 0 .277 -.027 .407 -.082z" />
       <path d="M3 3l18 18" />
@@ -52888,9 +54106,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M14.7 13.5c-1.1 -1.996 -1.441 -2.5 -2.7 -2.5c-1.259 0 -1.736 .755 -2.836 2.747c-.942 1.703 -2.846 1.845 -3.321 3.291c-.097 .265 -.145 .677 -.143 .962c0 1.176 .787 2 1.8 2c1.259 0 3.004 -1 4.5 -1s3.241 1 4.5 1c1.013 0 1.8 -.823 1.8 -2c0 -.285 -.049 -.697 -.146 -.962c-.475 -1.451 -2.512 -1.835 -3.454 -3.538z" />
+      <path d="M14.7 13.5c-1.1 -2 -1.441 -2.5 -2.7 -2.5c-1.259 0 -1.736 .755 -2.836 2.747c-.942 1.703 -2.846 1.845 -3.321 3.291c-.097 .265 -.145 .677 -.143 .962c0 1.176 .787 2 1.8 2c1.259 0 3 -1 4.5 -1s3.241 1 4.5 1c1.013 0 1.8 -.823 1.8 -2c0 -.285 -.049 -.697 -.146 -.962c-.475 -1.451 -2.512 -1.835 -3.454 -3.538z" />
       <path d="M20.188 8.082a1.039 1.039 0 0 0 -.406 -.082h-.015c-.735 .012 -1.56 .75 -1.993 1.866c-.519 1.335 -.28 2.7 .538 3.052c.129 .055 .267 .082 .406 .082c.739 0 1.575 -.742 2.011 -1.866c.516 -1.335 .273 -2.7 -.54 -3.052z" />
-      <path d="M9.474 9c.055 0 .109 -.004 .163 -.011c.944 -.128 1.533 -1.346 1.32 -2.722c-.203 -1.297 -1.047 -2.267 -1.932 -2.267c-.055 0 -.109 .004 -.163 .011c-.944 .128 -1.533 1.346 -1.32 2.722c.204 1.293 1.048 2.267 1.933 2.267z" />
+      <path d="M9.474 9c.055 0 .109 0 .163 -.011c.944 -.128 1.533 -1.346 1.32 -2.722c-.203 -1.297 -1.047 -2.267 -1.932 -2.267c-.055 0 -.109 0 -.163 .011c-.944 .128 -1.533 1.346 -1.32 2.722c.204 1.293 1.048 2.267 1.933 2.267z" />
       <path d="M16.456 6.733c.214 -1.376 -.375 -2.594 -1.32 -2.722a1.164 1.164 0 0 0 -.162 -.011c-.885 0 -1.728 .97 -1.93 2.267c-.214 1.376 .375 2.594 1.32 2.722c.054 .007 .108 .011 .162 .011c.885 0 1.73 -.974 1.93 -2.267z" />
       <path d="M5.69 12.918c.816 -.352 1.054 -1.719 .536 -3.052c-.436 -1.124 -1.271 -1.866 -2.009 -1.866c-.14 0 -.277 .027 -.407 .082c-.816 .352 -1.054 1.719 -.536 3.052c.436 1.124 1.271 1.866 2.009 1.866c.14 0 .277 -.027 .407 -.082z" />
     </svg>
@@ -52913,10 +54131,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="12" y1="3" x2="12" y2="21" />
-      <line x1="12" y1="12" x2="18.3" y2="18.3" />
-      <line x1="12" y1="12" x2="5.7" y2="18.3" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 3l0 18" />
+      <path d="M12 12l6.3 6.3" />
+      <path d="M12 12l-6.3 6.3" />
     </svg>
     """
   end
@@ -52960,7 +54178,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M10.003 9.997l-6.003 6.003v4h4l6.006 -6.006m1.99 -1.99l2.504 -2.504a2.828 2.828 0 1 0 -4 -4l-2.5 2.5" />
+      <path d="M10 10l-6 6v4h4l6 -6m1.99 -1.99l2.504 -2.504a2.828 2.828 0 1 0 -4 -4l-2.5 2.5" />
       <path d="M13.5 6.5l4 4" />
       <path d="M3 3l18 18" />
     </svg>
@@ -53007,7 +54225,30 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
-      <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+      <path d="M13.5 6.5l4 4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `pennant_2_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.pennant_2_filled />
+      <TablerIcons.pennant_2_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def pennant_2_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M16 21h-4" fill="currentColor" />
+      <path d="M14 21v-18" fill="currentColor" />
+      <path d="M14 4l-9 4l9 4" fill="currentColor" />
     </svg>
     """
   end
@@ -53031,6 +54272,29 @@ defmodule TablerIcons do
       <path d="M16 21h-4" />
       <path d="M14 21v-18" />
       <path d="M14 4l-9 4l9 4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `pennant_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.pennant_filled />
+      <TablerIcons.pennant_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def pennant_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M8 21l4 0" fill="currentColor" />
+      <path d="M10 21l0 -18" fill="currentColor" />
+      <path d="M10 4l9 4l-9 4" fill="currentColor" />
     </svg>
     """
   end
@@ -53075,9 +54339,33 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="8" y1="21" x2="12" y2="21" />
-      <line x1="10" y1="21" x2="10" y2="3" />
+      <path d="M8 21l4 0" />
+      <path d="M10 21l0 -18" />
       <path d="M10 4l9 4l-9 4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `pentagon_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.pentagon_filled />
+      <TablerIcons.pentagon_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def pentagon_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M13.2 3.394l7.033 5.237a2 2 0 0 1 .7 2.247l-2.973 8.764a2 2 0 0 1 -1.894 1.358h-8.12a2 2 0 0 1 -1.9 -1.373l-2.896 -8.765a2 2 0 0 1 .696 -2.225l6.958 -5.237a2 2 0 0 1 2.397 0h0z"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -53098,7 +54386,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8.868 4.857l1.936 -1.457a2 2 0 0 1 2.397 -.006l7.032 5.237a2 2 0 0 1 .7 2.247l-1.522 4.485m-1.027 3.029l-.424 1.25a2 2 0 0 1 -1.894 1.358h-8.12a2 2 0 0 1 -1.9 -1.373l-2.896 -8.765a2 2 0 0 1 .696 -2.225l2.736 -2.06" />
+      <path d="M8.868 4.857l1.936 -1.457a2 2 0 0 1 2.397 0l7.032 5.237a2 2 0 0 1 .7 2.247l-1.522 4.485m-1.027 3.029l-.424 1.25a2 2 0 0 1 -1.894 1.358h-8.12a2 2 0 0 1 -1.9 -1.373l-2.896 -8.765a2 2 0 0 1 .696 -2.225l2.736 -2.06" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -53120,7 +54408,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M13.2 3.394l7.033 5.237a2 2 0 0 1 .7 2.247l-2.973 8.764a2 2 0 0 1 -1.894 1.358h-8.12a2 2 0 0 1 -1.9 -1.373l-2.896 -8.765a2 2 0 0 1 .696 -2.225l6.958 -5.237a2 2 0 0 1 2.397 -.006z" />
+      <path d="M13.2 3.394l7.033 5.237a2 2 0 0 1 .7 2.247l-2.973 8.764a2 2 0 0 1 -1.894 1.358h-8.12a2 2 0 0 1 -1.9 -1.373l-2.896 -8.765a2 2 0 0 1 .696 -2.225l6.958 -5.237a2 2 0 0 1 2.397 0z" />
     </svg>
     """
   end
@@ -53208,9 +54496,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="17" cy="17" r="1" />
-      <circle cx="7" cy="7" r="1" />
-      <line x1="6" y1="18" x2="18" y2="6" />
+      <path d="M17 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M7 7m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M6 18l12 -12" />
     </svg>
     """
   end
@@ -53233,8 +54521,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 6v3" />
       <path d="M14 6v3" />
-      <rect x="5" y="9" width="14" height="12" rx="2" />
-      <circle cx="12" cy="15" r="2" />
+      <path d="M5 9m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+      <path d="M12 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M9 3h6v3h-6z" />
     </svg>
     """
@@ -53323,9 +54611,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-      <line x1="15" y1="7" x2="15" y2="7.01" />
-      <line x1="18" y1="7" x2="18" y2="7.01" />
-      <line x1="21" y1="7" x2="21" y2="7.01" />
+      <path d="M15 7l0 .01" />
+      <path d="M18 7l0 .01" />
+      <path d="M21 7l0 .01" />
     </svg>
     """
   end
@@ -53369,8 +54657,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-      <line x1="15" y1="9" x2="20" y2="4" />
-      <polyline points="15 5 15 9 19 9" />
+      <path d="M15 9l5 -5" />
+      <path d="M15 5l0 4l4 0" />
     </svg>
     """
   end
@@ -53391,7 +54679,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="21" x2="21" y2="3" />
+      <path d="M3 21l18 -18" />
       <path d="M5.831 14.161a15.946 15.946 0 0 1 -2.831 -8.161a2 2 0 0 1 2 -2h4l2 5l-2.5 1.5c.108 .22 .223 .435 .345 .645m1.751 2.277c.843 .84 1.822 1.544 2.904 2.078l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a15.963 15.963 0 0 1 -10.344 -4.657" />
     </svg>
     """
@@ -53414,8 +54702,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-      <line x1="15" y1="9" x2="20" y2="4" />
-      <polyline points="16 4 20 4 20 8" />
+      <path d="M15 9l5 -5" />
+      <path d="M16 4l4 0l0 4" />
     </svg>
     """
   end
@@ -53437,8 +54725,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-      <line x1="20" y1="3" x2="20" y2="7" />
-      <line x1="16" y1="3" x2="16" y2="7" />
+      <path d="M20 3l0 4" />
+      <path d="M16 3l0 4" />
     </svg>
     """
   end
@@ -53528,7 +54816,7 @@ defmodule TablerIcons do
       <path d="M12 20h-5a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v5" />
       <path d="M4 15l4 -4c.928 -.893 2.072 -.893 3 0l3 3" />
       <path d="M14 14l1 -1c.553 -.532 1.182 -.747 1.796 -.645" />
-      <circle cx="19" cy="19" r="3" />
+      <path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M17 21l4 -4" />
     </svg>
     """
@@ -53629,7 +54917,7 @@ defmodule TablerIcons do
       <path d="M15 8h.01" />
       <path d="M12.5 20h-5.5a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v5" />
       <path d="M4 15l4 -4c.928 -.893 2.072 -.893 3 0l2.5 2.5" />
-      <path d="M18.994 21.5l2.518 -2.58a1.74 1.74 0 0 0 .004 -2.413a1.627 1.627 0 0 0 -2.346 -.005l-.168 .172l-.168 -.172a1.627 1.627 0 0 0 -2.346 -.004a1.74 1.74 0 0 0 -.004 2.412l2.51 2.59z" />
+      <path d="M19 21.5l2.518 -2.58a1.74 1.74 0 0 0 0 -2.413a1.627 1.627 0 0 0 -2.346 0l-.168 .172l-.168 -.172a1.627 1.627 0 0 0 -2.346 0a1.74 1.74 0 0 0 0 2.412l2.51 2.59z" />
     </svg>
     """
   end
@@ -53675,8 +54963,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
-      <line x1="15" y1="8" x2="15.01" y2="8" />
+      <path d="M3 3l18 18" />
+      <path d="M15 8l.01 0" />
       <path d="M19.121 19.122a3 3 0 0 1 -2.121 .878h-10a3 3 0 0 1 -3 -3v-10c0 -.833 .34 -1.587 .888 -2.131m3.112 -.869h9a3 3 0 0 1 3 3v9" />
       <path d="M4 15l4 -4c.928 -.893 2.072 -.893 3 0l5 5" />
       <path d="M16.32 12.34c.577 -.059 1.162 .162 1.68 .66l2 2" />
@@ -53729,7 +55017,7 @@ defmodule TablerIcons do
       <path d="M15 8h.01" />
       <path d="M12 20h-5a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v4.5" />
       <path d="M4 15l4 -4c.928 -.893 2.072 -.893 3 0l2 2" />
-      <circle cx="18" cy="18" r="3" />
+      <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M20.2 20.2l1.8 1.8" />
     </svg>
     """
@@ -53850,8 +55138,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="15" y1="8" x2="15.01" y2="8" />
-      <rect x="4" y="4" width="16" height="16" rx="3" />
+      <path d="M15 8l.01 0" />
+      <path d="M4 4m0 3a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-10a3 3 0 0 1 -3 -3z" />
       <path d="M4 15l4 -4a3 5 0 0 1 3 0l5 5" />
       <path d="M14 14l1 -1a3 5 0 0 1 3 0l2 2" />
     </svg>
@@ -53875,8 +55163,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 15l-1 -3l4 -2l4 1h3.5" />
-      <circle cx="4" cy="19" r="1" />
-      <circle cx="12" cy="6" r="1" />
+      <path d="M4 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 6m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M12 17v-7" />
       <path d="M8 20h7l1 -4l4 -2" />
       <path d="M18 20h3" />
@@ -53901,8 +55189,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11 19h-6a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4" />
-      <rect x="14" y="14" width="7" height="5" rx="1" />
-      <line x1="7" y1="9" x2="11" y2="13" />
+      <path d="M14 14m0 1a1 1 0 0 1 1 -1h5a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1z" />
+      <path d="M7 9l4 4" />
       <path d="M7 12v-3h3" />
     </svg>
     """
@@ -53925,8 +55213,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11 19h-6a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4" />
-      <rect x="14" y="14" width="7" height="5" rx="1" />
-      <line x1="7" y1="9" x2="11" y2="13" />
+      <path d="M14 14m0 1a1 1 0 0 1 1 -1h5a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1z" />
+      <path d="M7 9l4 4" />
       <path d="M8 13h3v-3" />
     </svg>
     """
@@ -53971,7 +55259,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11 19h-6a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4" />
-      <rect x="14" y="14" width="7" height="5" rx="1" />
+      <path d="M14 14m0 1a1 1 0 0 1 1 -1h5a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -53994,7 +55282,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 11v.01" />
       <path d="M5.173 8.378a3 3 0 1 1 4.656 -1.377" />
-      <path d="M16 4v3.803a6.019 6.019 0 0 1 2.658 3.197h1.341a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-1.342c-.336 .95 -.907 1.8 -1.658 2.473v2.027a1.5 1.5 0 0 1 -3 0v-.583a6.04 6.04 0 0 1 -1 .083h-4a6.04 6.04 0 0 1 -1 -.083v.583a1.5 1.5 0 0 1 -3 0v-2l.001 -.027a6 6 0 0 1 3.999 -10.473h2.5l4.5 -3h.001z" />
+      <path d="M16 4v3.803a6.019 6.019 0 0 1 2.658 3.197h1.341a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-1.342c-.336 .95 -.907 1.8 -1.658 2.473v2.027a1.5 1.5 0 0 1 -3 0v-.583a6.04 6.04 0 0 1 -1 .083h-4a6.04 6.04 0 0 1 -1 -.083v.583a1.5 1.5 0 0 1 -3 0v-2l0 -.027a6 6 0 0 1 4 -10.473h2.5l4.5 -3h0z" />
     </svg>
     """
   end
@@ -54016,7 +55304,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 11v.01" />
-      <path d="M10 6h1.499l4.5 -3l.001 3.803a6.019 6.019 0 0 1 2.658 3.197h1.341a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-1.342c-.057 .16 -.12 .318 -.19 .472m-1.467 2.528v1.5a1.5 1.5 0 0 1 -3 0v-.583a6.04 6.04 0 0 1 -1 .083h-4a6.04 6.04 0 0 1 -1 -.083v.583a1.5 1.5 0 0 1 -3 0v-2l0 -.027a6 6 0 0 1 1.5 -9.928" />
+      <path d="M10 6h1.499l4.5 -3l0 3.803a6.019 6.019 0 0 1 2.658 3.197h1.341a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-1.342c-.057 .16 -.12 .318 -.19 .472m-1.467 2.528v1.5a1.5 1.5 0 0 1 -3 0v-.583a6.04 6.04 0 0 1 -1 .083h-4a6.04 6.04 0 0 1 -1 -.083v.583a1.5 1.5 0 0 1 -3 0v-2l0 -.027a6 6 0 0 1 1.5 -9.928" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -54039,7 +55327,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 11v.01" />
-      <path d="M16 3l0 3.803a6.019 6.019 0 0 1 2.658 3.197h1.341a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-1.342a6.008 6.008 0 0 1 -1.658 2.473v2.027a1.5 1.5 0 0 1 -3 0v-.583a6.04 6.04 0 0 1 -1 .083h-4a6.04 6.04 0 0 1 -1 -.083v.583a1.5 1.5 0 0 1 -3 0v-2l.001 -.027a6 6 0 0 1 3.999 -10.473h2.5l4.5 -3z" />
+      <path d="M16 3l0 3.803a6.019 6.019 0 0 1 2.658 3.197h1.341a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-1.342a6.008 6.008 0 0 1 -1.658 2.473v2.027a1.5 1.5 0 0 1 -3 0v-.583a6.04 6.04 0 0 1 -1 .083h-4a6.04 6.04 0 0 1 -1 -.083v.583a1.5 1.5 0 0 1 -3 0v-2l0 -.027a6 6 0 0 1 4 -10.473h2.5l4.5 -3z" />
     </svg>
     """
   end
@@ -54083,7 +55371,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M10.495 6.505l2.005 -2.005a4.95 4.95 0 0 1 7 7l-1.998 1.998m-2 2l-4.002 4.002a4.95 4.95 0 0 1 -7 -7l4 -4" />
+      <path d="M10.495 6.505l2 -2a4.95 4.95 0 0 1 7 7l-2 2m-2 2l-4 4a4.95 4.95 0 0 1 -7 -7l4 -4" />
       <path d="M8.5 8.5l7 7" />
       <path d="M3 3l18 18" />
     </svg>
@@ -54107,7 +55395,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4.5 12.5l8 -8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1 -7 -7" />
-      <line x1="8.5" y1="8.5" x2="15.5" y2="15.5" />
+      <path d="M8.5 8.5l7 7" />
     </svg>
     """
   end
@@ -54128,10 +55416,33 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="8" cy="8" r="5" />
-      <circle cx="17" cy="17" r="4" />
+      <path d="M8 8m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+      <path d="M17 17m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M4.5 4.5l7 7" />
       <path d="M19.5 14.5l-5 5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `pin_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.pin_filled />
+      <TablerIcons.pin_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def pin_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M15 4.5l-4 4l-4 1.5l-1.5 1.5l7 7l1.5 -1.5l1.5 -4l4 -4" fill="currentColor" />
+      <path d="M9 15l-4.5 4.5" />
+      <path d="M14.5 4l5.5 5.5" />
     </svg>
     """
   end
@@ -54153,8 +55464,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 4.5l-4 4l-4 1.5l-1.5 1.5l7 7l1.5 -1.5l1.5 -4l4 -4" />
-      <line x1="9" y1="15" x2="4.5" y2="19.5" />
-      <line x1="14.5" y1="4" x2="20" y2="9.5" />
+      <path d="M9 15l-4.5 4.5" />
+      <path d="M14.5 4l5.5 5.5" />
     </svg>
     """
   end
@@ -54176,8 +55487,31 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12.718 20.713a7.64 7.64 0 0 1 -7.48 -12.755l.72 -.72a7.643 7.643 0 0 1 9.105 -1.283l2.387 -2.345a2.08 2.08 0 0 1 3.057 2.815l-.116 .126l-2.346 2.387a7.644 7.644 0 0 1 -1.052 8.864" />
-      <circle cx="14" cy="18" r="3" />
+      <path d="M14 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M9.3 5.3l9.4 9.4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `pinned_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.pinned_filled />
+      <TablerIcons.pinned_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def pinned_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M9 4v6l-2 4v2h10v-2l-2 -4v-6" fill="currentColor" />
+      <path d="M12 16l0 5" />
+      <path d="M8 4l8 0" />
     </svg>
     """
   end
@@ -54198,10 +55532,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M15 4.5l-3.249 3.249m-2.57 1.433l-2.181 .818l-1.5 1.5l7 7l1.5 -1.5l.82 -2.186m1.43 -2.563l3.25 -3.251" />
-      <line x1="9" y1="15" x2="4.5" y2="19.5" />
-      <line x1="14.5" y1="4" x2="20" y2="9.5" />
+      <path d="M9 15l-4.5 4.5" />
+      <path d="M14.5 4l5.5 5.5" />
     </svg>
     """
   end
@@ -54223,8 +55557,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 4v6l-2 4v2h10v-2l-2 -4v-6" />
-      <line x1="12" y1="16" x2="12" y2="21" />
-      <line x1="8" y1="4" x2="16" y2="4" />
+      <path d="M12 16l0 5" />
+      <path d="M8 4l8 0" />
     </svg>
     """
   end
@@ -54246,7 +55580,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10.313 6.277l1.687 -3.277l5.34 10.376m2.477 6.463a19.093 19.093 0 0 1 -7.817 1.661c-3.04 0 -5.952 -.714 -8.5 -1.983l5.434 -10.559" />
-      <path d="M5.38 15.866a14.94 14.94 0 0 0 6.815 1.634c1.56 .002 3.105 -.24 4.582 -.713" />
+      <path d="M5.38 15.866a14.94 14.94 0 0 0 6.815 1.634c1.56 0 3.105 -.24 4.582 -.713" />
       <path d="M11 14v-.01" />
       <path d="M3 3l18 18" />
     </svg>
@@ -54470,7 +55804,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M18.816 13.58c2.292 2.138 3.546 4 3.092 4.9c-.745 1.46 -5.783 -.259 -11.255 -3.838c-5.47 -3.579 -9.304 -7.664 -8.56 -9.123c.464 -.91 2.926 -.444 5.803 .805" />
-      <circle cx="12" cy="12" r="7" />
+      <path d="M12 12m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
     </svg>
     """
   end
@@ -54494,7 +55828,7 @@ defmodule TablerIcons do
       <path d="M2 9c0 5.523 4.477 10 10 10a9.953 9.953 0 0 0 5.418 -1.593m2.137 -1.855a9.961 9.961 0 0 0 2.445 -6.552" />
       <path d="M12 19c0 -1.988 .58 -3.84 1.58 -5.397m1.878 -2.167a9.961 9.961 0 0 1 6.542 -2.436" />
       <path d="M2 9a10 10 0 0 1 10 10" />
-      <path d="M12 4a9.7 9.7 0 0 1 3.002 7.013" />
+      <path d="M12 4a9.7 9.7 0 0 1 3 7.013" />
       <path d="M9.01 11.5a9.696 9.696 0 0 1 .163 -2.318m1.082 -2.942a9.696 9.696 0 0 1 1.745 -2.24" />
       <path d="M3 3l18 18" />
     </svg>
@@ -54543,8 +55877,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M17 17v2a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-4h8" />
-      <path d="M11.9 7.908a6.006 6.006 0 0 0 -4.79 -4.806m-4.11 -.102v2a6 6 0 0 0 6 6h2" />
-      <path d="M12.531 8.528a6.001 6.001 0 0 1 5.469 -3.528h3v1a6.002 6.002 0 0 1 -5.037 5.923" />
+      <path d="M11.9 7.908a6 6 0 0 0 -4.79 -4.806m-4.11 -.102v2a6 6 0 0 0 6 6h2" />
+      <path d="M12.531 8.528a6 6 0 0 1 5.469 -3.528h3v1a6 6 0 0 1 -5.037 5.923" />
       <path d="M12 15v-3" />
       <path d="M3 3l18 18" />
     </svg>
@@ -54570,7 +55904,7 @@ defmodule TablerIcons do
       <path d="M7 15h10v4a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2v-4z" />
       <path d="M12 9a6 6 0 0 0 -6 -6h-3v2a6 6 0 0 0 6 6h3" />
       <path d="M12 11a6 6 0 0 1 6 -6h3v1a6 6 0 0 1 -6 6h-3" />
-      <line x1="12" y1="15" x2="12" y2="9" />
+      <path d="M12 15l0 -6" />
     </svg>
     """
   end
@@ -54624,6 +55958,28 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `player_eject_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.player_eject_filled />
+      <TablerIcons.player_eject_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def player_eject_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M5 12h14l-7 -8z" fill="currentColor" />
+      <path d="M5 16m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z" fill="currentColor" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `player_eject` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -54640,7 +55996,29 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 12h14l-7 -8z" />
-      <rect x="5" y="16" width="14" height="4" rx="1" />
+      <path d="M5 16m0 1a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `player_pause_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.player_pause_filled />
+      <TablerIcons.player_pause_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def player_pause_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M6 5m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" fill="currentColor" />
+      <path d="M14 5m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" fill="currentColor" />
     </svg>
     """
   end
@@ -54661,8 +56039,29 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="6" y="5" width="4" height="14" rx="1" />
-      <rect x="14" y="5" width="4" height="14" rx="1" />
+      <path d="M6 5m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M14 5m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `player_play_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.player_play_filled />
+      <TablerIcons.player_play_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def player_play_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M7 4v16l13 -8z" fill="currentColor" />
     </svg>
     """
   end
@@ -54689,6 +56088,27 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `player_record_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.player_record_filled />
+      <TablerIcons.player_record_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def player_record_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 12m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" fill="currentColor" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `player_record` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -54704,7 +56124,29 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="7" />
+      <path d="M12 12m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `player_skip_back_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.player_skip_back_filled />
+      <TablerIcons.player_skip_back_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def player_skip_back_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M20 5v14l-12 -7z" fill="currentColor" />
+      <path d="M4 5l0 14" />
     </svg>
     """
   end
@@ -54726,7 +56168,29 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M20 5v14l-12 -7z" />
-      <line x1="4" y1="5" x2="4" y2="19" />
+      <path d="M4 5l0 14" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `player_skip_forward_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.player_skip_forward_filled />
+      <TablerIcons.player_skip_forward_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def player_skip_forward_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 5v14l12 -7z" fill="currentColor" />
+      <path d="M20 5l0 14" />
     </svg>
     """
   end
@@ -54748,7 +56212,28 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 5v14l12 -7z" />
-      <line x1="20" y1="5" x2="20" y2="19" />
+      <path d="M20 5l0 14" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `player_stop_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.player_stop_filled />
+      <TablerIcons.player_stop_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def player_stop_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M5 5m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" fill="currentColor" />
     </svg>
     """
   end
@@ -54769,7 +56254,29 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="5" width="14" height="14" rx="2" />
+      <path d="M5 5m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `player_track_next_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.player_track_next_filled />
+      <TablerIcons.player_track_next_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def player_track_next_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M3 5v14l8 -7z" fill="currentColor" />
+      <path d="M14 5v14l8 -7z" fill="currentColor" />
     </svg>
     """
   end
@@ -54792,6 +56299,28 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 5v14l8 -7z" />
       <path d="M14 5v14l8 -7z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `player_track_prev_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.player_track_prev_filled />
+      <TablerIcons.player_track_prev_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def player_track_prev_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M21 5v14l-8 -7z" fill="currentColor" />
+      <path d="M10 5v14l-8 -7z" fill="currentColor" />
     </svg>
     """
   end
@@ -54910,10 +56439,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="14" cy="17" r="3" />
+      <path d="M14 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M17 17v-13h4" />
       <path d="M13 5h-10" />
-      <line x1="3" y1="9" x2="13" y2="9" />
+      <path d="M3 9l10 0" />
       <path d="M9 13h-6" />
     </svg>
     """
@@ -54936,7 +56465,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9z" />
-      <circle cx="12" cy="12" r="4.5" />
+      <path d="M12 12m-4.5 0a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0" />
     </svg>
     """
   end
@@ -54958,7 +56487,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9z" />
-      <rect x="8" y="8" width="8" height="8" rx="1" />
+      <path d="M8 8m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -55153,8 +56682,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="5" x2="12" y2="19" />
-      <line x1="5" y1="12" x2="19" y2="12" />
+      <path d="M12 5l0 14" />
+      <path d="M5 12l14 0" />
     </svg>
     """
   end
@@ -55234,6 +56763,27 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `point_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.point_filled />
+      <TablerIcons.point_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def point_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" fill="currentColor" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `point_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -55271,7 +56821,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="4" />
+      <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
     </svg>
     """
   end
@@ -55337,8 +56887,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="12" cy="12" r="3" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M3 12h6" />
       <path d="M15 12h6" />
     </svg>
@@ -55361,8 +56911,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="12" cy="12" r="5" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
       <path d="M12 3v4" />
       <path d="M12 17v4" />
       <path d="M3 12h4" />
@@ -55391,11 +56941,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="4" y1="16" x2="20" y2="16" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M4 16l16 0" />
       <path d="M4 12l3 -3c.928 -.893 2.072 -.893 3 0l4 4" />
       <path d="M13 12l2 -2c.928 -.893 2.072 -.893 3 0l2 2" />
-      <line x1="14" y1="7" x2="14.01" y2="7" />
+      <path d="M14 7l.01 0" />
     </svg>
     """
   end
@@ -55416,10 +56966,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5" r="2" />
-      <circle cx="19" cy="8" r="2" />
-      <circle cx="5" cy="11" r="2" />
-      <circle cx="15" cy="19" r="2" />
+      <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M15 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M6.5 9.5l1.546 -1.311" />
       <path d="M14 5.5l3 1.5" />
       <path d="M18.5 10l-1.185 3.318m-1.062 2.972l-.253 .71" />
@@ -55445,10 +56995,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5" r="2" />
-      <circle cx="19" cy="8" r="2" />
-      <circle cx="5" cy="11" r="2" />
-      <circle cx="15" cy="19" r="2" />
+      <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 11m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M15 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M6.5 9.5l3.5 -3" />
       <path d="M14 5.5l3 1.5" />
       <path d="M18.5 10l-2.5 7" />
@@ -55476,7 +57026,7 @@ defmodule TablerIcons do
       <path d="M10 12h.01" />
       <path d="M14 12h.01" />
       <path d="M10 16a3.5 3.5 0 0 0 4 0" />
-      <path d="M11 4c2 0 3.5 1.5 3.5 4l.164 .005a2.5 2.5 0 0 1 2.196 3.32a3 3 0 0 1 1.615 3.063a3 3 0 0 1 -1.299 5.607l-.176 .005h-10a3 3 0 0 1 -1.474 -5.613a3 3 0 0 1 1.615 -3.062a2.5 2.5 0 0 1 2.195 -3.32l.164 -.005c1.5 0 2.5 -2 1.5 -4z" />
+      <path d="M11 4c2 0 3.5 1.5 3.5 4l.164 0a2.5 2.5 0 0 1 2.196 3.32a3 3 0 0 1 1.615 3.063a3 3 0 0 1 -1.299 5.607l-.176 0h-10a3 3 0 0 1 -1.474 -5.613a3 3 0 0 1 1.615 -3.062a2.5 2.5 0 0 1 2.195 -3.32l.164 0c1.5 0 2.5 -2 1.5 -4z" />
     </svg>
     """
   end
@@ -55497,7 +57047,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M2 20a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1c.303 .006 .6 -.045 .876 -.146" />
+      <path d="M2 20a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1c.303 0 .6 -.045 .876 -.146" />
       <path d="M2 16a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 1.13 -.856m5.727 1.717a2.4 2.4 0 0 0 1.143 -.861" />
       <path d="M15 11v-6.5a1.5 1.5 0 0 1 3 0" />
       <path d="M9 12v-3m0 -4v-.5a1.5 1.5 0 0 0 -1.936 -1.436" />
@@ -55528,8 +57078,8 @@ defmodule TablerIcons do
       <path d="M2 16a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1" />
       <path d="M15 12v-7.5a1.5 1.5 0 0 1 3 0" />
       <path d="M9 12v-7.5a1.5 1.5 0 0 0 -3 0" />
-      <line x1="15" y1="5" x2="9" y2="5" />
-      <line x1="9" y1="10" x2="15" y2="10" />
+      <path d="M15 5l-6 0" />
+      <path d="M9 10l6 0" />
     </svg>
     """
   end
@@ -55551,7 +57101,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 6a7.75 7.75 0 1 0 10 0" />
-      <line x1="12" y1="4" x2="12" y2="12" />
+      <path d="M12 4l0 8" />
     </svg>
     """
   end
@@ -55572,7 +57122,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5" r="1" />
+      <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M7 20h8l-4 -4v-7l4 3l2 -2" />
     </svg>
     """
@@ -55594,7 +57144,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M13.867 9.75c-.246 -.48 -.708 -.769 -1.2 -.75h-1.334c-.736 0 -1.333 .67 -1.333 1.5c0 .827 .597 1.499 1.333 1.499h1.334c.736 0 1.333 .671 1.333 1.5c0 .828 -.597 1.499 -1.333 1.499h-1.334c-.492 .019 -.954 -.27 -1.2 -.75" />
       <path d="M12 7v2" />
       <path d="M12 15v2" />
@@ -55694,10 +57244,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="4" x2="21" y2="4" />
+      <path d="M3 4l18 0" />
       <path d="M4 4v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-10" />
-      <line x1="12" y1="16" x2="12" y2="20" />
-      <line x1="9" y1="20" x2="15" y2="20" />
+      <path d="M12 16l0 4" />
+      <path d="M9 20l6 0" />
       <path d="M8 12l3 -3l2 2l3 -3" />
     </svg>
     """
@@ -55745,7 +57295,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M17 17h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2" />
       <path d="M17 9v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4" />
-      <rect x="7" y="13" width="10" height="8" rx="2" />
+      <path d="M7 13m0 2a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -55794,8 +57344,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="5 7 10 12 5 17" />
-      <line x1="13" y1="17" x2="19" y2="17" />
+      <path d="M5 7l5 5l-5 5" />
+      <path d="M13 17l6 0" />
     </svg>
     """
   end
@@ -55817,9 +57367,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10.448 10.432a3 3 0 1 0 4.106 4.143" />
-      <path d="M14.272 10.272c.66 -1.459 1.058 -2.888 1.198 -4.286c.22 -1.63 -.762 -2.986 -3.47 -2.986c-1.94 0 -2.994 .696 -3.355 1.69m.697 4.653c.145 .384 .309 .77 .491 1.157" />
+      <path d="M14.272 10.272c.66 -1.459 1.058 -2.888 1.198 -4.286c.22 -1.63 -.762 -2.986 -3.47 -2.986c-1.94 0 -3 .696 -3.355 1.69m.697 4.653c.145 .384 .309 .77 .491 1.157" />
       <path d="M13.169 16.751c.97 1.395 2.057 2.523 3.257 3.386c1.02 .789 2.265 .853 3.408 -.288m1.479 -2.493c.492 -1.634 -.19 -2.726 -1.416 -3.229c-.82 -.37 -1.703 -.654 -2.65 -.852" />
-      <path d="M8.664 12.999c-1.693 .143 -3.213 .52 -4.56 1.128c-1.522 .623 -2.206 2.153 -.852 4.498s3.02 2.517 4.321 1.512c1.2 -.863 2.287 -1.991 3.258 -3.386" />
+      <path d="M8.664 13c-1.693 .143 -3.213 .52 -4.56 1.128c-1.522 .623 -2.206 2.153 -.852 4.498s3.02 2.517 4.321 1.512c1.2 -.863 2.287 -1.991 3.258 -3.386" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -55841,10 +57391,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="13" r="3" />
+      <path d="M12 13m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M14.167 10.5c.722 -1.538 1.156 -3.043 1.303 -4.514c.22 -1.63 -.762 -2.986 -3.47 -2.986s-3.69 1.357 -3.47 2.986c.147 1.471 .581 2.976 1.303 4.514" />
-      <path d="M13.169 16.751c.97 1.395 2.057 2.523 3.257 3.386c1.3 1.006 2.967 .833 4.321 -1.512c1.354 -2.345 .67 -3.874 -.85 -4.498c-1.348 -.608 -2.868 -.985 -4.562 -1.128" />
-      <path d="M8.664 12.999c-1.693 .143 -3.213 .52 -4.56 1.128c-1.522 .623 -2.206 2.153 -.852 4.498s3.02 2.517 4.321 1.512c1.2 -.863 2.287 -1.991 3.258 -3.386" />
+      <path d="M13.169 16.751c.97 1.395 2.057 2.523 3.257 3.386c1.3 1 2.967 .833 4.321 -1.512c1.354 -2.345 .67 -3.874 -.85 -4.498c-1.348 -.608 -2.868 -.985 -4.562 -1.128" />
+      <path d="M8.664 13c-1.693 .143 -3.213 .52 -4.56 1.128c-1.522 .623 -2.206 2.153 -.852 4.498s3.02 2.517 4.321 1.512c1.2 -.863 2.287 -1.991 3.258 -3.386" />
     </svg>
     """
   end
@@ -55890,11 +57440,35 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M12 4v2.5a0.5 .5 0 0 1 -.5 .5a1.5 1.5 0 0 0 0 3a0.5 .5 0 0 1 .5 .5v1.5" />
       <path d="M12 12v1.5a0.5 .5 0 0 0 .5 .5a1.5 1.5 0 0 1 0 3a0.5 .5 0 0 0 -.5 .5v2.5" />
       <path d="M20 12h-2.5a0.5 .5 0 0 1 -.5 -.5a1.5 1.5 0 0 0 -3 0a0.5 .5 0 0 1 -.5 .5h-1.5" />
       <path d="M12 12h-1.5a0.5 .5 0 0 0 -.5 .5a1.5 1.5 0 0 1 -3 0a0.5 .5 0 0 0 -.5 -.5h-2.5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `puzzle_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.puzzle_filled />
+      <TablerIcons.puzzle_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def puzzle_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 1 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 1 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 1 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 1 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -56003,11 +57577,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8 4h1a1 1 0 0 1 1 1v1m-.297 3.711a0.997 .997 0 0 1 -.703 .289h-4a1 1 0 0 1 -1 -1v-4c0 -.275 .11 -.524 .29 -.705" />
+      <path d="M8 4h1a1 1 0 0 1 1 1v1m-.297 3.711a1 1 0 0 1 -.703 .289h-4a1 1 0 0 1 -1 -1v-4c0 -.275 .11 -.524 .29 -.705" />
       <path d="M7 17v.01" />
-      <rect x="14" y="4" width="6" height="6" rx="1" />
+      <path d="M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
       <path d="M7 7v.01" />
-      <rect x="4" y="14" width="6" height="6" rx="1" />
+      <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
       <path d="M17 7v.01" />
       <path d="M20 14v.01" />
       <path d="M14 14v3" />
@@ -56033,18 +57607,18 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="6" height="6" rx="1" />
-      <line x1="7" y1="17" x2="7" y2="17.01" />
-      <rect x="14" y="4" width="6" height="6" rx="1" />
-      <line x1="7" y1="7" x2="7" y2="7.01" />
-      <rect x="4" y="14" width="6" height="6" rx="1" />
-      <line x1="17" y1="7" x2="17" y2="7.01" />
-      <line x1="14" y1="14" x2="17" y2="14" />
-      <line x1="20" y1="14" x2="20" y2="14.01" />
-      <line x1="14" y1="14" x2="14" y2="17" />
-      <line x1="14" y1="20" x2="17" y2="20" />
-      <line x1="17" y1="17" x2="20" y2="17" />
-      <line x1="20" y1="17" x2="20" y2="20" />
+      <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M7 17l0 .01" />
+      <path d="M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M7 7l0 .01" />
+      <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M17 7l0 .01" />
+      <path d="M14 14l3 0" />
+      <path d="M20 14l0 .01" />
+      <path d="M14 14l0 3" />
+      <path d="M14 20l3 0" />
+      <path d="M17 17l3 0" />
+      <path d="M20 17l0 3" />
     </svg>
     """
   end
@@ -56066,8 +57640,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 16v.01" />
-      <path d="M12 13a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -56089,7 +57663,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 8a3.5 3 0 0 1 3.5 -3h1a3.5 3 0 0 1 3.5 3a3 3 0 0 1 -2 3a3 4 0 0 0 -2 4" />
-      <line x1="12" y1="19" x2="12" y2="19.01" />
+      <path d="M12 19l0 .01" />
     </svg>
     """
   end
@@ -56155,7 +57729,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="1" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M15.51 15.56a5 5 0 1 0 -3.51 1.44" />
       <path d="M18.832 17.86a9 9 0 1 0 -6.832 3.14" />
       <path d="M12 12v9" />
@@ -56180,8 +57754,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11.291 11.295a1 1 0 0 0 .709 1.705v8c2.488 0 4.74 -1.01 6.37 -2.642m1.675 -2.319a8.962 8.962 0 0 0 .955 -4.039h-5" />
-      <path d="M15.999 8.998a5 5 0 0 0 -5.063 -1.88m-2.466 1.347a5 5 0 0 0 .53 7.535" />
-      <path d="M20.486 8.995a9 9 0 0 0 -12.525 -5.032m-2.317 1.675a9 9 0 0 0 3.36 14.852" />
+      <path d="M16 9a5 5 0 0 0 -5.063 -1.88m-2.466 1.347a5 5 0 0 0 .53 7.535" />
+      <path d="M20.486 9a9 9 0 0 0 -12.525 -5.032m-2.317 1.675a9 9 0 0 0 3.36 14.852" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -56204,8 +57778,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M21 12h-8a1 1 0 1 0 -1 1v8a9 9 0 0 0 9 -9" />
-      <path d="M15.999 8.998a5 5 0 1 0 -6.999 7.003" />
-      <path d="M20.486 8.995a9 9 0 1 0 -11.482 11.495" />
+      <path d="M16 9a5 5 0 1 0 -7 7" />
+      <path d="M20.486 9a9 9 0 1 0 -11.482 11.495" />
     </svg>
     """
   end
@@ -56226,7 +57800,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M14 3l-4.986 1.995m-2.875 1.15l-1.51 .604a1 1 0 0 0 -.629 .928v11.323a1 1 0 0 0 1 1h14a0.997 .997 0 0 0 .708 -.294m.292 -3.706v-8a1 1 0 0 0 -1 -1h-8m-4 0h-2.5" />
+      <path d="M14 3l-4.986 2m-2.875 1.15l-1.51 .604a1 1 0 0 0 -.629 .928v11.323a1 1 0 0 0 1 1h14a1 1 0 0 0 .708 -.294m.292 -3.706v-8a1 1 0 0 0 -1 -1h-8m-4 0h-2.5" />
       <path d="M4 12h8m4 0h4" />
       <path d="M7 12v-2" />
       <path d="M13 16v.01" />
@@ -56276,7 +57850,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M14.118 14.127c-.182 .181 -.39 .341 -.618 .473l3 5.19a8.994 8.994 0 0 0 1.856 -1.423m1.68 -2.32a8.993 8.993 0 0 0 .964 -4.047h-5" />
+      <path d="M14.118 14.127c-.182 .181 -.39 .341 -.618 .473l3 5.19a9 9 0 0 0 1.856 -1.423m1.68 -2.32a8.993 8.993 0 0 0 .964 -4.047h-5" />
       <path d="M13.5 9.4l3 -5.19a9 9 0 0 0 -8.536 -.25" />
       <path d="M10.5 14.6l-3 5.19a9 9 0 0 1 -4.5 -7.79h6a3 3 0 0 0 1.5 2.6" />
       <path d="M3 3l18 18" />
@@ -56407,8 +57981,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M22 17c0 -5.523 -4.477 -10 -10 -10c-.308 0 -.613 .014 -.914 .041m-3.208 .845a10.002 10.002 0 0 0 -5.878 9.114" />
-      <path d="M11.088 11.069a6.001 6.001 0 0 0 -5.088 5.931" />
+      <path d="M22 17c0 -5.523 -4.477 -10 -10 -10c-.308 0 -.613 .014 -.914 .041m-3.208 .845a10 10 0 0 0 -5.878 9.114" />
+      <path d="M11.088 11.069a6 6 0 0 0 -5.088 5.931" />
       <path d="M14 17a2 2 0 1 0 -4 0" />
       <path d="M3 3l18 18" />
     </svg>
@@ -56454,7 +58028,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M7 15v-6" />
       <path d="M15.5 12h3" />
       <path d="M17 10.5v3" />
@@ -56479,7 +58053,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M7 15v-6" />
       <path d="M15.5 12h3" />
       <path d="M17 10.5v3" />
@@ -56504,8 +58078,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="11.5" cy="13.5" r="1.5" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M11.5 13.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
       <path d="M7 15v-6" />
       <path d="M15.5 12h3" />
       <path d="M17 10.5v3" />
@@ -56530,9 +58104,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="11.5" cy="10.5" r="1.5" />
-      <circle cx="11.5" cy="13.5" r="1.5" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M11.5 10.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
+      <path d="M11.5 13.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0" />
       <path d="M7 15v-6" />
       <path d="M15.5 12h3" />
       <path d="M17 10.5v3" />
@@ -56556,7 +58130,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M13 15v-6" />
       <path d="M15.5 12h3" />
       <path d="M17 10.5v3" />
@@ -56653,11 +58227,11 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 21v-16m2 -2h10a2 2 0 0 1 2 2v10m0 4.01v1.99l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2" />
-      <line x1="11" y1="7" x2="15" y2="7" />
-      <line x1="9" y1="11" x2="11" y2="11" />
-      <line x1="13" y1="15" x2="15" y2="15" />
-      <line x1="15" y1="11" x2="15" y2="11.01" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M11 7l4 0" />
+      <path d="M9 11l2 0" />
+      <path d="M13 15l2 0" />
+      <path d="M15 11l0 .01" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -56700,7 +58274,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="9" y1="14" x2="15" y2="8" />
+      <path d="M9 14l6 -6" />
       <circle cx="9.5" cy="8.5" r=".5" fill="currentColor" />
       <circle cx="14.5" cy="13.5" r=".5" fill="currentColor" />
       <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2" />
@@ -56775,7 +58349,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="12" r="3" />
+      <path d="M7 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M18.569 14.557a3 3 0 1 0 -4.113 -4.149" />
       <path d="M7 15h8" />
       <path d="M3 3l18 18" />
@@ -56799,9 +58373,51 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="12" r="3" />
-      <circle cx="17" cy="12" r="3" />
-      <line x1="7" y1="15" x2="17" y2="15" />
+      <path d="M7 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M17 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M7 15l10 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `rectangle_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.rectangle_filled />
+      <TablerIcons.rectangle_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def rectangle_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" fill="currentColor" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `rectangle_vertical_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.rectangle_vertical_filled />
+      <TablerIcons.rectangle_vertical_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def rectangle_vertical_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" fill="currentColor" />
     </svg>
     """
   end
@@ -56822,7 +58438,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="3" width="14" height="18" rx="2" />
+      <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -56843,7 +58459,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -56864,7 +58480,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 17l-2 2l2 2m-2 -2h9m1.896 -2.071a1.999 1.999 0 0 0 -.146 -.679l-.55 -1" />
+      <path d="M12 17l-2 2l2 2m-2 -2h9m1.896 -2.071a2 2 0 0 0 -.146 -.679l-.55 -1" />
       <path d="M8.536 11l-.732 -2.732l-2.732 .732m2.732 -.732l-4.5 7.794a2 2 0 0 0 1.506 2.89l1.141 .024" />
       <path d="M15.464 11l2.732 .732l.732 -2.732m-.732 2.732l-4.5 -7.794a2 2 0 0 0 -3.256 -.14l-.591 .976" />
       <path d="M3 3l18 18" />
@@ -56916,8 +58532,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
       <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
-      <line x1="12" y1="9" x2="12" y2="12" />
-      <line x1="12" y1="15" x2="12.01" y2="15" />
+      <path d="M12 9l0 3" />
+      <path d="M12 15l.01 0" />
     </svg>
     """
   end
@@ -56940,7 +58556,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
       <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
-      <circle cx="12" cy="12" r="1" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -57061,7 +58677,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 15v-6h2a2 2 0 1 1 0 4h-2" />
       <path d="M14 15l-2 -2" />
     </svg>
@@ -57084,11 +58700,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M15 14v-4l3 4v-4" />
       <path d="M6 14v-4l3 4v-4" />
-      <line x1="12" y1="10.5" x2="12" y2="10.51" />
-      <line x1="12" y1="13.5" x2="12" y2="13.51" />
+      <path d="M12 10.5l0 .01" />
+      <path d="M12 13.5l0 .01" />
     </svg>
     """
   end
@@ -57109,11 +58725,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M7 10h1v4" />
       <path d="M14 14v-4l3 4v-4" />
-      <line x1="11" y1="10.5" x2="11" y2="10.51" />
-      <line x1="11" y1="13.5" x2="11" y2="13.51" />
+      <path d="M11 10.5l0 .01" />
+      <path d="M11 13.5l0 .01" />
     </svg>
     """
   end
@@ -57134,11 +58750,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
       <path d="M8 10h1v4" />
       <path d="M15 10h1v4" />
-      <line x1="12" y1="10.5" x2="12" y2="10.51" />
-      <line x1="12" y1="13.5" x2="12" y2="13.51" />
+      <path d="M12 10.5l0 .01" />
+      <path d="M12 13.5l0 .01" />
     </svg>
     """
   end
@@ -57159,7 +58775,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M19.933 13.041a8 8 0 1 1 -9.925 -8.788c3.899 -1.002 7.935 1.007 9.425 4.747" />
+      <path d="M19.933 13.041a8 8 0 1 1 -9.925 -8.788c3.899 -1 7.935 1.007 9.425 4.747" />
       <path d="M20 4v5h-5" />
     </svg>
     """
@@ -57234,6 +58850,30 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `replace_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.replace_filled />
+      <TablerIcons.replace_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def replace_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M3 3m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" fill="currentColor" />
+      <path d="M15 15m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" fill="currentColor" />
+      <path d="M21 11v-3a2 2 0 0 0 -2 -2h-6l3 3m0 -6l-3 3" />
+      <path d="M3 13v3a2 2 0 0 0 2 2h6l-3 -3m0 6l3 -3" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `replace_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -57249,8 +58889,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 3h1a1 1 0 0 1 1 1v1m-.303 3.717a0.997 .997 0 0 1 -.697 .283h-4a1 1 0 0 1 -1 -1v-4c0 -.28 .115 -.532 .3 -.714" />
-      <path d="M19 15h1a1 1 0 0 1 1 1v1m-.303 3.717a0.997 .997 0 0 1 -.697 .283h-4a1 1 0 0 1 -1 -1v-4c0 -.28 .115 -.532 .3 -.714" />
+      <path d="M7 3h1a1 1 0 0 1 1 1v1m-.303 3.717a1 1 0 0 1 -.697 .283h-4a1 1 0 0 1 -1 -1v-4c0 -.28 .115 -.532 .3 -.714" />
+      <path d="M19 15h1a1 1 0 0 1 1 1v1m-.303 3.717a1 1 0 0 1 -.697 .283h-4a1 1 0 0 1 -1 -1v-4c0 -.28 .115 -.532 .3 -.714" />
       <path d="M21 11v-3a2 2 0 0 0 -2 -2h-6l3 3m0 -6l-3 3" />
       <path d="M3 13v3a2 2 0 0 0 2 2h6l-3 -3m0 6l3 -3" />
       <path d="M3 3l18 18" />
@@ -57274,8 +58914,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="6" height="6" rx="1" />
-      <rect x="15" y="15" width="6" height="6" rx="1" />
+      <path d="M3 3m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M15 15m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
       <path d="M21 11v-3a2 2 0 0 0 -2 -2h-6l3 3m0 -6l-3 3" />
       <path d="M3 13v3a2 2 0 0 0 2 2h6l-3 -3m0 6l3 -3" />
     </svg>
@@ -57299,7 +58939,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
       <path d="M9 17v-5" />
       <path d="M12 17v-1" />
       <path d="M15 17v-3" />
@@ -57324,9 +58964,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
-      <line x1="10" y1="14" x2="14" y2="14" />
-      <line x1="12" y1="12" x2="12" y2="16" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M10 14l4 0" />
+      <path d="M12 12l0 4" />
     </svg>
     """
   end
@@ -57348,7 +58988,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
-      <rect x="9" y="3" width="6" height="4" rx="2" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
       <path d="M14 11h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
       <path d="M12 17v1m0 -8v1" />
     </svg>
@@ -57371,7 +59011,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M5.576 5.595a1.994 1.994 0 0 0 -.576 1.405v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2m0 -4v-8a2 2 0 0 0 -2 -2h-2" />
+      <path d="M5.576 5.595a2 2 0 0 0 -.576 1.405v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2m0 -4v-8a2 2 0 0 0 -2 -2h-2" />
       <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 1 1 0 4h-2" />
       <path d="M3 3l18 18" />
     </svg>
@@ -57396,10 +59036,10 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h5.697" />
       <path d="M18 12v-5a2 2 0 0 0 -2 -2h-2" />
-      <rect x="8" y="3" width="6" height="4" rx="2" />
+      <path d="M8 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
       <path d="M8 11h4" />
       <path d="M8 15h3" />
-      <circle cx="16.5" cy="17.5" r="2.5" />
+      <path d="M16.5 17.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
       <path d="M18.5 19.5l2.5 2.5" />
     </svg>
     """
@@ -57424,8 +59064,8 @@ defmodule TablerIcons do
       <path d="M8 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h5.697" />
       <path d="M18 14v4h4" />
       <path d="M18 11v-4a2 2 0 0 0 -2 -2h-2" />
-      <rect x="8" y="3" width="6" height="4" rx="2" />
-      <circle cx="18" cy="18" r="4" />
+      <path d="M8 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M18 18m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M8 11h4" />
       <path d="M8 15h3" />
     </svg>
@@ -57470,7 +59110,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 21s9.286 -9.841 9.286 -13.841a3.864 3.864 0 0 0 -1.182 -3.008a4.13 4.13 0 0 0 -3.104 -1.144a4.13 4.13 0 0 0 -3.104 1.143a3.864 3.864 0 0 0 -1.182 3.01c0 3.999 9.286 13.84 9.286 13.84" />
+      <path d="M7 21s9.286 -9.841 9.286 -13.841a3.864 3.864 0 0 0 -1.182 -3.008a4.13 4.13 0 0 0 -3.104 -1.144a4.13 4.13 0 0 0 -3.104 1.143a3.864 3.864 0 0 0 -1.182 3.01c0 4 9.286 13.84 9.286 13.84" />
     </svg>
     """
   end
@@ -57614,7 +59254,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M11 7h6a2 2 0 0 1 2 2v1l1 1v3l-1 1m-.171 3.811a2 2 0 0 1 -1.829 1.189h-10a2 2 0 0 1 -2 -2v-3l-1 -1v-3l1 -1v-1a2 2 0 0 1 2 -2" />
       <path d="M10 16h4" />
-      <circle cx="8.5" cy="11.5" r="1" />
+      <path d="M8.5 11.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M15.854 11.853a0.498 .498 0 0 0 -.354 -.853a0.498 .498 0 0 0 -.356 .149" />
       <path d="M8.336 4.343l-.336 -1.343" />
       <path d="M15 7l1 -4" />
@@ -57665,9 +59305,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M9.29 9.275a9.03 9.03 0 0 0 -.29 .725a6 6 0 0 0 -5 3a8 8 0 0 1 7 7a6 6 0 0 0 3 -5c.241 -.085 .478 -.18 .708 -.283m2.428 -1.61a8.998 8.998 0 0 0 2.864 -6.107a3 3 0 0 0 -3 -3a8.998 8.998 0 0 0 -6.107 2.864" />
+      <path d="M9.29 9.275a9.03 9.03 0 0 0 -.29 .725a6 6 0 0 0 -5 3a8 8 0 0 1 7 7a6 6 0 0 0 3 -5c.241 -.085 .478 -.18 .708 -.283m2.428 -1.61a9 9 0 0 0 2.864 -6.107a3 3 0 0 0 -3 -3a9 9 0 0 0 -6.107 2.864" />
       <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
-      <circle cx="15" cy="9" r="1" />
+      <path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -57691,7 +59331,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" />
       <path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" />
-      <circle cx="15" cy="9" r="1" />
+      <path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -57712,9 +59352,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M5.905 5h3.418a1 1 0 0 1 .928 .629l1.143 2.856a3 3 0 0 0 2.207 1.83l4.717 .926a2.084 2.084 0 0 1 1.682 2.045v.714a1 1 0 0 1 -1 1h-13.895a1 1 0 0 1 -.995 -1.1l.8 -8a1 1 0 0 1 .995 -.9z" />
-      <circle cx="8" cy="17" r="2" />
-      <circle cx="16" cy="17" r="2" />
+      <path d="M5.905 5h3.418a1 1 0 0 1 .928 .629l1.143 2.856a3 3 0 0 0 2.207 1.83l4.717 .926a2.084 2.084 0 0 1 1.682 2.045v.714a1 1 0 0 1 -1 1h-13.895a1 1 0 0 1 -1 -1.1l.8 -8a1 1 0 0 1 1 -.9z" />
+      <path d="M8 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M16 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -57770,6 +59410,30 @@ defmodule TablerIcons do
       <path d="M16 9.5v11.5" />
       <path d="M15 3h5v3h-5z" />
       <path d="M6 8l4 -3l2 2.5l-4 3l-1.8 -.5z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `rosette_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.rosette_filled />
+      <TablerIcons.rosette_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def rosette_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M5 7.2a2.2 2.2 0 0 1 2.2 -2.2h1a2.2 2.2 0 0 0 1.55 -.64l.7 -.7a2.2 2.2 0 0 1 3.12 0l.7 .7c.412 .41 .97 .64 1.55 .64h1a2.2 2.2 0 0 1 2.2 2.2v1c0 .58 .23 1.138 .64 1.55l.7 .7a2.2 2.2 0 0 1 0 3.12l-.7 .7a2.2 2.2 0 0 0 -.64 1.55v1a2.2 2.2 0 0 1 -2.2 2.2h-1a2.2 2.2 0 0 0 -1.55 .64l-.7 .7a2.2 2.2 0 0 1 -3.12 0l-.7 -.7a2.2 2.2 0 0 0 -1.55 -.64h-1a2.2 2.2 0 0 1 -2.2 -2.2v-1a2.2 2.2 0 0 0 -.64 -1.55l-.7 -.7a2.2 2.2 0 0 1 0 -3.12l.7 -.7a2.2 2.2 0 0 0 .64 -1.55v-1"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -58033,11 +59697,11 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 4.55a8 8 0 0 0 -6 14.9m0 -4.45v5h-5" />
-      <line x1="18.37" y1="7.16" x2="18.37" y2="7.17" />
-      <line x1="13" y1="19.94" x2="13" y2="19.95" />
-      <line x1="16.84" y1="18.37" x2="16.84" y2="18.38" />
-      <line x1="19.37" y1="15.1" x2="19.37" y2="15.11" />
-      <line x1="19.94" y1="11" x2="19.94" y2="11.01" />
+      <path d="M18.37 7.16l0 .01" />
+      <path d="M13 19.94l0 .01" />
+      <path d="M16.84 18.37l0 .01" />
+      <path d="M19.37 15.1l0 .01" />
+      <path d="M19.94 11l0 .01" />
     </svg>
     """
   end
@@ -58081,11 +59745,11 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9 4.55a8 8 0 0 1 6 14.9m0 -4.45v5h5" />
-      <line x1="5.63" y1="7.16" x2="5.63" y2="7.17" />
-      <line x1="4.06" y1="11" x2="4.06" y2="11.01" />
-      <line x1="4.63" y1="15.1" x2="4.63" y2="15.11" />
-      <line x1="7.16" y1="18.37" x2="7.16" y2="18.38" />
-      <line x1="11" y1="19.94" x2="11" y2="19.95" />
+      <path d="M5.63 7.16l0 .01" />
+      <path d="M4.06 11l0 .01" />
+      <path d="M4.63 15.1l0 .01" />
+      <path d="M7.16 18.37l0 .01" />
+      <path d="M11 19.94l0 .01" />
     </svg>
     """
   end
@@ -58128,7 +59792,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19.95 11a8 8 0 1 0 -.5 4m.5 5v-5h-5" />
-      <circle cx="12" cy="12" r="1" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -58217,8 +59881,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="19" r="2" />
-      <circle cx="18" cy="5" r="2" />
+      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M12 19h4.5c.71 0 1.372 -.212 1.924 -.576m1.545 -2.459a3.5 3.5 0 0 0 -3.469 -3.965h-.499m-4 0h-3.501a3.5 3.5 0 0 1 -2.477 -5.972m2.477 -1.028h3.5" />
       <path d="M3 3l18 18" />
     </svg>
@@ -58241,8 +59905,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="19" r="2" />
-      <circle cx="18" cy="5" r="2" />
+      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M12 19h4.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h3.5" />
     </svg>
     """
@@ -58290,10 +59954,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="13" width="18" height="8" rx="2" />
-      <line x1="17" y1="17" x2="17" y2="17.01" />
-      <line x1="13" y1="17" x2="13" y2="17.01" />
-      <line x1="15" y1="13" x2="15" y2="11" />
+      <path d="M3 13m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+      <path d="M17 17l0 .01" />
+      <path d="M13 17l0 .01" />
+      <path d="M15 13l0 -2" />
       <path d="M11.75 8.75a4 4 0 0 1 6.5 0" />
       <path d="M8.5 6.5a8 8 0 0 1 13 0" />
     </svg>
@@ -58317,8 +59981,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M20 6v4a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1z" />
-      <line x1="12" y1="15" x2="12" y2="19" />
-      <line x1="14" y1="17" x2="10" y2="17" />
+      <path d="M12 15l0 4" />
+      <path d="M14 17l-4 0" />
     </svg>
     """
   end
@@ -58341,7 +60005,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 18v-4a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
       <path d="M12 9v-4" />
-      <line x1="10" y1="7" x2="14" y2="7" />
+      <path d="M10 7l4 0" />
     </svg>
     """
   end
@@ -58362,7 +60026,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="19" r="1" />
+      <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M4 4a16 16 0 0 1 16 16" />
       <path d="M4 11a9 9 0 0 1 9 9" />
     </svg>
@@ -58536,7 +60200,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8 4h11a1 1 0 0 1 1 1v5a1 1 0 0 1 -1 1h-4m-3.713 .299a0.997 .997 0 0 0 -.287 .701v7a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-14c0 -.284 .118 -.54 .308 -.722" />
+      <path d="M8 4h11a1 1 0 0 1 1 1v5a1 1 0 0 1 -1 1h-4m-3.713 .299a1 1 0 0 0 -.287 .701v7a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-14c0 -.284 .118 -.54 .308 -.722" />
       <path d="M4 8h2" />
       <path d="M4 12h3" />
       <path d="M4 16h2" />
@@ -58564,12 +60228,12 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 4h14a1 1 0 0 1 1 1v5a1 1 0 0 1 -1 1h-7a1 1 0 0 0 -1 1v7a1 1 0 0 1 -1 1h-5a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1" />
-      <line x1="4" y1="8" x2="6" y2="8" />
-      <line x1="4" y1="12" x2="7" y2="12" />
-      <line x1="4" y1="16" x2="6" y2="16" />
-      <line x1="8" y1="4" x2="8" y2="6" />
-      <polyline points="12 4 12 7 " />
-      <polyline points="16 4 16 6 " />
+      <path d="M4 8l2 0" />
+      <path d="M4 12l3 0" />
+      <path d="M4 16l2 0" />
+      <path d="M8 4l0 2" />
+      <path d="M12 4l0 3" />
+      <path d="M16 4l0 2" />
     </svg>
     """
   end
@@ -58590,7 +60254,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="13" cy="4" r="1" />
+      <path d="M13 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M4 17l5 1l.75 -1.5" />
       <path d="M15 21l0 -4l-4 -3l1 -6" />
       <path d="M7 12l0 -3l5 -1l3 3l3 1" />
@@ -58660,7 +60324,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="5" r="2" />
+      <path d="M5 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M7 5h9.5a3.5 3.5 0 0 1 0 7h-9a3.5 3.5 0 0 0 0 7h13.5" />
       <path d="M18 16l3 3l-3 3" />
     </svg>
@@ -58759,7 +60423,7 @@ defmodule TablerIcons do
       <path d="M2 20a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1" />
       <path d="M4 18l-1 -3h18l-1 3" />
       <path d="M11 12h7l-7 -9v9" />
-      <line x1="8" y1="7" x2="6" y2="12" />
+      <path d="M8 7l-2 5" />
     </svg>
     """
   end
@@ -58860,7 +60524,7 @@ defmodule TablerIcons do
       <path d="M3.707 6.293l2.586 -2.586a1 1 0 0 1 1.414 0l5.586 5.586a1 1 0 0 1 0 1.414l-2.586 2.586a1 1 0 0 1 -1.414 0l-5.586 -5.586a1 1 0 0 1 0 -1.414z" />
       <path d="M6 10l-3 3l3 3l3 -3" />
       <path d="M10 6l3 -3l3 3l-3 3" />
-      <line x1="12" y1="12" x2="13.5" y2="13.5" />
+      <path d="M12 12l1.5 1.5" />
       <path d="M14.5 17a2.5 2.5 0 0 0 2.5 -2.5" />
       <path d="M15 21a6 6 0 0 0 6 -6" />
     </svg>
@@ -58910,7 +60574,7 @@ defmodule TablerIcons do
       <path d="M9.452 5.425l2.548 -.425l6 1" />
       <path d="M12 3v5m0 4v8" />
       <path d="M9 12l-3 -6l-3 6a3 3 0 0 0 6 0" />
-      <path d="M18.873 14.871a3.001 3.001 0 0 0 2.127 -2.871l-3 -6l-2.677 5.355" />
+      <path d="M18.873 14.871a3 3 0 0 0 2.127 -2.871l-3 -6l-2.677 5.355" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -58933,7 +60597,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 3h10a4 4 0 0 1 4 4v10m-1.173 2.83a3.987 3.987 0 0 1 -2.827 1.17h-10a4 4 0 0 1 -4 -4v-10c0 -1.104 .447 -2.103 1.17 -2.827" />
-      <path d="M11.062 7.062c.31 -.041 .622 -.062 .938 -.062c1.956 0 3.724 .802 4.994 2.095a142.85 142.85 0 0 0 -1.994 1.905m-3.723 .288a3 3 0 0 0 -1.315 .71l-2.956 -2.903a6.977 6.977 0 0 1 1.142 -.942" />
+      <path d="M11.062 7.062c.31 -.041 .622 -.062 .938 -.062c1.956 0 3.724 .802 5 2.095a142.85 142.85 0 0 0 -2 1.905m-3.723 .288a3 3 0 0 0 -1.315 .71l-2.956 -2.903a6.977 6.977 0 0 1 1.142 -.942" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -58955,8 +60619,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="18" height="18" rx="4" />
-      <path d="M12 7c1.956 0 3.724 .802 4.994 2.095l-2.956 2.904a3 3 0 0 0 -2.038 -.799a3 3 0 0 0 -2.038 .798l-2.956 -2.903a6.979 6.979 0 0 1 4.994 -2.095z" />
+      <path d="M3 3m0 4a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" />
+      <path d="M12 7c1.956 0 3.724 .802 5 2.095l-2.956 2.904a3 3 0 0 0 -2.038 -.799a3 3 0 0 0 -2.038 .798l-2.956 -2.903a6.979 6.979 0 0 1 5 -2.095z" />
     </svg>
     """
   end
@@ -58977,9 +60641,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="7" y1="20" x2="17" y2="20" />
+      <path d="M7 20l10 0" />
       <path d="M6 6l6 -1l6 1" />
-      <line x1="12" y1="3" x2="12" y2="20" />
+      <path d="M12 3l0 17" />
       <path d="M9 12l-3 -6l-3 6a3 3 0 0 0 6 0" />
       <path d="M21 12l-3 -6l-3 6a3 3 0 0 0 6 0" />
     </svg>
@@ -59033,7 +60697,7 @@ defmodule TablerIcons do
       <path d="M4 17v1a2 2 0 0 0 2 2h2" />
       <path d="M16 4h2a2 2 0 0 1 2 2v1" />
       <path d="M16 20h2a2 2 0 0 0 2 -2v-1" />
-      <line x1="5" y1="12" x2="19" y2="12" />
+      <path d="M5 12l14 0" />
     </svg>
     """
   end
@@ -59178,7 +60842,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4.432 4.442a3 3 0 1 0 4.114 4.146" />
-      <circle cx="6" cy="17" r="3" />
+      <path d="M6 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M8.6 15.4l3.4 -3.4m2 -2l5 -5" />
       <path d="M3 3l18 18" />
     </svg>
@@ -59201,10 +60865,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="7" r="3" />
-      <circle cx="6" cy="17" r="3" />
-      <line x1="8.6" y1="8.6" x2="19" y2="19" />
-      <line x1="8.6" y1="15.4" x2="19" y2="5" />
+      <path d="M6 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M6 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M8.6 8.6l10.4 10.4" />
+      <path d="M8.6 15.4l10.4 -10.4" />
     </svg>
     """
   end
@@ -59225,8 +60889,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="18" cy="17" r="2" />
-      <circle cx="6" cy="17" r="2" />
+      <path d="M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M6 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M8 17h5a6 6 0 0 1 5 -5v-5a2 2 0 0 0 -2 -2h-1" />
       <path d="M10 4l-2 4h3l-2 4" />
     </svg>
@@ -59249,8 +60913,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="18" cy="17" r="2" />
-      <circle cx="6" cy="17" r="2" />
+      <path d="M18 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M6 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M8 17h5a6 6 0 0 1 5 -5v-5a2 2 0 0 0 -2 -2h-1" />
     </svg>
     """
@@ -59273,9 +60937,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M21 12v3a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1h9" />
-      <line x1="7" y1="20" x2="17" y2="20" />
-      <line x1="9" y1="16" x2="9" y2="20" />
-      <line x1="15" y1="16" x2="15" y2="20" />
+      <path d="M7 20l10 0" />
+      <path d="M9 16l0 4" />
+      <path d="M15 16l0 4" />
       <path d="M17 8l4 -4m-4 0l4 4" />
     </svg>
     """
@@ -59298,9 +60962,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M21 12v3a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1h9" />
-      <line x1="7" y1="20" x2="17" y2="20" />
-      <line x1="9" y1="16" x2="9" y2="20" />
-      <line x1="15" y1="16" x2="15" y2="20" />
+      <path d="M7 20l10 0" />
+      <path d="M9 16l0 4" />
+      <path d="M15 16l0 4" />
       <path d="M17 4h4v4" />
       <path d="M16 9l5 -5" />
     </svg>
@@ -59483,8 +61147,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M11 7h5a1 1 0 0 1 1 1v4.5c0 .154 -.014 .304 -.04 .45m-1.997 2.007c-.15 .028 -.305 .043 -.463 .043h-.5a2 2 0 0 1 -2 -2a2 2 0 1 0 -4 0a2 2 0 0 1 -2 2h-.5a2.5 2.5 0 0 1 -2.5 -2.5v-4.5a1 1 0 0 1 1 -1h3" />
-      <path d="M10 17a2 2 0 0 0 2 2h3.5a5.475 5.475 0 0 0 2.765 -.744m1.996 -2c.47 -.81 .739 -1.752 .739 -2.756v-9.5" />
+      <path d="M11 7h5a1 1 0 0 1 1 1v4.5c0 .154 -.014 .304 -.04 .45m-2 2.007c-.15 .028 -.305 .043 -.463 .043h-.5a2 2 0 0 1 -2 -2a2 2 0 1 0 -4 0a2 2 0 0 1 -2 2h-.5a2.5 2.5 0 0 1 -2.5 -2.5v-4.5a1 1 0 0 1 1 -1h3" />
+      <path d="M10 17a2 2 0 0 0 2 2h3.5a5.475 5.475 0 0 0 2.765 -.744m2 -2c.47 -.81 .739 -1.752 .739 -2.756v-9.5" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -59575,8 +61239,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="10" r="7" />
-      <line x1="21" y1="21" x2="15" y2="15" />
+      <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+      <path d="M21 21l-6 -6" />
     </svg>
     """
   end
@@ -59597,9 +61261,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M9.172 19.004a3.001 3.001 0 1 0 2.828 -4.004" />
-      <path d="M14.83 5.002a3.001 3.001 0 1 0 -2.83 3.998" />
-      <circle cx="12" cy="12" r="3" />
+      <path d="M9.172 19a3 3 0 1 0 2.828 -4" />
+      <path d="M14.83 5a3 3 0 1 0 -2.83 4" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -59630,7 +61294,7 @@ defmodule TablerIcons do
       <path d="M8 4h.01" />
       <path d="M12 4h.01" />
       <path d="M16 4l0 0" />
-      <rect x="4" y="8" width="16" height="8" rx="1" />
+      <path d="M4 8m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -59677,7 +61341,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 10a6 6 0 0 0 -6 -6h-3v2a6 6 0 0 0 6 6h3" />
       <path d="M12 14a6 6 0 0 1 6 -6h3v1a6 6 0 0 1 -6 6h-3" />
-      <line x1="12" y1="20" x2="12" y2="10" />
+      <path d="M12 20l0 -10" />
     </svg>
     """
   end
@@ -59698,7 +61362,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M9 11l3 3l3 -3" />
     </svg>
     """
@@ -59720,8 +61384,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="8 9 12 5 16 9" />
-      <polyline points="16 15 12 19 8 15" />
+      <path d="M8 9l4 -4l4 4" />
+      <path d="M16 15l-4 4l-4 -4" />
     </svg>
     """
   end
@@ -59742,7 +61406,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M10 14l2.001 -2.001m1.999 -1.999l7 -7" />
+      <path d="M10 14l2 -2m2 -2l7 -7" />
       <path d="M10.718 6.713l10.282 -3.713l-3.715 10.289m-1.063 2.941l-1.722 4.77a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l4.772 -1.723" />
       <path d="M3 3l18 18" />
     </svg>
@@ -59765,7 +61429,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="10" y1="14" x2="21" y2="3" />
+      <path d="M10 14l11 -11" />
       <path d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5" />
     </svg>
     """
@@ -59790,7 +61454,7 @@ defmodule TablerIcons do
       <path d="M7 8h-3a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-3" />
       <path d="M14 16h-4v-8h4" />
       <path d="M11 12h2" />
-      <rect x="17" y="8" width="4" height="8" rx="1" />
+      <path d="M17 8m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -59811,9 +61475,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="12" x2="20" y2="12" />
-      <polyline points="8 8 12 4 16 8" />
-      <polyline points="16 16 12 20 8 16" />
+      <path d="M4 12l16 0" />
+      <path d="M8 8l4 -4l4 4" />
+      <path d="M16 16l-4 4l-4 -4" />
     </svg>
     """
   end
@@ -59834,9 +61498,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="4" x2="12" y2="20" />
-      <polyline points="8 8 4 12 8 16" />
-      <polyline points="16 16 20 12 16 8" />
+      <path d="M12 4l0 16" />
+      <path d="M8 8l-4 4l4 4" />
+      <path d="M16 16l4 -4l-4 -4" />
     </svg>
     """
   end
@@ -59857,9 +61521,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="12" x2="3" y2="12.01" />
-      <line x1="7" y1="12" x2="17" y2="12" />
-      <line x1="21" y1="12" x2="21" y2="12.01" />
+      <path d="M3 12l0 .01" />
+      <path d="M7 12l10 0" />
+      <path d="M21 12l0 .01" />
     </svg>
     """
   end
@@ -59880,10 +61544,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="4" width="18" height="8" rx="3" />
-      <rect x="3" y="12" width="18" height="8" rx="3" />
-      <line x1="7" y1="8" x2="7" y2="8.01" />
-      <line x1="7" y1="16" x2="7" y2="16.01" />
+      <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+      <path d="M3 12m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+      <path d="M7 8l0 .01" />
+      <path d="M7 16l0 .01" />
       <path d="M11 8h6" />
       <path d="M11 16h6" />
     </svg>
@@ -59906,7 +61570,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="4" width="18" height="8" rx="3" />
+      <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
       <path d="M15 20h-9a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h12" />
       <path d="M7 8v.01" />
       <path d="M7 16v.01" />
@@ -59931,11 +61595,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="4" width="18" height="8" rx="3" />
+      <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
       <path d="M12 20h-6a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3h10.5" />
-      <circle cx="18.001" cy="18" r="2" />
-      <path d="M18.001 14.5v1.5" />
-      <path d="M18.001 20v1.5" />
+      <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 14.5v1.5" />
+      <path d="M18 20v1.5" />
       <path d="M21.032 16.25l-1.299 .75" />
       <path d="M16.27 19l-1.3 .75" />
       <path d="M14.97 16.25l1.3 .75" />
@@ -59987,10 +61651,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="4" width="18" height="8" rx="3" />
-      <rect x="3" y="12" width="18" height="8" rx="3" />
-      <line x1="7" y1="8" x2="7" y2="8.01" />
-      <line x1="7" y1="16" x2="7" y2="16.01" />
+      <path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+      <path d="M3 12m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+      <path d="M7 8l0 .01" />
+      <path d="M7 16l0 .01" />
     </svg>
     """
   end
@@ -60034,7 +61698,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M19 6.873a2 2 0 0 1 1 1.747v6.536a2 2 0 0 1 -1.029 1.748l-6 3.833a2 2 0 0 1 -1.942 0l-6 -3.833a2 2 0 0 1 -1.029 -1.747v-6.537a2 2 0 0 1 1.029 -1.748l6 -3.572a2.056 2.056 0 0 1 2 0l6 3.573h-.029z" />
-      <circle cx="12" cy="12" r="3" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -60057,6 +61721,30 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
       <path d="M10 9v6l5 -3z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `settings_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.settings_filled />
+      <TablerIcons.settings_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def settings_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M13.675 4.317a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065c.426 -1.756 2.924 -1.756 3.35 0m-4.675 7.683a3 3 0 0 0 6 0a3 3 0 0 0 -6 0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -60101,7 +61789,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z" />
-      <circle cx="12" cy="12" r="3" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -60149,7 +61837,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M13 12h5" />
       <path d="M13 15h4" />
       <path d="M13 18h1" />
@@ -60175,10 +61863,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="5" r="2" />
-      <circle cx="19" cy="19" r="2" />
-      <circle cx="19" cy="5" r="2" />
-      <circle cx="5" cy="19" r="2" />
+      <path d="M5 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M6.5 17.5l11 -11m-12.5 .5v10m14 -10v10" />
     </svg>
     """
@@ -60200,10 +61888,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="5" r="2" />
-      <circle cx="19" cy="19" r="2" />
-      <circle cx="19" cy="5" r="2" />
-      <circle cx="5" cy="19" r="2" />
+      <path d="M5 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M7 5h10m-12 2v10m14 -10v10" />
     </svg>
     """
@@ -60226,8 +61914,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3.575 3.597a2 2 0 0 0 2.849 2.808" />
-      <circle cx="19" cy="5" r="2" />
-      <circle cx="5" cy="19" r="2" />
+      <path d="M19 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M17.574 17.598a2 2 0 0 0 2.826 2.83" />
       <path d="M5 7v10" />
       <path d="M9 5h8" />
@@ -60254,14 +61942,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="5" r="2" />
-      <circle cx="19" cy="5" r="2" />
-      <circle cx="5" cy="19" r="2" />
-      <circle cx="19" cy="19" r="2" />
-      <line x1="5" y1="7" x2="5" y2="17" />
-      <line x1="7" y1="5" x2="17" y2="5" />
-      <line x1="7" y1="19" x2="17" y2="19" />
-      <line x1="19" y1="7" x2="19" y2="17" />
+      <path d="M5 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 7l0 10" />
+      <path d="M7 5l10 0" />
+      <path d="M7 19l10 0" />
+      <path d="M19 7l0 10" />
     </svg>
     """
   end
@@ -60282,8 +61970,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="12" r="3" />
-      <circle cx="18" cy="6" r="3" />
+      <path d="M6 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M18 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M15.861 15.896a3 3 0 0 0 4.265 4.22m.578 -3.417a3.012 3.012 0 0 0 -1.507 -1.45" />
       <path d="M8.7 10.7l1.336 -.688m2.624 -1.352l2.64 -1.36" />
       <path d="M8.7 13.3l6.6 3.4" />
@@ -60308,11 +61996,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="12" r="3" />
-      <circle cx="18" cy="6" r="3" />
-      <circle cx="18" cy="18" r="3" />
-      <line x1="8.7" y1="10.7" x2="15.3" y2="7.3" />
-      <line x1="8.7" y1="13.3" x2="15.3" y2="16.7" />
+      <path d="M6 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M18 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M8.7 10.7l6.6 -3.4" />
+      <path d="M8.7 13.3l6.6 3.4" />
     </svg>
     """
   end
@@ -60385,6 +62073,27 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `shield_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shield_filled />
+      <TablerIcons.shield_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shield_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" fill="currentColor" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `shield_half_filled` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -60450,8 +62159,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
-      <circle cx="12" cy="11" r="1" />
-      <line x1="12" y1="12" x2="12" y2="14.5" />
+      <path d="M12 11m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 12l0 2.5" />
     </svg>
     """
   end
@@ -60472,7 +62181,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M17.669 17.669a12 12 0 0 1 -5.669 3.331a12 12 0 0 1 -8.5 -15c.797 .036 1.589 0 2.366 -.126m3.092 -.912a12 12 0 0 0 3.042 -1.962a12 12 0 0 0 8.5 3a12 12 0 0 1 -1.117 9.379" />
     </svg>
     """
@@ -60565,6 +62274,27 @@ defmodule TablerIcons do
       <path d="M4 18l-1 -5h18l-2 4" />
       <path d="M5 13v-6h8l4 6" />
       <path d="M7 7v-4h-1" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shirt_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shirt_filled />
+      <TablerIcons.shirt_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shirt_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M15 4l6 2v5h-3v8a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1v-8h-3v-5l6 -2a3 3 0 0 0 6 0" fill="currentColor" />
     </svg>
     """
   end
@@ -60720,13 +62450,13 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="19" r="2" />
-      <circle cx="17" cy="19" r="2" />
+      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M17 17h-11v-14h-2" />
       <path d="M20 6l-1 7h-13" />
       <path d="M10 10l6 -6" />
-      <circle cx="10.5" cy="4.5" r=".5" />
-      <circle cx="15.5" cy="9.5" r=".5" />
+      <path d="M10.5 4.5m-.5 0a0.5 .5 0 1 0 1 0a0.5 .5 0 1 0 -1 0" />
+      <path d="M15.5 9.5m-.5 0a0.5 .5 0 1 0 1 0a0.5 .5 0 1 0 -1 0" />
     </svg>
     """
   end
@@ -60747,7 +62477,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="19" r="2" />
+      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M17 17a2 2 0 1 0 2 2" />
       <path d="M17 17h-11v-11" />
       <path d="M9.239 5.231l10.761 .769l-1 7h-2m-4 0h-7" />
@@ -60772,10 +62502,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="19" r="2" />
-      <circle cx="17" cy="19" r="2" />
+      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M17 17h-11v-14h-2" />
-      <path d="M6 5l6.005 .429m7.138 6.573l-.143 .998h-13" />
+      <path d="M6 5l6 .429m7.138 6.573l-.143 1h-13" />
       <path d="M15 6h6m-3 -3v6" />
     </svg>
     """
@@ -60797,10 +62527,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="19" r="2" />
-      <circle cx="17" cy="19" r="2" />
+      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M17 17h-11v-14h-2" />
-      <path d="M6 5l7.999 .571m5.43 4.43l-.429 2.999h-13" />
+      <path d="M6 5l8 .571m5.43 4.43l-.429 3h-13" />
       <path d="M17 3l4 4" />
       <path d="M21 3l-4 4" />
     </svg>
@@ -60823,8 +62553,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="19" r="2" />
-      <circle cx="17" cy="19" r="2" />
+      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M17 17h-11v-14h-2" />
       <path d="M6 5l14 1l-1 7h-13" />
     </svg>
@@ -60870,8 +62600,32 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="10" width="16" height="5" rx="1" />
+      <path d="M4 10m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
       <path d="M17 10v-4a2 2 0 0 0 -2 -2h-6a2 2 0 0 0 -2 2v4m5 5v5m4 -5v2m-8 -2v3" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `sign_left_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.sign_left_filled />
+      <TablerIcons.sign_left_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def sign_left_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M16 21h-4" />
+      <path d="M14 21v-10" />
+      <path d="M14 6v-3" />
+      <path d="M18 6h-10l-2 2.5l2 2.5h10z" fill="currentColor" />
     </svg>
     """
   end
@@ -60896,6 +62650,30 @@ defmodule TablerIcons do
       <path d="M14 21v-10" />
       <path d="M14 6v-3" />
       <path d="M18 6h-10l-2 2.5l2 2.5h10z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `sign_right_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.sign_right_filled />
+      <TablerIcons.sign_right_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def sign_right_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M8 21h4" />
+      <path d="M10 21v-10" />
+      <path d="M10 6v-3" />
+      <path d="M6 6h10l2 2.5l-2 2.5h-10z" fill="currentColor" />
     </svg>
     """
   end
@@ -61076,7 +62854,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="15" width="6" height="6" rx="2" />
+      <path d="M3 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
       <path d="M19 15a2 2 0 0 1 2 2m-.591 3.42c-.362 .358 -.86 .58 -1.409 .58h-2a2 2 0 0 1 -2 -2v-2c0 -.549 .221 -1.046 .579 -1.407" />
       <path d="M9 5a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2" />
       <path d="M6 15v-1a2 2 0 0 1 2 -2h4m4 0a2 2 0 0 1 2 2" />
@@ -61101,11 +62879,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="15" width="6" height="6" rx="2" />
-      <rect x="15" y="15" width="6" height="6" rx="2" />
-      <rect x="9" y="3" width="6" height="6" rx="2" />
+      <path d="M3 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M15 15m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+      <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v2a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
       <path d="M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1" />
-      <line x1="12" y1="9" x2="12" y2="12" />
+      <path d="M12 9l0 3" />
     </svg>
     """
   end
@@ -61126,7 +62904,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="15" r="2" />
+      <path d="M7 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M15 15a2 2 0 0 0 2 2m2 -2a2 2 0 0 0 -2 -2" />
       <path d="M3 9c0 .552 .895 1 2 1h5m4 0h5c1.105 0 2 -.448 2 -1" />
       <path d="M3 3l18 18" />
@@ -61150,8 +62928,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="15" r="2" />
-      <circle cx="17" cy="15" r="2" />
+      <path d="M7 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M3 9a2 1 0 0 0 2 1h14a2 1 0 0 0 2 -1" />
     </svg>
     """
@@ -61173,11 +62951,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 4c4.418 0 8 3.358 8 7.5c0 1.901 -.755 3.637 -1.999 4.96l-.001 2.54a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1v-2.54c-1.245 -1.322 -2 -3.058 -2 -4.96c0 -4.142 3.582 -7.5 8 -7.5z" />
+      <path d="M12 4c4.418 0 8 3.358 8 7.5c0 1.901 -.755 3.637 -2 4.96l0 2.54a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1v-2.54c-1.245 -1.322 -2 -3.058 -2 -4.96c0 -4.142 3.582 -7.5 8 -7.5z" />
       <path d="M10 17v3" />
       <path d="M14 17v3" />
-      <circle cx="9" cy="11" r="1" />
-      <circle cx="15" cy="11" r="1" />
+      <path d="M9 11m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M15 11m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -61286,13 +63064,13 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="15" y1="6" x2="15.01" y2="6" />
-      <rect x="3" y="3" width="18" height="14" rx="3" />
+      <path d="M15 6l.01 0" />
+      <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
       <path d="M3 13l4 -4a3 5 0 0 1 3 0l4 4" />
       <path d="M13 12l2 -2a3 5 0 0 1 3 0l3 3" />
-      <line x1="8" y1="21" x2="8.01" y2="21" />
-      <line x1="12" y1="21" x2="12.01" y2="21" />
-      <line x1="16" y1="21" x2="16.01" y2="21" />
+      <path d="M8 21l.01 0" />
+      <path d="M12 21l.01 0" />
+      <path d="M16 21l.01 0" />
     </svg>
     """
   end
@@ -61358,9 +63136,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="8" y1="13" x2="8" y2="17" />
+      <path d="M8 13l0 4" />
       <path d="M16 5v.5a2 2 0 0 0 2 2a2 2 0 0 1 2 2v.5" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M17 13h3a1 1 0 0 1 1 1v2c0 .28 -.115 .533 -.3 .714m-3.7 .286h-13a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h9" />
     </svg>
     """
@@ -61382,8 +63160,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="13" width="18" height="4" rx="1" />
-      <line x1="8" y1="13" x2="8" y2="17" />
+      <path d="M3 13m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+      <path d="M8 13l0 4" />
       <path d="M16 5v.5a2 2 0 0 0 2 2a2 2 0 0 1 2 2v.5" />
     </svg>
     """
@@ -61495,11 +63273,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="3" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M3 9h3v6h-3z" />
       <path d="M18 9h3v6h-3z" />
-      <rect x="3" y="5" width="18" height="14" rx="2" />
-      <line x1="12" y1="5" x2="12" y2="19" />
+      <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+      <path d="M12 5l0 14" />
     </svg>
     """
   end
@@ -61520,10 +63298,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5" r="2" />
-      <circle cx="5" cy="19" r="2" />
+      <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M17.57 17.602a2 2 0 0 0 2.83 2.827" />
-      <path d="M11.113 11.133a3.001 3.001 0 1 0 3.765 3.715" />
+      <path d="M11.113 11.133a3 3 0 1 0 3.765 3.715" />
       <path d="M12 7v1" />
       <path d="M6.7 17.8l2.8 -2" />
       <path d="M17.3 17.8l-2.8 -2" />
@@ -61548,13 +63326,13 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="5" r="2" />
-      <circle cx="5" cy="19" r="2" />
-      <circle cx="19" cy="19" r="2" />
-      <circle cx="12" cy="14" r="3" />
-      <line x1="12" y1="7" x2="12" y2="11" />
-      <line x1="6.7" y1="17.8" x2="9.5" y2="15.8" />
-      <line x1="17.3" y1="17.8" x2="14.5" y2="15.8" />
+      <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M12 14m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M12 7l0 4" />
+      <path d="M6.7 17.8l2.8 -2" />
+      <path d="M17.3 17.8l-2.8 -2" />
     </svg>
     """
   end
@@ -61715,8 +63493,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14 9l3 -3l3 3" />
-      <rect x="5" y="5" width="5" height="5" rx=".5" />
-      <rect x="5" y="14" width="5" height="5" rx=".5" />
+      <path d="M5 5m0 .5a0.5 .5 0 0 1 .5 -.5h4a0.5 .5 0 0 1 .5 .5v4a0.5 .5 0 0 1 -.5 .5h-4a0.5 .5 0 0 1 -.5 -.5z" />
+      <path d="M5 14m0 .5a0.5 .5 0 0 1 .5 -.5h4a0.5 .5 0 0 1 .5 .5v4a0.5 .5 0 0 1 -.5 .5h-4a0.5 .5 0 0 1 -.5 -.5z" />
       <path d="M17 6v12" />
     </svg>
     """
@@ -61765,7 +63543,7 @@ defmodule TablerIcons do
       <path d="M4 15l3 3l3 -3" />
       <path d="M7 6v12" />
       <path d="M17 3a2 2 0 0 1 2 2v3a2 2 0 1 1 -4 0v-3a2 2 0 0 1 2 -2z" />
-      <circle cx="17" cy="16" r="2" />
+      <path d="M17 16m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M19 16v3a2 2 0 0 1 -2 2h-1.5" />
     </svg>
     """
@@ -61787,11 +63565,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="6" x2="11" y2="6" />
-      <line x1="4" y1="12" x2="11" y2="12" />
-      <line x1="4" y1="18" x2="13" y2="18" />
-      <polyline points="15 9 18 6 21 9" />
-      <line x1="18" y1="6" x2="18" y2="18" />
+      <path d="M4 6l7 0" />
+      <path d="M4 12l7 0" />
+      <path d="M4 18l9 0" />
+      <path d="M15 9l3 -3l3 3" />
+      <path d="M18 6l0 12" />
     </svg>
     """
   end
@@ -61812,8 +63590,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="5" width="5" height="5" rx=".5" />
-      <rect x="5" y="14" width="5" height="5" rx=".5" />
+      <path d="M5 5m0 .5a0.5 .5 0 0 1 .5 -.5h4a0.5 .5 0 0 1 .5 .5v4a0.5 .5 0 0 1 -.5 .5h-4a0.5 .5 0 0 1 -.5 -.5z" />
+      <path d="M5 14m0 .5a0.5 .5 0 0 1 .5 -.5h4a0.5 .5 0 0 1 .5 .5v4a0.5 .5 0 0 1 -.5 .5h-4a0.5 .5 0 0 1 -.5 -.5z" />
       <path d="M14 15l3 3l3 -3" />
       <path d="M17 18v-12" />
     </svg>
@@ -61863,7 +63641,7 @@ defmodule TablerIcons do
       <path d="M4 15l3 3l3 -3" />
       <path d="M7 6v12" />
       <path d="M17 14a2 2 0 0 1 2 2v3a2 2 0 1 1 -4 0v-3a2 2 0 0 1 2 -2z" />
-      <circle cx="17" cy="5" r="2" />
+      <path d="M17 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M19 5v3a2 2 0 0 1 -2 2h-1.5" />
     </svg>
     """
@@ -61885,11 +63663,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="6" x2="13" y2="6" />
-      <line x1="4" y1="12" x2="11" y2="12" />
-      <line x1="4" y1="18" x2="11" y2="18" />
-      <polyline points="15 15 18 18 21 15" />
-      <line x1="18" y1="6" x2="18" y2="18" />
+      <path d="M4 6l9 0" />
+      <path d="M4 12l7 0" />
+      <path d="M4 18l7 0" />
+      <path d="M15 15l3 3l3 -3" />
+      <path d="M18 6l0 12" />
     </svg>
     """
   end
@@ -62103,6 +63881,30 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `spade_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.spade_filled />
+      <TablerIcons.spade_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def spade_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 3l4.919 4.5c.61 .587 1.177 1.177 1.703 1.771a5.527 5.527 0 0 1 .264 6.979c-1.18 1.56 -3.338 1.92 -4.886 .75v1l1 3h-6l1 -3v-1c-1.54 1.07 -3.735 .772 -4.886 -.75a5.527 5.527 0 0 1 .264 -6.979a30.883 30.883 0 0 1 1.703 -1.771a1394.07 1394.07 0 0 1 4.919 -4.5z"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `spade` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -62119,6 +63921,27 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3l4.919 4.5c.61 .587 1.177 1.177 1.703 1.771a5.527 5.527 0 0 1 .264 6.979c-1.18 1.56 -3.338 1.92 -4.886 .75v1l1 3h-6l1 -3v-1c-1.54 1.07 -3.735 .772 -4.886 -.75a5.527 5.527 0 0 1 .264 -6.979a30.883 30.883 0 0 1 1.703 -1.771a1541.72 1541.72 0 0 1 4.919 -4.5z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `sparkles` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.sparkles />
+      <TablerIcons.sparkles class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def sparkles(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6z" />
     </svg>
     """
   end
@@ -62163,7 +63986,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 17h13.4a3 3 0 0 0 2.5 -1.34l3.1 -4.66h0h-6.23a4 4 0 0 0 -1.49 .29l-3.56 1.42a4 4 0 0 1 -1.49 .29h-3.73h0h-1l-1.5 4z" />
-      <line x1="6" y1="13" x2="7.5" y2="8" />
+      <path d="M6 13l1.5 -5" />
       <path d="M6 8h8l2 3" />
     </svg>
     """
@@ -62191,8 +64014,8 @@ defmodule TablerIcons do
       <path d="M19 4v2l-5 5" />
       <path d="M21.5 9.5l-1.5 1.5h-6" />
       <path d="M20 19v-2l-6 -6" />
-      <circle cx="12" cy="15" r="4" />
-      <circle cx="12" cy="9" r="2" />
+      <path d="M12 15m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+      <path d="M12 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -62235,7 +64058,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M10 12.057a1.9 1.9 0 0 0 .614 .743c1.06 .713 2.472 .112 3.043 -.919c.839 -1.513 -.022 -3.368 -1.525 -4.08c-2.003 -.95 -4.371 .154 -5.24 2.086c-1.095 2.432 .29 5.248 2.71 6.246c2.931 1.208 6.283 -.418 7.438 -3.255c1.36 -3.343 -.557 -7.134 -3.896 -8.41c-3.855 -1.474 -8.2 .68 -9.636 4.422c-1.63 4.253 .823 9.024 5.082 10.576c4.778 1.74 10.118 -.941 11.833 -5.59a9.354 9.354 0 0 0 .577 -2.813" />
+      <path d="M10 12.057a1.9 1.9 0 0 0 .614 .743c1.06 .713 2.472 .112 3.043 -.919c.839 -1.513 -.022 -3.368 -1.525 -4.08c-2 -.95 -4.371 .154 -5.24 2.086c-1.095 2.432 .29 5.248 2.71 6.246c2.931 1.208 6.283 -.418 7.438 -3.255c1.36 -3.343 -.557 -7.134 -3.896 -8.41c-3.855 -1.474 -8.2 .68 -9.636 4.422c-1.63 4.253 .823 9.024 5.082 10.576c4.778 1.74 10.118 -.941 11.833 -5.59a9.354 9.354 0 0 0 .577 -2.813" />
     </svg>
     """
   end
@@ -62256,9 +64079,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="10" r="2" />
-      <circle cx="12" cy="14" r="2" />
-      <circle cx="12" cy="12" r="8" />
+      <path d="M12 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M12 14m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M12 12m-8 0a8 8 0 1 0 16 0a8 8 0 1 0 -16 0" />
     </svg>
     """
   end
@@ -62279,7 +64102,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="10" width="8" height="11" rx="2" />
+      <path d="M4 10m0 2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2z" />
       <path d="M6 10v-4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v4" />
       <path d="M15 7h.01" />
       <path d="M18 9h.01" />
@@ -62310,7 +64133,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 11h8m4 0h6" />
       <path d="M5 11v-4c0 -.571 .16 -1.105 .437 -1.56m2.563 -1.44h8a3 3 0 0 1 3 3v4" />
-      <circle cx="7" cy="17" r="3" />
+      <path d="M7 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M14.88 14.877a3 3 0 1 0 4.239 4.247m.59 -3.414a3.012 3.012 0 0 0 -1.425 -1.422" />
       <path d="M10 17h4" />
       <path d="M3 3l18 18" />
@@ -62336,8 +64159,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 11h18" />
       <path d="M5 11v-4a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3v4" />
-      <circle cx="7" cy="17" r="3" />
-      <circle cx="17" cy="17" r="3" />
+      <path d="M7 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M10 17h4" />
     </svg>
     """
@@ -62451,7 +64274,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M12 8.5v7" />
       <path d="M9 10l6 4" />
       <path d="M9 14l6 -4" />
@@ -62475,7 +64298,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M9 12l2 2l4 -4" />
     </svg>
     """
@@ -62677,8 +64500,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <circle cx="12" cy="12" r="1" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -62940,8 +64763,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="9" y1="15" x2="15" y2="9" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M9 15l6 -6" />
     </svg>
     """
   end
@@ -62962,8 +64785,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="9" y1="9" x2="15" y2="15" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M9 9l6 6" />
     </svg>
     """
   end
@@ -62985,7 +64808,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 4v16" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M12 13l7.5 -7.5" />
       <path d="M12 18l8 -8" />
       <path d="M15 20l5 -5" />
@@ -63010,7 +64833,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="14" cy="10" r="2" />
+      <path d="M14 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M12.5 11.5l-4 4l1.5 1.5" />
       <path d="M12 15l-1.5 -1.5" />
       <path d="M20 6.667v10.666a2.667 2.667 0 0 1 -2.667 2.667h-10.666a2.667 2.667 0 0 1 -2.667 -2.667v-10.666a2.667 2.667 0 0 1 2.667 -2.667h10.666a2.667 2.667 0 0 1 2.667 2.667z" />
@@ -63034,7 +64857,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 16v-6a2 2 0 1 1 4 0v6" />
       <path d="M10 13h4" />
     </svg>
@@ -63057,7 +64880,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 16h2a2 2 0 1 0 0 -4h-2h2a2 2 0 1 0 0 -4h-2v8z" />
     </svg>
     """
@@ -63079,7 +64902,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M14 10a2 2 0 1 0 -4 0v4a2 2 0 1 0 4 0" />
     </svg>
     """
@@ -63101,7 +64924,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8v8h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-2z" />
     </svg>
     """
@@ -63123,7 +64946,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M14 8h-4v8h4" />
       <path d="M10 12h2.5" />
     </svg>
@@ -63146,7 +64969,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 12h3" />
       <path d="M14 8h-4v8" />
     </svg>
@@ -63169,7 +64992,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M14 8h-2a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2v-4h-1" />
     </svg>
     """
@@ -63191,7 +65014,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 16v-8m4 0v8" />
       <path d="M10 12h4" />
     </svg>
@@ -63214,7 +65037,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M12 8v8" />
     </svg>
     """
@@ -63236,7 +65059,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8h4v6a2 2 0 1 1 -4 0" />
     </svg>
     """
@@ -63258,7 +65081,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8v8" />
       <path d="M14 8l-2.5 4l2.5 4" />
       <path d="M10 12h1.5" />
@@ -63282,7 +65105,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8v8h4" />
     </svg>
     """
@@ -63304,7 +65127,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M9 16v-8l3 5l3 -5v8" />
     </svg>
     """
@@ -63326,7 +65149,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 16v-8l4 8v-8" />
     </svg>
     """
@@ -63348,7 +65171,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2z" />
     </svg>
     """
@@ -63370,7 +65193,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 12h2a2 2 0 1 0 0 -4h-2v8" />
     </svg>
     """
@@ -63392,7 +65215,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2z" />
       <path d="M13 15l1 1" />
     </svg>
@@ -63415,7 +65238,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 12h2a2 2 0 1 0 0 -4h-2v8m4 0l-3 -4" />
     </svg>
     """
@@ -63437,7 +65260,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1" />
     </svg>
     """
@@ -63459,7 +65282,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8h4" />
       <path d="M12 8v8" />
     </svg>
@@ -63482,7 +65305,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8v6a2 2 0 1 0 4 0v-6" />
     </svg>
     """
@@ -63504,7 +65327,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8l2 8l2 -8" />
     </svg>
     """
@@ -63526,7 +65349,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M9 8l1 8l2 -5l2 5l1 -8" />
     </svg>
     """
@@ -63548,7 +65371,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8l4 8" />
       <path d="M10 16l4 -8" />
     </svg>
@@ -63571,7 +65394,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8l2 5l2 -5" />
       <path d="M12 16v-3" />
     </svg>
@@ -63594,7 +65417,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8h4l-4 8h4" />
     </svg>
     """
@@ -63616,8 +65439,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="9" y1="12" x2="15" y2="12" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M9 12l6 0" />
     </svg>
     """
   end
@@ -63638,7 +65461,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 10v4a2 2 0 1 0 4 0v-4a2 2 0 1 0 -4 0z" />
     </svg>
     """
@@ -63660,7 +65483,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 10l2 -2v8" />
     </svg>
     """
@@ -63682,7 +65505,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3" />
     </svg>
     """
@@ -63704,7 +65527,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 9a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1" />
     </svg>
     """
@@ -63726,7 +65549,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8v3a1 1 0 0 0 1 1h3" />
       <path d="M14 8v8" />
     </svg>
@@ -63749,7 +65572,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4" />
     </svg>
     """
@@ -63771,7 +65594,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M14 9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3" />
     </svg>
     """
@@ -63793,7 +65616,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 8h4l-2 8" />
     </svg>
     """
@@ -63815,7 +65638,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M12 12h-1a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1" />
     </svg>
     """
@@ -63837,7 +65660,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-6a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3" />
     </svg>
     """
@@ -63859,7 +65682,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.584 3.412a1.994 1.994 0 0 1 -1.416 .588h-12a2 2 0 0 1 -2 -2v-12c0 -.552 .224 -1.052 .586 -1.414" />
+      <path d="M8 4h10a2 2 0 0 1 2 2v10m-.584 3.412a2 2 0 0 1 -1.416 .588h-12a2 2 0 0 1 -2 -2v-12c0 -.552 .224 -1.052 .586 -1.414" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -63881,9 +65704,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="9" y1="12" x2="15" y2="12" />
-      <line x1="12" y1="9" x2="12" y2="15" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M9 12l6 0" />
+      <path d="M12 9l0 6" />
     </svg>
     """
   end
@@ -63928,6 +65751,30 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 12h2l4 8l4 -16h8" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_rotated_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rotated_filled />
+      <TablerIcons.square_rotated_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rotated_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M10.5 20.4l-6.9 -6.9c-.781 -.781 -.781 -2.219 0 -3l6.9 -6.9c.781 -.781 2.219 -.781 3 0l6.9 6.9c.781 .781 .781 2.219 0 3l-6.9 6.9c-.781 .781 -2.219 .781 -3 0z"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -63992,7 +65839,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M16.964 16.952l-3.462 3.461c-.782 .783 -2.222 .783 -3.004 0l-6.911 -6.91c-.783 -.783 -.783 -2.223 0 -3.005l3.455 -3.456m2.003 -2.003l1.453 -1.452c.782 -.783 2.222 -.783 3.004 0l6.911 6.91c.783 .783 .783 2.223 0 3.005l-1.448 1.45" />
+      <path d="M16.964 16.952l-3.462 3.461c-.782 .783 -2.222 .783 -3 0l-6.911 -6.91c-.783 -.783 -.783 -2.223 0 -3l3.455 -3.456m2 -2l1.453 -1.452c.782 -.783 2.222 -.783 3 0l6.911 6.91c.783 .783 .783 2.223 0 3l-1.448 1.45" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -64309,6 +66156,27 @@ defmodule TablerIcons do
       <path d="M9 15l3 -3l3 3" />
       <path d="M9 11l3 -3l3 3" />
       <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_rounded_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_rounded_filled />
+      <TablerIcons.square_rounded_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_rounded_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z" fill="currentColor" />
     </svg>
     """
   end
@@ -65224,7 +67092,7 @@ defmodule TablerIcons do
       <path d="M4 14v-8a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v8" />
       <path d="M18 20a2 2 0 0 0 2 -2" />
       <path d="M4 18a2 2 0 0 0 2 2" />
-      <line x1="14" y1="20" x2="10" y2="20" />
+      <path d="M14 20l-4 0" />
     </svg>
     """
   end
@@ -65245,11 +67113,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="2" x2="12" y2="22" />
+      <path d="M12 2l0 20" />
       <path d="M14 20h-8a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h8" />
       <path d="M20 6a2 2 0 0 0 -2 -2" />
       <path d="M18 20a2 2 0 0 0 2 -2" />
-      <line x1="20" y1="10" x2="20" y2="14" />
+      <path d="M20 10l0 4" />
     </svg>
     """
   end
@@ -65270,7 +67138,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M10 10l4 4m0 -4l-4 4" />
     </svg>
     """
@@ -65292,7 +67160,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -65313,7 +67181,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="8" y="8" width="12" height="12" rx="2" />
+      <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
       <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
       <path d="M8.586 19.414l10.827 -10.827" />
     </svg>
@@ -65336,9 +67204,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="8" y="8" width="12" height="12" rx="2" />
+      <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
       <path d="M8 14.5l6.492 -6.492" />
-      <path d="M13.496 20.004l6.504 -6.504l-6.504 6.504z" />
+      <path d="M13.496 20l6.504 -6.504l-6.504 6.504z" />
       <path d="M8.586 19.414l10.827 -10.827" />
       <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
     </svg>
@@ -65361,9 +67229,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="12 4 4 8 12 12 20 8 12 4" />
-      <polyline points="4 12 12 16 20 12" />
-      <polyline points="4 16 12 20 20 16" />
+      <path d="M12 4l-8 4l8 4l8 -4l-8 -4" />
+      <path d="M4 12l8 4l8 -4" />
+      <path d="M4 16l8 4l8 -4" />
     </svg>
     """
   end
@@ -65408,7 +67276,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 9.5l-3 1.5l8 4l8 -4l-2.999 -1.5" />
+      <path d="M7 9.5l-3 1.5l8 4l8 -4l-3 -1.5" />
       <path d="M4 15l8 4l8 -4" />
       <path d="M12 11v-7" />
       <path d="M9 7l3 -3l3 3" />
@@ -65528,6 +67396,51 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `star_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.star_filled />
+      <TablerIcons.star_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def star_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `star_half_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.star_half_filled />
+      <TablerIcons.star_half_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def star_half_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253z" fill="currentColor" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `star_half` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -65564,7 +67477,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M10.012 6.016l1.981 -4.014l3.086 6.253l6.9 1l-4.421 4.304m.012 4.01l.588 3.426l-6.158 -3.245l-6.172 3.245l1.179 -6.873l-5 -4.867l6.327 -.917" />
     </svg>
     """
@@ -65592,6 +67505,38 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `stars_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.stars_filled />
+      <TablerIcons.stars_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def stars_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M17.8 19.817l-2.172 1.138a0.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a0.389 .389 0 0 1 .217 -.665l2.428 -.352l1.086 -2.193a0.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a0.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a0.39 .39 0 0 1 -.567 .411l-2.172 -1.138z"
+        fill="currentColor"
+      />
+      <path
+        d="M6.2 19.817l-2.172 1.138a0.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a0.389 .389 0 0 1 .217 -.665l2.428 -.352l1.086 -2.193a0.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a0.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a0.39 .39 0 0 1 -.567 .411l-2.172 -1.138z"
+        fill="currentColor"
+      />
+      <path
+        d="M12 9.817l-2.172 1.138a0.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a0.389 .389 0 0 1 .217 -.665l2.428 -.352l1.086 -2.193a0.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a0.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a0.39 .39 0 0 1 -.567 .411l-2.172 -1.138z"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `stars_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -65609,7 +67554,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M17.373 13.371l.076 -.154a0.392 .392 0 0 1 .702 0l.907 1.831m.367 .39c.498 .071 1.245 .18 2.24 .324a0.39 .39 0 0 1 .217 .665c-.326 .316 -.57 .553 -.732 .712m-.611 3.405a0.39 .39 0 0 1 -.567 .411l-2.172 -1.138l-2.172 1.138a0.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a0.389 .389 0 0 1 .217 -.665l1.601 -.232" />
       <path d="M6.2 19.817l-2.172 1.138a0.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a0.389 .389 0 0 1 .217 -.665l2.428 -.352l1.086 -2.193a0.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a0.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a0.39 .39 0 0 1 -.567 .411l-2.172 -1.138z" />
-      <path d="M9.557 5.556l1.006 -.146l1.086 -2.193a0.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a0.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a0.39 .39 0 0 1 -.014 .187m-4.153 -.166l-.744 .39a0.392 .392 0 0 1 -.568 -.41l.188 -1.093" />
+      <path d="M9.557 5.556l1 -.146l1.086 -2.193a0.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a0.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a0.39 .39 0 0 1 -.014 .187m-4.153 -.166l-.744 .39a0.392 .392 0 0 1 -.568 -.41l.188 -1.093" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -65654,8 +67599,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="18" r="2" />
-      <circle cx="18" cy="18" r="2" />
+      <path d="M6 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M6 12v-2a6 6 0 1 1 12 0v2" />
       <path d="M15 9l3 3l3 -3" />
     </svg>
@@ -65678,10 +67623,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="4" r="1" />
-      <circle cx="4" cy="12" r="1" />
-      <circle cx="20" cy="12" r="1" />
-      <circle cx="12" cy="20" r="1" />
+      <path d="M12 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M4 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M20 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 20m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M5.5 5.5l3 3" />
       <path d="M15.5 15.5l3 3" />
       <path d="M18.5 5.5l-3 3" />
@@ -65732,11 +67677,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="12" cy="12" r="2" />
-      <line x1="12" y1="14" x2="12" y2="21" />
-      <line x1="10" y1="12" x2="3.25" y2="10" />
-      <line x1="14" y1="12" x2="20.75" y2="10" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M12 14l0 7" />
+      <path d="M10 12l-6.75 -2" />
+      <path d="M14 12l6.75 -2" />
     </svg>
     """
   end
@@ -65757,10 +67702,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="3" x2="12" y2="15" />
-      <line x1="16" y1="11" x2="12" y2="15" />
-      <line x1="8" y1="11" x2="12" y2="15" />
-      <circle cx="12" cy="20" r="1" />
+      <path d="M12 3l0 12" />
+      <path d="M16 11l-4 4" />
+      <path d="M8 11l4 4" />
+      <path d="M12 20m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -65781,10 +67726,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="3" x2="12" y2="15" />
-      <line x1="16" y1="7" x2="12" y2="3" />
-      <line x1="8" y1="7" x2="12" y2="3" />
-      <circle cx="12" cy="20" r="1" />
+      <path d="M12 3l0 12" />
+      <path d="M16 7l-4 -4" />
+      <path d="M8 7l4 -4" />
+      <path d="M12 20m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -65833,7 +67778,7 @@ defmodule TablerIcons do
       <path d="M4.172 4.179a2 2 0 0 0 -1.172 1.821v3.5a5.5 5.5 0 0 0 9.856 3.358m1.144 -2.858v-4a2 2 0 0 0 -2 -2h-1" />
       <path d="M8 15a6 6 0 0 0 10.714 3.712m1.216 -2.798c.046 -.3 .07 -.605 .07 -.914v-3" />
       <path d="M11 3v2" />
-      <circle cx="20" cy="10" r="2" />
+      <path d="M20 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -65859,7 +67804,7 @@ defmodule TablerIcons do
       <path d="M8 15a6 6 0 1 0 12 0v-3" />
       <path d="M11 3v2" />
       <path d="M6 3v2" />
-      <circle cx="20" cy="10" r="2" />
+      <path d="M20 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -65927,8 +67872,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="3" />
-      <circle cx="12" cy="12" r="7" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M12 12m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M5.369 14.236c-1.839 -3.929 -1.561 -7.616 -.704 -11.236" />
       <path d="M18.63 9.76c1.837 3.928 1.561 7.615 .703 11.236" />
     </svg>
@@ -65951,7 +67896,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="16" cy="5" r="1" />
+      <path d="M16 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M5 20l5 -.5l1 -2" />
       <path d="M18 20v-5h-5.5l2.5 -6.5l-5.5 1l1.5 2" />
     </svg>
@@ -65974,7 +67919,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="5" y1="12" x2="19" y2="12" />
+      <path d="M5 12l14 0" />
       <path d="M16 6.5a4 2 0 0 0 -4 -1.5h-1a3.5 3.5 0 0 0 0 7h2a3.5 3.5 0 0 1 0 7h-1.5a4 2 0 0 1 -4 -1.5" />
     </svg>
     """
@@ -66041,11 +67986,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="6" y1="9" x2="12" y2="9" />
-      <line x1="4" y1="5" x2="8" y2="5" />
+      <path d="M6 9l6 0" />
+      <path d="M4 5l4 0" />
       <path d="M6 5v11a1 1 0 0 0 1 1h5" />
-      <rect x="12" y="7" width="8" height="4" rx="1" />
-      <rect x="12" y="15" width="8" height="4" rx="1" />
+      <path d="M12 7m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
+      <path d="M12 15m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -66089,6 +68034,28 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M18 16v2a1 1 0 0 1 -1 1h-11l6 -7l-6 -7h11a1 1 0 0 1 1 1v2" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `sun_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.sun_filled />
+      <TablerIcons.sun_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def sun_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
+      <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" fill="currentColor" />
     </svg>
     """
   end
@@ -66138,7 +68105,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="4" />
+      <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M4 12h.01" />
       <path d="M12 4v.01" />
       <path d="M20 12h.01" />
@@ -66193,7 +68160,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M16 12a4 4 0 0 0 -4 -4m-2.834 1.177a4 4 0 0 0 5.66 5.654" />
       <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
     </svg>
@@ -66216,7 +68183,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M14.468 10.005a4 4 0 1 0 -5.466 5.46" />
+      <path d="M14.468 10a4 4 0 1 0 -5.466 5.46" />
       <path d="M2 12h1" />
       <path d="M11 3v1" />
       <path d="M11 20v1" />
@@ -66224,7 +68191,7 @@ defmodule TablerIcons do
       <path d="M17.4 5.6l-.7 .7" />
       <path d="M5.3 17.7l-.7 .7" />
       <path d="M15 13h5a2 2 0 1 0 0 -4" />
-      <path d="M12 16h5.714l.253 -.004a2.004 2.004 0 0 1 2.033 2.004a2 2 0 0 1 -2 2h-.286" />
+      <path d="M12 16h5.714l.253 0a2 2 0 0 1 2.033 2a2 2 0 0 1 -2 2h-.286" />
     </svg>
     """
   end
@@ -66245,7 +68212,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="4" />
+      <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" />
     </svg>
     """
@@ -66295,7 +68262,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 17h1m16 0h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7m-9.7 5.7a4 4 0 0 1 8 0" />
-      <line x1="3" y1="21" x2="21" y2="21" />
+      <path d="M3 21l18 0" />
       <path d="M12 9v-6l3 3m-6 0l3 -3" />
     </svg>
     """
@@ -66347,7 +68314,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 17h1m16 0h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7m-9.7 5.7a4 4 0 0 1 8 0" />
-      <line x1="3" y1="21" x2="21" y2="21" />
+      <path d="M3 21l18 0" />
       <path d="M12 3v6l3 -3m-6 0l3 3" />
     </svg>
     """
@@ -66414,7 +68381,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="16" cy="9" r="1" />
+      <path d="M16 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M6 11l4 -2l3.5 3l-1.5 2" />
       <path d="M3 16.75a2.4 2.4 0 0 0 1 .25a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1 -.25" />
     </svg>
@@ -66507,10 +68474,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="16 3 20 7 16 11" />
-      <line x1="10" y1="7" x2="20" y2="7" />
-      <polyline points="8 13 4 17 8 21" />
-      <line x1="4" y1="17" x2="13" y2="17" />
+      <path d="M16 3l4 4l-4 4" />
+      <path d="M10 7l10 0" />
+      <path d="M8 13l-4 4l4 4" />
+      <path d="M4 17l9 0" />
     </svg>
     """
   end
@@ -66531,10 +68498,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="3 8 7 4 11 8" />
-      <line x1="7" y1="4" x2="7" y2="13" />
-      <polyline points="13 16 17 20 21 16" />
-      <line x1="17" y1="10" x2="17" y2="20" />
+      <path d="M3 8l4 -4l4 4" />
+      <path d="M7 4l0 9" />
+      <path d="M13 16l4 4l4 -4" />
+      <path d="M17 10l0 10" />
     </svg>
     """
   end
@@ -66555,11 +68522,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="15 4 19 4 19 8" />
-      <line x1="14.75" y1="9.25" x2="19" y2="4" />
-      <line x1="5" y1="19" x2="9" y2="15" />
-      <polyline points="15 19 19 19 19 15" />
-      <line x1="5" y1="5" x2="19" y2="19" />
+      <path d="M15 4l4 0l0 4" />
+      <path d="M14.75 9.25l4.25 -5.25" />
+      <path d="M5 19l4 -4" />
+      <path d="M15 19l4 0l0 -4" />
+      <path d="M5 5l14 14" />
     </svg>
     """
   end
@@ -66650,7 +68617,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-6" />
-      <rect x="3" y="15" width="6" height="6" rx="1" />
+      <path d="M3 15m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
       <path d="M4 10h16" />
       <path d="M10 4v8" />
     </svg>
@@ -66718,7 +68685,7 @@ defmodule TablerIcons do
       <path d="M8 4h10a2 2 0 0 1 2 2v10m-.588 3.417c-.362 .36 -.86 .583 -1.412 .583h-12a2 2 0 0 1 -2 -2v-12c0 -.552 .224 -1.053 .586 -1.414" />
       <path d="M4 10h6m4 0h6" />
       <path d="M10 4v2m0 4v10" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -66742,7 +68709,7 @@ defmodule TablerIcons do
       <path d="M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-6" />
       <path d="M4 10h16" />
       <path d="M10 4v9" />
-      <circle cx="5.281" cy="18.5" r="2" />
+      <path d="M5.281 18.5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5.281 15v1.5" />
       <path d="M5.281 20.5v1.5" />
       <path d="M8.312 16.75l-1.299 .75" />
@@ -66794,9 +68761,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
-      <line x1="4" y1="10" x2="20" y2="10" />
-      <line x1="10" y1="4" x2="10" y2="20" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+      <path d="M4 10l16 0" />
+      <path d="M10 4l0 16" />
     </svg>
     """
   end
@@ -66818,7 +68785,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7.792 7.793a1 1 0 0 0 1.414 1.414" />
-      <path d="M4.88 4.877a2.99 2.99 0 0 0 -.88 2.123v3.859c0 .537 .213 1.052 .593 1.432l8.116 8.116a2.025 2.025 0 0 0 2.864 0l2.416 -2.416m2.002 -2.002l.416 -.416a2.025 2.025 0 0 0 0 -2.864l-8.117 -8.116a2.025 2.025 0 0 0 -1.431 -.593h-2.859" />
+      <path d="M4.88 4.877a2.99 2.99 0 0 0 -.88 2.123v3.859c0 .537 .213 1.052 .593 1.432l8.116 8.116a2.025 2.025 0 0 0 2.864 0l2.416 -2.416m2 -2l.416 -.416a2.025 2.025 0 0 0 0 -2.864l-8.117 -8.116a2.025 2.025 0 0 0 -1.431 -.593h-2.859" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -66863,7 +68830,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 6h-.975a2.025 2.025 0 0 0 -2.025 2.025v2.834c0 .537 .213 1.052 .593 1.432l6.116 6.116a2.025 2.025 0 0 0 2.864 0l2.834 -2.834c.028 -.028 .055 -.056 .08 -.085" />
-      <path d="M17.573 18.407l.418 -.418m1.997 -1.997l.419 -.419a2.025 2.025 0 0 0 0 -2.864l-7.117 -7.116" />
+      <path d="M17.573 18.407l.418 -.418m2 -2l.419 -.419a2.025 2.025 0 0 0 0 -2.864l-7.117 -7.116" />
       <path d="M6 9h-.01" />
       <path d="M3 3l18 18" />
     </svg>
@@ -66909,7 +68876,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="5" x2="12" y2="19" />
+      <path d="M12 5l0 14" />
     </svg>
     """
   end
@@ -66930,8 +68897,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="10" y1="5" x2="10" y2="19" />
-      <line x1="14" y1="5" x2="14" y2="19" />
+      <path d="M10 5l0 14" />
+      <path d="M14 5l0 14" />
     </svg>
     """
   end
@@ -66952,9 +68919,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="8" y1="5" x2="8" y2="19" />
-      <line x1="12" y1="5" x2="12" y2="19" />
-      <line x1="16" y1="5" x2="16" y2="19" />
+      <path d="M8 5l0 14" />
+      <path d="M12 5l0 14" />
+      <path d="M16 5l0 14" />
     </svg>
     """
   end
@@ -66975,10 +68942,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="6" y1="5" x2="6" y2="19" />
-      <line x1="10" y1="5" x2="10" y2="19" />
-      <line x1="14" y1="5" x2="14" y2="19" />
-      <line x1="18" y1="5" x2="18" y2="19" />
+      <path d="M6 5l0 14" />
+      <path d="M10 5l0 14" />
+      <path d="M14 5l0 14" />
+      <path d="M18 5l0 14" />
     </svg>
     """
   end
@@ -66999,11 +68966,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="6" y1="5" x2="6" y2="19" />
-      <line x1="10" y1="5" x2="10" y2="19" />
-      <line x1="14" y1="5" x2="14" y2="19" />
-      <line x1="18" y1="5" x2="18" y2="19" />
-      <line x1="3" y1="17" x2="21" y2="7" />
+      <path d="M6 5l0 14" />
+      <path d="M10 5l0 14" />
+      <path d="M14 5l0 14" />
+      <path d="M18 5l0 14" />
+      <path d="M3 17l18 -10" />
     </svg>
     """
   end
@@ -67024,9 +68991,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="2" y="12" width="18" height="6" rx="3" />
+      <path d="M2 12m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v0a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
       <path d="M6 12l1 -5h5l3 5" />
-      <line x1="21" y1="9" x2="13.2" y2="9" />
+      <path d="M21 9l-7.8 0" />
     </svg>
     """
   end
@@ -67047,9 +69014,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="1" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M12 7a5 5 0 1 0 5 5" />
-      <path d="M13.004 3.055a9 9 0 1 0 7.941 7.945" />
+      <path d="M13 3.055a9 9 0 1 0 7.941 7.945" />
       <path d="M15 6v3h3l3 -3h-3v-3z" />
       <path d="M15 9l-3 3" />
     </svg>
@@ -67096,9 +69063,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="1" />
-      <circle cx="12" cy="12" r="5" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -67120,7 +69087,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10.29 3h3.42a2 2 0 0 1 1.988 1.78l1.555 14a2 2 0 0 1 -1.988 2.22h-6.53a2 2 0 0 1 -1.988 -2.22l1.555 -14a2 2 0 0 1 1.988 -1.78z" />
-      <path d="M7.47 12.5l-4.257 -5.019a0.899 .899 0 0 1 .69 -1.481h13.09a3.004 3.004 0 0 1 3.007 3v3c0 1.657 -1.346 3 -3.007 3" />
+      <path d="M7.47 12.5l-4.257 -5.019a0.899 .899 0 0 1 .69 -1.481h13.09a3 3 0 0 1 3.007 3v3c0 1.657 -1.346 3 -3.007 3" />
       <path d="M7 17h10" />
     </svg>
     """
@@ -67142,10 +69109,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M6 21.002l6 -5l6 5" />
-      <path d="M12 13.002v8" />
+      <path d="M6 21l6 -5l6 5" />
+      <path d="M12 13v8" />
       <path d="M8.238 8.264l-4.183 2.51c-1.02 .614 -1.357 1.898 -.76 2.906l.165 .28c.52 .88 1.624 1.266 2.605 .91l6.457 -2.34m2.907 -1.055l4.878 -1.77a1.023 1.023 0 0 0 .565 -1.455l-2.62 -4.705a1.087 1.087 0 0 0 -1.447 -.42l-.056 .032l-6.016 3.61" />
-      <path d="M14 5.002l3 5.5" />
+      <path d="M14 5l3 5.5" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -67191,7 +69158,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="8" r="2" />
+      <path d="M6 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M20 9a3 3 0 0 0 -3 -3h-1a3 3 0 0 0 -3 3v6a3 3 0 0 0 3 3h1a3 3 0 0 0 3 -3" />
     </svg>
     """
@@ -67213,8 +69180,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="8" r="2" />
-      <line x1="13" y1="12" x2="18" y2="12" />
+      <path d="M6 8m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M13 12l5 0" />
       <path d="M20 6h-6a1 1 0 0 0 -1 1v11" />
     </svg>
     """
@@ -67237,8 +69204,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 13.5a4 4 0 1 0 4 0v-8.5a2 2 0 0 0 -4 0v8.5" />
-      <line x1="8" y1="9" x2="12" y2="9" />
-      <line x1="16" y1="9" x2="22" y2="9" />
+      <path d="M8 9l4 0" />
+      <path d="M16 9l6 0" />
     </svg>
     """
   end
@@ -67283,9 +69250,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 13.5a4 4 0 1 0 4 0v-8.5a2 2 0 0 0 -4 0v8.5" />
-      <line x1="8" y1="9" x2="12" y2="9" />
-      <line x1="16" y1="9" x2="22" y2="9" />
-      <line x1="19" y1="6" x2="19" y2="12" />
+      <path d="M8 9l4 0" />
+      <path d="M16 9l6 0" />
+      <path d="M19 6l0 6" />
     </svg>
     """
   end
@@ -67307,7 +69274,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 13.5a4 4 0 1 0 4 0v-8.5a2 2 0 0 0 -4 0v8.5" />
-      <line x1="10" y1="9" x2="14" y2="9" />
+      <path d="M10 9l4 0" />
     </svg>
     """
   end
@@ -67329,7 +69296,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 4h11a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-7m-4 0h-3a1 1 0 0 1 -1 -1v-2c0 -.271 .108 -.517 .283 -.697" />
-      <rect x="4" y="12" width="6" height="8" rx="1" />
+      <path d="M4 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
       <path d="M16 12h4" />
       <path d="M14 16h2" />
       <path d="M14 20h6" />
@@ -67354,11 +69321,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="4" rx="1" />
-      <rect x="4" y="12" width="6" height="8" rx="1" />
-      <line x1="14" y1="12" x2="20" y2="12" />
-      <line x1="14" y1="16" x2="20" y2="16" />
-      <line x1="14" y1="20" x2="20" y2="20" />
+      <path d="M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z" />
+      <path d="M4 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+      <path d="M14 12l6 0" />
+      <path d="M14 16l6 0" />
+      <path d="M14 20l6 0" />
     </svg>
     """
   end
@@ -67423,8 +69390,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 9l3 3l-3 3" />
-      <line x1="13" y1="15" x2="16" y2="15" />
-      <rect x="3" y="4" width="18" height="16" rx="2" />
+      <path d="M13 15l3 0" />
+      <path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -67446,7 +69413,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 7l5 5l-5 5" />
-      <line x1="12" y1="19" x2="19" y2="19" />
+      <path d="M12 19l7 0" />
     </svg>
     """
   end
@@ -67490,7 +69457,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M20 8.04a803.533 803.533 0 0 0 -4 3.96m-2 2c-1.085 1.085 -3.125 3.14 -6.122 6.164a2.857 2.857 0 0 1 -4.041 -4.04c3.018 -2.996 5.073 -5.037 6.163 -6.124m2 -2c.872 -.872 2.191 -2.205 3.959 -4" />
+      <path d="M20 8.04a803.533 803.533 0 0 0 -4 3.96m-2 2c-1.085 1.085 -3.125 3.14 -6.122 6.164a2.857 2.857 0 0 1 -4.041 -4.04c3.018 -3 5.073 -5.037 6.163 -6.124m2 -2c.872 -.872 2.191 -2.205 3.959 -4" />
       <path d="M7 13h6" />
       <path d="M19 15l1.5 1.6m-.74 3.173a2 2 0 0 1 -2.612 -2.608" />
       <path d="M15 3l6 6" />
@@ -67566,7 +69533,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 15h16" />
-      <rect x="4" y="4" width="6" height="6" rx="1" />
+      <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
       <path d="M4 20h12" />
     </svg>
     """
@@ -67785,10 +69752,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="5" r="2" />
-      <circle cx="19" cy="5" r="2" />
-      <circle cx="5" cy="19" r="2" />
-      <circle cx="19" cy="19" r="2" />
+      <path d="M5 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M5 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5 7v10" />
       <path d="M7 5h10" />
       <path d="M7 19h10" />
@@ -67864,8 +69831,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="6" x2="14" y2="6" />
-      <line x1="4" y1="18" x2="14" y2="18" />
+      <path d="M4 6l10 0" />
+      <path d="M4 18l10 0" />
       <path d="M4 12h17l-3 -3m0 6l3 -3" />
     </svg>
     """
@@ -67887,8 +69854,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="6" x2="20" y2="6" />
-      <line x1="4" y1="18" x2="9" y2="18" />
+      <path d="M4 6l16 0" />
+      <path d="M4 18l5 0" />
       <path d="M4 12h13a3 3 0 0 1 0 6h-4l2 -2m0 4l-2 -2" />
     </svg>
     """
@@ -67947,6 +69914,30 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `thumb_down_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.thumb_down_filled />
+      <TablerIcons.thumb_down_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def thumb_down_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M7 13v-8a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v7a1 1 0 0 0 1 1h3a4 4 0 0 1 4 4v1a2 2 0 0 0 4 0v-5h3a2 2 0 0 0 2 -2l-1 -5a2 3 0 0 0 -2 -2h-7a3 3 0 0 0 -3 3"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `thumb_down_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -67985,6 +69976,30 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 13v-8a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v7a1 1 0 0 0 1 1h3a4 4 0 0 1 4 4v1a2 2 0 0 0 4 0v-5h3a2 2 0 0 0 2 -2l-1 -5a2 3 0 0 0 -2 -2h-7a3 3 0 0 0 -3 3" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `thumb_up_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.thumb_up_filled />
+      <TablerIcons.thumb_up_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def thumb_up_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M7 11v8a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1h3a4 4 0 0 0 4 -4v-1a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1 -2 2h-7a3 3 0 0 1 -3 -3"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -68048,14 +70063,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="6" r="2" />
+      <path d="M6 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M3 12h18" />
       <path d="M12 3v18" />
       <path d="M4 16l4 4" />
       <path d="M4 20l4 -4" />
       <path d="M16 4l4 4" />
       <path d="M16 8l4 -4" />
-      <circle cx="18" cy="18" r="2" />
+      <path d="M18 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -68100,9 +70115,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="15" y1="5" x2="15" y2="7" />
-      <line x1="15" y1="11" x2="15" y2="13" />
-      <line x1="15" y1="17" x2="15" y2="19" />
+      <path d="M15 5l0 2" />
+      <path d="M15 11l0 2" />
+      <path d="M15 17l0 2" />
       <path d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2" />
     </svg>
     """
@@ -68205,7 +70220,7 @@ defmodule TablerIcons do
       <path d="M20.31 15.44a9 9 0 0 0 .69 -3.44" />
       <path d="M20.31 8.56a9 9 0 0 0 -1.95 -2.92" />
       <path d="M15.44 3.69a9 9 0 0 0 -3.44 -.69" />
-      <circle cx="12" cy="12" r="2" />
+      <path d="M12 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -68226,7 +70241,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="20" r="2" />
+      <path d="M12 20m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M10 20h-6" />
       <path d="M14 20h6" />
       <path d="M12 15l-2 -2h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-3l-2 2z" />
@@ -68252,7 +70267,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="20" r="2" />
+      <path d="M12 20m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M10 20h-6" />
       <path d="M14 20h6" />
       <path d="M12 15l-2 -2h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-3l-2 2z" />
@@ -68277,7 +70292,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="20" r="2" />
+      <path d="M12 20m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M10 20h-6" />
       <path d="M14 20h6" />
       <path d="M12 15l-2 -2h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-3l-2 2z" />
@@ -68303,7 +70318,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="20" r="2" />
+      <path d="M12 20m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M10 20h-6" />
       <path d="M14 20h6" />
       <path d="M12 15l-2 -2h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-3l-2 2z" />
@@ -68329,7 +70344,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="20" r="2" />
+      <path d="M12 20m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M10 20h-6" />
       <path d="M14 20h6" />
       <path d="M12 15l-2 -2h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-3l-2 2z" />
@@ -68355,7 +70370,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="20" r="2" />
+      <path d="M12 20m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M10 20h-6" />
       <path d="M14 20h6" />
       <path d="M12 15l-2 -2h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-3l-2 2z" />
@@ -68380,10 +70395,10 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 16l6 -7l5 5l5 -6" />
-      <circle cx="15" cy="14" r="1" />
-      <circle cx="10" cy="9" r="1" />
-      <circle cx="4" cy="16" r="1" />
-      <circle cx="20" cy="8" r="1" />
+      <path d="M15 14m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M10 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M4 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M20 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -68404,11 +70419,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="5" cy="17" r="2" />
-      <circle cx="17" cy="17" r="2" />
+      <path d="M5 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M7 18h8m4 0h2v-6a5 7 0 0 0 -5 -7h-1l1.5 7h4.5" />
       <path d="M12 18v-13h3" />
-      <polyline points="3 17 3 12 12 12" />
+      <path d="M3 17l0 -5l9 0" />
     </svg>
     """
   end
@@ -68429,8 +70444,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="8" cy="12" r="2" />
-      <rect x="2" y="6" width="20" height="12" rx="6" />
+      <path d="M8 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M2 6m0 6a6 6 0 0 1 6 -6h8a6 6 0 0 1 6 6v0a6 6 0 0 1 -6 6h-8a6 6 0 0 1 -6 -6z" />
     </svg>
     """
   end
@@ -68451,8 +70466,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="16" cy="12" r="2" />
-      <rect x="2" y="6" width="20" height="12" rx="6" />
+      <path d="M16 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M2 6m0 6a6 6 0 0 1 6 -6h8a6 6 0 0 1 6 6v0a6 6 0 0 1 -6 6h-8a6 6 0 0 1 -6 -6z" />
     </svg>
     """
   end
@@ -68473,7 +70488,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4.27 4.28c-.768 1.27 -1.27 3.359 -1.27 5.72c0 3.866 1.343 7 3 7s3 -3.134 3 -7c0 -.34 -.01 -.672 -.03 -.999" />
+      <path d="M4.27 4.28c-.768 1.27 -1.27 3.359 -1.27 5.72c0 3.866 1.343 7 3 7s3 -3.134 3 -7c0 -.34 -.01 -.672 -.03 -1" />
       <path d="M21 10c0 -3.866 -1.343 -7 -3 -7" />
       <path d="M7 3h11" />
       <path d="M21 10v7m-1.513 2.496l-1.487 -.496l-3 2l-3 -3l-3 2v-10" />
@@ -68499,7 +70514,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="6" cy="10" rx="3" ry="7" />
+      <path d="M6 10m-3 0a3 7 0 1 0 6 0a3 7 0 1 0 -6 0" />
       <path d="M21 10c0 -3.866 -1.343 -7 -3 -7" />
       <path d="M6 3h12" />
       <path d="M21 10v10l-3 -1l-3 2l-3 -3l-3 2v-10" />
@@ -68545,7 +70560,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M14.386 10.409c.53 -2.28 1.766 -4.692 4.614 -7.409v12m-4 0h-1c-.002 -.313 -.002 -.627 .002 -.941" />
+      <path d="M14.386 10.409c.53 -2.28 1.766 -4.692 4.614 -7.409v12m-4 0h-1c0 -.313 0 -.627 0 -.941" />
       <path d="M19 19v2h-1v-3" />
       <path d="M8 8v13" />
       <path d="M5 5v2a3 3 0 0 0 4.546 2.572m1.454 -2.572v-3" />
@@ -68621,7 +70636,7 @@ defmodule TablerIcons do
       <path d="M7 18h2v3h-2z" />
       <path d="M20 3v12h-5c-.023 -3.681 .184 -7.406 5 -12z" />
       <path d="M20 15v6h-1v-3" />
-      <line x1="8" y1="12" x2="8" y2="18" />
+      <path d="M8 12l0 6" />
     </svg>
     """
   end
@@ -68644,7 +70659,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M16 12l4 -4a2.828 2.828 0 1 0 -4 -4l-4 4m-2 2l-7 7v4h4l7 -7" />
       <path d="M14.5 5.5l4 4" />
-      <path d="M12 8l-5 -5m-2.004 2.004l-1.996 1.996l5 5" />
+      <path d="M12 8l-5 -5m-2 2l-2 2l5 5" />
       <path d="M7 8l-1.5 1.5" />
       <path d="M16 12l5 5m-2 2l-2 2l-5 -5" />
       <path d="M16 17l-1.5 1.5" />
@@ -68670,11 +70685,11 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
-      <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
-      <polyline points="12 8 7 3 3 7 8 12" />
-      <line x1="7" y1="8" x2="5.5" y2="9.5" />
-      <polyline points="16 12 21 17 17 21 12 16" />
-      <line x1="16" y1="17" x2="14.5" y2="18.5" />
+      <path d="M14.5 5.5l4 4" />
+      <path d="M12 8l-5 -5l-4 4l5 5" />
+      <path d="M7 8l-1.5 1.5" />
+      <path d="M16 12l5 5l-4 4l-5 -5" />
+      <path d="M16 17l-1.5 1.5" />
     </svg>
     """
   end
@@ -68695,7 +70710,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="18" r="2" />
+      <path d="M12 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M12 13l-1.707 -1.707a1 1 0 0 0 -.707 -.293h-2.586a2 2 0 0 1 -2 -2v-3a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-2.586a1 1 0 0 0 -.707 .293l-1.707 1.707z" />
     </svg>
     """
@@ -69140,11 +71155,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="21" y1="4" x2="3" y2="4" />
-      <line x1="13" y1="16" x2="7" y2="16" />
-      <line x1="11" y1="20" x2="15" y2="20" />
-      <line x1="6" y1="8" x2="20" y2="8" />
-      <line x1="4" y1="12" x2="16" y2="12" />
+      <path d="M21 4l-18 0" />
+      <path d="M13 16l-6 0" />
+      <path d="M11 20l4 0" />
+      <path d="M6 8l14 0" />
+      <path d="M4 12l12 0" />
     </svg>
     """
   end
@@ -69165,10 +71180,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="4" cy="4" r="2" />
-      <circle cx="20" cy="10" r="2" />
-      <circle cx="4" cy="12" r="2" />
-      <circle cx="4" cy="20" r="2" />
+      <path d="M4 4m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M20 10m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M4 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M4 20m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M6 12h3a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-3" />
       <path d="M6 4h7a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-2" />
       <path d="M14 10h4" />
@@ -69258,10 +71273,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="15" r="4" />
-      <line x1="7" y1="15" x2="7" y2="15.01" />
-      <circle cx="19" cy="17" r="2" />
-      <line x1="10.5" y1="17" x2="17" y2="17" />
+      <path d="M7 15m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+      <path d="M7 15l0 .01" />
+      <path d="M19 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M10.5 17l6.5 0" />
       <path d="M20 15.2v-4.2a1 1 0 0 0 -1 -1h-6l-2 -5h-6v6.5" />
       <path d="M18 5h-1a1 1 0 0 0 -1 1v4" />
     </svg>
@@ -69332,9 +71347,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="20" x2="20" y2="20" />
-      <line x1="9.4" y1="10" x2="14.6" y2="10" />
-      <line x1="7.8" y1="15" x2="16.2" y2="15" />
+      <path d="M4 20l16 0" />
+      <path d="M9.4 10l5.2 0" />
+      <path d="M7.8 15l8.4 0" />
       <path d="M6 20l5 -15h2l5 15" />
     </svg>
     """
@@ -69359,7 +71374,7 @@ defmodule TablerIcons do
       <path d="M8 4c.912 -1.219 2.36 -2 4 -2a5 5 0 0 1 5 5v6m0 4a5 5 0 0 1 -10 0v-10" />
       <path d="M12 8a1 1 0 1 0 -1 -1" />
       <path d="M11.291 11.295a1 1 0 0 0 1.418 1.41" />
-      <circle cx="12" cy="17" r="1" />
+      <path d="M12 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -69381,10 +71396,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="7" y="2" width="10" height="20" rx="5" />
-      <circle cx="12" cy="7" r="1" />
-      <circle cx="12" cy="12" r="1" />
-      <circle cx="12" cy="17" r="1" />
+      <path d="M7 2m0 5a5 5 0 0 1 5 -5h0a5 5 0 0 1 5 5v10a5 5 0 0 1 -5 5h0a5 5 0 0 1 -5 -5z" />
+      <path d="M12 7m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M12 17m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -69408,10 +71423,10 @@ defmodule TablerIcons do
       <path d="M21 13c0 -3.87 -3.37 -7 -10 -7h-8" />
       <path d="M3 15h16a2 2 0 0 0 2 -2" />
       <path d="M3 6v5h17.5" />
-      <line x1="3" y1="10" x2="3" y2="14" />
-      <line x1="8" y1="11" x2="8" y2="6" />
-      <line x1="13" y1="11" x2="13" y2="6.5" />
-      <line x1="3" y1="19" x2="21" y2="19" />
+      <path d="M3 10l0 4" />
+      <path d="M8 11l0 -5" />
+      <path d="M13 11l0 -4.5" />
+      <path d="M3 19l18 0" />
     </svg>
     """
   end
@@ -69463,6 +71478,32 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `transform_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.transform_filled />
+      <TablerIcons.transform_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def transform_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M5 13v.875c0 3.383 2.686 6.125 6 6.125" />
+      <path d="M16 9l2 2l2 -2" />
+      <path d="M18 10v-.875c0 -3.383 -2.686 -6.125 -6 -6.125" />
+      <path d="M3 15l2 -2l2 2" />
+      <path d="M6 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" fill="currentColor" />
+      <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" fill="currentColor" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `transform` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -69479,8 +71520,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 13v.875c0 3.383 2.686 6.125 6 6.125" />
-      <circle cx="6" cy="6" r="3" />
-      <circle cx="18" cy="18" r="3" />
+      <path d="M6 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M16 9l2 2l2 -2" />
       <path d="M18 10v-.875c0 -3.383 -2.686 -6.125 -6 -6.125" />
       <path d="M3 15l2 -2l2 2" />
@@ -69505,7 +71546,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M21 18a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3" />
-      <rect x="3" y="3" width="18" height="6" rx="3" />
+      <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v0a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
       <path d="M12 9v8" />
       <path d="M9 14l3 3l3 -3" />
     </svg>
@@ -69600,12 +71641,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M4 7h3m4 0h9" />
-      <line x1="10" y1="11" x2="10" y2="17" />
-      <line x1="14" y1="14" x2="14" y2="17" />
+      <path d="M10 11l0 6" />
+      <path d="M14 14l0 3" />
       <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l.077 -.923" />
-      <line x1="18.384" y1="14.373" x2="19" y2="7" />
+      <path d="M18.384 14.373l.616 -7.373" />
       <path d="M9 5v-1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
     </svg>
     """
@@ -69651,9 +71692,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="7" x2="20" y2="7" />
-      <line x1="10" y1="11" x2="10" y2="17" />
-      <line x1="14" y1="11" x2="14" y2="17" />
+      <path d="M4 7l16 0" />
+      <path d="M10 11l0 6" />
+      <path d="M14 11l0 6" />
       <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
       <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
     </svg>
@@ -69679,7 +71720,7 @@ defmodule TablerIcons do
       <path d="M12 13l-2 -2" />
       <path d="M12 12l2 -2" />
       <path d="M12 21v-13" />
-      <path d="M9.824 15.995a3 3 0 0 1 -2.743 -3.69a2.998 2.998 0 0 1 .304 -4.833a3 3 0 0 1 4.615 -3.707a3 3 0 0 1 4.614 3.707a2.997 2.997 0 0 1 .305 4.833a3 3 0 0 1 -2.919 3.695h-4z" />
+      <path d="M9.824 16a3 3 0 0 1 -2.743 -3.69a3 3 0 0 1 .304 -4.833a3 3 0 0 1 4.615 -3.707a3 3 0 0 1 4.614 3.707a3 3 0 0 1 .305 4.833a3 3 0 0 1 -2.919 3.695h-4z" />
     </svg>
     """
   end
@@ -69701,11 +71742,11 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M16 5l3 3l-2 1l4 4l-3 1l4 4h-9" />
-      <line x1="15" y1="21" x2="15" y2="18" />
+      <path d="M15 21l0 -3" />
       <path d="M8 13l-2 -2" />
       <path d="M8 12l2 -2" />
       <path d="M8 21v-13" />
-      <path d="M5.824 15.995a3 3 0 0 1 -2.743 -3.69a2.998 2.998 0 0 1 .304 -4.833a3 3 0 0 1 4.615 -3.707a3 3 0 0 1 4.614 3.707a2.997 2.997 0 0 1 .305 4.833a3 3 0 0 1 -2.919 3.695h-4z" />
+      <path d="M5.824 16a3 3 0 0 1 -2.743 -3.69a3 3 0 0 1 .304 -4.833a3 3 0 0 1 4.615 -3.707a3 3 0 0 1 4.614 3.707a3 3 0 0 1 .305 4.833a3 3 0 0 1 -2.919 3.695h-4z" />
     </svg>
     """
   end
@@ -69726,7 +71767,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="4" r="1" />
+      <path d="M12 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M7 21l2 -4" />
       <path d="M13 21v-4l-3 -3l1 -6l3 4l3 2" />
       <path d="M10 14l-1.827 -1.218a2 2 0 0 1 -.831 -2.15l.28 -1.117a2 2 0 0 1 1.939 -1.515h1.439l4 1l3 -2" />
@@ -69796,8 +71837,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="3 7 9 13 13 9 21 17" />
-      <polyline points="21 10 21 17 14 17" />
+      <path d="M3 7l6 6l4 -4l8 8" />
+      <path d="M21 10l0 7l-7 0" />
     </svg>
     """
   end
@@ -69862,8 +71903,56 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="3 17 9 11 13 15 21 7" />
-      <polyline points="14 7 21 7 21 14" />
+      <path d="M3 17l6 -6l4 4l8 -8" />
+      <path d="M14 7l7 0l0 7" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `triangle_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.triangle_filled />
+      <TablerIcons.triangle_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def triangle_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `triangle_inverted_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.triangle_inverted_filled />
+      <TablerIcons.triangle_inverted_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def triangle_inverted_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M5 4h14a2 2 0 0 1 1.84 2.75l-7.1 12.25a2 2 0 0 1 -3.5 0l-7.1 -12.25a2 2 0 0 1 1.75 -2.75"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -69928,8 +72017,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3l-4 7h8z" />
-      <circle cx="17" cy="17" r="3" />
-      <rect x="4" y="14" width="6" height="6" rx="1" />
+      <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -69972,7 +72061,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M9.974 21h8.052a0.975 .975 0 0 0 .81 -1.517l-4.025 -6.048a0.973 .973 0 0 0 -1.622 0l-4.025 6.048a0.977 .977 0 0 0 .81 1.517z" />
-      <path d="M4.98 16h14.04c.542 0 .98 -.443 .98 -.989a0.995 .995 0 0 0 -.156 -.534l-7.02 -11.023a0.974 .974 0 0 0 -1.648 0l-7.02 11.023a0.994 .994 0 0 0 .294 1.366a0.973 .973 0 0 0 .53 .157z" />
+      <path d="M4.98 16h14.04c.542 0 .98 -.443 .98 -.989a1 1 0 0 0 -.156 -.534l-7.02 -11.023a0.974 .974 0 0 0 -1.648 0l-7.02 11.023a1 1 0 0 0 .294 1.366a0.973 .973 0 0 0 .53 .157z" />
     </svg>
     """
   end
@@ -70015,11 +72104,37 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="11" cy="19" r="2" />
+      <path d="M11 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M6 16l3 2" />
       <path d="M12 17l8 -12" />
       <path d="M17 10l2 1" />
       <path d="M9.592 4.695l3.306 2.104a1.3 1.3 0 0 1 .396 1.8l-3.094 4.811a1.3 1.3 0 0 1 -1.792 .394l-3.306 -2.104a1.3 1.3 0 0 1 -.396 -1.8l3.094 -4.81a1.3 1.3 0 0 1 1.792 -.394z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `trophy_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.trophy_filled />
+      <TablerIcons.trophy_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def trophy_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M8 21l8 0" fill="currentColor" />
+      <path d="M12 17l0 4" fill="currentColor" />
+      <path d="M7 4l10 0" fill="currentColor" />
+      <path d="M17 4v8a5 5 0 0 1 -10 0v-8" fill="currentColor" />
+      <path d="M5 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -70044,8 +72159,8 @@ defmodule TablerIcons do
       <path d="M12 17v4" />
       <path d="M8 4h9" />
       <path d="M17 4v8c0 .31 -.028 .612 -.082 .905m-1.384 2.632a5 5 0 0 1 -8.534 -3.537v-5" />
-      <circle cx="5" cy="9" r="2" />
-      <circle cx="19" cy="9" r="2" />
+      <path d="M5 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -70067,12 +72182,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="8" y1="21" x2="16" y2="21" />
-      <line x1="12" y1="17" x2="12" y2="21" />
-      <line x1="7" y1="4" x2="17" y2="4" />
+      <path d="M8 21l8 0" />
+      <path d="M12 17l0 4" />
+      <path d="M7 4l10 0" />
       <path d="M17 4v8a5 5 0 0 1 -10 0v-8" />
-      <circle cx="5" cy="9" r="2" />
-      <circle cx="19" cy="9" r="2" />
+      <path d="M5 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -70116,10 +72231,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="17" r="2" />
-      <circle cx="17" cy="17" r="2" />
+      <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
-      <line x1="3" y1="9" x2="7" y2="9" />
+      <path d="M3 9l4 0" />
     </svg>
     """
   end
@@ -70141,9 +72256,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M2 3h1a2 2 0 0 1 2 2v10a2 2 0 0 0 2 2h15" />
-      <rect x="9" y="6" width="10" height="8" rx="3" />
-      <circle cx="9" cy="19" r="2" />
-      <circle cx="18" cy="19" r="2" />
+      <path d="M9 6m0 3a3 3 0 0 1 3 -3h4a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-4a3 3 0 0 1 -3 -3z" />
+      <path d="M9 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M18 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -70164,10 +72279,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="17" r="2" />
+      <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M15.585 15.586a2 2 0 0 0 2.826 2.831" />
       <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h1m3.96 0h4.04v4m0 4v4m-4 0h6m6 0v-6h-6m-2 -5h5l3 5" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -70188,10 +72303,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="17" r="2" />
-      <circle cx="17" cy="17" r="2" />
+      <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v6h-5l2 2m0 -4l-2 2" />
-      <line x1="9" y1="17" x2="15" y2="17" />
+      <path d="M9 17l6 0" />
       <path d="M13 6h5l3 5v6h-2" />
     </svg>
     """
@@ -70213,8 +72328,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="7" cy="17" r="2" />
-      <circle cx="17" cy="17" r="2" />
+      <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
     </svg>
     """
@@ -70289,32 +72404,32 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="20" x2="7" y2="20" />
-      <line x1="14" y1="20" x2="21" y2="20" />
-      <line x1="6.9" y1="15" x2="13.8" y2="15" />
-      <line x1="10.2" y1="6.3" x2="16" y2="20" />
-      <polyline points="5 20 11 4 13 4 20 20" />
+      <path d="M4 20l3 0" />
+      <path d="M14 20l7 0" />
+      <path d="M6.9 15l6.9 0" />
+      <path d="M10.2 6.3l5.8 13.7" />
+      <path d="M5 20l6 -16l2 0l7 16" />
     </svg>
     """
   end
 
   @doc """
-  Renders the `uf_off` icon.
+  Renders the `ufo_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
 
   ## Examples
 
-      <TablerIcons.uf_off />
-      <TablerIcons.uf_off class="w-4 h-4" />
+      <TablerIcons.ufo_off />
+      <TablerIcons.ufo_off class="w-4 h-4" />
   """
   attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
 
-  def uf_off(assigns) do
+  def ufo_off(assigns) do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M16.95 9.01c3.02 .739 5.05 2.123 5.05 3.714c0 1.08 -.931 2.063 -2.468 2.814m-3.001 1c-1.36 .295 -2.9 .462 -4.531 .462c-5.52 0 -10 -1.909 -10 -4.276c0 -1.59 2.04 -2.985 5.07 -3.724" />
+      <path d="M16.95 9.01c3.02 .739 5.05 2.123 5.05 3.714c0 1.08 -.931 2.063 -2.468 2.814m-3 1c-1.36 .295 -2.9 .462 -4.531 .462c-5.52 0 -10 -1.909 -10 -4.276c0 -1.59 2.04 -2.985 5.07 -3.724" />
       <path d="M14.69 10.686c1.388 -.355 2.31 -.976 2.31 -1.686v-.035c0 -2.742 -2.239 -4.965 -5 -4.965c-1.125 0 -2.164 .37 -3 .992m-1.707 2.297a4.925 4.925 0 0 0 -.293 1.676v.035c0 .961 1.696 1.764 3.956 1.956" />
       <path d="M15 17l2 3" />
       <path d="M8.5 17l-1.5 3" />
@@ -70354,6 +72469,28 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `umbrella_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.umbrella_filled />
+      <TablerIcons.umbrella_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def umbrella_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 12a8 8 0 0 1 16 0z" fill="currentColor" />
+      <path d="M12 12v6a2 2 0 0 0 4 0" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `umbrella_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -70369,7 +72506,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 12h-8c0 -2.209 .895 -4.208 2.342 -5.656m2.382 -1.645a8 8 0 0 1 11.276 7.301l-4 .001" />
+      <path d="M12 12h-8c0 -2.209 .895 -4.208 2.342 -5.656m2.382 -1.645a8 8 0 0 1 11.276 7.301l-4 0" />
       <path d="M12 12v6a2 2 0 1 0 4 0" />
       <path d="M3 3l18 18" />
     </svg>
@@ -70438,10 +72575,10 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
       <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-      <line x1="16" y1="21" x2="16" y2="19" />
-      <line x1="19" y1="16" x2="21" y2="16" />
-      <line x1="3" y1="8" x2="5" y2="8" />
-      <line x1="8" y1="3" x2="8" y2="5" />
+      <path d="M16 21l0 -2" />
+      <path d="M19 16l2 0" />
+      <path d="M3 8l2 0" />
+      <path d="M8 3l0 2" />
     </svg>
     """
   end
@@ -70463,8 +72600,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
-      <polyline points="7 9 12 4 17 9" />
-      <line x1="12" y1="4" x2="12" y2="16" />
+      <path d="M7 9l5 -5l5 5" />
+      <path d="M12 4l0 12" />
     </svg>
     """
   end
@@ -70487,7 +72624,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 16v-4a4 4 0 0 1 8 0v4" />
       <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" />
-      <rect x="6" y="16" width="12" height="4" rx="1" />
+      <path d="M6 16m0 1a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1z" />
     </svg>
     """
   end
@@ -70508,12 +72645,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="19" r="2" />
+      <path d="M12 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M12 17v-11.5" />
       <path d="M7 10v3l5 3" />
       <path d="M12 14.5l5 -2v-2.5" />
       <path d="M16 10h2v-2h-2z" />
-      <circle cx="7" cy="9" r="1" />
+      <path d="M7 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M10 5.5h4l-2 -2.5z" />
     </svg>
     """
@@ -70535,7 +72672,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="9" cy="7" r="4" />
+      <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
       <path d="M16 11l2 2l4 -4" />
     </svg>
@@ -70558,8 +72695,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <circle cx="12" cy="10" r="3" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
     </svg>
     """
@@ -70581,10 +72718,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="9" cy="7" r="4" />
+      <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-      <line x1="19" y1="7" x2="19" y2="10" />
-      <line x1="19" y1="14" x2="19" y2="14.01" />
+      <path d="M19 7l0 3" />
+      <path d="M19 14l0 .01" />
     </svg>
     """
   end
@@ -70605,9 +72742,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="9" cy="7" r="4" />
+      <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-      <line x1="16" y1="11" x2="22" y2="11" />
+      <path d="M16 11l6 0" />
     </svg>
     """
   end
@@ -70630,7 +72767,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M14.274 10.291a4 4 0 1 0 -5.554 -5.58m-.548 3.453a4.01 4.01 0 0 0 2.62 2.65" />
       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 1.147 .167m2.685 2.681a4 4 0 0 1 .168 1.152v2" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -70651,7 +72788,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="9" cy="7" r="4" />
+      <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
       <path d="M16 11h6m-3 -3v6" />
     </svg>
@@ -70674,9 +72811,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="7" r="4" />
+      <path d="M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M6 21v-2a4 4 0 0 1 4 -4h1" />
-      <circle cx="16.5" cy="17.5" r="2.5" />
+      <path d="M16.5 17.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
       <path d="M18.5 19.5l2.5 2.5" />
     </svg>
     """
@@ -70698,7 +72835,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="9" cy="7" r="4" />
+      <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
       <path d="M17 9l4 4m0 -4l-4 4" />
     </svg>
@@ -70721,7 +72858,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="7" r="4" />
+      <path d="M12 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
     </svg>
     """
@@ -70743,7 +72880,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="9" cy="7" r="4" />
+      <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
       <path d="M16 3.13a4 4 0 0 1 0 7.75" />
       <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
@@ -70791,7 +72928,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M7 10v2a2 2 0 1 0 4 0v-2" />
       <path d="M14 10l3 4" />
       <path d="M14 14l3 -4" />
@@ -70841,7 +72978,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="9" y="3" width="6" height="3" rx="1" />
+      <path d="M9 3m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v1a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
       <path d="M10 6v.98c0 .877 -.634 1.626 -1.5 1.77c-.866 .144 -1.5 .893 -1.5 1.77v8.48a2 2 0 0 0 2 2h6a2 2 0 0 0 2 -2v-8.48c0 -.877 -.634 -1.626 -1.5 -1.77a1.795 1.795 0 0 1 -1.5 -1.77v-.98" />
       <path d="M7 12h10" />
       <path d="M7 18h10" />
@@ -70992,7 +73129,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M5 4c-2.5 5 -2.5 10 0 16m14 -16c1.38 2.76 1.998 5.52 1.855 8.448m-11.855 -3.448h1c1 0 1 1 2.016 3.527c.785 1.972 .944 3.008 1.483 3.346" />
+      <path d="M5 4c-2.5 5 -2.5 10 0 16m14 -16c1.38 2.76 2 5.52 1.855 8.448m-11.855 -3.448h1c1 0 1 1 2.016 3.527c.785 1.972 .944 3.008 1.483 3.346" />
       <path d="M8 16c1.5 0 3 -2 4 -3.5s2.5 -3.5 4 -3.5" />
       <path d="M16 19h6" />
       <path d="M19 16v6" />
@@ -71038,12 +73175,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="4" height="4" rx="1" />
-      <rect x="17" y="17" width="4" height="4" rx="1" />
-      <line x1="7" y1="5" x2="14" y2="5" />
-      <line x1="10" y1="19" x2="17" y2="19" />
-      <circle cx="9" cy="19" r="1" />
-      <circle cx="15" cy="5" r="1" />
+      <path d="M3 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M17 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M7 5l7 0" />
+      <path d="M10 19l7 0" />
+      <path d="M9 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M15 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M7 5.5a5 6.5 0 0 1 5 6.5a5 6.5 0 0 0 5 6.5" />
     </svg>
     """
@@ -71065,10 +73202,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="10" width="4" height="4" rx="1" />
-      <rect x="17" y="10" width="4" height="4" rx="1" />
-      <rect x="10" y="3" width="4" height="4" rx="1" />
-      <rect x="10" y="17" width="4" height="4" rx="1" />
+      <path d="M3 10m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M17 10m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M10 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M10 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
       <path d="M19 10a5 5 0 0 0 -5 -5" />
       <path d="M5 14a5 5 0 0 0 5 5" />
       <path d="M5 10a5 5 0 0 1 5 -5" />
@@ -71092,10 +73229,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="10" width="4" height="4" rx="1" />
-      <rect x="17" y="10" width="4" height="4" rx="1" />
-      <rect x="10" y="3" width="4" height="4" rx="1" />
-      <rect x="10" y="17" width="4" height="4" rx="1" />
+      <path d="M3 10m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M17 10m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M10 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M10 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
       <path d="M19 10a5 5 0 0 0 -5 -5" />
       <path d="M19 14a5 5 0 0 1 -5 5" />
       <path d="M5 14a5 5 0 0 0 5 5" />
@@ -71120,15 +73257,15 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="14" width="4" height="4" rx="1" />
-      <rect x="17" y="14" width="4" height="4" rx="1" />
-      <rect x="10" y="6" width="4" height="4" rx="1" />
+      <path d="M3 14m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M17 14m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M10 6m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
       <path d="M10 8.5a6 6 0 0 0 -5 5.5" />
       <path d="M14 8.5a6 6 0 0 1 5 5.5" />
-      <line x1="10" y1="8" x2="4" y2="8" />
-      <line x1="20" y1="8" x2="14" y2="8" />
-      <circle cx="3" cy="8" r="1" />
-      <circle cx="21" cy="8" r="1" />
+      <path d="M10 8l-6 0" />
+      <path d="M20 8l-6 0" />
+      <path d="M3 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M21 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     </svg>
     """
   end
@@ -71149,10 +73286,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M6.68 6.733a0.996 .996 0 0 1 -.68 .267h-2a1 1 0 0 1 -1 -1v-2c0 -.276 .112 -.527 .293 -.708" />
-      <rect x="17" y="3" width="4" height="4" rx="1" />
-      <path d="M20.72 20.693a0.997 .997 0 0 1 -.72 .307h-2a1 1 0 0 1 -1 -1v-2c0 -.282 .116 -.536 .304 -.718" />
-      <rect x="3" y="17" width="4" height="4" rx="1" />
+      <path d="M6.68 6.733a1 1 0 0 1 -.68 .267h-2a1 1 0 0 1 -1 -1v-2c0 -.276 .112 -.527 .293 -.708" />
+      <path d="M17 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M20.72 20.693a1 1 0 0 1 -.72 .307h-2a1 1 0 0 1 -1 -1v-2c0 -.282 .116 -.536 .304 -.718" />
+      <path d="M3 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
       <path d="M5 7v10" />
       <path d="M19 7v8" />
       <path d="M9 5h8" />
@@ -71178,8 +73315,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="17" y="3" width="4" height="4" rx="1" />
-      <rect x="3" y="17" width="4" height="4" rx="1" />
+      <path d="M17 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M3 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
       <path d="M17 5c-6.627 0 -12 5.373 -12 12" />
     </svg>
     """
@@ -71202,8 +73339,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M10 6v-1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-1" />
-      <rect x="3" y="17" width="4" height="4" rx="1" />
-      <path d="M20.705 20.709a0.997 .997 0 0 1 -.705 .291h-2a1 1 0 0 1 -1 -1v-2c0 -.28 .115 -.532 .3 -.714" />
+      <path d="M3 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M20.705 20.709a1 1 0 0 1 -.705 .291h-2a1 1 0 0 1 -1 -1v-2c0 -.28 .115 -.532 .3 -.714" />
       <path d="M6.5 17.1l3.749 -6.823" />
       <path d="M13.158 9.197l-.658 -1.197" />
       <path d="M7 19h10" />
@@ -71228,12 +73365,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="10" y="4" width="4" height="4" rx="1" />
-      <rect x="3" y="17" width="4" height="4" rx="1" />
-      <rect x="17" y="17" width="4" height="4" rx="1" />
-      <line x1="6.5" y1="17.1" x2="11.5" y2="8" />
-      <line x1="17.5" y1="17.1" x2="12.5" y2="8" />
-      <line x1="7" y1="19" x2="17" y2="19" />
+      <path d="M10 4m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M3 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M17 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M6.5 17.1l5 -9.1" />
+      <path d="M17.5 17.1l-5 -9.1" />
+      <path d="M7 19l10 0" />
     </svg>
     """
   end
@@ -71254,14 +73391,14 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="4" height="4" rx="1" />
-      <rect x="17" y="3" width="4" height="4" rx="1" />
-      <rect x="17" y="17" width="4" height="4" rx="1" />
-      <rect x="3" y="17" width="4" height="4" rx="1" />
-      <line x1="5" y1="7" x2="5" y2="17" />
-      <line x1="19" y1="7" x2="19" y2="17" />
-      <line x1="7" y1="5" x2="17" y2="5" />
-      <line x1="7" y1="19" x2="17" y2="19" />
+      <path d="M3 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M17 3m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M17 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M3 17m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M5 7l0 10" />
+      <path d="M19 7l0 10" />
+      <path d="M7 5l10 0" />
+      <path d="M7 19l10 0" />
     </svg>
     """
   end
@@ -71282,9 +73419,32 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="9" r="5" />
-      <line x1="12" y1="14" x2="12" y2="21" />
-      <line x1="9" y1="18" x2="15" y2="18" />
+      <path d="M12 9m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+      <path d="M12 14l0 7" />
+      <path d="M9 18l6 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `versions_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.versions_filled />
+      <TablerIcons.versions_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def versions_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 5m0 2a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2z" fill="currentColor" />
+      <path d="M7 7l0 10" />
+      <path d="M4 8l0 8" />
     </svg>
     """
   end
@@ -71329,9 +73489,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="10" y="5" width="10" height="14" rx="2" />
-      <line x1="7" y1="7" x2="7" y2="17" />
-      <line x1="4" y1="8" x2="4" y2="16" />
+      <path d="M10 5m0 2a2 2 0 0 1 2 -2h6a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-6a2 2 0 0 1 -2 -2z" />
+      <path d="M7 7l0 10" />
+      <path d="M4 8l0 8" />
     </svg>
     """
   end
@@ -71353,8 +73513,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z" />
-      <rect x="3" y="6" width="12" height="12" rx="2" />
-      <line x1="7" y1="12" x2="11" y2="12" />
+      <path d="M3 6m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+      <path d="M7 12l4 0" />
     </svg>
     """
   end
@@ -71375,7 +73535,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
       <path d="M15 11v-1l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -.675 .946" />
       <path d="M10 6h3a2 2 0 0 1 2 2v3m0 4v1a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-8a2 2 0 0 1 2 -2h1" />
     </svg>
@@ -71399,9 +73559,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z" />
-      <rect x="3" y="6" width="12" height="12" rx="2" />
-      <line x1="7" y1="12" x2="11" y2="12" />
-      <line x1="9" y1="10" x2="9" y2="14" />
+      <path d="M3 6m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
+      <path d="M7 12l4 0" />
+      <path d="M9 10l0 4" />
     </svg>
     """
   end
@@ -71423,7 +73583,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 10l4.553 -2.276a1 1 0 0 1 1.447 .894v6.764a1 1 0 0 1 -1.447 .894l-4.553 -2.276v-4z" />
-      <rect x="3" y="6" width="12" height="12" rx="2" />
+      <path d="M3 6m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2z" />
     </svg>
     """
   end
@@ -71444,7 +73604,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8.335 8.388a18.998 18.998 0 0 0 -.335 3.612c0 4.97 1.79 9 4 9c1.622 0 3.018 -2.172 3.646 -5.294m.354 -3.706c0 -4.97 -1.79 -9 -4 -9c-1.035 0 -1.979 .885 -2.689 2.337" />
+      <path d="M8.335 8.388a19 19 0 0 0 -.335 3.612c0 4.97 1.79 9 4 9c1.622 0 3.018 -2.172 3.646 -5.294m.354 -3.706c0 -4.97 -1.79 -9 -4 -9c-1.035 0 -1.979 .885 -2.689 2.337" />
       <path d="M5.65 5.623a9 9 0 1 0 12.71 12.745m1.684 -2.328a9 9 0 0 0 -12.094 -12.08" />
       <path d="M8.32 8.349c-3.136 .625 -5.32 2.025 -5.32 3.651c0 2.21 4.03 4 9 4c1.286 0 2.51 -.12 3.616 -.336m3.059 -.98c1.445 -.711 2.325 -1.653 2.325 -2.684c0 -2.21 -4.03 -4 -9 -4" />
       <path d="M3 3l18 18" />
@@ -71468,8 +73628,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <ellipse cx="12" cy="12" rx="4" ry="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 12m-4 0a4 9 0 1 0 8 0a4 9 0 1 0 -8 0" />
       <path d="M3 12c0 2.21 4.03 4 9 4s9 -1.79 9 -4s-4.03 -4 -9 -4s-9 1.79 -9 4z" />
     </svg>
     """
@@ -71518,12 +73678,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="12" y1="3" x2="12" y2="7" />
-      <line x1="12" y1="21" x2="12" y2="18" />
-      <line x1="3" y1="12" x2="7" y2="12" />
-      <line x1="21" y1="12" x2="18" y2="12" />
-      <line x1="12" y1="12" x2="12" y2="12.01" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M12 3l0 4" />
+      <path d="M12 21l0 -3" />
+      <path d="M3 12l4 0" />
+      <path d="M21 12l-3 0" />
+      <path d="M12 12l0 .01" />
     </svg>
     """
   end
@@ -71592,9 +73752,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M16.004 3.937a9 9 0 1 0 4.996 8.063" />
-      <circle cx="12" cy="12" r="1" />
-      <circle cx="20" cy="4" r="1" />
+      <path d="M16 3.937a9 9 0 1 0 5 8.063" />
+      <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M20 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M20 4l-3.5 10l-2.5 2" />
     </svg>
     """
@@ -71719,7 +73879,7 @@ defmodule TablerIcons do
       <path d="M3 13v-2" />
       <path d="M8.464 8.464l-2.828 -2.828" />
       <path d="M4.929 6.343l1.414 -1.413" />
-      <circle cx="17.5" cy="17.5" r="2.5" />
+      <path d="M17.5 17.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
       <path d="M19.5 19.5l2.5 2.5" />
     </svg>
     """
@@ -71741,7 +73901,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="5" />
+      <path d="M12 12m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
       <path d="M12 7v-4" />
       <path d="M11 3h2" />
       <path d="M15.536 8.464l2.828 -2.828" />
@@ -71875,8 +74035,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M15 8a5 5 0 0 1 1.912 4.934m-1.377 2.602a5.001 5.001 0 0 1 -.535 .464" />
-      <path d="M17.7 5a9 9 0 0 1 2.362 11.086m-1.676 2.299a9.005 9.005 0 0 1 -.686 .615" />
+      <path d="M15 8a5 5 0 0 1 1.912 4.934m-1.377 2.602a5 5 0 0 1 -.535 .464" />
+      <path d="M17.7 5a9 9 0 0 1 2.362 11.086m-1.676 2.299a9 9 0 0 1 -.686 .615" />
       <path d="M9.069 5.054l.431 -.554a0.8 .8 0 0 1 1.5 .5v2m0 4v8a0.8 .8 0 0 1 -1.5 .5l-3.5 -4.5h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l1.294 -1.664" />
       <path d="M3 3l18 18" />
     </svg>
@@ -71922,8 +74082,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="13" cy="4" r="1" />
-      <line x1="7" y1="21" x2="10" y2="17" />
+      <path d="M13 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      <path d="M7 21l3 -4" />
       <path d="M16 21l-2 -4l-3 -3l1 -6" />
       <path d="M6 12l2 -3l4 -1l3 3l3 1" />
     </svg>
@@ -71975,7 +74135,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M4 8h16" />
       <path d="M20 12h-16" />
       <path d="M4 16h16" />
@@ -72050,8 +74210,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M10 6h8a2 2 0 0 1 2 2v8m-.58 3.409a1.994 1.994 0 0 1 -1.42 .591h-12" />
-      <circle cx="6" cy="18" r="2" />
+      <path d="M10 6h8a2 2 0 0 1 2 2v8m-.58 3.409a2 2 0 0 1 -1.42 .591h-12" />
+      <path d="M6 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M8 18v-10m-3.427 -3.402c-.353 .362 -.573 .856 -.573 1.402v12" />
       <path d="M3 3l18 18" />
     </svg>
@@ -72075,7 +74235,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M8 6h10a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-12" />
-      <circle cx="6" cy="18" r="2" />
+      <path d="M6 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M8 18v-12a2 2 0 1 0 -4 0v12" />
     </svg>
     """
@@ -72122,8 +74282,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <polyline points="6 21 21 6 18 3 3 18 6 21" />
-      <line x1="15" y1="6" x2="18" y2="9" />
+      <path d="M6 21l15 -15l-3 -3l-15 15l3 3" />
+      <path d="M15 6l3 3" />
       <path d="M9 3a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2" />
       <path d="M19 13a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2" />
     </svg>
@@ -72146,8 +74306,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="18" height="18" rx="3" />
-      <circle cx="12" cy="12" r="6" />
+      <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+      <path d="M12 12m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
       <path d="M12 12h.01" />
     </svg>
     """
@@ -72169,8 +74329,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="18" height="18" rx="3" />
-      <circle cx="12" cy="12" r="6" />
+      <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+      <path d="M12 12m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
       <path d="M10 12h.01" />
       <path d="M14 12h.01" />
     </svg>
@@ -72193,8 +74353,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="18" height="18" rx="3" />
-      <circle cx="12" cy="12" r="6" />
+      <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+      <path d="M12 12m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
       <path d="M12 12h.01" />
       <path d="M9 12h.01" />
       <path d="M15 12h.01" />
@@ -72218,7 +74378,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 16v-4.8c0 -1.657 1.343 -3.2 3 -3.2s3 1.543 3 3.2v4.8" />
       <path d="M15 13h-6" />
     </svg>
@@ -72241,7 +74401,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="18" height="18" rx="3" />
+      <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
       <path d="M12 7v10" />
       <path d="M16 7v10" />
       <path d="M8 7v10" />
@@ -72265,7 +74425,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 16v-8h4" />
       <path d="M13 12h-3" />
     </svg>
@@ -72288,7 +74448,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="18" height="18" rx="3" />
+      <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
       <path d="M4 4.01c5.333 5.323 10.667 5.32 16 -.01" />
     </svg>
     """
@@ -72332,7 +74492,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M10 16v-8h2.5a2.5 2.5 0 1 1 0 5h-2.5" />
     </svg>
     """
@@ -72354,7 +74514,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="18" height="18" rx="3" />
+      <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
       <path d="M3 11l8 -8" />
       <path d="M3 17l14 -14" />
     </svg>
@@ -72377,7 +74537,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M8 8l1.5 8h1l1.5 -6l1.5 6h1l1.5 -8" />
     </svg>
     """
@@ -72399,7 +74559,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="18" height="18" rx="3" />
+      <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
     </svg>
     """
   end
@@ -72442,7 +74602,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
     </svg>
     """
   end
@@ -72463,7 +74623,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3.486 5.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 -.002 .339 -.014 .503 -.034" />
+      <path d="M3.486 5.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 0 .339 -.014 .503 -.034" />
       <path d="M3 3l1.721 10.329a2 2 0 0 0 1.973 1.671h10.612a2 2 0 0 0 1.973 -1.671l1.721 -10.329" />
       <path d="M5 18h14" />
       <path d="M5 21h14" />
@@ -72487,8 +74647,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="5" y="3" width="14" height="18" rx="2" />
-      <circle cx="12" cy="14" r="4" />
+      <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z" />
+      <path d="M12 14m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M8 6h.01" />
       <path d="M11 6h.01" />
       <path d="M14 6h2" />
@@ -72514,7 +74674,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 6l1.721 10.329a2 2 0 0 0 1.973 1.671h10.612c.208 0 .41 -.032 .6 -.092m1.521 -2.472l1.573 -9.436" />
-      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5m4.92 .919c.428 -.083 .805 -.227 1.08 -.418c.461 -.322 1.21 -.508 2 -.5c.79 -.008 1.539 .178 2 .5c.461 .32 1.21 .508 2 .5c.17 -.003 .339 -.015 .503 -.035" />
+      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5m4.92 .919c.428 -.083 .805 -.227 1.08 -.418c.461 -.322 1.21 -.508 2 -.5c.79 -.008 1.539 .178 2 .5c.461 .32 1.21 .508 2 .5c.17 0 .339 -.015 .503 -.035" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -72536,7 +74696,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3.486 7.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 -.002 .339 -.014 .503 -.034" />
+      <path d="M3.486 7.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 0 .339 -.014 .503 -.034" />
       <path d="M3 5l1.721 10.329a2 2 0 0 0 1.973 1.671h10.612a2 2 0 0 0 1.973 -1.671l1.721 -10.329" />
       <path d="M5 20h14" />
     </svg>
@@ -72560,7 +74720,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 6l1.721 10.329a2 2 0 0 0 1.973 1.671h10.612a2 2 0 0 0 1.973 -1.671l1.721 -10.329" />
-      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 -.002 .339 -.014 .503 -.034" />
+      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 0 .339 -.014 .503 -.034" />
       <path d="M12 13h.01" />
     </svg>
     """
@@ -72582,7 +74742,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 -.002 .339 -.014 .503 -.034" />
+      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 0 .339 -.014 .503 -.034" />
       <path d="M3 6l1.721 10.329a2 2 0 0 0 1.973 1.671h10.612a2 2 0 0 0 1.973 -1.671l1.721 -10.329" />
       <path d="M14 13h.01" />
       <path d="M10 13h.01" />
@@ -72606,7 +74766,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 -.002 .339 -.014 .503 -.034" />
+      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 0 .339 -.014 .503 -.034" />
       <path d="M3 6l1.721 10.329a2 2 0 0 0 1.973 1.671h10.612a2 2 0 0 0 1.973 -1.671l1.721 -10.329" />
       <path d="M12 13h.01" />
       <path d="M15 13h.01" />
@@ -72631,7 +74791,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 -.002 .339 -.014 .503 -.034" />
+      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 0 .339 -.014 .503 -.034" />
       <path d="M3 6l1.721 10.329a2 2 0 0 0 1.973 1.671h10.612a2 2 0 0 0 1.973 -1.671l1.721 -10.329" />
       <path d="M10 15h.01" />
       <path d="M14 15h.01" />
@@ -72663,7 +74823,7 @@ defmodule TablerIcons do
       <path d="M15 12h.01" />
       <path d="M12 12h.01" />
       <path d="M9 12h.01" />
-      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 -.002 .339 -.014 .503 -.034" />
+      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 0 .339 -.014 .503 -.034" />
     </svg>
     """
   end
@@ -72691,7 +74851,7 @@ defmodule TablerIcons do
       <path d="M15 12h.01" />
       <path d="M12 12h.01" />
       <path d="M9 12h.01" />
-      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 -.002 .339 -.014 .503 -.034" />
+      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 0 .339 -.014 .503 -.034" />
     </svg>
     """
   end
@@ -72712,8 +74872,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="3" width="18" height="18" rx="3" />
-      <circle cx="12" cy="12" r="6" />
+      <path d="M3 3m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+      <path d="M12 12m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
     </svg>
     """
   end
@@ -72757,7 +74917,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 -.002 .339 -.014 .503 -.034" />
+      <path d="M3.486 8.965c.168 .02 .34 .033 .514 .035c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.79 .009 1.539 -.178 2 -.5c.461 -.32 1.21 -.507 2 -.5c.79 -.007 1.539 .18 2 .5c.461 .322 1.21 .509 2 .5c.17 0 .339 -.014 .503 -.034" />
       <path d="M3 6l1.721 10.329a2 2 0 0 0 1.973 1.671h10.612a2 2 0 0 0 1.973 -1.671l1.721 -10.329" />
     </svg>
     """
@@ -72889,7 +75049,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="6" r="3" />
+      <path d="M12 6m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M6.835 9h10.33a1 1 0 0 1 .984 .821l1.637 9a1 1 0 0 1 -.984 1.179h-13.604a1 1 0 0 1 -.984 -1.179l1.637 -9a1 1 0 0 1 .984 -.821z" />
     </svg>
     """
@@ -72911,7 +75071,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="8" cy="16" r="5" />
+      <path d="M8 16m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
       <path d="M17.582 17.59a2 2 0 0 0 2.833 2.824" />
       <path d="M14 14h-1.4" />
       <path d="M6 6v5" />
@@ -72938,8 +75098,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="8" cy="16" r="5" />
-      <circle cx="19" cy="19" r="2" />
+      <path d="M8 16m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+      <path d="M19 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M19 17a3 3 0 0 0 -3 -3h-3.4" />
       <path d="M3 3h1a2 2 0 0 1 2 2v6" />
       <path d="M6 8h11" />
@@ -72989,7 +75149,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="18" x2="12.01" y2="18" />
+      <path d="M12 18l.01 0" />
     </svg>
     """
   end
@@ -73010,7 +75170,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="18" x2="12.01" y2="18" />
+      <path d="M12 18l.01 0" />
       <path d="M9.172 15.172a4 4 0 0 1 5.656 0" />
     </svg>
     """
@@ -73032,7 +75192,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="18" x2="12.01" y2="18" />
+      <path d="M12 18l.01 0" />
       <path d="M9.172 15.172a4 4 0 0 1 5.656 0" />
       <path d="M6.343 12.343a8 8 0 0 1 11.314 0" />
     </svg>
@@ -73055,11 +75215,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="18" x2="12.01" y2="18" />
+      <path d="M12 18l.01 0" />
       <path d="M9.172 15.172a4 4 0 0 1 5.656 0" />
       <path d="M6.343 12.343a7.963 7.963 0 0 1 3.864 -2.14m4.163 .155a7.965 7.965 0 0 1 3.287 2" />
       <path d="M3.515 9.515a12 12 0 0 1 3.544 -2.455m3.101 -.92a12 12 0 0 1 10.325 3.374" />
-      <line x1="3" y1="3" x2="21" y2="21" />
+      <path d="M3 3l18 18" />
     </svg>
     """
   end
@@ -73080,7 +75240,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="12" y1="18" x2="12.01" y2="18" />
+      <path d="M12 18l.01 0" />
       <path d="M9.172 15.172a4 4 0 0 1 5.656 0" />
       <path d="M6.343 12.343a8 8 0 0 1 11.314 0" />
       <path d="M3.515 9.515c4.686 -4.687 12.284 -4.687 17 0" />
@@ -73132,6 +75292,30 @@ defmodule TablerIcons do
       <path d="M5 8h8.5a2.5 2.5 0 1 0 -2.34 -3.24" />
       <path d="M3 12h15.5a2.5 2.5 0 1 1 -2.34 3.24" />
       <path d="M4 16h5.5a2.5 2.5 0 1 1 -2.34 3.24" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `windmill_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.windmill_filled />
+      <TablerIcons.windmill_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def windmill_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 12c2.76 0 5 -2.01 5 -4.5s-2.24 -4.5 -5 -4.5v9z" fill="currentColor" />
+      <path d="M12 12c0 2.76 2.01 5 4.5 5s4.5 -2.24 4.5 -5h-9z" fill="currentColor" />
+      <path d="M12 12c-2.76 0 -5 2.01 -5 4.5s2.24 4.5 5 4.5v-9z" fill="currentColor" />
+      <path d="M12 12c0 -2.76 -2.01 -5 -4.5 -5s-4.5 2.24 -4.5 5h9z" fill="currentColor" />
     </svg>
     """
   end
@@ -73201,7 +75385,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="16" width="5" height="5" rx="1" />
+      <path d="M3 16m0 1a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1z" />
       <path d="M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-6" />
       <path d="M12 8h4v4" />
       <path d="M16 8l-5 5" />
@@ -73225,7 +75409,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <rect x="3" y="16" width="5" height="5" rx="1" />
+      <path d="M3 16m0 1a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1z" />
       <path d="M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-6" />
       <path d="M15 13h-4v-4" />
       <path d="M11 13l5 -5" />
@@ -73274,8 +75458,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 3c-3.866 0 -7 3.272 -7 7v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1 -1v-10c0 -3.728 -3.134 -7 -7 -7z" />
-      <line x1="5" y1="13" x2="19" y2="13" />
-      <line x1="12" y1="3" x2="12" y2="21" />
+      <path d="M5 13l14 0" />
+      <path d="M12 3l0 18" />
     </svg>
     """
   end
@@ -73321,9 +75505,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="20" r="1" />
+      <path d="M12 20m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M3 11l5.5 5.5a5 5 0 0 1 7 0l5.5 -5.5a12 12 0 0 0 -18 0" />
-      <line x1="12" y1="20" x2="12" y2="6" />
+      <path d="M12 20l0 -14" />
       <path d="M4 6a4 4 0 0 1 .4 -1.8" />
       <path d="M7 2.1a4 4 0 0 1 2 0" />
       <path d="M12 6a4 4 0 0 0 -.4 -1.8" />
@@ -73350,9 +75534,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="18" r="1" />
+      <path d="M12 18m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M3 9l5.5 5.5a5 5 0 0 1 7 0l5.5 -5.5a12 12 0 0 0 -18 0" />
-      <line x1="12" y1="18" x2="9.8" y2="5.2" />
+      <path d="M12 18l-2.2 -12.8" />
     </svg>
     """
   end
@@ -73378,7 +75562,7 @@ defmodule TablerIcons do
       <path d="M8 16h8l-2 -7h-4z" />
       <path d="M5 11c1.667 -1.333 3.333 -2 5 -2" />
       <path d="M19 11c-1.667 -1.333 -3.333 -2 -5 -2" />
-      <circle cx="12" cy="4" r="2" />
+      <path d="M12 4m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
     </svg>
     """
   end
@@ -73399,8 +75583,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <ellipse cx="12" cy="5.5" rx="6" ry="2.5" />
-      <path d="M18 5.5v4.626a1.415 1.415 0 0 1 1.683 2.18l-.097 .108l-1.586 1.586v4c0 1.61 -2.54 2.925 -5.725 2.997l-.275 .003c-3.314 0 -6 -1.343 -6 -3v-2l-1.586 -1.586a1.414 1.414 0 0 1 1.586 -2.287v-6.627" />
+      <path d="M12 5.5m-6 0a6 2.5 0 1 0 12 0a6 2.5 0 1 0 -12 0" />
+      <path d="M18 5.5v4.626a1.415 1.415 0 0 1 1.683 2.18l-.097 .108l-1.586 1.586v4c0 1.61 -2.54 2.925 -5.725 3l-.275 0c-3.314 0 -6 -1.343 -6 -3v-2l-1.586 -1.586a1.414 1.414 0 0 1 1.586 -2.287v-6.627" />
       <path d="M10 12.5v1.5" />
       <path d="M14 16v1" />
     </svg>
@@ -73449,10 +75633,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="4.6" y1="7" x2="19.4" y2="7" />
-      <line x1="3" y1="12" x2="21" y2="12" />
-      <line x1="4.6" y1="17" x2="19.4" y2="17" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M4.6 7l14.8 0" />
+      <path d="M3 12l18 0" />
+      <path d="M4.6 17l14.8 0" />
     </svg>
     """
   end
@@ -73473,10 +75657,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M11.5 3a11.2 11.2 0 0 0 0 18" />
       <path d="M12.5 3a11.2 11.2 0 0 1 0 18" />
-      <line x1="12" y1="3" x2="12" y2="21" />
+      <path d="M12 3l0 18" />
     </svg>
     """
   end
@@ -73500,7 +75684,7 @@ defmodule TablerIcons do
       <path d="M3.6 9h5.4m4 0h7.4" />
       <path d="M5.65 5.623a9 9 0 1 0 12.71 12.745m1.684 -2.328a9 9 0 0 0 -12.094 -12.08" />
       <path d="M3.6 15h11.4m4 0h1.4" />
-      <path d="M8.335 8.388a18.998 18.998 0 0 0 -.335 3.612c0 4.97 1.79 9 4 9c1.622 0 3.018 -2.172 3.646 -5.294m.354 -3.706c0 -4.97 -1.79 -9 -4 -9c-1.035 0 -1.979 .885 -2.689 2.337" />
+      <path d="M8.335 8.388a19 19 0 0 0 -.335 3.612c0 4.97 1.79 9 4 9c1.622 0 3.018 -2.172 3.646 -5.294m.354 -3.706c0 -4.97 -1.79 -9 -4 -9c-1.035 0 -1.979 .885 -2.689 2.337" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -73548,12 +75732,12 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M19.5 7a8.998 8.998 0 0 0 -7.5 -4a8.991 8.991 0 0 0 -7.484 4" />
+      <path d="M19.5 7a9 9 0 0 0 -7.5 -4a8.991 8.991 0 0 0 -7.484 4" />
       <path d="M11.5 3a16.989 16.989 0 0 0 -1.826 4" />
-      <path d="M12.5 3a16.989 16.989 0 0 1 1.828 4.004" />
-      <path d="M19.5 17a8.998 8.998 0 0 1 -7.5 4a8.991 8.991 0 0 1 -7.484 -4" />
+      <path d="M12.5 3a16.989 16.989 0 0 1 1.828 4" />
+      <path d="M19.5 17a9 9 0 0 1 -7.5 4a8.991 8.991 0 0 1 -7.484 -4" />
       <path d="M11.5 21a16.989 16.989 0 0 1 -1.826 -4" />
-      <path d="M12.5 21a16.989 16.989 0 0 0 1.828 -4.004" />
+      <path d="M12.5 21a16.989 16.989 0 0 0 1.828 -4" />
       <path d="M2 10l1 4l1.5 -4l1.5 4l1 -4" />
       <path d="M17 10l1 4l1.5 -4l1.5 4l1 -4" />
       <path d="M9.5 10l1 4l1.5 -4l1.5 4l1 -4" />
@@ -73577,9 +75761,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
-      <line x1="3.6" y1="9" x2="20.4" y2="9" />
-      <line x1="3.6" y1="15" x2="20.4" y2="15" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+      <path d="M3.6 9l16.8 0" />
+      <path d="M3.6 15l16.8 0" />
       <path d="M11.5 3a17 17 0 0 0 0 18" />
       <path d="M12.5 3a17 17 0 0 1 0 18" />
     </svg>
@@ -73602,11 +75786,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="19" cy="13" r="2" />
-      <circle cx="4" cy="17" r="2" />
-      <circle cx="13" cy="17" r="2" />
-      <line x1="13" y1="19" x2="4" y2="19" />
-      <line x1="4" y1="15" x2="13" y2="15" />
+      <path d="M19 13m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M4 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M13 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M13 19l-9 0" />
+      <path d="M4 15l9 0" />
       <path d="M8 12v-5h2a3 3 0 0 1 3 3v5" />
       <path d="M5 15v-2a1 1 0 0 1 1 -1h7" />
       <path d="M19 11v-7l-6 7" />
@@ -73724,8 +75908,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="18" y1="6" x2="6" y2="18" />
-      <line x1="6" y1="6" x2="18" y2="18" />
+      <path d="M18 6l-12 12" />
+      <path d="M6 6l12 12" />
     </svg>
     """
   end
@@ -73839,7 +76023,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="9" />
+      <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M12 3a4.5 4.5 0 0 0 0 9a4.5 4.5 0 0 1 0 9" />
       <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
       <circle cx="12" cy="16.5" r=".5" fill="currentColor" />
@@ -73863,7 +76047,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="4" r="1" />
+      <path d="M12 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M4 20h4l1.5 -3" />
       <path d="M17 20l-1 -5h-5l1 -7" />
       <path d="M4 10l4 -1l4 -1l4 1.5l4 1.5" />
@@ -73979,7 +76163,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 5a5 5 0 1 0 -4 8" />
       <path d="M16 13a5 5 0 1 0 -4 -8" />
-      <line x1="12" y1="21" x2="12" y2="5" />
+      <path d="M12 21l0 -16" />
     </svg>
     """
   end
@@ -74000,8 +76184,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="6" cy="12" r="3" />
-      <circle cx="18" cy="12" r="3" />
+      <path d="M6 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M18 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M3 12a10 6.5 0 0 1 14 -6.5" />
       <path d="M21 12a10 6.5 0 0 1 -14 6.5" />
     </svg>
@@ -74026,7 +76210,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M4 4a3 3 0 0 1 3 3v9" />
       <path d="M7 7a3 3 0 0 1 6 0v11a3 3 0 0 1 -3 3" />
-      <circle cx="16" cy="17" r="3" />
+      <path d="M16 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     </svg>
     """
   end
@@ -74049,8 +76233,8 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M3 3a21 21 0 0 0 18 0" />
       <path d="M3 21a21 21 0 0 1 18 0" />
-      <line x1="7" y1="4.5" x2="7" y2="19.5" />
-      <line x1="17" y1="4.5" x2="17" y2="19.5" />
+      <path d="M7 4.5l0 15" />
+      <path d="M17 4.5l0 15" />
     </svg>
     """
   end
@@ -74072,8 +76256,8 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M13 17a4 4 0 1 0 8 0" />
-      <circle cx="6" cy="16" r="3" />
-      <circle cx="11" cy="7" r="4" />
+      <path d="M6 16m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M11 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
       <path d="M7 7c0 3 2 5 2 9" />
       <path d="M15 7c0 4 -2 6 -2 10" />
     </svg>
@@ -74096,7 +76280,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="5" y1="20" x2="19" y2="20" />
+      <path d="M5 20l14 0" />
       <path d="M5 17h5v-.3a7 7 0 1 1 4 0v.3h5" />
     </svg>
     """
@@ -74120,7 +76304,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M5 3a21 21 0 0 1 0 18" />
       <path d="M19 3a21 21 0 0 0 0 18" />
-      <line x1="5" y1="12" x2="19" y2="12" />
+      <path d="M5 12l14 0" />
     </svg>
     """
   end
@@ -74141,9 +76325,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <line x1="4" y1="20" x2="20" y2="4" />
+      <path d="M4 20l16 -16" />
       <path d="M13 4h7v7" />
-      <line x1="6.5" y1="12.5" x2="11.5" y2="17.5" />
+      <path d="M6.5 12.5l5 5" />
     </svg>
     """
   end
@@ -74188,7 +76372,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M6 3a6 6 0 0 0 12 0" />
-      <circle cx="12" cy="15" r="6" />
+      <path d="M12 15m-6 0a6 6 0 1 0 12 0a6 6 0 1 0 -12 0" />
     </svg>
     """
   end
@@ -74233,10 +76417,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="10" r="7" />
-      <line x1="8" y1="8" x2="12" y2="12" />
-      <line x1="12" y1="8" x2="8" y2="12" />
-      <line x1="21" y1="21" x2="15" y2="15" />
+      <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+      <path d="M8 8l4 4" />
+      <path d="M12 8l-4 4" />
+      <path d="M21 21l-6 -6" />
     </svg>
     """
   end
@@ -74257,7 +76441,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="10" r="7" />
+      <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M21 21l-6 -6" />
       <path d="M7 10l2 2l4 -4" />
     </svg>
@@ -74280,7 +76464,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="10" r="7" />
+      <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M21 21l-6 -6" />
       <path d="M8 8l-2 2l2 2" />
       <path d="M12 8l2 2l-2 2" />
@@ -74304,7 +76488,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="10" r="7" />
+      <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M21 21l-6 -6" />
       <path d="M10 13v.01" />
       <path d="M10 7v3" />
@@ -74330,7 +76514,7 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M15 13v4" />
       <path d="M13 15h4" />
-      <circle cx="15" cy="15" r="5" />
+      <path d="M15 15m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
       <path d="M22 22l-3 -3" />
       <path d="M6 18h-1a2 2 0 0 1 -2 -2v-1" />
       <path d="M3 11v-1" />
@@ -74357,10 +76541,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="10" r="7" />
-      <line x1="7" y1="10" x2="13" y2="10" />
-      <line x1="10" y1="7" x2="10" y2="13" />
-      <line x1="21" y1="21" x2="15" y2="15" />
+      <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+      <path d="M7 10l6 0" />
+      <path d="M10 7l0 6" />
+      <path d="M21 21l-6 -6" />
     </svg>
     """
   end
@@ -74381,7 +76565,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="10" r="7" />
+      <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M21 21l-6 -6" />
       <path d="M12 7h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
       <path d="M10 13v1m0 -8v1" />
@@ -74406,7 +76590,7 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M13 15h4" />
-      <circle cx="15" cy="15" r="5" />
+      <path d="M15 15m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
       <path d="M22 22l-3 -3" />
       <path d="M6 18h-1a2 2 0 0 1 -2 -2v-1" />
       <path d="M3 11v-1" />
@@ -74433,9 +76617,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="10" r="7" />
-      <line x1="7" y1="10" x2="13" y2="10" />
-      <line x1="21" y1="21" x2="15" y2="15" />
+      <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+      <path d="M7 10l6 0" />
+      <path d="M21 21l-6 -6" />
     </svg>
     """
   end
@@ -74456,7 +76640,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="12" cy="12" r="3" />
+      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M17 17l-2.5 -2.5" />
       <path d="M10 5l2 -2l2 2" />
       <path d="M19 10l2 2l-2 2" />
@@ -74482,9 +76666,9 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <circle cx="10" cy="10" r="7" />
+      <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
       <path d="M21 21l-6 -6" />
-      <line x1="10" y1="13" x2="10" y2="13.01" />
+      <path d="M10 13l0 .01" />
       <path d="M10 10a1.5 1.5 0 1 0 -1.14 -2.474" />
     </svg>
     """
@@ -74507,9 +76691,9 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M21 21l-6 -6" />
-      <path d="M3.291 8.003a7 7 0 0 1 5.077 -4.806a7.021 7.021 0 0 1 8.242 4.403" />
+      <path d="M3.291 8a7 7 0 0 1 5.077 -4.806a7.021 7.021 0 0 1 8.242 4.403" />
       <path d="M17 4v4h-4" />
-      <path d="M16.705 12.005a7 7 0 0 1 -5.074 4.798a7.021 7.021 0 0 1 -8.241 -4.403" />
+      <path d="M16.705 12a7 7 0 0 1 -5.074 4.798a7.021 7.021 0 0 1 -8.241 -4.403" />
       <path d="M3 16v-4h4" />
     </svg>
     """
