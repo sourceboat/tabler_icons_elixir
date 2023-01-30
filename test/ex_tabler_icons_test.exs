@@ -52,7 +52,7 @@ defmodule TablerIconsTest do
 
              ## Attributes
 
-             * `rest` (`:global`) - arbitrary HTML attributes for the svg container.
+             Global attributes are accepted.
              """
   end
 end
