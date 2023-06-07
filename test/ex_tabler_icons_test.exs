@@ -52,7 +52,7 @@ defmodule TablerIconsTest do
 
              ## Attributes
 
-             Global attributes are accepted.
+             * Global attributes are accepted.
              """
   end
 end
