@@ -1,6 +1,6 @@
 defmodule TablerIcons do
   @moduledoc """
-  Provides precompiled icon compiles from [tabler-icons.io v2.28.0](https://tabler-icons.io).
+  Provides precompiled icon compiles from [tabler-icons.io v2.30.0](https://tabler-icons.io).
 
   Tabler icons are maintained by [Paweł Kuna](https://twitter.com/codecalm).
   For all contributors see https://github.com/tabler/tabler-icons/graphs/contributors.
@@ -10753,9 +10753,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M13 20h-6c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.584 2.337" />
-      <path d="M10 15a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M13 20h-5.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.358 2.04" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M19 16l-2 3h4l-2 3" />
     </svg>
     """
@@ -10777,9 +10778,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M12 20h-5c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.54 2.16" />
-      <path d="M13.86 14.265a2 2 0 1 0 -1.86 2.735" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M12 20h-4.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.3 1.713" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M17 21l4 -4" />
     </svg>
@@ -10802,9 +10804,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M11 20h-4c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.755 3.018" />
-      <path d="M14 15a2 2 0 1 0 -2.42 1.956" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M11 20h-3.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.479 2.729" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M15 19l2 2l4 -4" />
     </svg>
     """
@@ -10826,9 +10829,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M11 20h-4c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.747 2.987" />
-      <path d="M13.927 14.464a2 2 0 1 0 -2.406 2.478" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M11 20h-3.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304c-.21 1.202 -.37 2.104 -.475 2.705" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M20 21l2 -2l-2 -2" />
       <path d="M17 17l-2 2l2 2" />
     </svg>
@@ -10851,9 +10855,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M12 20h-5c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.453 1.813" />
-      <path d="M13.715 13.97a1.999 1.999 0 0 0 -3.715 1.03a2 2 0 0 0 2 2" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M12 20h-4.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.267 1.522" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M19.001 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
       <path d="M19.001 15.5v1.5" />
       <path d="M19.001 21v1.5" />
@@ -10881,9 +10886,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M12 20h-5c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.644 2.577" />
-      <path d="M13.448 13.62a2 2 0 1 0 -.823 3.28" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M12.5 20h-5.256a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.394 2.248" />
+      <path d="M13.856 13.254a2 2 0 1 0 -1.856 2.746" />
       <path d="M16 21l5 -5" />
       <path d="M21 21v.01" />
       <path d="M16 16v.01" />
@@ -10907,9 +10913,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M13 20h-6c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.126 .506" />
-      <path d="M12 17a2 2 0 1 0 .002 -3.998a2 2 0 0 0 -.002 3.998z" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M13 20h-5.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M21 15h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
       <path d="M19 21v1m0 -8v1" />
     </svg>
@@ -10932,9 +10939,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M12 20h-5c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.57 2.283" />
-      <path d="M10 15a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M12 20h-4.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.349 1.989" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M19 16v6" />
       <path d="M22 19l-3 3l-3 -3" />
     </svg>
@@ -10957,9 +10965,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M15 20h-8c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.574 2.295" />
-      <path d="M10 15a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M15 20h-7.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.36 2.055" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M19 16v3" />
       <path d="M19 22v.01" />
     </svg>
@@ -11007,9 +11016,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M10.5 20h-3.5c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.258 1.034" />
-      <path d="M12 13a2 2 0 0 0 -1.782 2.908" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M10.5 20h-3.256a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.143 .817" />
+      <path d="M12.602 12.092a2 2 0 0 0 -2.233 3.066" />
       <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" />
     </svg>
     """
@@ -11031,9 +11041,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M12 20h-5c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-1.256 5.023" />
-      <path d="M10 15a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M12 20h-4.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.833 4.75" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M16 19h6" />
     </svg>
     """
@@ -11055,11 +11066,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l1.359 -1.63" />
-      <path d="M10.176 6.188l1.824 -2.188l5 6" />
-      <path d="M18.77 18.757c-.358 .768 -1.027 1.262 -1.77 1.243h-10c-.966 .024 -1.807 -.817 -2 -2l-2 -8h7" />
-      <path d="M14 10h7l-1.397 5.587" />
-      <path d="M12 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l.75 -2.252m1.001 -3.002l.249 -.746" />
+      <path d="M12 8h7a2 2 0 0 1 1.977 2.304c-.442 2.516 -.756 4.438 -.977 5.696m-1.01 3.003a2.997 2.997 0 0 1 -2.234 .997h-9.512a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h2.999" />
+      <path d="M12 12a2 2 0 1 0 2 2" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -11081,9 +11091,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M13 20h-6c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.767 3.069" />
-      <path d="M10 15a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M13 20h-5.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.478 2.725" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M17 17v5" />
       <path d="M21 17v5" />
     </svg>
@@ -11106,9 +11117,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M12.5 20h-5.5c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.304 1.217" />
-      <path d="M13.475 13.65a2 2 0 1 0 -1.475 3.35" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M12 20h-4.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.161 .92" />
+      <path d="M13.866 13.28a2 2 0 1 0 -1.866 2.72" />
       <path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" />
       <path d="M19 18v.01" />
     </svg>
@@ -11131,9 +11143,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M12 20h-5c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.571 2.284" />
-      <path d="M10 15a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M12 20h-4.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.359 2.043" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M16 19h6" />
       <path d="M19 16v6" />
     </svg>
@@ -11156,9 +11169,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M15 20h-8c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.3 1.198" />
-      <path d="M10 15a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M15 20h-7.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.161 .918" />
+      <path d="M12 16a2 2 0 1 0 0 -4a2 2 0 0 0 0 4z" />
       <path d="M19 22v.01" />
       <path d="M19 19a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
     </svg>
@@ -11181,9 +11195,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M11.5 20h-4.5c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.387 1.546" />
-      <path d="M12.857 13.192a2 2 0 0 0 -1.798 3.573" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M11 20h-3.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.215 1.227" />
+      <path d="M13.483 12.658a2 2 0 1 0 -2.162 3.224" />
       <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
       <path d="M20.2 20.2l1.8 1.8" />
     </svg>
@@ -11206,9 +11221,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M12.5 20h-5.5c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.75 2.998" />
-      <path d="M13.782 14.092a2 2 0 1 0 -1.3 2.85" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M12.5 20h-5.256a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.478 2.723" />
+      <path d="M14 14a2 2 0 1 0 -2 2" />
       <path d="M16 22l5 -5" />
       <path d="M21 21.5v-4.5h-4.5" />
     </svg>
@@ -11231,9 +11247,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M10.5 20h-3.5c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.255 1.022" />
-      <path d="M12.435 13.047a2 2 0 0 0 -2.397 2.342" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M10.5 20h-3.256a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.133 .757" />
+      <path d="M13.596 12.794a2 2 0 0 0 -3.377 2.116" />
       <path d="M17.8 20.817l-2.172 1.138a.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a.389 .389 0 0 1 .217 -.665l2.428 -.352l1.086 -2.193a.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a.39 .39 0 0 1 -.567 .411l-2.172 -1.138z" />
     </svg>
     """
@@ -11255,9 +11272,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M12 20h-5c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.572 2.286" />
-      <path d="M10 15a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M12 20h-4.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.358 2.04" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M19 22v-6" />
       <path d="M22 19l-3 -3l-3 3" />
     </svg>
@@ -11280,9 +11298,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M13.5 20h-6.5c-.966 .024 -1.807 -.817 -2 -2l-2 -8h18l-.856 3.423" />
-      <path d="M10 15a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
+      <path d="M13.5 20h-6.256a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.532 3.03" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M22 22l-5 -5" />
       <path d="M17 22l5 -5" />
     </svg>
@@ -11305,9 +11324,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M7 10l5 -6l5 6" />
-      <path d="M21 10l-2 8a2 2.5 0 0 1 -2 2h-10a2 2.5 0 0 1 -2 -2l-2 -8z" />
-      <path d="M12 15m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M5.001 8h13.999a2 2 0 0 1 1.977 2.304l-1.255 7.152a3 3 0 0 1 -2.966 2.544h-9.512a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304z" />
+      <path d="M17 10l-2 -6" />
+      <path d="M7 10l2 -6" />
     </svg>
     """
   end
@@ -23887,6 +23907,53 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `brand_x_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.brand_x_filled />
+      <TablerIcons.brand_x_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def brand_x_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M8.267 3a1 1 0 0 1 .73 .317l.076 .092l4.274 5.828l5.946 -5.944a1 1 0 0 1 1.497 1.32l-.083 .094l-6.163 6.162l6.262 8.54a1 1 0 0 1 -.697 1.585l-.109 .006h-4.267a1 1 0 0 1 -.73 -.317l-.076 -.092l-4.276 -5.829l-5.944 5.945a1 1 0 0 1 -1.497 -1.32l.083 -.094l6.161 -6.163l-6.26 -8.539a1 1 0 0 1 .697 -1.585l.109 -.006h4.267z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `brand_x` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.brand_x />
+      <TablerIcons.brand_x class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def brand_x(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+      <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `brand_xamarin` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -23928,6 +23995,27 @@ defmodule TablerIcons do
       <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M6.5 5c7.72 2.266 10.037 7.597 12.5 12.5" />
       <path d="M17.5 5c-7.72 2.266 -10.037 7.597 -12.5 12.5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `brand_xdeep` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.brand_xdeep />
+      <TablerIcons.brand_xdeep class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def brand_xdeep(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M14.401 8.398l1.599 -2.398h5l-4 6l4 6h-5l-8 -12h-5l4 6l-4 6h5l1.596 -2.393" />
     </svg>
     """
   end
@@ -24048,6 +24136,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `brand_youtube_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.brand_youtube_filled />
+      <TablerIcons.brand_youtube_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def brand_youtube_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M18 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-12a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-9 6v6a1 1 0 0 0 1.514 .857l5 -3a1 1 0 0 0 0 -1.714l-5 -3a1 1 0 0 0 -1.514 .857z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `brand_youtube_kids` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -24063,8 +24176,8 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M17.782 17.03l-3.413 .235l-.023 0c-1.117 .09 -2.214 .335 -3.257 .725l-2.197 .794a3.597 3.597 0 0 1 -2.876 -.189a3.342 3.342 0 0 1 -1.732 -2.211l-1.204 -5.293a3.21 3.21 0 0 1 .469 -2.503a3.468 3.468 0 0 1 2.177 -1.452l9.843 -2.06c1.87 -.392 3.716 .744 4.124 2.537l1.227 5.392a3.217 3.217 0 0 1 -.61 2.7a3.506 3.506 0 0 1 -2.528 1.323z" />
-      <path d="M10 10l.972 4l4.028 -3z" />
+      <path d="M18.608 17.75l-3.9 .268h-.027a13.83 13.83 0 0 0 -3.722 .828l-2.511 .908a4.111 4.111 0 0 1 -3.287 -.216a3.82 3.82 0 0 1 -1.98 -2.527l-1.376 -6.05a3.669 3.669 0 0 1 .536 -2.86a3.964 3.964 0 0 1 2.489 -1.661l11.25 -2.354c2.137 -.448 4.247 .85 4.713 2.9l1.403 6.162a3.677 3.677 0 0 1 -.697 3.086a4.007 4.007 0 0 1 -2.89 1.512v.002z" />
+      <path d="M9 10l1.208 5l4.292 -4z" />
     </svg>
     """
   end
@@ -24085,7 +24198,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M3 5m0 4a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" />
+      <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
       <path d="M10 9l5 3l-5 3z" />
     </svg>
     """
@@ -24268,7 +24381,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M18.415 18.414a2 2 0 0 1 -1.415 .586h-10a2 2 0 0 1 -2 -2v-6.764a3 3 0 0 1 .435 -4.795m3.565 -.441h8a3 3 0 0 1 2 5.235v4.765" />
+      <path d="M8 4l10 .005v-.005a3 3 0 0 1 2 5.235v6.765m-.59 3.418c-.36 .36 -.86 .582 -1.41 .582h-12a2 2 0 0 1 -2 -2v-8.764a3 3 0 0 1 .418 -4.785" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -24290,7 +24403,7 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M17 5a3 3 0 0 1 2 5.235v6.765a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6.764a3 3 0 0 1 1.824 -5.231l.176 0h10z" />
+      <path d="M18 4a3 3 0 0 1 2 5.235v8.765a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-8.764a3 3 0 0 1 1.824 -5.231h12.176v-.005z" />
     </svg>
     """
   end
@@ -27490,6 +27603,36 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `candle_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.candle_filled />
+      <TablerIcons.candle_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def candle_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M14 10h-4a2 2 0 0 0 -2 2v9a1 1 0 0 0 1 1h6a1 1 0 0 0 1 -1v-9a2 2 0 0 0 -2 -2z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M11.254 2.334l-1.55 1.737c-1.042 1.277 -.898 3.097 .296 4.166a3 3 0 0 0 4.196 -4.28l-1.452 -1.624a1 1 0 0 0 -1.491 .001z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `candle` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -27597,6 +27740,56 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7 20s0 -2 1 -3.5c-1.5 0 -2 -.5 -4 -1.5c0 0 1.839 -1.38 5 -1c-1.789 -.97 -3.279 -2.03 -5 -6c0 0 3.98 -.3 6.5 3.5c-2.284 -4.9 1.5 -9.5 1.5 -9.5c2.734 5.47 2.389 7.5 1.5 9.5c2.531 -3.77 6.5 -3.5 6.5 -3.5c-1.721 3.97 -3.211 5.03 -5 6c3.161 -.38 5 1 5 1c-2 1 -2.5 1.5 -4 1.5c1 1.5 1 3.5 1 3.5c-2 0 -4.438 -2.22 -5 -3c-.563 .78 -3 3 -5 3z" />
       <path d="M12 22v-5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `capsule_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.capsule_filled />
+      <TablerIcons.capsule_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def capsule_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 2l-.243 .004a7.004 7.004 0 0 0 -6.757 6.996v6a7 7 0 0 0 7 7l.243 -.004a7.004 7.004 0 0 0 6.757 -6.996v-6a7 7 0 0 0 -7 -7z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `capsule_horizontal_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.capsule_horizontal_filled />
+      <TablerIcons.capsule_horizontal_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def capsule_horizontal_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M15 5h-6a7 7 0 1 0 0 14h6a7 7 0 0 0 7 -7l-.007 -.303a7 7 0 0 0 -6.993 -6.697z"
+        stroke-width="0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -27932,6 +28125,41 @@ defmodule TablerIcons do
       <path d="M3 8v8.5a2.5 2.5 0 0 0 2.5 2.5h1.06a3 3 0 0 0 2.34 -1.13l1.54 -1.92a2 2 0 0 1 3.12 0l1.54 1.92a3 3 0 0 0 2.34 1.13h1.06a2.5 2.5 0 0 0 2.5 -2.5v-8.5a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2z" />
       <path d="M8 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
       <path d="M16 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `cards_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.cards_filled />
+      <TablerIcons.cards_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def cards_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M10.348 3.169l-7.15 3.113a2 2 0 0 0 -1.03 2.608l4.92 11.895a1.96 1.96 0 0 0 2.59 1.063l7.142 -3.11a2.002 2.002 0 0 0 1.036 -2.611l-4.92 -11.894a1.96 1.96 0 0 0 -2.588 -1.064z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M16 3a2 2 0 0 1 1.995 1.85l.005 .15v3.5a1 1 0 0 1 -1.993 .117l-.007 -.117v-3.5h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M19.08 5.61a1 1 0 0 1 1.31 -.53c.257 .108 .505 .21 .769 .314a2 2 0 0 1 1.114 2.479l-.056 .146l-2.298 5.374a1 1 0 0 1 -1.878 -.676l.04 -.11l2.296 -5.371l-.366 -.148l-.402 -.167a1 1 0 0 1 -.53 -1.312z"
+        stroke-width="0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -28305,531 +28533,6 @@ defmodule TablerIcons do
       <path d="M16 14l-2 -2" />
       <path d="M22 8s-1.14 -2 -3 -2c-1.406 0 -3 2 -3 2s1.14 2 3 2s3 -2 3 -2z" />
       <path d="M16 2s-2 1.14 -2 3s2 3 2 3s2 -1.577 2 -3c0 -1.86 -2 -3 -2 -3z" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_bolt` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_bolt />
-      <TablerIcons.cart_bolt class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_bolt(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M13.5 17h-7.5v-14h-2" />
-      <path d="M6 5l14 1l-.858 6.004m-2.642 .996h-10.5" />
-      <path d="M19 16l-2 3h4l-2 3" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_cancel` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_cancel />
-      <TablerIcons.cart_cancel class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_cancel(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M12 17h-6v-14h-2" />
-      <path d="M6 5l14 1l-.857 5.998m-3.643 1.002h-9.5" />
-      <path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-      <path d="M17 21l4 -4" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_check` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_check />
-      <TablerIcons.cart_check class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_check(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M11.5 17h-5.5v-14h-2" />
-      <path d="M6 5l14 1l-1 7h-13" />
-      <path d="M15 19l2 2l4 -4" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_code` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_code />
-      <TablerIcons.cart_code class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_code(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M11.5 17h-5.5v-14h-2" />
-      <path d="M6 5l14 1l-1 7h-13" />
-      <path d="M20 21l2 -2l-2 -2" />
-      <path d="M17 17l-2 2l2 2" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_cog` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_cog />
-      <TablerIcons.cart_cog class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_cog(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M12 17h-6v-14h-2" />
-      <path d="M6 5l14 1l-.79 5.526m-3.21 1.474h-10" />
-      <path d="M19.001 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-      <path d="M19.001 15.5v1.5" />
-      <path d="M19.001 21v1.5" />
-      <path d="M22.032 17.25l-1.299 .75" />
-      <path d="M17.27 20l-1.3 .75" />
-      <path d="M15.97 17.25l1.3 .75" />
-      <path d="M20.733 20l1.3 .75" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_copy` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_copy />
-      <TablerIcons.cart_copy class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_copy(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M11.5 17h-5.5v-14h-2" />
-      <path d="M6 5l14 1l-1 7h-13" />
-      <path d="M15 19l2 2l4 -4" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_discount` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_discount />
-      <TablerIcons.cart_discount class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_discount(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M12.5 17h-6.5v-14h-2" />
-      <path d="M6 5l14 1l-.859 6.011m-6.141 .989h-7" />
-      <path d="M16 21l5 -5" />
-      <path d="M21 21v.01" />
-      <path d="M16 16v.01" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_dollar` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_dollar />
-      <TablerIcons.cart_dollar class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_dollar(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M13 17h-7v-14h-2" />
-      <path d="M6 5l14 1l-.575 4.022m-4.925 2.978h-8.5" />
-      <path d="M21 15h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
-      <path d="M19 21v1m0 -8v1" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_down` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_down />
-      <TablerIcons.cart_down class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_down(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M12.5 17h-6.5v-14h-2" />
-      <path d="M6 5l14 1l-.859 6.011m-2.641 .989h-10.5" />
-      <path d="M19 16v6" />
-      <path d="M22 19l-3 3l-3 -3" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_exclamation` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_exclamation />
-      <TablerIcons.cart_exclamation class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_exclamation(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M15 17h-9v-14h-2" />
-      <path d="M6 5l14 1l-.854 5.976m-2.646 1.024h-10.5" />
-      <path d="M19 16v3" />
-      <path d="M19 22v.01" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_heart` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_heart />
-      <TablerIcons.cart_heart class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_heart(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M10 17h-4v-14h-2" />
-      <path d="M6 5l14 1l-.717 5.016m-7.783 1.984h-5.5" />
-      <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_minus` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_minus />
-      <TablerIcons.cart_minus class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_minus(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M12.5 17h-6.5v-14h-2" />
-      <path d="M6 5l14 1l-1 7h-13" />
-      <path d="M16 19h6" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_pause` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_pause />
-      <TablerIcons.cart_pause class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_pause(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M13 17h-7v-14h-2" />
-      <path d="M6 5l14 1l-1 7h-13" />
-      <path d="M17 17v5" />
-      <path d="M21 17v5" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_pin` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_pin />
-      <TablerIcons.cart_pin class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_pin(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M12 17h-6v-14h-2" />
-      <path d="M6 5l14 1l-.716 5.011m-5.284 1.989h-8" />
-      <path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" />
-      <path d="M19 18v.01" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_plus` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_plus />
-      <TablerIcons.cart_plus class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_plus(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M12.5 17h-6.5v-14h-2" />
-      <path d="M6 5l14 1l-.86 6.017m-2.64 .983h-10.5" />
-      <path d="M16 19h6" />
-      <path d="M19 16v6" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_question` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_question />
-      <TablerIcons.cart_question class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_question(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M13.5 17h-7.5v-14h-2" />
-      <path d="M6 5l14 1l-.714 5m-4.786 2h-8.5" />
-      <path d="M19 22v.01" />
-      <path d="M19 19a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_search` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_search />
-      <TablerIcons.cart_search class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_search(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M11 17h-5v-14h-2" />
-      <path d="M6 5l14 1l-.718 5.023m-6.282 1.977h-7" />
-      <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-      <path d="M20.2 20.2l1.8 1.8" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_share` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_share />
-      <TablerIcons.cart_share class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_share(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M12.5 17h-6.5v-14h-2" />
-      <path d="M6 5l14 1l-1 7h-13" />
-      <path d="M16 22l5 -5" />
-      <path d="M21 21.5v-4.5h-4.5" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_star` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_star />
-      <TablerIcons.cart_star class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_star(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M9.5 17h-3.5v-14h-2" />
-      <path d="M6 5l14 1l-.615 4.302m-6.885 2.698h-6.5" />
-      <path d="M17.8 20.817l-2.172 1.138a.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a.389 .389 0 0 1 .217 -.665l2.428 -.352l1.086 -2.193a.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a.39 .39 0 0 1 -.567 .411l-2.172 -1.138z" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_up` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_up />
-      <TablerIcons.cart_up class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_up(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M12.5 17h-6.5v-14h-2" />
-      <path d="M6 5l14 1l-.854 5.977m-2.646 1.023h-10.5" />
-      <path d="M19 22v-6" />
-      <path d="M22 19l-3 -3l-3 3" />
-    </svg>
-    """
-  end
-
-  @doc """
-  Renders the `cart_x` icon.
-
-  You may pass arbitrary HTML attributes to the component.
-
-  ## Examples
-
-      <TablerIcons.cart_x />
-      <TablerIcons.cart_x class="w-4 h-4" />
-  """
-  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
-
-  def cart_x(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-      <path d="M13 17h-7v-14h-2" />
-      <path d="M6 5l14 1l-1 7h-13" />
-      <path d="M22 22l-5 -5" />
-      <path d="M17 22l5 -5" />
     </svg>
     """
   end
@@ -44895,6 +44598,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `device_projector` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.device_projector />
+      <TablerIcons.device_projector class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def device_projector(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M8 9a5 5 0 1 0 10 0a5 5 0 0 0 -10 0" />
+      <path d="M9 6h-4a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-8a2 2 0 0 0 -2 -2h-2" />
+      <path d="M6 15h1" />
+      <path d="M7 18l-1 2" />
+      <path d="M18 18l1 2" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `device_remote` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -49174,6 +48902,29 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0c2.602 -2.105 3.262 -5.708 1.566 -8.546l-4.89 -7.26c-.42 -.625 -1.287 -.803 -1.936 -.397a1.376 1.376 0 0 0 -.41 .397l-4.893 7.26c-1.695 2.838 -1.035 6.441 1.567 8.546z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `droplets` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.droplets />
+      <TablerIcons.droplets class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def droplets(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4.072 20.3a2.999 2.999 0 0 0 3.856 0a3.002 3.002 0 0 0 .67 -3.798l-2.095 -3.227a.6 .6 0 0 0 -1.005 0l-2.098 3.227a3.003 3.003 0 0 0 .671 3.798z" />
+      <path d="M16.072 20.3a2.999 2.999 0 0 0 3.856 0a3.002 3.002 0 0 0 .67 -3.798l-2.095 -3.227a.6 .6 0 0 0 -1.005 0l-2.098 3.227a3.003 3.003 0 0 0 .671 3.798z" />
+      <path d="M10.072 10.3a2.999 2.999 0 0 0 3.856 0a3.002 3.002 0 0 0 .67 -3.798l-2.095 -3.227a.6 .6 0 0 0 -1.005 0l-2.098 3.227a3.003 3.003 0 0 0 .671 3.798z" />
     </svg>
     """
   end
@@ -53830,6 +53581,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `filter_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.filter_filled />
+      <TablerIcons.filter_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def filter_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M20 3h-16a1 1 0 0 0 -1 1v2.227l.008 .223a3 3 0 0 0 .772 1.795l4.22 4.641v8.114a1 1 0 0 0 1.316 .949l6 -2l.108 -.043a1 1 0 0 0 .576 -.906v-6.586l4.121 -4.12a3 3 0 0 0 .879 -2.123v-2.171a1 1 0 0 0 -1 -1z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `filter_heart` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -56301,6 +56077,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `forbid_2_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.forbid_2_filled />
+      <TablerIcons.forbid_2_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def forbid_2_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 4.953a1 1 0 0 0 -1.414 0l-6 6l-.083 .094a1 1 0 0 0 1.497 1.32l6 -6l.083 -.094a1 1 0 0 0 -.083 -1.32z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `forbid_2` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -56318,6 +56119,31 @@ defmodule TablerIcons do
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
       <path d="M9 15l6 -6" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `forbid_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.forbid_filled />
+      <TablerIcons.forbid_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def forbid_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-7.387 4.87a1 1 0 0 0 -1.32 1.497l6 6l.094 .083a1 1 0 0 0 1.32 -1.497l-6 -6z"
+        stroke-width="0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -56394,6 +56220,31 @@ defmodule TablerIcons do
       <path d="M5 7h-1a1 1 0 0 0 -1 1v8a1 1 0 0 0 1 1h1" />
       <path d="M17 12h.01" />
       <path d="M13 12h.01" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `fountain_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.fountain_filled />
+      <TablerIcons.fountain_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def fountain_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M15 2a4 4 0 0 1 4 4a1 1 0 0 1 -1.993 .117l-.007 -.117a2 2 0 0 0 -3.995 -.15l-.005 .15v9h1v-4a3 3 0 0 1 6 0a1 1 0 0 1 -1.993 .117l-.007 -.117a1 1 0 0 0 -1.993 -.117l-.007 .117v4h5a1 1 0 0 1 .993 .883l.007 .117v2a4 4 0 0 1 -3.8 3.995l-.2 .005h-12a4 4 0 0 1 -3.995 -3.8l-.005 -.2v-2a1 1 0 0 1 .883 -.993l.117 -.007h5v-4a1 1 0 0 0 -1.993 -.117l-.007 .117a1 1 0 0 1 -2 0a3 3 0 0 1 5.995 -.176l.005 .176v4h1v-9a2 2 0 1 0 -4 0a1 1 0 1 1 -2 0a4 4 0 0 1 7.001 -2.645a3.983 3.983 0 0 1 2.999 -1.355z"
+        stroke-width="0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -56770,6 +56621,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `function_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.function_filled />
+      <TablerIcons.function_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def function_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M17.333 3a3.667 3.667 0 0 1 3.667 3.667v10.666a3.667 3.667 0 0 1 -3.667 3.667h-10.666a3.667 3.667 0 0 1 -3.667 -3.667v-10.666a3.667 3.667 0 0 1 3.667 -3.667zm-3.583 3a2.38 2.38 0 0 0 -2.37 2.145l-.285 2.855h-2.095l-.117 .007a1 1 0 0 0 .117 1.993h1.894l-.265 2.656l-.014 .071a.38 .38 0 0 1 -.365 .273a.25 .25 0 0 1 -.25 -.25v-.25l-.007 -.117a1 1 0 0 0 -1.993 .117v.25l.005 .154a2.25 2.25 0 0 0 2.245 2.096a2.38 2.38 0 0 0 2.37 -2.145l.284 -2.855h2.096l.117 -.007a1 1 0 0 0 -.117 -1.993h-1.895l.266 -2.656l.014 -.071a.381 .381 0 0 1 .365 -.273a.25 .25 0 0 1 .25 .25v.25l.007 .117a1 1 0 0 0 1.993 -.117v-.25l-.005 -.154a2.25 2.25 0 0 0 -2.245 -2.096z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `function_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -56910,6 +56786,31 @@ defmodule TablerIcons do
       <path d="M3 20l12 0" />
       <path d="M18 7v1a1 1 0 0 0 1 1h1" />
       <path d="M4 11l10 0" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `gauge_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.gauge_filled />
+      <TablerIcons.gauge_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def gauge_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-.293 3.953a1 1 0 0 0 -1.414 0l-2.59 2.59l-.083 .094l-.068 .1a2.001 2.001 0 0 0 -2.547 1.774l-.005 .149l.005 .15a2 2 0 1 0 3.917 -.701a.968 .968 0 0 0 .195 -.152l2.59 -2.59l.083 -.094a1 1 0 0 0 -.083 -1.32zm-4.707 -1.293a6 6 0 0 0 -6 6a1 1 0 0 0 2 0a4 4 0 0 1 4 -4a1 1 0 0 0 0 -2z"
+        stroke-width="0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -57493,6 +57394,29 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `ghost_3` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.ghost_3 />
+      <TablerIcons.ghost_3 class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def ghost_3(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M5 11a7 7 0 0 1 14 0v7a1.78 1.78 0 0 1 -3.1 1.4a1.65 1.65 0 0 0 -2.6 0a1.65 1.65 0 0 1 -2.6 0a1.65 1.65 0 0 0 -2.6 0a1.78 1.78 0 0 1 -3.1 -1.4v-7" />
+      <path d="M10 10h.01" />
+      <path d="M14 10h.01" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `ghost_filled` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -57581,10 +57505,35 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8 8h-3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3v-4h-1" />
+      <path d="M8 8h-2a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h2v-4h-1" />
       <path d="M12 8v8" />
-      <path d="M16 16v-8h5" />
-      <path d="M20 12h-4" />
+      <path d="M16 12h3" />
+      <path d="M20 8h-4v8" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `gift_card_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.gift_card_filled />
+      <TablerIcons.gift_card_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def gift_card_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M18 4a4 4 0 0 1 3.995 3.8l.005 .2v8a4 4 0 0 1 -3.8 3.995l-.2 .005h-12a4 4 0 0 1 -3.995 -3.8l-.005 -.2v-8a4 4 0 0 1 3.8 -3.995l.2 -.005h12zm-5.493 5l-.19 .004c-.928 .052 -1.719 .583 -2.317 1.444c-.56 -.805 -1.288 -1.322 -2.139 -1.428l-.198 -.017l-.164 -.003l-.16 .005c-1.28 .086 -2.339 1.179 -2.339 2.495c0 1.226 1.222 2.211 2.453 2.447l.16 .026l-1.32 1.32l-.083 .094a1 1 0 0 0 0 1.226l.083 .094l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l2.293 -2.292l2.293 2.292l.094 .083a1 1 0 0 0 1.403 -1.403l-.083 -.094l-1.32 -1.32c1.229 -.169 2.502 -1.11 2.606 -2.315l.007 -.158l-.005 -.163c-.08 -1.189 -1.02 -2.162 -2.175 -2.316l-.159 -.016l-.154 -.005zm-.025 2l.102 .009c.194 .04 .367 .21 .407 .406l.009 .085l-.012 .031l-.034 .04c-.13 .135 -.513 .369 -.836 .42l-.118 .009h-.602l.052 -.1l.088 -.156c.27 -.444 .574 -.696 .852 -.738l.092 -.006zm-4.964 0l.084 .005l.094 .02c.254 .077 .523 .32 .765 .718l.09 .157l.05 .1h-.601l-.106 -.008c-.398 -.057 -.894 -.4 -.894 -.492c0 -.23 .194 -.446 .416 -.491l.102 -.01z"
+        stroke-width="0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -57942,6 +57891,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `glass_full_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.glass_full_filled />
+      <TablerIcons.glass_full_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def glass_full_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M5.004 10.229l-.003 -.186l.001 -.113l.008 -.071l1 -7a1 1 0 0 1 .877 -.853l.113 -.006h10a1 1 0 0 1 .968 .747l.022 .112l1.006 7.05l.004 .091c0 3.226 -2.56 5.564 -6 5.945v4.055h3a1 1 0 0 1 .117 1.993l-.117 .007h-8a1 1 0 0 1 -.117 -1.993l.117 -.007h3v-4.055c-3.358 -.371 -5.878 -2.609 -5.996 -5.716zm11.129 -6.229h-8.267l-.607 4.258a6.001 6.001 0 0 1 5.125 .787l.216 .155a4 4 0 0 0 4.32 .31l-.787 -5.51z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `glass_full` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -58013,6 +57987,46 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `globe_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.globe_filled />
+      <TablerIcons.globe_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def globe_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M11 4a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M14.133 1.502a1 1 0 0 1 1.365 -.369a9.015 9.015 0 1 1 -10.404 14.622a1 1 0 1 1 1.312 -1.51a7.015 7.015 0 1 0 8.096 -11.378a1 1 0 0 1 -.369 -1.365z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M11 16a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -1.993 .117l-.007 -.117v-4a1 1 0 0 1 1 -1z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M15 20a1 1 0 0 1 .117 1.993l-.117 .007h-8a1 1 0 0 1 -.117 -1.993l.117 -.007h8z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `globe_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -58028,10 +58042,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M8.36 8.339a4 4 0 0 0 5.281 5.31m2 -1.98a4 4 0 0 0 -5.262 -5.325" />
-      <path d="M6.75 16a8.015 8.015 0 0 0 9.799 .553m2.016 -2a8.015 8.015 0 0 0 -2.565 -11.555" />
-      <path d="M12 18v4" />
-      <path d="M8 22h8" />
+      <path d="M7.353 7.355a4 4 0 0 0 5.29 5.293m2.007 -2.009a4 4 0 0 0 -5.3 -5.284" />
+      <path d="M5.75 15a8.015 8.015 0 0 0 9.792 .557m2.02 -1.998a8.015 8.015 0 0 0 -2.562 -11.559" />
+      <path d="M11 17v4" />
+      <path d="M7 21h8" />
       <path d="M3 3l18 18" />
     </svg>
     """
@@ -58053,10 +58067,10 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M12 10m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
-      <path d="M6.75 16a8.015 8.015 0 1 0 9.25 -13" />
-      <path d="M12 18l0 4" />
-      <path d="M8 22l8 0" />
+      <path d="M7 9a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+      <path d="M5.75 15a8.015 8.015 0 1 0 9.25 -13" />
+      <path d="M11 17v4" />
+      <path d="M7 21h8" />
     </svg>
     """
   end
@@ -65188,6 +65202,51 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `keyframe_align_center_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.keyframe_align_center_filled />
+      <TablerIcons.keyframe_align_center_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def keyframe_align_center_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 19a1 1 0 0 1 .993 .883l.007 .117v2a1 1 0 0 1 -1.993 .117l-.007 -.117v-2a1 1 0 0 1 1 -1z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M12 6c-.629 0 -1.214 .301 -1.606 .807l-2.908 3.748a2.395 2.395 0 0 0 -.011 2.876l2.919 3.762c.39 .505 .977 .807 1.606 .807c.629 0 1.214 -.301 1.606 -.807l2.908 -3.748a2.395 2.395 0 0 0 .011 -2.876l-2.919 -3.762a2.032 2.032 0 0 0 -1.606 -.807z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M12 1a1 1 0 0 1 .993 .883l.007 .117v2a1 1 0 0 1 -1.993 .117l-.007 -.117v-2a1 1 0 0 1 1 -1z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M5 11a1 1 0 0 1 .117 1.993l-.117 .007h-2a1 1 0 0 1 -.117 -1.993l.117 -.007h2z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-2a1 1 0 0 1 -.117 -1.993l.117 -.007h2z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `keyframe_align_center` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -65208,6 +65267,41 @@ defmodule TablerIcons do
       <path d="M12 2v2" />
       <path d="M3 12h2" />
       <path d="M19 12h2" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `keyframe_align_horizontal_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.keyframe_align_horizontal_filled />
+      <TablerIcons.keyframe_align_horizontal_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def keyframe_align_horizontal_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 6c-.629 0 -1.214 .301 -1.606 .807l-2.908 3.748a2.395 2.395 0 0 0 -.011 2.876l2.919 3.762c.39 .505 .977 .807 1.606 .807c.629 0 1.214 -.301 1.606 -.807l2.908 -3.748a2.395 2.395 0 0 0 .011 -2.876l-2.919 -3.762a2.032 2.032 0 0 0 -1.606 -.807z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M5 11a1 1 0 0 1 .117 1.993l-.117 .007h-2a1 1 0 0 1 -.117 -1.993l.117 -.007h2z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-2a1 1 0 0 1 -.117 -1.993l.117 -.007h2z"
+        stroke-width="0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -65236,6 +65330,41 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `keyframe_align_vertical_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.keyframe_align_vertical_filled />
+      <TablerIcons.keyframe_align_vertical_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def keyframe_align_vertical_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 1a1 1 0 0 1 .993 .883l.007 .117v2a1 1 0 0 1 -1.993 .117l-.007 -.117v-2a1 1 0 0 1 1 -1z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M12 6c-.629 0 -1.214 .301 -1.606 .807l-2.908 3.748a2.395 2.395 0 0 0 -.011 2.876l2.919 3.762c.39 .505 .977 .807 1.606 .807c.629 0 1.214 -.301 1.606 -.807l2.908 -3.748a2.395 2.395 0 0 0 .011 -2.876l-2.919 -3.762a2.032 2.032 0 0 0 -1.606 -.807z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M12 19a1 1 0 0 1 .993 .883l.007 .117v2a1 1 0 0 1 -1.993 .117l-.007 -.117v-2a1 1 0 0 1 1 -1z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `keyframe_align_vertical` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -65259,6 +65388,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `keyframe_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.keyframe_filled />
+      <TablerIcons.keyframe_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def keyframe_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 4a2.599 2.599 0 0 0 -2 .957l-4.355 5.24a2.847 2.847 0 0 0 -.007 3.598l4.368 5.256c.499 .6 1.225 .949 1.994 .949a2.599 2.599 0 0 0 2 -.957l4.355 -5.24a2.847 2.847 0 0 0 .007 -3.598l-4.368 -5.256a2.593 2.593 0 0 0 -1.994 -.949z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `keyframe` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -65275,6 +65429,41 @@ defmodule TablerIcons do
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
       <path d="M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `keyframes_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.keyframes_filled />
+      <TablerIcons.keyframes_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def keyframes_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M8 4a2.599 2.599 0 0 0 -2 .957l-4.355 5.24a2.847 2.847 0 0 0 -.007 3.598l4.368 5.256c.499 .6 1.224 .949 1.994 .949a2.599 2.599 0 0 0 2 -.957l4.355 -5.24a2.847 2.847 0 0 0 .007 -3.598l-4.368 -5.256a2.593 2.593 0 0 0 -1.994 -.949z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M16.382 4.214a1 1 0 0 1 1.32 .074l.084 .094l4.576 5.823c.808 .993 .848 2.396 .13 3.419l-.12 .158l-4.586 5.836a1 1 0 0 1 -1.644 -1.132l.072 -.104l4.596 -5.85a.845 .845 0 0 0 .06 -.978l-.07 -.1l-4.586 -5.836a1 1 0 0 1 .168 -1.404z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+      <path
+        d="M12.382 4.214a1 1 0 0 1 1.32 .074l.084 .094l4.576 5.823c.808 .993 .848 2.396 .13 3.419l-.12 .158l-4.586 5.836a1 1 0 0 1 -1.644 -1.132l.072 -.104l4.596 -5.85a.845 .845 0 0 0 .06 -.978l-.07 -.1l-4.586 -5.836a1 1 0 0 1 .168 -1.404z"
+        stroke-width="0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -65351,6 +65540,28 @@ defmodule TablerIcons do
       <path d="M8 10h8" />
       <path d="M8 6h8" />
       <path d="M8 18h8" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `ladle` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.ladle />
+      <TablerIcons.ladle class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def ladle(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M3 14v1a6 6 0 1 0 12 0v-9a3 3 0 0 1 6 0" />
+      <path d="M9 16c-.663 0 -1.3 -.036 -1.896 -.102l-.5 -.064c-2.123 -.308 -3.604 -1.013 -3.604 -1.834c0 -.82 1.482 -1.526 3.603 -1.834l.5 -.064a17.27 17.27 0 0 1 1.897 -.102c.663 0 1.3 .036 1.896 .102l.5 .064c2.123 .308 3.604 1.013 3.604 1.834c0 .82 -1.482 1.526 -3.603 1.834l-.5 .064a17.27 17.27 0 0 1 -1.897 .102z" />
     </svg>
     """
   end
@@ -66007,6 +66218,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `layout_bottombar_collapse_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.layout_bottombar_collapse_filled />
+      <TablerIcons.layout_bottombar_collapse_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def layout_bottombar_collapse_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm0 2h-12a1 1 0 0 0 -.993 .883l-.007 .117v9h14v-9a1 1 0 0 0 -.883 -.993l-.117 -.007zm-7.387 3.21l.094 .083l1.293 1.292l1.293 -1.292a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 .083 1.32l-.083 .094l-2 2a1 1 0 0 1 -1.32 .083l-.094 -.083l-2 -2a1 1 0 0 1 1.32 -1.497z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `layout_bottombar_collapse` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -66030,6 +66266,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `layout_bottombar_expand_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.layout_bottombar_expand_filled />
+      <TablerIcons.layout_bottombar_expand_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def layout_bottombar_expand_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm0 2h-12a1 1 0 0 0 -.993 .883l-.007 .117v9h14v-9a1 1 0 0 0 -.883 -.993l-.117 -.007zm-5.387 3.21l.094 .083l2 2a1 1 0 0 1 -1.32 1.497l-.094 -.083l-1.293 -1.292l-1.293 1.292a1 1 0 0 1 -1.32 .083l-.094 -.083a1 1 0 0 1 -.083 -1.32l.083 -.094l2 -2a1 1 0 0 1 1.32 -.083z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `layout_bottombar_expand` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -66048,6 +66309,31 @@ defmodule TablerIcons do
       <path d="M20 6v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2z" />
       <path d="M20 15h-16" />
       <path d="M14 10l-2 -2l-2 2" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `layout_bottombar_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.layout_bottombar_filled />
+      <TablerIcons.layout_bottombar_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def layout_bottombar_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm0 2h-12a1 1 0 0 0 -.993 .883l-.007 .117v9h14v-9a1 1 0 0 0 -.883 -.993l-.117 -.007z"
+        stroke-width="0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -66330,6 +66616,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `layout_navbar_collapse_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.layout_navbar_collapse_filled />
+      <TablerIcons.layout_navbar_collapse_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def layout_navbar_collapse_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm1 6h-14v9a1 1 0 0 0 .883 .993l.117 .007h12a1 1 0 0 0 .993 -.883l.007 -.117v-9zm-6.387 3.21l.094 .083l2 2a1 1 0 0 1 -1.32 1.497l-.094 -.083l-1.293 -1.292l-1.293 1.292a1 1 0 0 1 -1.32 .083l-.094 -.083a1 1 0 0 1 -.083 -1.32l.083 -.094l2 -2a1 1 0 0 1 1.32 -.083z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `layout_navbar_collapse` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -66353,6 +66664,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `layout_navbar_expand_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.layout_navbar_expand_filled />
+      <TablerIcons.layout_navbar_expand_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def layout_navbar_expand_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm1 6h-14v9a1 1 0 0 0 .883 .993l.117 .007h12a1 1 0 0 0 .993 -.883l.007 -.117v-9zm-8.387 3.21l.094 .083l1.293 1.292l1.293 -1.292a1 1 0 0 1 1.32 -.083l.094 .083a1 1 0 0 1 .083 1.32l-.083 .094l-2 2a1 1 0 0 1 -1.32 .083l-.094 -.083l-2 -2a1 1 0 0 1 1.32 -1.497z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `layout_navbar_expand` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -66371,6 +66707,31 @@ defmodule TablerIcons do
       <path d="M4 18v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M4 9h16" />
       <path d="M10 14l2 2l2 -2" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `layout_navbar_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.layout_navbar_filled />
+      <TablerIcons.layout_navbar_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def layout_navbar_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm1 6h-14v9a1 1 0 0 0 .883 .993l.117 .007h12a1 1 0 0 0 .993 -.883l.007 -.117v-9z"
+        stroke-width="0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -66444,6 +66805,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `layout_sidebar_left_collapse_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.layout_sidebar_left_collapse_filled />
+      <TablerIcons.layout_sidebar_left_collapse_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def layout_sidebar_left_collapse_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm0 2h-9v14h9a1 1 0 0 0 .993 -.883l.007 -.117v-12a1 1 0 0 0 -.883 -.993l-.117 -.007zm-2.293 4.293a1 1 0 0 1 .083 1.32l-.083 .094l-1.292 1.293l1.292 1.293a1 1 0 0 1 .083 1.32l-.083 .094a1 1 0 0 1 -1.32 .083l-.094 -.083l-2 -2a1 1 0 0 1 -.083 -1.32l.083 -.094l2 -2a1 1 0 0 1 1.414 0z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `layout_sidebar_left_collapse` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -66462,6 +66848,31 @@ defmodule TablerIcons do
       <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M9 4v16" />
       <path d="M15 10l-2 2l2 2" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `layout_sidebar_left_expand_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.layout_sidebar_left_expand_filled />
+      <TablerIcons.layout_sidebar_left_expand_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def layout_sidebar_left_expand_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm0 2h-9v14h9a1 1 0 0 0 .993 -.883l.007 -.117v-12a1 1 0 0 0 -.883 -.993l-.117 -.007zm-4.387 4.21l.094 .083l2 2a1 1 0 0 1 .083 1.32l-.083 .094l-2 2a1 1 0 0 1 -1.497 -1.32l.083 -.094l1.292 -1.293l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.32 -.083z"
+        stroke-width="0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -66490,6 +66901,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `layout_sidebar_right_collapse_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.layout_sidebar_right_collapse_filled />
+      <TablerIcons.layout_sidebar_right_collapse_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def layout_sidebar_right_collapse_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm-3 2h-9a1 1 0 0 0 -.993 .883l-.007 .117v12a1 1 0 0 0 .883 .993l.117 .007h9v-14zm-5.387 4.21l.094 .083l2 2a1 1 0 0 1 .083 1.32l-.083 .094l-2 2a1 1 0 0 1 -1.497 -1.32l.083 -.094l1.292 -1.293l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.32 -.083z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `layout_sidebar_right_collapse` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -66508,6 +66944,31 @@ defmodule TablerIcons do
       <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
       <path d="M15 4v16" />
       <path d="M9 10l2 2l-2 2" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `layout_sidebar_right_expand_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.layout_sidebar_right_expand_filled />
+      <TablerIcons.layout_sidebar_right_expand_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def layout_sidebar_right_expand_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M18 3a3 3 0 0 1 2.995 2.824l.005 .176v12a3 3 0 0 1 -2.824 2.995l-.176 .005h-12a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-12a3 3 0 0 1 2.824 -2.995l.176 -.005h12zm-3 2h-9a1 1 0 0 0 -.993 .883l-.007 .117v12a1 1 0 0 0 .883 .993l.117 .007h9v-14zm-3.293 4.293a1 1 0 0 1 .083 1.32l-.083 .094l-1.292 1.293l1.292 1.293a1 1 0 0 1 .083 1.32l-.083 .094a1 1 0 0 1 -1.32 .083l-.094 -.083l-2 -2a1 1 0 0 1 -.083 -1.32l.083 -.094l2 -2a1 1 0 0 1 1.414 0z"
+        stroke-width="0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -87233,6 +87694,31 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `reorder` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.reorder />
+      <TablerIcons.reorder class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def reorder(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M3 15m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M10 15m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M17 15m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+      <path d="M5 11v-3a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3v3" />
+      <path d="M16.5 8.5l2.5 2.5l2.5 -2.5" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `repeat_off` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -92429,6 +92915,196 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `shopping_bag_check` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_bag_check />
+      <TablerIcons.shopping_bag_check class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_bag_check(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M11.5 21h-2.926a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304h11.339a2 2 0 0 1 1.977 2.304l-.5 3.248" />
+      <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+      <path d="M15 19l2 2l4 -4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_bag_discount` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_bag_discount />
+      <TablerIcons.shopping_bag_discount class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_bag_discount(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12.5 21h-3.926a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304h11.339a2 2 0 0 1 1.977 2.304l-.416 2.7" />
+      <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+      <path d="M16 21l5 -5" />
+      <path d="M21 21v.01" />
+      <path d="M16 16v.01" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_bag_edit` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_bag_edit />
+      <TablerIcons.shopping_bag_edit class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_bag_edit(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M11 21h-2.426a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304h11.339a2 2 0 0 1 1.977 2.304l-.109 .707" />
+      <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+      <path d="M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_bag_exclamation` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_bag_exclamation />
+      <TablerIcons.shopping_bag_exclamation class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_bag_exclamation(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M15 21h-6.426a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304h11.339a2 2 0 0 1 1.977 2.304l-.258 1.678" />
+      <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+      <path d="M19 16v3" />
+      <path d="M19 22v.01" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_bag_minus` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_bag_minus />
+      <TablerIcons.shopping_bag_minus class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_bag_minus(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12.5 21h-3.926a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304h11.339a2 2 0 0 1 1.977 2.304l-.73 4.744" />
+      <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+      <path d="M16 19h6" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_bag_plus` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_bag_plus />
+      <TablerIcons.shopping_bag_plus class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_bag_plus(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12.5 21h-3.926a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304h11.339a2 2 0 0 1 1.977 2.304l-.263 1.708" />
+      <path d="M16 19h6" />
+      <path d="M19 16v6" />
+      <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_bag_search` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_bag_search />
+      <TablerIcons.shopping_bag_search class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_bag_search(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M11.5 21h-2.926a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304h11.339a2 2 0 0 1 1.977 2.304l-.117 .761" />
+      <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+      <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M20.2 20.2l1.8 1.8" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_bag_x` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_bag_x />
+      <TablerIcons.shopping_bag_x class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_bag_x(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M13 21h-4.426a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304h11.339a2 2 0 0 1 1.977 2.304l-.506 3.287" />
+      <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+      <path d="M22 22l-5 -5" />
+      <path d="M17 22l5 -5" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `shopping_bag` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -92451,6 +93127,158 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `shopping_cart_bolt` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_bolt />
+      <TablerIcons.shopping_cart_bolt class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_bolt(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M13.5 17h-7.5v-14h-2" />
+      <path d="M6 5l14 1l-.858 6.004m-2.642 .996h-10.5" />
+      <path d="M19 16l-2 3h4l-2 3" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_cancel` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_cancel />
+      <TablerIcons.shopping_cart_cancel class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_cancel(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M12 17h-6v-14h-2" />
+      <path d="M6 5l14 1l-.857 5.998m-3.643 1.002h-9.5" />
+      <path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M17 21l4 -4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_check` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_check />
+      <TablerIcons.shopping_cart_check class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_check(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M11.5 17h-5.5v-14h-2" />
+      <path d="M6 5l14 1l-1 7h-13" />
+      <path d="M15 19l2 2l4 -4" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_code` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_code />
+      <TablerIcons.shopping_cart_code class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_code(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M11.5 17h-5.5v-14h-2" />
+      <path d="M6 5l14 1l-1 7h-13" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_cog` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_cog />
+      <TablerIcons.shopping_cart_cog class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_cog(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M12 17h-6v-14h-2" />
+      <path d="M6 5l14 1l-.79 5.526m-3.21 1.474h-10" />
+      <path d="M19.001 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M19.001 15.5v1.5" />
+      <path d="M19.001 21v1.5" />
+      <path d="M22.032 17.25l-1.299 .75" />
+      <path d="M17.27 20l-1.3 .75" />
+      <path d="M15.97 17.25l1.3 .75" />
+      <path d="M20.733 20l1.3 .75" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_copy` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_copy />
+      <TablerIcons.shopping_cart_copy class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_copy(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M11.5 17h-5.5v-14h-2" />
+      <path d="M6 5l14 1l-1 7h-13" />
+      <path d="M15 19l2 2l4 -4" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `shopping_cart_discount` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -92466,13 +93294,160 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-      <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-      <path d="M17 17h-11v-14h-2" />
-      <path d="M20 6l-1 7h-13" />
-      <path d="M10 10l6 -6" />
-      <path d="M10.5 4.5m-.5 0a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0" />
-      <path d="M15.5 9.5m-.5 0a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M12.5 17h-6.5v-14h-2" />
+      <path d="M6 5l14 1l-.859 6.011m-6.141 .989h-7" />
+      <path d="M16 21l5 -5" />
+      <path d="M21 21v.01" />
+      <path d="M16 16v.01" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_dollar` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_dollar />
+      <TablerIcons.shopping_cart_dollar class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_dollar(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M13 17h-7v-14h-2" />
+      <path d="M6 5l14 1l-.575 4.022m-4.925 2.978h-8.5" />
+      <path d="M21 15h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
+      <path d="M19 21v1m0 -8v1" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_down` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_down />
+      <TablerIcons.shopping_cart_down class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_down(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M12.5 17h-6.5v-14h-2" />
+      <path d="M6 5l14 1l-.859 6.011m-2.641 .989h-10.5" />
+      <path d="M19 16v6" />
+      <path d="M22 19l-3 3l-3 -3" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_exclamation` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_exclamation />
+      <TablerIcons.shopping_cart_exclamation class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_exclamation(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M15 17h-9v-14h-2" />
+      <path d="M6 5l14 1l-.854 5.976m-2.646 1.024h-10.5" />
+      <path d="M19 16v3" />
+      <path d="M19 22v.01" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_filled />
+      <TablerIcons.shopping_cart_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M6 2a1 1 0 0 1 .993 .883l.007 .117v1.068l13.071 .935a1 1 0 0 1 .929 1.024l-.01 .114l-1 7a1 1 0 0 1 -.877 .853l-.113 .006h-12v2h10a3 3 0 1 1 -2.995 3.176l-.005 -.176l.005 -.176c.017 -.288 .074 -.564 .166 -.824h-5.342a3 3 0 1 1 -5.824 1.176l-.005 -.176l.005 -.176a3.002 3.002 0 0 1 1.995 -2.654v-12.17h-1a1 1 0 0 1 -.993 -.883l-.007 -.117a1 1 0 0 1 .883 -.993l.117 -.007h2zm0 16a1 1 0 1 0 0 2a1 1 0 0 0 0 -2zm11 0a1 1 0 1 0 0 2a1 1 0 0 0 0 -2z"
+        stroke-width="0"
+        fill="currentColor"
+      />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_heart` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_heart />
+      <TablerIcons.shopping_cart_heart class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_heart(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M10 17h-4v-14h-2" />
+      <path d="M6 5l14 1l-.717 5.016m-7.783 1.984h-5.5" />
+      <path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_minus` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_minus />
+      <TablerIcons.shopping_cart_minus class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_minus(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M12.5 17h-6.5v-14h-2" />
+      <path d="M6 5l14 1l-1 7h-13" />
+      <path d="M16 19h6" />
     </svg>
     """
   end
@@ -92503,6 +93478,56 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `shopping_cart_pause` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_pause />
+      <TablerIcons.shopping_cart_pause class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_pause(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M13 17h-7v-14h-2" />
+      <path d="M6 5l14 1l-1 7h-13" />
+      <path d="M17 17v5" />
+      <path d="M21 17v5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_pin` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_pin />
+      <TablerIcons.shopping_cart_pin class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_pin(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M12 17h-6v-14h-2" />
+      <path d="M6 5l14 1l-.716 5.011m-5.284 1.989h-8" />
+      <path d="M21.121 20.121a3 3 0 1 0 -4.242 0c.418 .419 1.125 1.045 2.121 1.879c1.051 -.89 1.759 -1.516 2.121 -1.879z" />
+      <path d="M19 18v.01" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `shopping_cart_plus` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -92518,11 +93543,135 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-      <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-      <path d="M17 17h-11v-14h-2" />
-      <path d="M6 5l6 .429m7.138 6.573l-.143 1h-13" />
-      <path d="M15 6h6m-3 -3v6" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M12.5 17h-6.5v-14h-2" />
+      <path d="M6 5l14 1l-.86 6.017m-2.64 .983h-10.5" />
+      <path d="M16 19h6" />
+      <path d="M19 16v6" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_question` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_question />
+      <TablerIcons.shopping_cart_question class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_question(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M13.5 17h-7.5v-14h-2" />
+      <path d="M6 5l14 1l-.714 5m-4.786 2h-8.5" />
+      <path d="M19 22v.01" />
+      <path d="M19 19a2.003 2.003 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_search` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_search />
+      <TablerIcons.shopping_cart_search class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_search(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M11 17h-5v-14h-2" />
+      <path d="M6 5l14 1l-.718 5.023m-6.282 1.977h-7" />
+      <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+      <path d="M20.2 20.2l1.8 1.8" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_share` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_share />
+      <TablerIcons.shopping_cart_share class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_share(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M12.5 17h-6.5v-14h-2" />
+      <path d="M6 5l14 1l-1 7h-13" />
+      <path d="M16 22l5 -5" />
+      <path d="M21 21.5v-4.5h-4.5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_star` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_star />
+      <TablerIcons.shopping_cart_star class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_star(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M9.5 17h-3.5v-14h-2" />
+      <path d="M6 5l14 1l-.615 4.302m-6.885 2.698h-6.5" />
+      <path d="M17.8 20.817l-2.172 1.138a.392 .392 0 0 1 -.568 -.41l.415 -2.411l-1.757 -1.707a.389 .389 0 0 1 .217 -.665l2.428 -.352l1.086 -2.193a.392 .392 0 0 1 .702 0l1.086 2.193l2.428 .352a.39 .39 0 0 1 .217 .665l-1.757 1.707l.414 2.41a.39 .39 0 0 1 -.567 .411l-2.172 -1.138z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `shopping_cart_up` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.shopping_cart_up />
+      <TablerIcons.shopping_cart_up class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def shopping_cart_up(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M12.5 17h-6.5v-14h-2" />
+      <path d="M6 5l14 1l-.854 5.977m-2.646 1.023h-10.5" />
+      <path d="M19 22v-6" />
+      <path d="M22 19l-3 -3l-3 3" />
     </svg>
     """
   end
@@ -92543,12 +93692,11 @@ defmodule TablerIcons do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-      <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-      <path d="M17 17h-11v-14h-2" />
-      <path d="M6 5l8 .571m5.43 4.43l-.429 3h-13" />
-      <path d="M17 3l4 4" />
-      <path d="M21 3l-4 4" />
+      <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path d="M13 17h-7v-14h-2" />
+      <path d="M6 5l14 1l-1 7h-13" />
+      <path d="M22 22l-5 -5" />
+      <path d="M17 22l5 -5" />
     </svg>
     """
   end
@@ -95972,6 +97120,31 @@ defmodule TablerIcons do
       <path d="M13 14.25c0 .414 .336 .75 .75 .75h1.5a.75 .75 0 0 0 .75 -.75v-4.5a.75 .75 0 0 0 -.75 -.75h-1.5a.75 .75 0 0 0 -.75 .75v1.5c0 .414 .336 .75 .75 .75h2.25" />
       <path d="M8 12h2" />
       <path d="M10 9h-2v6" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `square_filled` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.square_filled />
+      <TablerIcons.square_filled class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def square_filled(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M19 2h-14a3 3 0 0 0 -3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3 -3v-14a3 3 0 0 0 -3 -3z"
+        stroke-width="0"
+        fill="currentColor"
+      />
     </svg>
     """
   end
@@ -104027,6 +105200,50 @@ defmodule TablerIcons do
   end
 
   @doc """
+  Renders the `transfer_vertical` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.transfer_vertical />
+      <TablerIcons.transfer_vertical class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def transfer_vertical(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 4v16l-6 -5.5" />
+      <path d="M14 20v-16l6 5.5" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `transfer` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.transfer />
+      <TablerIcons.transfer class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def transfer(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M20 10h-16l5.5 -6" />
+      <path d="M4 14h16l-5.5 6" />
+    </svg>
+    """
+  end
+
+  @doc """
   Renders the `transform_filled` icon.
 
   You may pass arbitrary HTML attributes to the component.
@@ -109785,6 +111002,32 @@ defmodule TablerIcons do
       <path d="M6 8l4 8" />
       <path d="M6 16l4 -8" />
       <path d="M14 8v8h2a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-2z" />
+    </svg>
+    """
+  end
+
+  @doc """
+  Renders the `xxx` icon.
+
+  You may pass arbitrary HTML attributes to the component.
+
+  ## Examples
+
+      <TablerIcons.xxx />
+      <TablerIcons.xxx class="w-4 h-4" />
+  """
+  attr :rest, :global, doc: "arbitrary HTML attributes for the svg container", default: @default_html_attrs
+
+  def xxx(assigns) do
+    ~H"""
+    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 8l4 8" />
+      <path d="M10 16l4 -8" />
+      <path d="M17 8l4 8" />
+      <path d="M17 16l4 -8" />
+      <path d="M3 8l4 8" />
+      <path d="M3 16l4 -8" />
     </svg>
     """
   end
