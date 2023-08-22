@@ -47,6 +47,7 @@ We are interested in keeping the same icon names for our functions TablerIcons p
 - `3d-cube-sphere` -> `three_d_cube_sphere`
 - `3d-rotate` -> `three_d_rotate`
 - `24-hours` -> `twenty_four_hours`
+- `12-hours` -> `twelve_hours`
 - `123` -> `one_two_three`
 - `360-view` -> `three_sixty_view`
 - `360` -> `three_sixty`
