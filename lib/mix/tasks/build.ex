@@ -39,6 +39,7 @@ defmodule Mix.Tasks.Build do
   defp do_function_name("3d-cube-sphere"), do: "three_d_cube_sphere"
   defp do_function_name("3d-rotate"), do: "three_d_rotate"
   defp do_function_name("24-hours"), do: "twenty_four_hours"
+  defp do_function_name("12-hours"), do: "twelve_hours"
   defp do_function_name("123"), do: "one_two_three"
   defp do_function_name("360-view"), do: "three_sixty_view"
   defp do_function_name("360"), do: "three_sixty"
