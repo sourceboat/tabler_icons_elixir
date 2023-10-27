@@ -21,7 +21,7 @@ defmodule TablerIcons.MixProject do
   def project do
     [
       app: :tabler_icons,
-      version: "0.3.19",
+      version: "0.4.0",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -45,7 +45,7 @@ defmodule TablerIcons.MixProject do
   defp deps do
     [
       {:castore, ">= 0.0.0"},
-      {:phoenix_live_view, "~> 0.19.3"},
+      {:phoenix_live_view, "~> 0.20.1"},
       {:ex_doc, "~> 0.30.3", only: :dev, runtime: false}
     ]
   end
