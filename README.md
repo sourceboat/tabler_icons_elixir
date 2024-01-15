@@ -17,7 +17,7 @@ The package can be installed by adding `tabler_icons` to your list of dependenci
 ```elixir
 def deps do
   [
-    {:tabler_icons, "~> 0.3.0"}
+    {:tabler_icons, "~> 0.5.0"}
   ]
 end
 ```
