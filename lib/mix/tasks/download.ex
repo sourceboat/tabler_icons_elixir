@@ -5,7 +5,7 @@ defmodule Mix.Tasks.Download do
   use Mix.Task
   require Logger
 
-  @version "2.46.0"
+  @version "2.47.0"
 
   @tmp_dir_name "ex-tabler-icons"
 
