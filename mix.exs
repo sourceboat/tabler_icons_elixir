@@ -46,7 +46,7 @@ defmodule TablerIcons.MixProject do
     [
       {:castore, ">= 0.0.0"},
       {:phoenix_live_view, "~> 0.20.1"},
-      {:ex_doc, "~> 0.31.0", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.32.0", only: :dev, runtime: false}
     ]
   end
 
